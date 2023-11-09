@@ -1,0 +1,43 @@
+{{- if hugo.IsProduction | or (eq site.Params.env "production") | and (ne .Params.robotsNoIndex true) }}
+<meta name="robots" content="index, follow" />
+{{- else }}
+<meta name="robots" content="noindex, nofollow" />
+{{- end }} {{- /* Title */}}
+
+<title>{{ if .IsHome }}{{ else }}{{ if .Title }}{{ .Title }} &bull; {{ end }}{{ end }}{{ site.Title }}</title>
+
+<link rel="canonical" href="{{ if .Params.canonicalURL -}} {{ trim .Params.canonicalURL " " }} {{- else -}} {{ .Permalink }} {{- end }}"> 
+
+<meta property="og:site_name" content="{{ site.Title }}" />
+<meta property="og:title" content="{{ .Title }}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ .Permalink }}" />
+
+{{ if  isset .Params "socialImage" }}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="og:image" content="{{ .socialImage }}" />
+  <meta name="twitter:image" content="{{ .socialImage }}" />
+{{ else }}
+  {{ $cloudinaryParms := "c_fill,f_auto,q_auto:good,h_500," }}
+  {{ $cloudinaryFolder := "/hero/" }}
+  {{ $cloudinaryImage := "reaching-for-the-sky.jpg" }}
+  {{ $socialImage := (slice $.Params "cloudinaryPath" $cloudinaryParms "w_2000" $cloudinaryFolder $cloudinaryImage) }}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="og:image" content="{{ $socialImage }}" />
+  <meta name="twitter:image" content="{{ $socialImage }}" />
+
+{{ end }}
+
+{{ if isset .Params "primaryImageAlt" }}
+  <meta property="og:image:alt" content="{{ .primaryImageAlt }}" />
+  <meta name="twitter:image:alt" content="{{ .primaryImageAlt }}" />
+{{ else }}
+  <meta property="og:image:alt" content="Page image for {{ .Title}}" />
+  <meta name="twitter:image:alt" content="Page image for {{ .Title }}" />
+{{ end }}
+
+{{ if isset .Params "metaDesc" }}
+  <meta name="description" content="{{ .metaDesc }}" />
+  <meta name="twitter:description" content="{{ .metaDesc }}" />
+  <meta property="og:description" content="{{ .metaDesc }}" />
+{{ end }}

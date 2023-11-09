@@ -1,0 +1,84 @@
+/*********************
+COLORS
+*********************/
+//$theme-green:		    #207737;
+$theme-green:       rgba(32, 119, 55, 0.99); // to get'pure' colour
+// $theme-red:			    #BE3622;
+$theme-red:         rgba(190, 54, 34, 0.99);
+$theme-orange:		  #EDA741;
+$theme-blue: 		    #373DC4;
+
+$black:             #323944;
+$white:             #fff;
+$mid-grey: 			    #ccc;
+$grey:              #ededed;
+$text-color:        #333;
+
+$light-blue-bg:     #D6EBFF;
+$bright-green:      #27A324;
+
+$link-color:        var(--secondary);
+$link-hover:        var(--secondaryHover);
+
+:root {
+  --bg: #fff;
+  --bgFoot: #ededed;
+  --bgSidebar: #{$grey};
+  --textColour: #333;
+  --primary: #{$theme-green};
+  --secondary: #{$theme-red};
+  --tertiary: #{$theme-blue};
+  --secondaryHover: rgba(227,115,99,0.99);
+  --background-grey: #ededed;
+  --background-light-blue: #d6ebff;
+
+  @media (prefers-color-scheme: dark) {
+    --bg: #222;
+    --bgFoot: #222;
+    --bgSidebar: #222;
+    --textColour: #fff;
+    --primary: #{lighten($theme-green, 10%)};
+    --secondary: #{lighten($theme-red, 15%)};
+    --tertiary: #{lighten($theme-blue, 15%)};
+    --secondaryHover: #ddd;
+    --background-grey: #222;
+    --background-light-blue: #222;
+  }
+}
+
+.th-dark {
+  --bg: #222;
+  --bgFoot: #222;
+  --bgSidebar: #222;
+  --textColour: #fff;
+  --primary: #{lighten($theme-green, 10%)};
+  --secondary: #{lighten($theme-red, 15%)};
+  --tertiary: #{lighten($theme-blue, 15%)};
+  --secondaryHover: #ddd;
+  --background-grey: #222;
+  --background-light-blue: #222;
+}
+
+.th-light {
+  @media (prefers-color-scheme: dark) {
+  }
+}
+
+/***************************************
+    BREAKPOINTS
+****************************************/
+$bp-small:			30em; /* 480px */
+$bp-medium:			44em; /* 704px */
+$bp-large:			58em; /* 928px */
+$bp-huge:			  70em; /* 1120px */
+
+/***************************************
+	OTHERS
+***************************************/
+$radius:			       4px;
+$skew: 				       1.5deg;
+$base-font-size:     16px;
+$base-font-size2:    18px;
+$line-height: 		   1.5;
+$flow-space:         1em;
+$menu-width:         12em;

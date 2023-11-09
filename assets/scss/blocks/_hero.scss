@@ -1,0 +1,22 @@
+.hero-container {
+  position: relative;
+  margin-bottom: 2em;
+  &-image {
+    display: block;
+    height: 500px;
+    margin: 0 auto;
+    object-fit: cover;
+    clip-path: polygon(100% 0, 100% 93%, 29% 100%, 0 93%, 0 0);
+  }
+  p {
+    color: $white;
+    @include set-font-size(1.6);
+    text-align: center;
+    max-width: 600px;
+    width: 96%;
+    margin: 0;
+    padding: 1em;
+    background-color: rgba($theme-green, 0.7);
+    @include centerer(false, true);
+  }
+}

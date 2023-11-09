@@ -1,0 +1,105 @@
+@mixin set-font-size($factor) {
+  font-size: round( $base-font-size * $factor );
+  line-height: round( $base-font-size * $line-height * $factor );
+  @media screen and (min-width:$bp-medium) {
+	  font-size: round( $base-font-size2 * $factor );
+	  line-height: round( $base-font-size2 * $line-height * $factor );
+	}
+}
+
+@mixin centerer($horizontal: true, $vertical: true) {
+  position: absolute;
+  @if ($horizontal and $vertical) {
+    top: 50%;
+    left: 50%;
+	  -webkit-transform: 	translate(-50%,-50%);
+    transform: translate(-50%, -50%);
+  } @else if ($horizontal) {
+    left: 50%;
+	  -webkit-transform: 	translate(-50%,0);
+    transform: translate(-50%, 0);
+  } @else if ($vertical) {
+    top: 50%;
+	  -webkit-transform: 	translate(0,-50%);
+    transform: translate(0, -50%);
+  }
+}
+
+@mixin transform($val) {
+  -webkit-transform: $val;
+  transform: $val;
+}
+
+@mixin transform-origin($val1, $val2) {
+  -webkit-transform-origin: $val1 $val2;
+  transform-origin: $val1 $val2;
+}
+
+/***********************
+	FLEXBOX see https://css-tricks.com/snippets/css/a-guide-to-flexbox/#comment-1592128
+***********************/
+@mixin flex-it {
+    display: -webkit-flex;
+    display: flex;
+}
+@mixin flex-wrap($wrap) {
+    -webkit-flex-wrap: $wrap;
+    flex-wrap: $wrap;
+}
+@mixin flex-justify-content($justify) {
+    -webkit-justify-content: $justify;
+    justify-content: $justify;
+}
+@mixin flex($grow, $shrink, $basis){
+    -webkit-flex: $grow $shrink $basis;
+    flex: $grow $shrink $basis;
+}
+@mixin flex-direction($direction) {
+    -webkit-flex-direction: $direction;
+    flex-direction: $direction;
+}
+@mixin flex-align-items($align) {
+    -webkit-align-items: $align;
+    align-items: $align;
+}
+@mixin flex-align-self($align-self) {
+    -webkit-align-self: $align-self;
+    align-self: $align-self;
+}
+@mixin flex-order($order) {
+    -webkit-order: $order;
+    order: $order;
+}
+/***********************************
+  SKEWED background
+***********************************/
+
+@mixin skew($angle-top, $angle-bottom, $origin-top-x, $origin-top-y, $origin-bottom-x, $origin-bottom-y) {
+	position: relative;
+	z-index: 1;
+
+	&:before,
+	&:after {
+	  background: inherit;
+	  content: '';
+	  display: block;
+	  height: 50%;
+	  left: 0;
+	  position: absolute;
+	  right: 0;
+	  z-index: -1;
+	  -webkit-backface-visibility: hidden; // for Chrome Windows
+	}
+
+	&:before {
+	  top: 0;
+	  @include transform(skewY($angle-top));
+	  @include transform-origin($origin-top-x, $origin-top-y);
+	}
+
+	&:after {
+	  bottom: 0;
+	  @include transform(skewY($angle-bottom));
+	  @include transform-origin($origin-bottom-x, $origin-bottom-y);
+	}
+}

@@ -1,0 +1,109 @@
+.btn {
+  display: inline-block;
+  position: relative;
+  font-family: $sans-serif;
+  text-decoration: none;
+  color: $white !important;
+  font-size: 1em;
+  line-height: 1;
+  font-weight: normal;
+  padding: 16px 18px;
+  border-radius:$radius;
+  border: 0;
+  cursor: pointer;
+  transition: background-color 0.14s ease-in-out;
+
+  // hovering on the btn
+  &:hover, &:focus {
+    color: $white;
+    text-decoration: none;
+  } // end hover
+
+  // clicking on the button
+  &:active {
+    top: 1px; // adds a tiny hop to the click
+  } // end active
+
+  &:focus {
+    // fallback style for browsers that don't support :focus-visible
+    outline: 3px solid $theme-blue;
+  }
+
+  &:focus:not(:focus-visible) {
+    // Remove the focus indicator on mouse focus for browsers that do support :focus-visible
+    outline: none;
+  }
+
+  &:focus:focus-visible {
+    // draw a noticeable focus style for keyboard focus on browsers that support :focus-visible
+    outline: 3px solid $theme-blue;
+  }
+
+} // end .button
+
+.blue-btn {
+  @extend .btn; // here we load the btn defaults
+  background-color: $theme-blue;
+
+  &:hover,
+  &:focus {
+    background-color: lighten($theme-blue, 12%);
+  } // end hover
+
+  &:active {
+    background-color: lighten($theme-blue, 18%);
+  } // end active
+
+} // end blue button
+
+.primary-btn {
+  @extend .btn; // here we load the btn defaults
+  background-color: $theme-blue;
+
+  &:hover,
+  &:focus {
+    background-color: lighten($theme-blue, 12%);
+  } // end hover
+
+  &:active {
+    background-color: lighten($theme-blue, 18%);
+  } // end active
+
+} // end blue button
+
+.green-transp-btn {
+  @extend .btn; // here we load the btn defaults
+  background-color: transparent;
+  color: var(--primary) !important;
+  border:2px solid var(--primary);
+
+  &:hover,
+  &:focus {
+    background-color: rgba(0,0,0,0.15);
+  } // end hover
+
+  &:active {
+    background-color: rgba(0,0,0,0.25);
+  } // end active
+
+} // end green-transp button
+
+.cta-button {
+  @extend .btn; // here we load the btn defaults
+  background-color: $theme-blue;
+
+  &:hover,
+  &:focus {
+    background-color: lighten($theme-blue, 12%);
+  } // end hover
+
+  &:active {
+    background-color: lighten($bright-green, 18%);
+  } // end active
+
+} // end cta button
+
+#mc-embedded-subscribe {
+	@extend .blue-btn;
+//	padding:8px 12px;
+}

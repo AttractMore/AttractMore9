@@ -1,0 +1,141 @@
+.site-foot {
+  background-color: var(--bgFoot);
+  border-top: 1px solid $mid-grey;
+  padding: 1.5em 0;
+  li {
+    list-style: none;
+  }
+  .h3 {
+    margin-bottom: 1.5em;
+  }
+}
+.footer-nav,
+.final-footer {
+  text-align: center;
+}
+.footer-nav-block1 {
+  margin-bottom: 1.5em;
+  padding-top: 0.5em;
+  li {
+    a {
+      padding: 12px 15px;
+      border: 2px solid;
+      border-radius: 50%;
+    }
+  }
+}
+.footer-nav-block2 {
+  margin-bottom: 1.5em;
+  li {
+    margin-bottom: 1em;
+  }
+}
+.accreditations {
+  margin-bottom: 1em;
+  text-align: center;
+  li {
+    margin-bottom: 1em;
+    img {
+      margin: 0 auto;
+    }
+    &:first-child {
+      img {
+        width: 98px;
+        height: 104px;
+      }
+    }
+    &:nth-child(2) {
+      img {
+        max-width: 418px;
+      }
+    }
+    &:last-child {
+      img {
+        max-width: 104px;
+      }
+    }
+  }
+}
+
+.final-footer {
+  padding-bottom: 1em;
+  p {
+    margin-bottom: 0;
+    padding-bottom: 1.5em;
+  }
+}
+@media screen and (min-width: $bp-small) {
+  .footer-nav-block2 {
+    ul {
+      @include flex-it();
+      @include flex-justify-content(space-between);
+      @include flex-wrap(wrap);
+      li {
+        @include flex(0, 1, 50%);
+        margin-bottom: 1.5em;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $bp-large) {
+  .footer-nav {
+    @include flex-it();
+    @include flex-justify-content(space-between);
+    margin-bottom: 1.5em;
+  }
+  .footer-nav-block1 {
+    @include flex(0, 1, 11em);
+  }
+  .footer-nav-block2 {
+    @include flex-align-self(flex-end);
+    @include flex(0, 1, 36em);
+    ul {
+      text-align: right;
+      @include flex-wrap(nowrap);
+      li {
+        margin-bottom: 3px;
+        @include flex(0, 1, auto);
+      }
+    }
+  }
+  .accreditations {
+    margin-bottom: 2em;
+    text-align: left;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    li {
+      flex: 0 1 auto;
+      &:nth-child(2) {
+        img {
+          max-width: 418px;
+          margin: 0;
+        }
+      }
+      &:last-child {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        img {
+          max-width: 104px;
+          margin: 0;
+        }
+        p {
+          margin: 0 0 0 1em;
+        }
+      }
+    }
+  }
+  .final-footer {
+    @include flex-it();
+    @include flex-justify-content(space-between);
+    p {
+      @include flex(0, 1, auto);
+      margin-bottom: 0;
+      padding-bottom: 1em;
+    }
+  }
+}

@@ -1,3 +1,6 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Low-carbon websites'
+[params]
+    cloudinaryPath = "https://res.cloudinary.com/attractmore/image/upload/"
+

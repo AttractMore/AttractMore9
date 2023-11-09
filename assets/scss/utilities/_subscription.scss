@@ -1,0 +1,32 @@
+.ebook {
+  h2 {
+    margin: 1em 0;
+    color: var(--textColour);
+  }
+  &__contents-intro
+  p {
+    @include set-font-size(1.1);
+  }
+  &__contents-image {
+    img {
+      max-width: 320px;
+      margin: 0 auto 1.5em;
+    }
+  }
+}
+
+@media screen and (min-width:$bp-medium) {
+  .ebook__contents {
+    @include flex-it();
+    @include flex-justify-content(space-between);
+    > div {
+      @include flex(0,1,48%);
+    }
+    &-image {
+      margin-top: 2em;
+      img {
+        max-width: 500px;
+      }
+    }
+  }
+}

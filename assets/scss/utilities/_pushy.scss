@@ -1,0 +1,256 @@
+/* Pushy - v1.1.0 - 2017-1-30
+* Pushy is a responsive off-canvas navigation menu using CSS transforms & transitions.
+* https://github.com/christophery/pushy/
+* by Christopher Yee */
+
+/* Menu Appearance */
+/*#container {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+*//* see https://codepen.io/fantasticthinking/pen/ogwKOp */
+.burger {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+	position:absolute;
+  border: none;
+	top:0.5rem;
+	right:1em;
+	text-decoration:none;
+	padding:0.5em 0.5rem;
+	color:$text-color;
+  width: 38px;
+  height: 38px;
+  display: block;
+  background: transparent;
+  transition: all .6s ease-in-out;
+  cursor: pointer;
+
+  i {
+    display: block;
+    width: 24px;
+    height: 3px;
+    background: var(--tertiary);
+    @include centerer();
+    transition: all .6s ease-in-out;
+        &:before,
+        &:after {
+          content: '';
+          height: 3px;
+          background: var(--tertiary);
+          width: 24px;
+            @include centerer();
+            transition: all .6s ease-in-out;
+        }
+        &:before {
+          margin-top: -8px;
+        }
+        &:after {
+          margin-top: 8px;
+        }
+    }
+}
+.pushy-open-right {
+    .burger {
+        i {
+            background: transparent;
+            &:before,
+            &:after {
+                left: -2px;
+                width: 28px;
+                background: $white;
+            }
+            &:before {
+                @include transform(rotate(45deg));
+                top: 6px;
+                margin-top: -6px;
+            }
+            &:after {
+                @include transform(rotate(-45deg));
+                top: -10px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+.pushy{
+    transition: transform 0.4s ease-in-out, visibility 0.4s ease-in-out;
+    position: fixed;
+    width: $menu-width;
+    height: 100%;
+    top: 0;
+    z-index: 9999;
+    background: $theme-green;
+    overscroll-behavior: contain;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch; /* enables momentum scrolling in iOS overflow elements */
+    a{
+        display: block;
+        color: $white;
+        padding: 9px 12px;
+        text-decoration: none;
+        font-size: $base-font-size2;
+        font-weight: 400;
+        &:after {
+          margin-left: 0.5em;
+          content: "❯"; /* https://unicode-table.com/en/sets/arrow-symbols/ */
+          opacity: 0;
+          transition: opacity .2s ease-in-out;
+        }
+        &:hover {
+          color: $white;
+          text-decoration: none;
+          &:after {
+            opacity: 1;
+          }
+        }
+    }
+	ul, li {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+    }
+	li {
+		margin: 1em 0;
+		&:first-child {
+			margin-top: 4.5rem;
+		}
+	}
+    &.pushy-right{
+        right: 0;
+        visibility: hidden;
+    }
+}
+
+.pushy-content{
+    visibility: hidden;
+}
+
+.site-overlay{
+    display: none;
+}
+
+/* Menu Movement */
+
+.pushy-right{
+ 	@include transform(translate3d($menu-width,0,0));
+}
+
+.pushy-open-right{
+    /*#container,*/
+//    .push{
+//		@include transform(translate3d( unquote('-' + $menu-width),0,0));
+//    }
+    button.menu-btn {
+        z-index: 20000;
+    }
+    .pushy{
+		  @include transform(translate3d(0,0,0));
+      visibility: visible;
+    }
+    .pushy-content{
+      visibility: visible;
+    }
+    .site-overlay{
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 9998;
+        background-color: rgba(0,0,0,0.3);
+        -webkit-animation: fade 500ms;
+        animation: fade 500ms;
+    }
+}
+
+
+@keyframes fade{
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-webkit-keyframes fade{
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@media screen and (min-width: $bp-small) {
+  .burger {
+    top: 1em;
+  }
+}
+
+/*------------------------------------------------------*/
+
+@media screen and (min-width: $bp-large) {
+    .pushy {
+        position: relative;
+        width: auto;
+        height: auto;
+        background: transparent;
+		    @include transform(translate3d(0,0,0));
+        overflow: visible;
+    }
+    .pushy-content {
+      visibility: visible;
+      .nav__list {
+        @include flex-it();
+        @include flex-justify-content(space-between);
+        margin: 0;
+        text-transform: uppercase;
+        li {
+          display: inline-block;
+          margin: 0 0.5em 0;
+          padding: 0;
+          width: auto;
+          line-height: 1;
+        }
+        a {
+          display: inline-block;
+          position: relative;
+          transition: all 0.3s ease-out 0s;
+          padding: 0.75em;
+          margin: 0;
+          color: var(--textColour);
+          &:after {
+            position: absolute;
+            left: 50%;
+            margin: 0;
+            content: '';
+            bottom: 0;
+            height: 2px;
+            width: 0;
+            @include transform(translate(-50%,0));
+            transition: all 0.3s ease-out 0s;
+            background-color: $theme-green;
+          }
+          &:hover:after {
+            width: 100%;
+          }
+          &[data-state="active"]:after {
+            width: 100%;
+            opacity: 1;
+          }
+        }
+        li:last-child {
+          margin-right: 0;
+          a {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+
+    .burger {
+        display: none;
+    }
+}

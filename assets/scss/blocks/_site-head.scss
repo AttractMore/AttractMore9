@@ -1,0 +1,29 @@
+.site-head {
+  padding: 0.5em 0;
+  border-bottom: 1px solid $mid-grey;
+  min-height: 3.5em;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: var(--bg);
+  z-index: 15;
+  &__inner {
+    @include flex-it();
+    @include flex-justify-content(space-between);
+  }
+  &__brand {
+    width: 200px;
+  }
+  &__nav {
+    @include flex-align-self(center);
+  }
+}
+
+@media screen and (min-width: $bp-small) {
+  .site-head {
+    &__brand {
+      width: 300px;
+    }
+  }
+}
+@import "dark-mode-toggle";

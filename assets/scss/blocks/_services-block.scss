@@ -1,0 +1,38 @@
+.services__block {
+  @include flex-it();
+  @include flex-justify-content(space-between);
+  @include flex-wrap(wrap);
+  padding: 1em 0;
+  margin-left: 0;
+  &-item {
+    min-width: 307px;
+    margin: 0 0 3em;
+    padding-left: 0;
+    @include flex(1, 0, 307px);
+    text-align: center;
+    @include flex-it();
+    @include flex-direction(column);
+    svg.tree {
+      width: auto;
+      height: 70px;
+      transition: transform 200ms ease-out;
+      will-change: transform;
+      &:hover {
+        @include transform(scale(1.2));
+      }
+    }
+    h2 {
+      margin: 1em 0.5em;
+    }
+    p {
+      padding: 0 1.5em;
+      @include set-font-size(1.05);
+    }
+    a {
+      &:last-of-type {
+        margin-top: auto;
+        @include set-font-size(1.1);
+      }
+    }
+  }
+}

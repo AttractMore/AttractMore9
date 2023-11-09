@@ -1,0 +1,12 @@
+.alignright {
+  display: block;
+  margin: 0 auto 1em auto;
+}
+
+@media screen and (min-width: $bp-medium) {
+  .alignright {
+    float: right;
+    margin: 0.5em 0 1em 1em;
+    max-width: 55%;
+  }
+}

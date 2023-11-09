@@ -1,0 +1,6 @@
+.caption {
+  @include set-font-size(0.9);
+  text-align: center;
+  display: block;
+  margin-top: -2em;
+}
