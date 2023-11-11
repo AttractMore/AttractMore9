@@ -13,31 +13,31 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{ .Permalink }}" />
 
-{{ if  isset .Params "socialImage" }}
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="{{ .socialImage }}" />
-  <meta name="twitter:image" content="{{ .socialImage }}" />
-{{ else }}
-  {{ $cloudinaryParms := "c_fill,f_auto,q_auto:good,h_500," }}
-  {{ $cloudinaryFolder := "/hero/" }}
-  {{ $cloudinaryImage := "reaching-for-the-sky.jpg" }}
-  {{ $socialImage := (slice $.Params "cloudinaryPath" $cloudinaryParms "w_2000" $cloudinaryFolder $cloudinaryImage) }}
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="{{ $socialImage }}" />
-  <meta name="twitter:image" content="{{ $socialImage }}" />
-
-{{ end }}
+{{- if  isset .Params "socialImage" -}}
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="og:image" content="{{ .socialImage }}" />
+<meta name="twitter:image" content="{{ .socialImage }}" />
+{{- else -}}
+  {{- $cloudinaryPath := site.Params.cloudinaryPath -}}
+  {{- $cloudinaryParms := "c_fill,f_auto,q_auto:good,h_500," -}}
+  {{- $cloudinaryFolder := "/hero/" -}}
+  {{- $cloudinaryImage := "reaching-for-the-sky.jpg" -}}
+  {{- $socialImage := print $cloudinaryPath $cloudinaryParms "w_2000" $cloudinaryFolder $cloudinaryImage }}
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="og:image" content="{{ $socialImage }}" />
+<meta name="twitter:image" content="{{ $socialImage }}" />
+{{- end }}
 
 {{ if isset .Params "primaryImageAlt" }}
-  <meta property="og:image:alt" content="{{ .primaryImageAlt }}" />
-  <meta name="twitter:image:alt" content="{{ .primaryImageAlt }}" />
-{{ else }}
-  <meta property="og:image:alt" content="Page image for {{ .Title}}" />
-  <meta name="twitter:image:alt" content="Page image for {{ .Title }}" />
-{{ end }}
+<meta property="og:image:alt" content="{{ .primaryImageAlt }}" />
+<meta name="twitter:image:alt" content="{{ .primaryImageAlt }}" />
+{{- else -}}
+<meta property="og:image:alt" content="Page image for {{ .Title}}" />
+<meta name="twitter:image:alt" content="Page image for {{ .Title }}" />
+{{- end }}
 
-{{ if isset .Params "metaDesc" }}
-  <meta name="description" content="{{ .metaDesc }}" />
-  <meta name="twitter:description" content="{{ .metaDesc }}" />
-  <meta property="og:description" content="{{ .metaDesc }}" />
-{{ end }}
+{{- if isset .Params "metaDesc" -}}
+<meta name="description" content="{{ .metaDesc }}" />
+<meta name="twitter:description" content="{{ .metaDesc }}" />
+<meta property="og:description" content="{{ .metaDesc }}" />
+{{- end }}

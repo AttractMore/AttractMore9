@@ -1,6 +1,40 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'Low-carbon websites'
+baseURL = "/"
+languageCode = "en-gb"
+title = "Low-carbon websites"
+disableKinds = ["sitemap", "taxonomy", "taxonomyTerm"]
 [params]
-    cloudinaryPath = "https://res.cloudinary.com/attractmore/image/upload/"
+  cloudinaryPath = "https://res.cloudinary.com/attractmore/image/upload/"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "services"
+    name = "Services"
+    url = "/services/"
+    weight = 20
+  [[menu.main]]
+    identifier = "work"
+    name = "Work"
+    url = "/work/"
+    weight = 30
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 40
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 50
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 60
+
 

@@ -1,0 +1,368 @@
+---
+title: "Ecommerce emails to keep your customers engaged"
+date: "2021-06-21"
+tags: ["Ecommerce"]
+metaDesc: "Here you'll find a variety of suggestions for useful ecommerce emails to send from your online shop - promotional and transactional. Lots of examples"
+excerpt: "If you are involved in running an online shop, I'm sure you appreciate the need to send a variety of emails to existing and potential customers to keep them informed. This article offers a number of suggestions of useful emails that can be sent out, both promotional (i.e. selling) and transactional (i.e. related to purchase or some other action in your shop). There are many examples in the article that illustrate the different types of email that can usefully be sent out to keep your audience informed and engaged."
+cloudinaryPrimaryImage: "ecommerce-emails-to-keep-customers-engaged"
+cloudinaryPrimaryImageHash: "ncvx49"
+primaryImageAlt: "Discover useful ecommerce emails to keep customers engaged"
+socialImage: "/images/blog/ecommerce-emails-to-keep-customers-engaged-1200.jpg"
+---
+
+## Intro
+
+Keeping in contact with customers (and potential customers) has long been an integral part of running an online shop. In this article I want to explore a range of different type of email you could send to keep customer engaged, to encourage them to purchase and to keep them informed.
+
+<img
+  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
+  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/ecommerce-emails-to-keep-customers-engaged_ncvx49.jpg 320w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/ecommerce-emails-to-keep-customers-engaged_ncvx49.jpg 560w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/ecommerce-emails-to-keep-customers-engaged_ncvx49.jpg 640w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/ecommerce-emails-to-keep-customers-engaged_ncvx49.jpg 800w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/ecommerce-emails-to-keep-customers-engaged_ncvx49.jpg 930w"
+  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/ecommerce-emails-to-keep-customers-engaged_ncvx49.jpg"
+  alt="Woman looking at computer screen seeing emails from ecommerce store"
+  width="1920"
+  height="1280">
+
+If you have an online shop, I'm sure you are using some of these ideas already. Some ideas may not be applicable in your particular case but I hope you can pick up at least one or two ideas for new emails to send out.
+
+Before we launch into the list, we need to distinguish two categories of emails - **transactional emails** and **promotional emails** - as these are quite distinct.
+
+Firstly, transactional emails are those sent in relation to a purchase or potential purchase. They are sent to one customer at a time and the message is specific to the customer. In general, these emails are expected, e.g. your order is on its way and so they are likely to have good engagement rates and are unlikely to be regarded as spam.
+
+Promotional emails, on the other hand, are sent out in bulk to a mailing list. They may include some elements of personalisation, but they usually form part of a marketing (or other) campaign. In general, these emails are **not** expected by the recipient and they may or may not be welcome. Engagement rates are lower and the mails will receive a higher spam score.
+
+Let's look at transactional emails first.
+
+## Transactional emails
+
+### Thanks for your order
+
+Sent immediately after the customer completes a purchase. Rather than this being a standard email formatted as defined by your ecommerce software, consider refining it with a larger image and some genuine 'thank you' text.
+
+Here is a straightforward example from EE. Pleasant, friendly and informal.
+
+<img
+  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
+  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/ee-thank-you-for-your-order_wcqyrw.jpg 320w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/ee-thank-you-for-your-order_wcqyrw.jpg 560w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/ee-thank-you-for-your-order_wcqyrw.jpg 640w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/ee-thank-you-for-your-order_wcqyrw.jpg 800w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/ee-thank-you-for-your-order_wcqyrw.jpg 930w"
+  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/ee-thank-you-for-your-order_wcqyrw.jpg"
+  alt="An email from EE thanking the customer for their order"
+  loading="lazy"
+  width="1124"
+  height="1166">
+
+### Your items are on their way
+
+Sent as soon as the goods have been dispatched. If you're selling downloadable products, you could combine this email with the one above. Again, don't just accept the standard email template offered by your ecommerce system. Tailor it and add an image or two. Make it special in some way.
+
+For clarity, include details of the selected delivery method and expected delivery date.
+
+I would also suggest you include a link to your returns policy. I know some people disagree with this idea, saying it encourages returns. However, if you have confidence in your products, that shouldn't be an issue.
+
+Amazon's emails are not noted for their design appeal. They are functional, informative and effective but won't win any design awards.
+
+<img
+  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
+  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/amazon-dispatch_x1wcyt.jpg 320w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/amazon-dispatch_x1wcyt.jpg 560w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/amazon-dispatch_x1wcyt.jpg 640w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/amazon-dispatch_x1wcyt.jpg 800w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/amazon-dispatch_x1wcyt.jpg 930w"
+  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/amazon-dispatch_x1wcyt.jpg"
+  alt="Amazon dispatch email"
+  loading="lazy"
+  width="2062"
+  height="1474">
+
+### Welcome email
+
+Customers have come to expect welcome emails when they sign up for a newsletter, purchase a product or sign up for a trial. In fact, it may be better to send a sequence of emails rather than just a single one, depending on your business one. The various email could be:
+
+- Who you are and what you stand for
+- Set expectations for future email content
+- The benefits of reading your content
+
+Where appropriate, include links to pages on your site and relevant customer testimonials.
+
+This welcome email from Headspace is very simple, emphasising the benefits of the products and their desire to support the customer.
+
+<img
+  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
+  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/headspace-welcome_kxikvn.jpg 320w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/headspace-welcome_kxikvn.jpg 560w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/headspace-welcome_kxikvn.jpg 640w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/headspace-welcome_kxikvn.jpg 800w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/headspace-welcome_kxikvn.jpg 930w"
+  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_600/blog/headspace-welcome_kxikvn.jpg"
+  alt="Headspace welcome email"
+  style="max-width: 601px; margin-left: auto; margin-right: auto;"
+  loading="lazy"
+  width="601"
+  height="796">
+
+### Abandoned cart
+
+The percentage of people who place items in their cart but never complete the purchase is high. The reasons for this are, of course, quite varied and [optimising the checkout flow](https://www.attractmore.uk/blog/optimise-checkout-to-sell-more-online/) is a good way of reducing the percentage of lost sales. There will always be some people who get interrupted at the point of purchase, who go off to get their credit card and then get distracted etc.
+
+It is worthwhile to send an email (and possibly two) to remind people that they have left items in their cart. Don't expect a high percentage of purchase completions, but if you can recover any abandoned carts you are making sales that you would otherwise have missed.
+
+If you're not already sending out emails to recover abandoned carts, it is well worth doing so.
+
+The first example abandoned cart email below is clean and well-designed. To encourage the purchase, a time-limited discount is offered. The issue is see with this is that customers may become wise to this approach and always abandon their carts in order to get the 15% discount.
+
+<img
+  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
+  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/abandoned-cart-2_fue6de.jpg 320w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/abandoned-cart-2_fue6de.jpg 560w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/abandoned-cart-2_fue6de.jpg 640w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/abandoned-cart-2_fue6de.jpg 800w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/abandoned-cart-2_fue6de.jpg 930w"
+  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_580/blog/abandoned-cart-2_fue6de.jpg"
+  alt="An abandoned cart email from Kate Spade"
+  style="max-width: 579px; margin-left: auto; margin-right: auto;"
+  loading="lazy"
+  width="579"
+  height="687">
+
+Kerastase take a simpler approach to remind the customer who has abandoned and to remind them of the benefits of the product.
+
+<img
+  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
+  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/abandoned-cart-1_tbat9v.jpg 320w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/abandoned-cart-1_tbat9v.jpg 560w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/abandoned-cart-1_tbat9v.jpg 640w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/abandoned-cart-1_tbat9v.jpg 800w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/abandoned-cart-1_tbat9v.jpg 930w"
+  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_667/blog/abandoned-cart-1_tbat9v.jpg"
+  alt="An abandoned cart email from Kerastase"
+  style="max-width: 667px; margin-left: auto; margin-right: auto;"
+  loading="lazy"
+  width="667"
+  height="608">
+
+### Re-engagement
+
+Depending on the type(s) of products you offer, a re-engagement email may be appropriate. For instance, if you sell cosmetics, wine/beer/spirits, then some months after the customer's last purchase (the exact time you would need to determine), you send an email to encourage the customer back to your shop. It's always helpful to offer a discount coupon or similar at this stage as an incentive.
+
+The example below is related to email opening rather than product purchase but the principle is the same. Offer an incentive to encourage a customer to purchase from you again.
+
+<img
+  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
+  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/reengagement-email_oos21l.jpg 320w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/reengagement-email_oos21l.jpg 560w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/reengagement-email_oos21l.jpg 640w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/reengagement-email_oos21l.jpg 800w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/reengagement-email_oos21l.jpg 930w"
+  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_460/blog/reengagement-email_oos21l.jpg"
+  alt="A re-engagement email"
+  style="max-width: 458px; margin-left: auto; margin-right: auto;"
+  loading="lazy"
+  width="458"
+  height="782">
+
+### Review of products purchased
+
+If appropriate, why not email a customer a few weeks after purchase and ask them for a review of the products they purchased. Make it easy by providing a link to a page where they can leave a review. Is there an incentive you can offer?
+
+Here's a good example from iHerb.
+
+<img
+  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
+  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/product-review-email_ynfies.jpg 320w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/product-review-email_ynfies.jpg 560w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/product-review-email_ynfies.jpg 640w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/product-review-email_ynfies.jpg 800w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/product-review-email_ynfies.jpg 930w"
+  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_700/blog/product-review-email_ynfies.jpg"
+  alt="An email asking for a product review"
+  style="max-width: 699px; margin-left: auto; margin-right: auto;"
+  loading="lazy"
+  width="699"
+  height="666">
+
+### Subscriptions
+
+If you offer subscriptions to certain products on your site, you might consider sending an email a little while before the date of the renewal asking the customer if they would like to add anything else to the order before it is sent. To do this effectively you would need to make suitable product suggestions based on what they have subscribed to.
+
+Here's a good example.
+
+<img
+  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
+  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/dollar-shave-club-subscription-email_ca7ns8.jpg 320w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/dollar-shave-club-subscription-email_ca7ns8.jpg 560w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/dollar-shave-club-subscription-email_ca7ns8.jpg 640w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/dollar-shave-club-subscription-email_ca7ns8.jpg 800w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/dollar-shave-club-subscription-email_ca7ns8.jpg 930w"
+  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_700/blog/dollar-shave-club-subscription-email_ca7ns8.jpg"
+  alt="An email suggesting subscription add-ons"
+  style="max-width: 697px; margin-left: auto; margin-right: auto;"
+  loading="lazy"
+  width="697"
+  height="790">
+
+### Account related - Password reset/email verification
+
+Not the most exciting emails perhaps, but important, nonetheless. Just because they're not exciting, that's no reason to make them boring. Add some images, some humour. Again, don't just accept the default template that your ecommerce software offers.
+
+## Informational emails
+
+### New products
+
+When you launch new products, a promotional email to your list will let people know the details. This type of email is usually accompanied by a time limited discount coupon.
+
+This example from Neve's Bees offers a 15% discount on their new body oil products.
+
+<img
+  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
+  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/neves-bees-new-product-body-oils_z4ssxc.jpg 320w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/neves-bees-new-product-body-oils_z4ssxc.jpg 560w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/neves-bees-new-product-body-oils_z4ssxc.jpg 640w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/neves-bees-new-product-body-oils_z4ssxc.jpg 800w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/neves-bees-new-product-body-oils_z4ssxc.jpg 930w"
+  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/neves-bees-new-product-body-oils_z4ssxc.jpg"
+  alt="Discount on new products email"
+  style="max-width: 996px; margin-left: auto; margin-right: auto;"
+  loading="lazy"
+  width="996"
+  height="3146">
+
+### Holiday/seasonal special offers
+
+Where appropriate, many online shops send out promotions before Christmas, Black Friday, Valentine's Day, summer holidays, start/end of school terms - whatever is relevant for your business and your audience.
+
+The example from Crate and Barrel below is well-designed, offering a large discount and being highly focused on encouraging the recipients to go to the shop.
+
+<img
+  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
+  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/percentage-off-ecommerce_email_nr1cuy.jpg 320w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/percentage-off-ecommerce_email_nr1cuy.jpg 560w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/percentage-off-ecommerce_email_nr1cuy.jpg 640w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/percentage-off-ecommerce_email_nr1cuy.jpg 800w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/percentage-off-ecommerce_email_nr1cuy.jpg 930w"
+  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_700/blog/percentage-off-ecommerce_email_nr1cuy.jpg"
+  alt="Holiday / seasonal email offers"
+  style="max-width: 703px; margin-left: auto; margin-right: auto;"
+  loading="lazy"
+  width="703"
+  height="1065">
+
+### Guides/tutorials/best practice
+
+This depends strongly on what type of products you offer but if you provide quality informational content as well as promotional content,  you're likely to get higher open rates.
+
+An example might be an online shop that sells art supplies, where you could send emails with tutorials about certain art techniques. Maybe you could get some well-known artists to write some of these. Post them on your blog and send a link to subscribed customers by email.
+
+Of course, there's no harm in promoting some products in these emails but the products must be relevant to the subject matter. Keep it subtle - in this type of email, it's the informational/educational content that should have centre stage.
+
+In this email, the content is educational but the intent is still promotional.
+
+<img
+  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
+  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/harrys-educational-welcome-email_ysvu6c.jpg 320w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/harrys-educational-welcome-email_ysvu6c.jpg 560w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/harrys-educational-welcome-email_ysvu6c.jpg 640w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/harrys-educational-welcome-email_ysvu6c.jpg 800w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/harrys-educational-welcome-email_ysvu6c.jpg 930w"
+  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_576/blog/harrys-educational-welcome-email_ysvu6c.jpg"
+  alt="Educational / instructional email"
+  style="max-width: 576px; margin-left: auto; margin-right: auto;"
+  loading="lazy"
+  width="576"
+  height="844">
+
+### Discount if you spend more than £x
+
+Consider running a promotion that offers a certain percentage off the basket total if it exceeds a given amount. e.g. 15% off if you spend £50 or more. Clearly, the discount percentage (or amount)and threshold price will depend on your products and prices.
+
+The email from White Stuff offers a fixed discount amount rather than a percentage. It's a striking design with a clear message.
+
+<img
+  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
+  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/discount-if-spend-more-than_erkzxe.jpg 320w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/discount-if-spend-more-than_erkzxe.jpg 560w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/discount-if-spend-more-than_erkzxe.jpg 640w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/discount-if-spend-more-than_erkzxe.jpg 800w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/discount-if-spend-more-than_erkzxe.jpg 930w"
+  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_662/blog/discount-if-spend-more-than_erkzxe.jpg"
+  alt="Ecommerce email offering a discount if you spend more than a certain amount of money"
+  style="max-width: 662px; margin-left: auto; margin-right: auto;"
+  loading="lazy"
+  width="662"
+  height="1225">
+
+### Milestones - customer, subscribers, business anniversary
+
+Milestones are a good reason to send out an email but these need to be linked to some discount arrangement.
+
+Suitable milestones might be:
+
+- An individual has been a customer for a year. (This could be considered a transactional email rather than promotional.)
+- Your business has now reached 1000/10,000/100,000 subscribers
+- You have been in business for 1/2/5/10 years
+
+To celebrate these milestones you could offer the customer a gift (if it's a customer anniversary) or a discount coupon.
+
+Here Vimeo are promoting their Plus package to people who subscriber a year ago. Again, this is a clear, well-designed and focused email.
+
+<img
+  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
+  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/anniversary-vimeo_rns36y.jpg 320w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/anniversary-vimeo_rns36y.jpg 560w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/anniversary-vimeo_rns36y.jpg 640w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/anniversary-vimeo_rns36y.jpg 800w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/anniversary-vimeo_rns36y.jpg 930w"
+  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_384/blog/anniversary-vimeo_rns36y.jpg"
+  alt="Ecommerce email from Vimeo at one year anniversary of subscription"
+  style="max-width: 384px; margin-left: auto; margin-right: auto;"
+  loading="lazy"
+  width="384"
+  height="525">
+
+### Limited offers
+
+Run a promotion for a limited period or for a certain number of items. Email your customers and let them know how they can take advantage.
+
+This email from Manach gives a very short timescale to take advantage of the promotion. I don't think such a short time period would work for all businesses, but limited time offers can work well to boost sales.
+
+<img
+  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
+  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/time-limited-offer-1_ovupl2.jpg 320w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/time-limited-offer-1_ovupl2.jpg 560w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/time-limited-offer-1_ovupl2.jpg 640w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/time-limited-offer-1_ovupl2.jpg 800w,
+          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/time-limited-offer-1_ovupl2.jpg 930w"
+  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/time-limited-offer-1_ovupl2.jpg"
+  alt="Time-limited promotional offer ecommerce email"
+  style="max-width: 923px; margin-left: auto; margin-right: auto;"
+  loading="lazy"
+  width="923"
+  height="1544">
+
+### Info about subscriptions
+
+If you offer subscriptions in your online shop as well as one-off purchases, do make sure that you let non-subscribers know about the benefits of the subscription service.
+
+## Conclusion
+
+There's so much competition online, that you need to keep in contact with your customers to keep your brand in their minds. Email is one of the best ways of doing this provided it's done well.
+
+I've outlined some types of email here both in the categories of transactional and promotional. Store owners tend to focus more on the promotional side for obvious reasons, but the design and content of transactional emails matters as well. They are all part of your brand and so need to demonstrate, not only what you do, but how you do it - your values, style, customer service etc.
+
+I appreciate that some of the promotional emails that I have mentioned here will not be applicable to all businesses. I hope though, that I have been able to give you some ideas that will help your online business grow.
+
+If you'd like any help in creating emails for your business, please do let us know. We'd be happy to help.
+
+[Contact Us](https://www.attractmore.uk/contact/){.primary-btn}
+
+### Further reading
+
+- [What Are Transactional Emails In Ecommerce? Demystified With Tips And Examples](https://www.sfwpexperts.com/what-are-transactional-emails-in-ecommerce-demystified-with-tips-and-examples/)
+- [5 Automated Email Marketing Sequences You Should Set Up for Your Business](https://www.noupe.com/business-online/automated-email-marketing-sequences.html)
+- [9 Types of Email to Keep Customers Engaged](https://www.noupe.com/business-online/types-of-email-to-keep-customers-engaged.html)
+- [Three Essential Follow-Up Emails Every WooCommerce Store Needs](https://woocommerce.com/posts/most-important-automate-follow-up-emails/)
