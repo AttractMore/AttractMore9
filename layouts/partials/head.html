@@ -10,7 +10,13 @@
 
 {{- $opts := dict "transpiler" "libsass" "targetPath" "css/style.css" "outputStyle" "compressed" }}
 {{- with resources.Get "/scss/critical.scss" | toCSS $opts | minify | fingerprint }}
- <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+{{- end -}}
+
+{{- if .Params.extraStyles }}
+{{- with resources.Get .Params.extraStyles | toCSS $opts | minify | fingerprint }}
+<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+{{- end -}}
 {{- end -}}
 
 {{- if site.Params.analytics.google.SiteVerificationTag -}}
@@ -77,4 +83,3 @@
   </style>
   {{- end }}
 </noscript>
-

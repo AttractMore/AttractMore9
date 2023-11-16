@@ -1,0 +1,25 @@
+{{- with .Params.intro -}}
+  {{- if .image -}}
+  <article class="hero-container">
+    {{- $cloudinaryFolderImage := print "/hero/" .image -}}
+    <img
+      class="hero-container-image"
+      srcset="
+      {{- range site.Params.cloudinarySizes -}}
+        {{- site.Params.cloudinaryPath -}} {{- site.Params.cloudinaryParms | safeURL -}} {{- print "w_" . $cloudinaryFolderImage " " . "w" }},
+      {{- end -}}
+      " 
+      sizes="100vw"
+      src="{{- site.Params.cloudinaryPath -}} {{- site.Params.cloudinaryParms | safeURL -}} {{- print "w_1600" $cloudinaryFolderImage }}"
+      alt="{{ .imageAlt }}"
+      width="1600"
+      height="500"
+      fetchpriority="high" />
+    {{- if .overlay -}}
+    <div class="wrap">
+      <p class="hero-container-text">{{.overlay}}</p>
+    </div>
+    {{- end -}}
+  </article>
+  {{- end -}}
+{{- end -}}

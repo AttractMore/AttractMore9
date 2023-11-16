@@ -3,7 +3,9 @@ languageCode = "en-gb"
 title = "Low-carbon websites"
 disableKinds = ["sitemap", "taxonomy", "taxonomyTerm"]
 [params]
-  cloudinaryPath = "https://res.cloudinary.com/attractmore/image/upload/"
+  cloudinaryPath  = "https://res.cloudinary.com/attractmore/image/upload/"
+  cloudinarySizes = ["2800", "2000", "1600", "1300", "1120", "928", "704", "480"]
+  cloudinaryParms = "c_fill,f_auto,q_auto:eco,h_500,"
 
 [menu]
   [[menu.main]]
