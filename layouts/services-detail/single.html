@@ -1,0 +1,35 @@
+{{- define "main" }}
+
+<aside class="breadcrumbs wrap">
+  <a href="/">Home</a> » <a href="/services-detail/">Services</a> » {{ .Title }}
+</aside>
+
+{{ partial "page-header.html" . }}
+<section class="content-sidebar wrap">
+
+  <article class="services" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+    {{ .Content }}
+  </article>
+
+  <aside class="sidebar">
+    <div class="sidebar__inner">
+
+      <h3>Services</h3>
+      <nav>
+        {{- $currentPage := . }}
+        <ul>
+          {{- range $.Site.Data.servicesnav.items -}}
+          <li>
+            <a href="{{ .url }}" {{- if eq $.Page.RelPermalink .url }} aria-current="page" data-state="active" {{- end }} >{{ .text }}</a>
+          </li>
+          {{- end -}}
+        </ul>
+      </nav>
+    </div>
+
+  </aside>
+</section>
+
+{{ partial "cta.html" . }}
+
+{{- end }}{{/* end main */}}

@@ -15,8 +15,8 @@
 
 {{- if .Params.socialImage -}}
 <meta name="twitter:card" content="summary_large_image" />
-<meta property="og:image" content="{{ .socialImage }}" />
-<meta name="twitter:image" content="{{ .socialImage }}" />
+<meta property="og:image" content="{{ .Params.socialImage }}" />
+<meta name="twitter:image" content="{{ .Params.socialImage }}" />
 {{- else -}}
   {{- $cloudinaryFolder := "/hero/" -}}
   {{- $cloudinaryImage := "reaching-for-the-sky.jpg" -}}

@@ -1,12 +1,9 @@
 {{- define "main" }}
-<div id="inner-content" class="wrap cf">
 
   {{- partial "hero-image.html" . }}
 
-  <article class="cf" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+  <article class="intro wrap" role="article" itemscope itemtype="http://schema.org/BlogPosting">
     {{ .Content }}
   </article>
-
-</div>
 
 {{- end }}{{/* end main */}}

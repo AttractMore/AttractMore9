@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = ""
 languageCode = "en-gb"
 title = "Low-carbon websites"
 disableKinds = ["sitemap", "taxonomy", "taxonomyTerm"]
@@ -6,6 +6,10 @@ disableKinds = ["sitemap", "taxonomy", "taxonomyTerm"]
   cloudinaryPath  = "https://res.cloudinary.com/attractmore/image/upload/"
   cloudinarySizes = ["2800", "2000", "1600", "1300", "1120", "928", "704", "480"]
   cloudinaryParms = "c_fill,f_auto,q_auto:eco,h_500,"
+  
+  cloudinaryFetchPath = "https://res.cloudinary.com/attractmore/image/fetch/"
+  cloudinaryFetchSizesFull = ["930", "800", "640", "560", "320"]
+  cloudinaryFetchParms = "q_auto,f_auto"
 
 [menu]
   [[menu.main]]
@@ -39,4 +43,28 @@ disableKinds = ["sitemap", "taxonomy", "taxonomyTerm"]
     url = "/contact/"
     weight = 60
 
+[[redirects]]
+  from = "/optim/blog/:image"
+  to = "https://res.cloudinary.com/attractmore/image/fetch/q_auto,f_auto/https://www.attractmore.uk/images/blog/:image"
+  status = 200
+[[redirects]]
+  from = "/optim/work/:image"
+  to = "https://res.cloudinary.com/attractmore/image/fetch/q_auto,f_auto/https://www.attractmore.uk/images/work/:image"
+  status = 200
+[[redirects]]
+  from = "/optim/services/:image"
+  to = "https://res.cloudinary.com/attractmore/image/fetch/q_auto,f_auto/https://www.attractmore.uk/images/services/:image"
+  status = 200
+[[redirects]]
+  from = "/optim/testimonials/:image"
+  to = "https://res.cloudinary.com/attractmore/image/fetch/q_auto,f_auto/https://www.attractmore.uk/images/testimonials/:image"
+  status = 200
+[[redirects]]
+  from = "/optim/misc/:image"
+  to = "https://res.cloudinary.com/attractmore/image/fetch/q_auto,f_auto/https://www.attractmore.uk/images/misc/:image"
+  status = 200
+[[redirects]]    
+  from = '/**'
+  status = 404
+  to = '/404.html'
 

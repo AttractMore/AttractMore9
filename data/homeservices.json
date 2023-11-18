@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "header": "Website Creation",
+      "svg": "tree1",
+      "text": "We create thoughtful, attractive, mobile-friendly websites that effectively promote your organisation to the right people through good design.",
+      "url": "/services/website-creation/"
+    },
+    {
+      "header": "Site Visibility",
+      "svg": "tree11",
+      "text": "Make sure your web pages are found in the search engines for relevant search phrases. This is essential and we can help make a difference.",
+      "url": "/services/search-engine-optimisation/"
+    },
+    {
+      "header": "Page Speed Optimisation",
+      "svg": "tree13",
+      "text": "Slow loading web pages give a poor impression of your business to site visitors. We can help your pages load more quickly.",
+      "url": "/services/page-speed-optimisation/"
+    },
+    {
+      "header": "Website Reviews",
+      "svg": "tree12",
+      "text": "Let us review your website and provide you with a prioritised list of recommendations about how it can become more effective for your organisation.",
+      "url": "/services/website-reviews-renovation/"
+    },
+    {
+      "header": "Branding & Graphic Design",
+      "svg": "tree14",
+      "text": "First impressions count. We can help in creating attractive designs that work for your business right from the start.",
+      "url": "/services/branding-graphic-design/"
+    },
+    {
+      "header": "Support & Maintenance",
+      "svg": "tree15",
+      "text": "Keeping your site current both from a business and a technical standpoint is important for your reputation and online security.",
+      "url": "/services/website-support-maintenance/"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "header": "Understanding your business",
+      "svg": "leaf1",
+      "text": "Before we start on the design, we need a good understanding of your business and your clients.",
+      "url": "/services/website-creation/understanding-your-business/"
+    },
+    {
+      "header": "Project Management",
+      "svg": "leaf13",
+      "text": "Effective management of the project ensures everything is kept under proper control.",
+      "url": "/services/website-creation/project-management/"
+    },
+    {
+      "header": "Responsive Web Design",
+      "svg": "leaf3",
+      "text": "Websites need to work well, look good and load quickly on all devices.",
+      "url": "/services/website-creation/responsive-web-design/"
+    },
+    {
+      "header": "Content Creation",
+      "svg": "leaf6",
+      "text": "Text must be crafted for your audience and images chosen with care.",
+      "url": "/services/website-creation/content-creation/"
+    },
+    {
+      "header": "Development & Testing",
+      "svg": "leaf5",
+      "text": "Skilled coding and thorough testing of websites are vital for a professional result.",
+      "url": "/services/website-creation/web-development-website-testing/"
+    },
+    {
+      "header": "Migration & Implementation",
+      "svg": "leaf4",
+      "text": "These phases must be planned so that the value in pages from your old site is not lost.",
+      "url": "/services/website-creation/website-migration-implementation/"
+    }
+  ]
+}

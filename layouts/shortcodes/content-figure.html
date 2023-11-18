@@ -1,0 +1,29 @@
+<figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
+  {{- if .Get "link" -}}
+      <a href="{{ .Get "link" }}">
+  {{- end -}}
+
+  {{ $imgsrc := newScratch }}
+  {{ $imgsrc.Set "imagesrc" (.Get "src") }}
+  $imgsrc = {{ $imgsrc.Get "imagesrc" }}
+  <img src="{{ $.Page.Site.Params.cloudinaryFetchPath }}{{ $.Page.Site.Params.cloudinaryFetchParms | safeURL }}/https://www.attractmore.uk{{ .Get "src" }}.jpg"
+    srcset="
+      {{- range $.Page.Site.Params.cloudinaryFetchSizesFull -}}
+        {{- $.Page.Site.Params.cloudinaryFetchPath -}} {{- $.Page.Site.Params.cloudinaryFetchParms | safeURL -}} /https://www.attractmore.uk{{ $imgsrc.Get "imagesrc" }}- {{- . -}}.jpg {{ . }} {{- print "w, " }} 
+      {{- end -}}
+      "
+    {{- with .Get "sizes"}} sizes="{{ . }}"{{ end -}}
+    {{- with .Get "alt" }} alt="{{ . }}"{{ end -}}
+    {{- with .Get "width" }} width="{{ . }}"{{ end -}}
+    {{- with .Get "height" }} height="{{ . }}"{{ end -}}
+    {{- with .Get "loading" }} loading="{{ . }}"{{ end -}}
+  /><!-- Closing img tag -->
+  {{- if .Get "link" }}</a>{{ end -}}
+
+  {{- if .Get "caption" -}}
+    <figcaption>
+      {{- .Get "caption" | markdownify -}}
+    </figcaption>
+  {{- end }}
+</figure>
+

@@ -1,0 +1,19 @@
+<div class="page-header">
+  <div class="wrap">
+    <h1 class="page-header__heading">{{ .Params.pageHeaderTitle }}</h1>
+    {{ if .Params.pageHeaderSummary.p1 }}
+    <div {{ if eq title "Work" or eq title  "AttractMore Blog" }}
+      class="larger-text"
+    {{- end -}}>
+      <p>{{ .Params.pageHeaderSummary.p1 | safe }}</p>
+      {{- if .Params.pageHeaderSummary.p2 -}}
+        <p>{{ .Params.pageHeaderSummary.p2 | safe  }}</p>
+      {{- end -}}
+      {{- if .Params.pageHeaderSummary.p3 -}}
+        <p>{{ .Params.pageHeaderSummary.p3 | safe }}</p>
+      {{- end -}}
+
+    </div>
+    {{- end -}}
+  </div>
+</div>

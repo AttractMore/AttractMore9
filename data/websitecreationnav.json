@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "text": "Understanding your Business",
+      "url": "/services/website-creation/understanding-your-business/"
+    },
+    {
+      "text": "Project Management",
+      "url": "/services/website-creation/project-management/"
+    },
+    {
+      "text": "Responsive Web Design",
+      "url": "/services/website-creation/responsive-web-design/"
+    },
+    {
+      "text": "Content Creation",
+      "url": "/services/website-creation/content-creation/"
+    },
+    {
+      "text": "Web Development and Testing",
+      "url": "/services/website-creation/web-development-website-testing/"
+    },
+    {
+      "text": "Migration and Implementation",
+      "url": "/services/website-creation/website-migration-implementation/"
+    }
+  ]
+}
