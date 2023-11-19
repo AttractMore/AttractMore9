@@ -4,12 +4,15 @@ title = "Low-carbon websites"
 disableKinds = ["sitemap", "taxonomy", "taxonomyTerm"]
 [params]
   cloudinaryPath  = "https://res.cloudinary.com/attractmore/image/upload/"
-  cloudinarySizes = ["2800", "2000", "1600", "1300", "1120", "928", "704", "480"]
-  cloudinaryParms = "c_fill,f_auto,q_auto:eco,h_500,"
+  cloudinaryHeroSizes = ["2800", "2000", "1600", "1300", "1120", "928", "704", "480"]
+  cloudinaryHeroParms = "c_fill,f_auto,q_auto:eco,h_500,"
   
   cloudinaryFetchPath = "https://res.cloudinary.com/attractmore/image/fetch/"
-  cloudinaryFetchSizesFull = ["930", "800", "640", "560", "320"]
-  cloudinaryFetchParms = "q_auto,f_auto"
+  cloudinaryMainParms = "q_auto,f_auto"
+  srcsetLargeWidths = ["930", "800", "640", "500", "400"]
+  srcsetLargeSizes = "(max-width:45em) 90vw, 50em"
+  srcsetSmallWidths = ["500", "320"]
+  srcsetSmallSizes = "(max-width:30em) 40vw, 96vw"
 
 [menu]
   [[menu.main]]

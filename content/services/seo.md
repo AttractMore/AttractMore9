@@ -1,6 +1,6 @@
 ---
 title: "Search Engine Optimisation"
-detailUrl: "/services/search-engine-optimisation/"
+detailUrl: "/services-detail/search-engine-optimisation/"
 svgId: "tree11"
 weight: 20
 ---

@@ -1,18 +1,47 @@
-<figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
+{{/*
+  @description - Shortcode for responsive images from Cloudinary 
+  All images are either 500px wide or 930px wide
+  Named parameters are all strings
+  - class
+  - link (if you need to make the figure a link)
+  - src  - the name of the image in Cloudinary
+  - folder - the folder name in Cloudinary
+  - width
+  - height
+  - loading
+  - caption (any Markdown in the caption will be processed correctly )
+  @returns - figure with img and, optionally, figcaption
+*/}}
+
+<figure {{ with .Get "class" }} class="{{ . }}"{{ end }}>
   {{- if .Get "link" -}}
       <a href="{{ .Get "link" }}">
   {{- end -}}
 
   {{ $imgsrc := newScratch }}
   {{ $imgsrc.Set "imagesrc" (.Get "src") }}
-  $imgsrc = {{ $imgsrc.Get "imagesrc" }}
-  <img src="{{ $.Page.Site.Params.cloudinaryFetchPath }}{{ $.Page.Site.Params.cloudinaryFetchParms | safeURL }}/https://www.attractmore.uk{{ .Get "src" }}.jpg"
+  {{ $imgsrc.Set "folder" (.Get "folder") }}
+
+  {{ $srcset := newScratch }}
+  {{- with .Get "width" -}}
+    {{- if eq . "500" -}}
+      {{ $srcset.Set "srcsetsizes" $.Page.Site.Params.srcsetSmallSizes }}
+      {{ $srcset.Set "srcsetwidths" $.Page.Site.Params.srcsetSmallWidths }}
+    {{- else -}}
+      {{ $srcset.Set "srcsetsizes" $.Page.Site.Params.srcsetLargeSizes }}
+      {{ $srcset.Set "srcsetwidths" $.Page.Site.Params.srcsetLargeWidths }}
+    {{- end -}}
+  {{- end -}}
+
+  {{ $len := len ($srcset.Get "srcsetwidths") }}
+  <img src="{{ $.Page.Site.Params.cloudinaryPath }}{{ $.Page.Site.Params.cloudinaryMainParms | safeURL }}{{ print ",w_500"}}{{ $imgsrc.Get "folder" }}{{ .Get "src" }}"
     srcset="
-      {{- range $.Page.Site.Params.cloudinaryFetchSizesFull -}}
-        {{- $.Page.Site.Params.cloudinaryFetchPath -}} {{- $.Page.Site.Params.cloudinaryFetchParms | safeURL -}} /https://www.attractmore.uk{{ $imgsrc.Get "imagesrc" }}- {{- . -}}.jpg {{ . }} {{- print "w, " }} 
+      {{- range $index, $element := $srcset.Get "srcsetwidths" -}}
+        {{- $.Page.Site.Params.cloudinaryPath -}} {{- $.Page.Site.Params.cloudinaryMainParms | safeURL -}}{{ print ",w_" . }}{{ $imgsrc.Get "folder" }}{{ $imgsrc.Get "imagesrc" }} {{ . }} {{- print "w" -}}
+        {{ if ne (add $index 1) $len }}{{- print ", " }}{{- end -}} 
       {{- end -}}
       "
-    {{- with .Get "sizes"}} sizes="{{ . }}"{{ end -}}
+    sizes="{{ $srcset.Get "srcsetsizes"}}"
     {{- with .Get "alt" }} alt="{{ . }}"{{ end -}}
     {{- with .Get "width" }} width="{{ . }}"{{ end -}}
     {{- with .Get "height" }} height="{{ . }}"{{ end -}}
@@ -22,8 +51,8 @@
 
   {{- if .Get "caption" -}}
     <figcaption>
-      {{- .Get "caption" | markdownify -}}
+      {{- .Get "caption" | markdownify }}
     </figcaption>
-  {{- end }}
+  {{ end }}
 </figure>
 

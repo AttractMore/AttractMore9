@@ -1,6 +1,6 @@
 ---
 title: "Branding & Graphic Design"
-detailUrl: "/services/branding-graphic-design/"
+detailUrl: "/services-detail/branding-graphic-design/"
 svgId: "tree14"
 weight: 60
 ---

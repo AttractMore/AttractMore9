@@ -9,7 +9,7 @@ extraStyles: "/scss/service-item.scss"
 
 To get the best from your website, it must be looked after. A good analogy is with a garden. A newly planted garden will be in excellent condition but without the necessary care and maintenance it will soon fall into neglect. The same is true of a website where content and software can easily become outdated. In order to **protect and improve the return on investment** you achieve from your site, we offer a range of support and maintenance services.
 
-![Support and maintenance for websites](/optim/services/website-support-and-maintenance-garden.jpg){width=930}{height=570}
+{{< content-figure folder="/services/" src="website-support-and-maintenance-garden_pqlyhp.jpg" alt="Support and maintenance for websites" width="930" height="570" >}}
 
 ## Backup and Restore
 
@@ -42,7 +42,8 @@ This regular monitoring of your site allows us to keep it in top condition when 
 
 ## Hosting
 
-![Support and maintenance - website hosting](/optim/services/website-hosting.jpg){width=500}{height=355}{data-responsiver=workitemside}
+{{< content-figure class="alignright" folder="/services/" src="website-hosting_bjxkbu.jpg" alt="Support and maintenance - website hosting" width="500" height="355" >}}
+
 Reliable hosting is vital to ensure maximum uptime and best performance of your website. Unfortunately, there are many companies that offer poor quality web hosting and very limited support.
 
 Over the years we have honed down the list of hosting providers and offer 2 packages to clients. The first is on shared hosting which is economical and reliable but which is not suitable for sites where performance is critical. Our second package offers the same reliability as the first but is faster and will also alert if any problems with the website are encountered such as attempts to flood the site with requests.

@@ -17,7 +17,7 @@ The way we approach branding and graphic design is the same as if we were design
 - Your competitors
 - The environment where the design is likely to be seen.
 
-![Logo design and brand image using coloured pencils](/optim/services/logo-branding-pencils.jpg){width=930}{height=450}
+{{< content-figure folder="/services/" src="logo-branding-pencils_yerlz3.jpg" alt="Logo design and brand image using coloured pencils" width="930" height="450" >}}
 
 ## Branding and Logos
 
@@ -38,7 +38,7 @@ Although these are listed as separate items, the skill of a graphic designer is 
 
 Our initial research into your brand (and that of your competitors) will lead us into the creation of a set of options/ideas for your corresponding visual identity which includes the elements listed above. We will discuss these with you and usually take two of the options on for further development based on your feedback. Examination of these refined options will lead you to choose one of them and we will then make any final adjustments. The various elements of the brand will then be created in all the necessary formats for both web and print.
 
-![Brand image and logos](/optim/services/brand-image-logo.jpg){width=500}{height=588}{data-responsiver=workitemside}
+{{< content-figure class="alignright" folder="/services/" src="brand-image-logo_rqgolw.jpg" alt="Brand image and logos" width="500" height="588" >}}
 The creation of new branding is likely to involve the development of a new logo, however, we can also create a new logo to fit in with your existing branding so that it is better adapted to the current business situation. In the latter case, we would again do some initial research, provide a range of options which would be narrowed down and refined based on your feedback.
 
 With logos and other graphic elements, formats, sizes, resolutions etc. are important in order for you to be able to use these items in any situation both online and offline. The way in which colour is represented on screen and in print differ and we will produce your new graphics in both formats.

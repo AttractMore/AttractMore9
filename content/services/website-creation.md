@@ -1,6 +1,6 @@
 ---
 title: "Website Creation"
-detailUrl: "/services/website-creation/"
+detailUrl: "/services-detail/website-creation/"
 svgId: "tree1"
 weight: 10
 ---

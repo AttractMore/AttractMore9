@@ -1,6 +1,6 @@
 ---
 title: "Website Reviews"
-detailUrl: "/services/website-reviews-renovation/"
+detailUrl: "/services-detail/website-reviews-renovation/"
 svgId: "tree12"
 weight: 40
 ---

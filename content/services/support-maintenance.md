@@ -1,6 +1,6 @@
 ---
 title: "Support & Maintenance"
-detailUrl: "/services/website-support-maintenance/"
+detailUrl: "/services-detail/website-support-maintenance/"
 svgId: "tree15"
 weight: 50
 ---

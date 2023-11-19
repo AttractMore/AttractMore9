@@ -9,11 +9,7 @@ extraStyles: "/scss/service-item.scss"
 
 The majority of organisations consider the creation of a website as a project with a defined end date: the implementation. Some years may then pass without significant updates to the until the site becomes so out of date that a new web project is initiated and so the cycle continues as in the diagram below.
 
-![Website reviews and website management using a revolutionary approach with poor ROI](/images/services/website-management-revolutionary.jpg){width=930}{height=345}
-
-_Diagram taken from [A List Apart](https://alistapart.com/article/create-an-evolutionary-web-strategy-with-a-digital-mro-plan)_{.caption}
-
-{{< content-figure src="/images/services/website-management-revolutionary" alt="Website reviews and website management using a revolutionary approach with poor ROI" width="930" height="345" caption="_Diagram taken from [A List Apart](https://alistapart.com/article/create-an-evolutionary-web-strategy-with-a-digital-mro-plan)_" sizes="(max-width:45em) 90vw, 50em" >}}
+{{< content-figure folder="/services/" src="website-management-revolutionary_twmqqi.jpg" alt="Website reviews and website management using a revolutionary approach with poor ROI" width="930" height="345" caption="_Diagram taken from [A List Apart](https://alistapart.com/article/create-an-evolutionary-web-strategy-with-a-digital-mro-plan)_" >}}
 
 ## Our Approach
 
@@ -26,9 +22,7 @@ We strongly believe that the same approach taken with other business assets shou
 
 The curve then changes from a revolution every few years to a more evolutionary approach as illustrated below.
 
-![Website reviews and website management taking an evolutionary approach to the development of the site](/optim/services/website-management-evolutionary.jpg){width=930}{height=345}
-
-_Diagram taken from [A List Apart](https://alistapart.com/article/create-an-evolutionary-web-strategy-with-a-digital-mro-plan)_{.caption}
+{{< content-figure folder="/services/" src="website-management-evolutionary_ruvzzd.jpg" alt="Website reviews and website management taking an evolutionary approach to the development of a website" width="930" height="345" loading="lazy" caption="_Diagram taken from [A List Apart](https://alistapart.com/article/create-an-evolutionary-web-strategy-with-a-digital-mro-plan)_" >}}
 
 ## Website Reviews
 

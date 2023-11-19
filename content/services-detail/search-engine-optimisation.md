@@ -17,7 +17,7 @@ Ten years ago, SEO was straightforward – chose a few keywords, use them freque
 
 The image below shows the search engine results for pilates-leeds.com, a site we designed, built and support. As you can see, we used the simple phrase "Pilates Leeds" as our search term and the site we created is at number 1. There is a reasonable amount of competition for this phrase as so the results here are excellent.
 
-![SEO Google Pilates Leeds](/optim/services/pilates-leeds-google-results.jpg){width=930}{height=648}
+{{< content-figure folder="/services/" src="pilates-leeds-google-results_lhx6bk.jpg" alt="SEO Google Pilates Leeds" width="930" height="648" >}}
 
 **Search engine optimisation** cannot be ignored. If your site is performing poorly, you are not getting a good return on the investment you have made in your web site.
 
@@ -29,7 +29,8 @@ When we are asked to improve the search engine performance of a website, we star
 
 Discussions with the client usually result in us carrying out all the priority 1 actions. This is followed by a review after 3 months to assess the full impact of the changes. It may be that further changes are unnecessary at this stage or we may jointly decide to go ahead with the priority 2 actions and so on.
 
-![Effective Business Websites by AttractMore](/optim/services/effective-business-websites.jpg){.alignright}{width=500}{height=278}{data-responsiver=workitemside}
+{{< content-figure class="alignright" folder="/services/" src="effective-business-websites_i1k1kx.jpg" alt="Effective Business Websites by AttractMore" width="500" height="278" loading="lazy" >}}
+
 To give you an idea of some of the items we consider when carrying out an audit, we group them into three categories
 
 - On page

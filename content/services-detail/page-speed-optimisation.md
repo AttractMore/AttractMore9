@@ -10,7 +10,7 @@ You don’t like web pages that load slowly and neither do your site visitors. M
 
 Do you know how long your web pages take to load both on fast broadband and on an average mobile connection? Is it more than 3 seconds?
 
-![page speed optimisation](/optim/services/need-for-page-speed-optimisation.jpg){width=930}{height=620}
+{{< content-figure folder="/services/" src="need-for-page-speed-optimisation_aniszs.jpg" alt="page speed optimisation" width="930" height="620" >}}
 
 If it is more than a few seconds, then it is highly likely that you are losing business as a result of this slow page load speed. The slower your web pages, the more business you are losing.
 
@@ -20,7 +20,8 @@ So, it really is worth your while speeding up your site. We can make an assessme
 
 ## Power Usage
 
-![Web page speed optimisation reduces greenhouse gases](/optim/services/power-global-heating-internet.jpg){width=500}{height=338}{data-responsiver=workitemside}
+{{< content-figure class="alignright" folder="/services/" src="power-global-heating-internet_sq6jut.jpg" alt="Web page speed optimisation reduces greenhouse gases" width="500" height="338" >}}
+
 The internet, as a whole, uses a LOT of electricity. Some have [suggested](https://www.theguardian.com/environment/2015/sep/25/server-data-centre-emissions-air-travel-web-google-facebook-greenhouse-gas) that the internet accounts for 2% of all greenhouse gas emissions. That estimate was made in 2015 - [more recent estimates (2023)](https://ecofriendlyweb.org/), suggest the figure is now closer to 3.7% which is more than the entire aviation industry.
 
 Some large companies (notably Google) are close to running their web servers with 100% renewable energy as well as taking steps to use energy more efficiently. However, many, many web servers do not run on renewable energy.
