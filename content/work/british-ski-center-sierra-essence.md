@@ -1,8 +1,7 @@
 ---
-displayOrder: 10
+weight: 10
 title: "British Ski Center"
 pageHeaderTitle: "British Ski Center"
-layout: "layouts/work-item.html"
 metaDesc: "The British Ski Center and Sierra Essence now have a modern, fast, mobile-responsive website to help them grow their business."
 text: "A fast, mobile-friendly website for a successful ski school and accommodation agency. Previously the client had 2 distinct websites - one for the ski side of the business, the other for the accommodation. We proposed combining them into an integrated, 'one stop shop' for skiers."
 link: "/work/british-ski-center-sierra-essence/"
@@ -18,10 +17,11 @@ testimonial:
   p1: "Roger offered us a meticulously planned programme based entirely on our needs and requirements having previously studied in depth the full nature of our business to grasp a true understanding for himself of what we strive do and achieve. Out of his understanding and continued liaising with us, he was not only able to structure a series of ideas but also many significant suggestions to wholly enhance the effectiveness of the final product. From his in-depth research into the many search engine related elements (keywords, meta tags etc.) to the choice of images, typeface, style and colour themes not to mention a full study into our target markets, he made what is effectively a complex project into something entirely stress free for us. The final result feels entirely like a true reflection on us and what we offer not to mention being <strong>many times more efficient and effective in captivating clients and generating new business.</strong>"
   p2: "What is more, Roger consistently demonstrates total efficiency in his work in response to our requirements, whether it's for simple tweaks or reviewing other potential projects/improvements. Basically put, Roger knows exactly what he is doing and our investment in his work has been more than fully justified for which <strong>I have no problems in recommending his services to anyone seriously looking to give their business a massive online boost!!</strong>"
 summary:
-    client: "British Ski Center / Sierra Essence"
-    role: "Development, testing, migration of existing site and implementation."
-    website: "https://skisierranevada.co.uk"
+  client: "British Ski Center / Sierra Essence"
+  role: "Development, testing, migration of existing site and implementation."
+  website: "https://skisierranevada.co.uk"
 ---
+
 We decided to have a single WordPress website for British Ski Center / Sierra Essence that would cover all their business activities and a separate website (but with a similar design) for the Portuguese ski school which was simpler and less extensive.
 
 Again, this project was a collaboration with Nikki from [Designs Like These](https://designslikethese.co.uk). Nikki designed the site elements we built, tested and implemented the new site.

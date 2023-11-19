@@ -1,8 +1,7 @@
 ---
-displayOrder: 11
+weight: 11
 title: "Ora Design Architecture"
 pageHeaderTitle: "Ora Design Architecture"
-layout: "layouts/work-item.html"
 metaDesc: "This project for Ora Design Architecture was a rebranding and a new site. The old site was replaced with a contemporary look and more appropriate content to help build the business."
 text: "This project for Ora Design Architecture was both a rebranding and a new website. The previous site had been in place for many years and needed to be replaced with a more modern design and more appropriate content to help build the business."
 link: "/work/ora-design-architecture/"
@@ -22,6 +21,7 @@ summary:
   role: "Design, development, testing, migration of existing site and implementation"
   website: "https://www.oradesign.co.uk"
 ---
+
 Before we started on the design, we spent some time understanding the business and its target customers to appreciate what the customers needed, their concerns and the outcomes they wanted. We also examined competitor websites in some detail to see how they addressed the customer needs. This aspect of our work leads to more successful websites and is an important part of our [process](/services/website-creation/understanding-your-business/).
 
 We designed a new website based on the information discovered. We also wrote most of the content for the site taking account of what was on the existing site and how other companies presented their information.

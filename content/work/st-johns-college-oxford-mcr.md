@@ -1,6 +1,5 @@
 ---
-displayOrder: 2
-layout: "layouts/work-item.html"
+weight: 2
 metaDesc: "The graduate community at St. John's College Oxford asked us to design and build a replacement for their old website that did not work on mobile devices."
 title: "MCR, St. John's College Oxford"
 pageHeaderTitle: "MCR, St. John's College Oxford"
@@ -19,6 +18,7 @@ summary:
   role: "Design, development, testing and implementation."
   website: "https://mcr.sjc.ox.ac.uk"
 ---
+
 One of the first issues we faced was obtaining permission to run a WordPress website on the St. John’s/Oxford University infrastructure. The college were rightly concerned about protecting their systems from any potential vulnerabilities that the website might expose them to. St. John’s were helpful and cooperative and between us we were able to devise a way of doing this which satisfied all parties.
 
 There was a deadline for this project of 1 October as this was the date that the new intake of students (freshers) would arrive at the college. It was important that they were able to obtain details of events, activities etc. from the new website by that date.

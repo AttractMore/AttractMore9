@@ -1,6 +1,5 @@
 ---
-displayOrder: 16
-layout: "/layouts/work-item.html"
+weight: 16
 metaDesc: "A new website for a graphic designer specialising in working with STEM companies. Fast, secure, mobile-friendly site which is easy to update."
 title: "Ox Designers"
 pageHeaderTitle: "Ox Designers"
@@ -30,6 +29,7 @@ summary:
   role: "Development, testing and implementation."
   website: "https://www.oxdesigners.com/"
 ---
+
 The purpose of this redesign and rebuild was two-fold.
 
 Firstly, Emma of Ox Designers, wanted the site to focus more on her primary target audience of STEM companies. Secondly, the WordPress theme had not been updated in a while and the plugins it depended on could not be updated. This was a security risk and lead to a loss of confidence in the theme and its future so it needed to be replaced.
@@ -37,6 +37,7 @@ Firstly, Emma of Ox Designers, wanted the site to focus more on her primary targ
 Emma designed the site, wrote additional content and decided to include a blog on the website and wrote a number of posts.
 
 Our job was
+
 - to provide advice on web design (in particular for smaller screen devices)
 - select a WordPress theme which would, as far as possible, be future-proof
 - migrate existing content

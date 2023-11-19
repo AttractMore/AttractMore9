@@ -1,6 +1,5 @@
 ---
-displayOrder: 13
-layout: "/layouts/work-item.html"
+weight: 13
 metaDesc: "Totem Scaffolding are a growing scaffolding company based in Oxfordshire. Their new website reflects the professionalism, scale and nature of the company."
 title: "Totem Scaffolding"
 pageHeaderTitle: "Totem Scaffolding (2021)"
@@ -19,6 +18,7 @@ summary:
   role: "Development, testing and implementation."
   website: "https://www.totemscaffolding.com"
 ---
+
 This project was another productive and enjoyable collaboration with Nikki from [Designs Like These](https://www.designslikethese.co.uk/). Nikki designed the site and we, at AttractMore, built, tested and implemented it. Like the previous site, this does not use a Content Management Systems such as WordPress, as the client did not anticipate making changes themselves.
 
 The phone number found on many of the pages includes code to detect whether the visitor’s device is a phone or not. If it is, Totem Scaffolding’s phone number is loaded into the device’s dialler so it is as easy as possible for the visitor to make the call. If the device has no dialler, then the visitor is directed to the contact page. This was a feature of the previous site as well and proved useful, so it was retained.

@@ -1,8 +1,7 @@
 ---
-displayOrder: 4
+weight: 4
 title: "Neve's Bees"
 pageHeaderTitle: "Neve's Bees"
-layout: "layouts/work-item.html"
 metaDesc: "Neve's Bees make lip balms from organic beeswax. An online shop that is both simple and effective has been created for her to sell these products online."
 text: "An efficient, modern online shop for the sale of organic beeswax cosmetic products. The site started small but has grown as the business has developed. Email marketing is incorporated including abandoned cart management. The owner can easily add new products and add articles to the blog."
 link: "/work/neves-bees/"
@@ -21,6 +20,7 @@ summary:
   role: "Development, testing and implementation"
   website: "https://www.nevesbees.co.uk"
 ---
+
 This project was another collaboration with Nikki from [Designs Like These](https://www.designslikethese.co.uk/). Nikki designed the logo and packaging for Neve’s Bees before moving on to the design of the website. The client decided she wanted to use a WordPress theme for the site so the design was (mostly) tailored within the options offered by the theme. The selected theme incorporated the Woocommerce online shop software.
 
 A professional photographer was employed to capture suitable images for the site. These have given the site a distinct ‘personality’ which fits very well with the overall branding of the products.

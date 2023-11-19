@@ -1,0 +1,37 @@
+{{- define "main" }}
+  
+  <article class="intro wrap" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="flow larger-text">
+      {{ .Content }}
+    </div>
+  </article>
+
+  <article class="services">
+    <div class="wrap">
+      <ul>
+        {{- range .Pages.ByWeight -}}
+          <li class="services__item">
+            <h2><a href="{{ .Params.detailURL }}">{{ .Title }}</a></h2>
+            <div class="services__item-content">
+              <aside class="centre">
+                <a aria-label="{{ .Title }}" href="{{ .Params.detailUrl }}">
+                  <svg aria-hidden="true" class="tree"><use xlink:href="/icons/defs.svg#icon-{{ .Params.svgId }}"></use></svg>
+                </a>
+              </aside>
+              <div>
+                {{ .Content }}
+                <a href="{{ .Params.detailUrl }}">Find out more about {{ .Title }}<svg aria-hidden="true" class="icon icon-arrow-right4"><use xlink:href="/icons/symbol-defs.svg#icon-arrow-right4"></use></svg></a>
+              </div>
+            </div>
+            <hr>
+      
+          </li>
+        {{- end -}}
+
+      </ul>
+    </div>
+  </article>
+
+  {{- partial "cta.html" . -}}
+
+{{- end }}{{/* end main */}}

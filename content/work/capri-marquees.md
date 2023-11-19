@@ -1,8 +1,7 @@
 ---
-displayOrder: 8
+weight: 8
 title: "Capri Marquees"
 pageHeaderTitle: "Capri Marquees"
-layout: "/layouts/work-item.html"
 metaDesc: "Capri Marquees are a well-established business based in Oxfordshire. Their old website was no longer serving them well so they commissioned a new modern site"
 text: "An effective, mobile-friendly website for a Marquee company in Oxfordshire. This is a modern, elegant design reflecting the nature of the events for which the marquees are used. It incorporates a marquee planning tool for clients to use."
 link: "/work/capri-marquees/"
@@ -19,6 +18,7 @@ summary:
   role: "Development, testing, migration of existing site and implementation"
   website: "https://caprimarquees.com"
 ---
+
 Again, this was a collaboration with Nikki from [Designs Like These](https://designslikethese.co.uk). Nikki designed the site in conjunction with the management team at Capri and we built, tested and implemented the site.
 
 There is no Content Management System on this site as there will be few updates. Any that are needed will be covered in the ongoing maintenance and support contract that Capri have with ourselves. The site was coded in HTML, CSS and Javascript and one important advantage of this approach is that it reduces the exposure and vulnerability of the site to attack by hackers.

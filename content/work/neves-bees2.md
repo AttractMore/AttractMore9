@@ -1,8 +1,7 @@
 ---
-displayOrder: 12
+weight: 12
 title: "Neve's Bees 2021"
 pageHeaderTitle: "Neve's Bees 2021"
-layout: "layouts/work-item.html"
 metaDesc: "Neve's Bees sell natural beeswax cosmetics. Due to the expansion of the business, a new online shop has been created to sell these products online."
 text: "A modern, product-focused online shop for the sale of natural cosmetics. This is a new website that replaces the ecommerce site we developed for Neve's Bees in 2017. The previous site did well for the business and they developed a growing range of loyal customers however, the owners realised that they would need to offer more products to be able to capitalise on their success and expand the business further."
 link: "/work/neves-bees2/"
@@ -19,6 +18,7 @@ summary:
   role: "Development, testing, site migration and implementation"
   website: "https://nevesbees.co.uk"
 ---
+
 Fast forward to the beginning of 2021, the owners decided that, to grow the business further, they needed to sell a wider range of products and not just those that they manufactured themselves from their beeswax. Also, they wanted to be able to sell 'collections' of products.
 
 Nikki from [Designs Like These](https://www.designslikethese.co.uk/), redesigned the home page to be more modern and more product-focused as well as contributing to the design of other pages.

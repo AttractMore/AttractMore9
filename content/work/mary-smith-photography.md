@@ -1,8 +1,7 @@
 ---
-displayOrder: 6
+weight: 6
 title: "Mary Smith Photography"
 pageHeaderTitle: "Mary Smith Photography"
-layout: "layouts/work-item.html"
 metaDesc: "Mary Smith Photography asked us to create a modern, mobile friendly website that would show off her photographs to best effect & help her gain more clients"
 text: "New website for a photographer specialising in wedding and family photography. There a many galleries within the site to show off the photos and it is backed with a straightforward content management system so the owner can upload photos and articles."
 link: "/work/mary-smith-photography/"
@@ -19,6 +18,7 @@ summary:
   role: "Attractmore carried out the development, testing, migration and implementation of this site for Mary Smith. The core design was produced by Designs Like These but with detailed layouts being designed by ourselves."
   website: "https://marysmithphotography.com"
 ---
+
 The new website for Mary Smith Photography was another collaboration with Nikki Shield of [Designs Like These](https://www.designslikethese.co.uk). In this case AttractMore and Designs Like These jointly conducted the [research and analysis](/services/website-creation/understanding-your-business/), then Nikki worked with Mary on the graphic design, i.e. colour palette, fonts, styling of headings, links and overall look and feel. The screen layouts for all different devices was a joint exercise.
 
 From a technical point of view, Mary Smith was keen to have a straightforward content management system (CMS) so she could update the photo galleries and the text content easily. We selected WordPress as the most appropriate platform.

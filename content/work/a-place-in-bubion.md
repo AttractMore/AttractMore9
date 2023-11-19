@@ -1,8 +1,7 @@
 ---
-displayOrder: 7
+weight: 7
 title: "A Place in Bubión"
 pageHeaderTitle: "A Place in Bubión"
-layout: "layouts/work-item.html"
 metaDesc: "A modern and sophisticated website for a holiday cottage in Bubión, Southern Spain. Good use of photography and simple navigation. Fast & mobile friendly."
 text: "The holiday cottage market is very competitive and the previous site did not do justice to this lovely place. We were engaged to carry out a complete redesign of the website for a holiday let in Southern Spain to give it a modern, more appealing look."
 link: "/work/a-place-in-bubion/"
@@ -15,10 +14,11 @@ textContent:
   background: "This is a replacement website for an attractive holiday cottage located in Bubión in the Alpujarras in Southern Spain. The previous site didn’t work properly on mobiles and the design had become very dated which detracted from the appeal of the accommodation. The property owner commissioned a new website to properly show off the cottage and thereby increase bookings."
   outcome: "The client now has a much more modern, secure, mobile friendly website that does justice to the attractive accommodation she offers in Bubión in Southern Spain."
 summary:
-    client: "A Place in Bubión"
-    role: "Design, development, testing and implementation."
-    website: "https://holidaycottagealpujarras.com"
+  client: "A Place in Bubión"
+  role: "Design, development, testing and implementation."
+  website: "https://holidaycottagealpujarras.com"
 ---
+
 The objectives for the new site were that it should look modern, be easy to use, load quickly, make much better use of photos and, of course, that it should work easily on mobile smartphones.
 
 The client had no plans to write a blog or to update the site herself so the decision was made not to use a Content Management system (CMS), but to build the site in HTML/CSS directly.

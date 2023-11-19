@@ -1,6 +1,5 @@
 ---
-displayOrder: 14
-layout: "/layouts/work-item.html"
+weight: 14
 metaDesc: "Curiosity Box offer a range of STEM toys and science boxes for children of all ages. They are intended to educate and stimulate an interest in science."
 title: "Curiosity Box"
 pageHeaderTitle: "Curiosity Box"
@@ -16,13 +15,14 @@ textContent:
   outcome: "The client now has a fast, secure new website that works well on screens of all sizes and which is easy to update and maintain."
 testimonial:
   p1: "It was with some trepidation that I first came to Roger with the challenge of recreating a more efficient and effective website. I needed a site that enabled us to improve sales conversions, whilst capturing our brand and values in a way that our current website did not. I had been through a number of fairly disastrous web development experiences and I was very anxious about spending a lot of money to only fail again. "
-  p2: "I needn’t have worried! Roger has delivered far better than I expected. He is able to communicate and translate the more technical aspects of the website, whilst completely understanding what we are trying to achieve from a customer perspective. In my experience, this is <strong>an incredibly rare combination, and it really sets Roger apart.</strong>"  
+  p2: "I needn’t have worried! Roger has delivered far better than I expected. He is able to communicate and translate the more technical aspects of the website, whilst completely understanding what we are trying to achieve from a customer perspective. In my experience, this is <strong>an incredibly rare combination, and it really sets Roger apart.</strong>"
   p3: "Not only that, Roger has worked out as an <strong>incredibly cost effective solution</strong> and I really wish we had have skipped the agencies and come to him first. Even though he’s a freelancer, Roger feels like <strong>a hugely valuable part of our team</strong> now. He brings a breadth of skills that make him like a one man tech department which, as a small business, is something that usually feels out of reach."
 summary:
   client: "Curiosity Box"
   role: "Design, development, data merge, testing and implementation."
   website: "https://curiosity-box.com"
 ---
+
 This project was complex merger of 2 well-established online shops. Both of the these used WordPress/WooCommerce as their base and the new merged shop does the same, as the platform had proved effective, easy to manage and update.
 
 One of the issues with both of the previous websites was that they were slow and had become too risky to update. The poor response times were due to very large images having been uploaded and the new merged site tackled this by **resizing and optimising all the images** before uploading them to the new site. The problem with updates was related to the way the site had originally been built. The new site makes it simple to update the plugins as well as easily add/update new pages, posts and products.

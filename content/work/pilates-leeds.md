@@ -1,8 +1,7 @@
 ---
-displayOrder: 3
+weight: 3
 title: "Pilates Leeds"
 pageHeaderTitle: "Pilates Leeds"
-layout: "layouts/work-item.html"
 metaDesc: "This is a new site for Pilates Leeds replacing our previous site. Greater competition and a significant development of the business drove the redesign."
 text: "A responsive, secure website for an expanding Pilates business in Leeds. The site has a modern design and integrates with an external class booking and payments system. The owner uses the content management system to update the site on a regular basis."
 link: "/work/pilates-leeds/"
@@ -21,6 +20,7 @@ summary:
   role: "Design, development, testing, migration and implementation."
   website: "https://pilates-leeds.com"
 ---
+
 We started by focusing on site visitors and considering the types of people who would use the site, what they needed to know and how we could provide that information in the most straightforward way. We defined 6 different groups of people and then created a [‘persona’](/services/website-creation/understanding-your-business/) for each one. We also looked at competitor sites which is also part of our process when starting a project of this type.
 
 The personas helped in determining the navigation and in content creation, ensuring we took full account of how the site would be used and in the provision of the content that the different audience groups would require.
