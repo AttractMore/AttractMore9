@@ -21,7 +21,11 @@
                 </a>
               </aside>
               <div>
-                {{ .Content }}
+                {{ if .Params.summaryText }}
+                  {{ .Params.summaryText | safeHTML }}
+                {{ else }}
+                  {{ .Content }}
+                {{- end -}}
                 <a href="{{ .Params.detailUrl }}">Find out more about {{ .Title }}<svg aria-hidden="true" class="icon icon-arrow-right4"><use xlink:href="/icons/symbol-defs.svg#icon-arrow-right4"></use></svg></a>
               </div>
             </div>

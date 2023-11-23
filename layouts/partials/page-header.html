@@ -1,16 +1,16 @@
 <div class="page-header">
   <div class="wrap">
-    <h1 class="page-header__heading">{{ .Params.pageHeaderTitle }}</h1>
+    <h1 class="page-header__heading">{{ .Params.pageHeaderTitle | safeHTML }}</h1>
     {{ if .Params.pageHeaderSummary.p1 }}
     <div {{ if eq title "Work" or eq title  "AttractMore Blog" }}
       class="larger-text"
     {{- end -}}>
-      <p>{{ .Params.pageHeaderSummary.p1 | safe }}</p>
+      <p>{{ .Params.pageHeaderSummary.p1 | safeHTML }}</p>
       {{- if .Params.pageHeaderSummary.p2 -}}
-        <p>{{ .Params.pageHeaderSummary.p2 | safe  }}</p>
+        <p>{{ .Params.pageHeaderSummary.p2 | safeHTML  }}</p>
       {{- end -}}
       {{- if .Params.pageHeaderSummary.p3 -}}
-        <p>{{ .Params.pageHeaderSummary.p3 | safe }}</p>
+        <p>{{ .Params.pageHeaderSummary.p3 | safeHTML }}</p>
       {{- end -}}
 
     </div>

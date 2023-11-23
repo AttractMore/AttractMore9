@@ -3,7 +3,7 @@ title: "Branding & Graphic Design"
 metaDesc: "You only get one chance to make a first impression so it is vital that all your materials are designed to reflect your brand and appeal to your audience."
 weight: 60
 ctaText: "Get in touch about branding & graphic design"
-pageHeaderTitle: "Branding & Graphic Design"
+pageHeaderTitle: "Branding & Graphic Design<br>It can really make a difference."
 extraStyles: "/scss/service-item.scss"
 ---
 
