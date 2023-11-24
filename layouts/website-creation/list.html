@@ -1,0 +1,42 @@
+{{- define "main" }}
+  
+  {{- partial "hero-image.html" . }}
+
+  <aside class="breadcrumbs wrap">
+    <a href="/">Home</a> » <a href="/services-detail/">Services</a> » {{ .Title }}
+  </aside>
+  
+  {{ partial "page-header.html" . }}
+  
+  <article class="intro wrap" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="flow larger-text">
+      {{ .Content }}
+    </div>
+  </article>
+
+  <article class="services trapezium-right-grey">
+    <div class="wrap">
+      <ul class="services__block">
+        {{- range $.Site.Data.websitecreationservices.items -}}
+        <li class="services__block-item">
+          <a aria-label="{{ .header }}" href="{{ .url}}">
+            <svg aria-hidden="true" class="tree"><use xlink:href="/icons/defs.svg#icon-{{ .svg}}"></use></svg>
+            <span class="visually-hidden">{{ .header }}</span>
+          </a>
+          <a href="{{ .url}}">
+            <h2>{{.header}}</h2>
+          </a>
+          <p>{{.text}}</p>
+          <a href="{{ .url}}">More information<svg aria-hidden="true" class="icon icon-arrow-right4"><use xlink:href="/icons/symbol-defs.svg#icon-arrow-right4"></use></svg></a>
+        </li>
+      {{- end -}}
+      </ul>
+  
+    </div>
+  
+  </article>
+  
+
+  {{- partial "cta.html" . -}}
+
+{{- end }}{{/* end main */}}

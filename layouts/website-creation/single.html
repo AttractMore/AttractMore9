@@ -1,0 +1,37 @@
+{{- define "main" }}
+
+<aside class="breadcrumbs wrap">
+  <a href="/">Home</a><span> » </span><a href="/services/">Services</a><span> » </span><a href="/services/website-creation/">Website Creation</a><span> » </span> {{ .Title }}
+</aside>
+
+{{ partial "page-header.html" . }}
+
+<section class="content-sidebar wrap">
+
+  <article class="services">
+    {{ .Content }}
+    {{ partial "next-prev-nav.html" . }}
+  </article>
+
+  <aside class="sidebar">
+    <div class="sidebar__inner">
+
+      <h3>Website Creation Activities</h3>
+      <nav>
+        {{- $currentPage := . }}
+        <ul>
+          {{- range $.Site.Data.websitecreationnav.items -}}
+          <li>
+            <a href="{{ .url }}" {{- if eq $.Page.RelPermalink .url }} aria-current="page" data-state="active" {{- end }} >{{ .text }}</a>
+          </li>
+          {{- end -}}
+        </ul>
+      </nav>
+    </div>
+
+  </aside>
+</section>
+
+{{ partial "cta.html" . }}
+
+{{- end }}{{/* end main */}}
