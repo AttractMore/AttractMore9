@@ -9,7 +9,7 @@
   <article class="services">
     <div class="wrap">
       <ul>
-        {{- range .Pages.ByWeight -}}
+        {{- range .Pages.ByWeight.Reverse -}}
           <li class="services__item">
             <h2><a href="{{ .Params.detailURL }}">{{ .Title }}</a></h2>
             <div class="services__item-content">

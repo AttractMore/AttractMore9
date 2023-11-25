@@ -1,18 +1,20 @@
 ---
 title: "Responsive Web design"
-layout: "layouts/website-creation-item.html"
 metaDesc: "Our recommendation to you is that your new website should have a responsive web design, with users of mobile phones and tablets taken firmly into account."
-nextUrl: '/services/website-creation/content-creation/'
-nextTitle: 'Website content creation'
-prevUrl: '/services/website-creation/project-management/'
-prevTitle: 'Project Management'
+nextUrl: "/services/website-creation/content-creation/"
+nextTitle: "Website content creation"
+prevUrl: "/services/website-creation/project-management/"
+prevTitle: "Project Management"
 pageHeaderTitle: "Responsive Web design"
+url: "/services/website-creation/responsive-web-design/"
+extraStyles: "/scss/service-item.scss"
 ---
-With growing numbers of people accessing the internet on hand-held devices as well as PCs, we strongly believe that today’s websites should cater for and work well on whatever device and screen size your visitors choose to use – rather than being a good experience on some devices and frustrating on others. Indeed, back in April 2015 Google announced that, for searches conducted on mobile phones, it will reward websites that are ‘mobile friendly’ and disadvantage those that are not.
+
+With the majority of people accessing the internet on hand-held devices as well as PCs, we strongly believe that today’s websites should cater for and work well on whatever device and screen size your visitors choose to use – rather than being a good experience on some devices and frustrating on others. Indeed, back in April 2015 Google announced that, for searches conducted on mobile phones, it will reward websites that are ‘mobile friendly’ and disadvantage those that are not.
 
 So, our recommendation to you is that your new website should have a **responsive web design**, with users of mobile phones taken firmly into account. And of course, by choosing a responsive web design, your new website shows you care about your visitors, and therefore positions you above your competitors who have not taken this step.
 
-![Responsive web design](/optim/services/responsive-web-design.jpg){width=930}{height=321}
+{{< content-figure folder="/services/" src="responsive-web-design_jetwyd.jpg" alt="Responsive web design" width="930" height="321" >}}
 
 ## Design considerations
 

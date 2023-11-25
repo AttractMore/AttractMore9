@@ -1,6 +1,5 @@
 ---
 title: "Content Creation"
-layout: "layouts/website-creation-item.html"
 metaDesc: "To create content for you, we have a wider team of illustrators, designers, video artists, photographers, etc. that we can bring to your project."
 nextUrl: "/services/website-creation/web-development-website-testing/"
 nextTitle: "Web development and testing"

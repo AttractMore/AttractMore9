@@ -1,135 +1,154 @@
-@import 'utilities/reset';
-@import 'utilities/variables';
-@import 'utilities/mixins';
-@import 'utilities/typography';
-@import 'utilities/centre';
-@import 'utilities/margins';
-@import 'utilities/buttons';
+@import "utilities/reset";
+@import "utilities/variables";
+@import "utilities/mixins";
+@import "utilities/typography";
+@import "utilities/centre";
+@import "utilities/margins";
+@import "utilities/buttons";
 //@import 'utilities/cookie-consent';
 
-body, html { /* this is to stop the page scrolling when the pushy menu is open */
-	overflow-x: hidden;
-	height: 100%;
-	-webkit-overflow-scrolling: touch;
+body,
+html {
+  /* this is to stop the page scrolling when the pushy menu is open */
+  overflow-x: hidden;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
 }
 
 body {
-	font-family: $sans-serif;
-	@include set-font-size(1);
-	color: var(--textColour);
-	background-color: var(--bg);
+  font-family: $sans-serif;
+  @include set-font-size(1);
+  color: var(--textColour);
+  background-color: var(--bg);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-	font-smoothing: antialiased;
-	min-width:320px;
-	position: relative;
+  font-smoothing: antialiased;
+  min-width: 320px;
+  position: relative;
 }
 /*********************
 LAYOUT & GRID STYLES
 *********************/
 .wrap {
-	width: 96%;
-	margin: 0 auto;
-	max-width:1200px;
+  width: 96%;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 main {
-  transition: margin-left .4s linear;
+  transition: margin-left 0.4s linear;
   position: relative;
   z-index: 10;
 }
 /*********************
 LINK STYLES
 *********************/
-a, a:visited {
-	color: var(--secondary);
-	text-decoration:none;
+a,
+a:visited {
+  color: var(--secondary);
+  text-decoration: none;
 
-	&:hover, &:focus {
-		color: $link-hover;
-	}
+  &:hover,
+  &:focus {
+    color: $link-hover;
+  }
 }
 
 a {
-	&:focus {
-		// fallback style for browsers that don't support :focus-visible
-		outline: 3px solid $theme-blue;
-	}
+  &:focus {
+    // fallback style for browsers that don't support :focus-visible
+    outline: 3px solid $theme-blue;
+  }
 
-	&:focus:not(:focus-visible) {
-		// Remove the focus indicator on mouse focus for browsers that do support :focus-visible
-		outline: none;
-	}
+  &:focus:not(:focus-visible) {
+    // Remove the focus indicator on mouse focus for browsers that do support :focus-visible
+    outline: none;
+  }
 
-	&:focus:focus-visible {
-		// draw a noticeable focus style for keyboard focus on browsers that support :focus-visible
-		outline: 3px solid $theme-blue;
-	}
+  &:focus:focus-visible {
+    // draw a noticeable focus style for keyboard focus on browsers that support :focus-visible
+    outline: 3px solid $theme-blue;
+  }
 
-	&:link {
-		/*
+  &:link {
+    /*
 		this highlights links on iPhones/iPads. So it basically works like the :hover selector for mobile devices. */
-		-webkit-tap-highlight-color : rgba( 0, 0, 0, 0.3 );
-	}
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+  }
 }
 a[id] {
-	scroll-margin-top: 5em;
+  scroll-margin-top: 5em;
 }
 
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
-	text-rendering: optimizelegibility;
-	font-weight: 400;
-	color: var(--primary);
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5 {
+  text-rendering: optimizelegibility;
+  font-weight: 400;
+  color: var(--primary);
 
-	/* removing text decoration from all headline links */
-	a {
-		text-decoration: none;
-	}
+  /* removing text decoration from all headline links */
+  a {
+    text-decoration: none;
+  }
 }
 /* Typographic scale = 1.3333 see http://type-scale.com/ */
-h1, .h1 {
-	@include set-font-size(1.777);
+h1,
+.h1 {
+  @include set-font-size(1.777);
 }
-h2, .h2 {
-	@include set-font-size(1.333);
-	text-transform: none;
+h2,
+.h2 {
+  @include set-font-size(1.333);
+  text-transform: none;
 }
-h3, .h3 {
-	font-size: 1.05em;
-	text-transform:uppercase;
-	margin-bottom: 0.5em;
+h3,
+.h3 {
+  font-size: 1.05em;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
 }
-h4, .h4 {
-	font-size:1em;
-	margin-bottom:0.5em;
+h4,
+.h4 {
+  font-size: 1em;
+  margin-bottom: 0.5em;
 }
-h5, .h5 {
-	@include set-font-size(0.846);
-	text-transform: uppercase;
-	letter-spacing: 2px;
+h5,
+.h5 {
+  @include set-font-size(0.846);
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .page-header {
-	margin: 1em 0;
+  margin: 1em 0;
 }
 p {
   margin-bottom: 1.5em;
-	color: var(--textColour);
+  color: var(--textColour);
 }
 
 article {
-	ul, ol {
-		margin: 0 0 1.5em 1em;
-	}
-	li {
-		margin: .5em 0;
-		padding-left: 1.5em;
-		&::marker {
-			color: var(--tertiary);
-		}
-	}
+  ul,
+  ol {
+    margin: 0 0 1.5em 1em;
+  }
+  li {
+    margin: 0.5em 0;
+    padding-left: 1.5em;
+    &::marker {
+      color: var(--tertiary);
+    }
+  }
 }
 
 .flow > * + * {
@@ -137,27 +156,28 @@ article {
 }
 
 .breadcrumbs {
-	text-align: right;
-	@include set-font-size(0.9);
+  text-align: right;
+  @include set-font-size(0.9);
 }
 .hero-container {
-	+ .breadcrumbs {
-		margin-top: -1.5em;
-	}
+  + .breadcrumbs {
+    margin-top: -1.5em;
+  }
 }
 
 /********************************************
 	BLOCKS
 ********************************************/
-@import 'blocks/site-head';
-@import 'blocks/site-foot';
-@import 'blocks/skip-link';
+@import "blocks/site-head";
+@import "blocks/site-foot";
+@import "blocks/skip-link";
 
 /********************************************
 	UTILITIES
 ********************************************/
-@import 'utilities/visually-hidden';
-@import 'utilities/pushy';
-@import 'utilities/hr';
-@import 'utilities/image-align';
-@import 'utilities/blockquote';
+@import "utilities/visually-hidden";
+@import "utilities/pushy";
+@import "utilities/hr";
+@import "utilities/image-align";
+@import "utilities/blockquote";
+@import "utilities/figure";
