@@ -5,7 +5,7 @@
     <img
       class="hero-container-image"
       srcset="
-      {{- range site.Params.cloudinaryHeroSizes -}}
+      {{- range site.Params.cloudinaryHeroWidths -}}
         {{- site.Params.cloudinaryPath -}} {{- site.Params.cloudinaryHeroParms | safeURL -}} {{- print "w_" . $cloudinaryFolderImage " " . "w" }},
       {{- end -}}
       " 

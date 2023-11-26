@@ -19,6 +19,7 @@ summary:
   client: "Pilates Leeds"
   role: "Design, development, testing, migration and implementation."
   website: "https://pilates-leeds.com"
+extraStyles: "/scss/work-item.scss"
 ---
 
 We started by focusing on site visitors and considering the types of people who would use the site, what they needed to know and how we could provide that information in the most straightforward way. We defined 6 different groups of people and then created a [‘persona’](/services/website-creation/understanding-your-business/) for each one. We also looked at competitor sites which is also part of our process when starting a project of this type.

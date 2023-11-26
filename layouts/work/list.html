@@ -6,30 +6,33 @@
     </div>
   </article>
 
-  <article class="services">
+  <article class="work-items">
     <div class="wrap">
       <ul>
         {{- range .Pages.ByWeight.Reverse -}}
-          <li class="services__item">
-            <h2><a href="{{ .Params.detailURL }}">{{ .Title }}</a></h2>
-            <div class="services__item-content">
-              <aside class="centre">
-                <a aria-label="{{ .Title }}" href="{{ .Params.detailUrl }}">
-                  <svg aria-hidden="true" class="tree"><use xlink:href="/icons/defs.svg#icon-{{ .Params.svgId }}"></use></svg>
-                </a>
-              </aside>
-              <div>
-                {{ .Content }}
-                <a href="{{ .Params.detailUrl }}">Find out more about {{ .Title }}<svg aria-hidden="true" class="icon icon-arrow-right4"><use xlink:href="/icons/symbol-defs.svg#icon-arrow-right4"></use></svg></a>
-              </div>
-            </div>
-            <hr>
-      
-          </li>
+        {{- $mainImage := .Params.imageMain -}}
+        <li class="work-items__item">
+          <a href="{{ .Params.link }}">
+            <img 
+            {{ if lt .Params.weight 16 -}} loading="lazy" {{ end -}}
+              src="{{ site.Params.cloudinaryPath }}{{ site.Params.cloudinaryWorkMainParms | safeURL }}w_700{{ site.Params.cloudinaryWorkMainFolder }}{{ $mainImage }}" alt="{{ .Params.imageAlt }}"
+              srcset="
+              {{- range site.Params.cloudinaryWorkMainWidths -}}
+                {{ site.Params.cloudinaryPath }}{{ site.Params.cloudinaryWorkMainParms | safeURL }}w_{{- . -}}{{ site.Params.cloudinaryWorkMainFolder }}{{ $mainImage }}{{- print " " . "w, "}}
+              {{- end -}}
+                "
+                sizes="{{- site.Params.cloudinaryWorkMainSizes | safeURL -}}" >
+          </a>
+          <aside>
+            <h2>{{ .Params.title }}</h2>
+            <p>{{ .Params.text }}</p>
+            <a class="primary-btn" href="{{ .Params.link }}">More details<svg class="icon icon-arrow-right4"><use xlink:href="/icons/symbol-defs.svg#icon-arrow-right4"></use></svg></a>
+          </aside>
+        </li>
         {{- end -}}
-
       </ul>
     </div>
+  
   </article>
 
   {{- partial "cta.html" . -}}

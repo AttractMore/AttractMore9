@@ -17,6 +17,7 @@ summary:
   client: "Neve's Bees"
   role: "Development, testing, site migration and implementation"
   website: "https://nevesbees.co.uk"
+extraStyles: "/scss/work-item.scss"
 ---
 
 Fast forward to the beginning of 2021, the owners decided that, to grow the business further, they needed to sell a wider range of products and not just those that they manufactured themselves from their beeswax. Also, they wanted to be able to sell 'collections' of products.

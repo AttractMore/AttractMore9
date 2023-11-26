@@ -17,6 +17,7 @@ summary:
   client: "MCR St. John's College Oxford"
   role: "Design, development, testing and implementation."
   website: "https://mcr.sjc.ox.ac.uk"
+extraStyles: "/scss/work-item.scss"
 ---
 
 One of the first issues we faced was obtaining permission to run a WordPress website on the St. John’s/Oxford University infrastructure. The college were rightly concerned about protecting their systems from any potential vulnerabilities that the website might expose them to. St. John’s were helpful and cooperative and between us we were able to devise a way of doing this which satisfied all parties.

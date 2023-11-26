@@ -17,6 +17,7 @@ summary:
   client: "Ski Serra Nevada"
   role: "Development, testing, migration of existing site and implementation."
   website: "https://skiserranevada.com"
+extraStyles: "/scss/work-item.scss"
 ---
 
 As with the [British Ski Center / Sierra Essence](/work/british-ski-center-sierra-essence/), this was a WordPress site based on the theme of the sister site but using some different colours and some simplified design elements.

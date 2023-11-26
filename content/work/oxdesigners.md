@@ -7,8 +7,7 @@ text: "Ox Designers is a graphic design agency specialising in STEM clients. The
 link: "/work/oxdesigners/"
 imageMain: "oxdesigners-4x3_mdstwq.jpg"
 image: "oxdesigners_yfccpv.jpg"
-mobileImage: "oxdesigners-mobile"
-mobileImageType: "jpg"
+mobileImage: "oxdesigners-mobile_aqxr7a.jpg"
 imageAlt: "Ox Designers - specialist graphic design for STEM companies"
 textContent:
   background: "This project was to refocus the site on a particular target audience while modernising the technical foundation of the website and making it more future-proofed. The site now includes a blog, it is better optimised for SEO and the whole site loads faster than the previous version. The new site is a much better reflection of the professionalism and focus of Ox Designers."
@@ -28,6 +27,7 @@ summary:
   client: "Ox Designers"
   role: "Development, testing and implementation."
   website: "https://www.oxdesigners.com/"
+extraStyles: "/scss/work-item.scss"
 ---
 
 The purpose of this redesign and rebuild was two-fold.

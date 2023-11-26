@@ -17,6 +17,7 @@ summary:
   client: "Capri Marquees"
   role: "Development, testing, migration of existing site and implementation"
   website: "https://caprimarquees.com"
+extraStyles: "/scss/work-item.scss"
 ---
 
 Again, this was a collaboration with Nikki from [Designs Like These](https://designslikethese.co.uk). Nikki designed the site in conjunction with the management team at Capri and we built, tested and implemented the site.

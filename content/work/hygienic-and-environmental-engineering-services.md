@@ -17,6 +17,7 @@ summary:
   client: "HEES"
   role: "Design, development, testing and implementation."
   website: "https://hees.uk.com"
+extraStyles: "/scss/work-item.scss"
 ---
 
 The previous site was difficult to update and this was the main reason it had fallen into disuse. HEES were keen to move to WordPress so they could more **easily post news items and updates** to various projects they were undertaking.

@@ -7,7 +7,7 @@ text: "A secure, fast, mobile-friendly website for an Oxfordshire based scaffold
 link: "/work/totem-scaffolding-2/"
 imageMain: "totem21-4x3_oljx54.jpg"
 image: "totem-scaffolding-21_hhwzrk.jpg"
-mobileImage: "totem21-mobile"
+mobileImage: "totem21-mobile_rqzlqt.jpg"
 mobileImageType: "jpg"
 imageAlt: "Totem Scaffolding Oxfordshire"
 textContent:
@@ -17,6 +17,7 @@ summary:
   client: "Totem Scaffolding"
   role: "Development, testing and implementation."
   website: "https://www.totemscaffolding.com"
+extraStyles: "/scss/work-item.scss"
 ---
 
 This project was another productive and enjoyable collaboration with Nikki from [Designs Like These](https://www.designslikethese.co.uk/). Nikki designed the site and we, at AttractMore, built, tested and implemented it. Like the previous site, this does not use a Content Management Systems such as WordPress, as the client did not anticipate making changes themselves.

@@ -17,6 +17,7 @@ summary:
   client: "MB HR Support"
   role: "Development, testing, migration of existing site and implementation"
   website: "https://www.mbhrsupport.co.uk"
+extraStyles: "/scss/work-item.scss"
 ---
 
 This project was the result of yet another collaboration with Nikki from [Designs Like These](https://www.designslikethese.co.uk/). Nikki designed the site and we built, tested and implemented it. This site is based on WordPress as was the previous MB HR Support website. This allowed us to easily transfer over the blog posts that Mandy wanted to keep from the old site to the new one. The new site has a theme that was built from scratch for this project making it unique to MB HR Support.

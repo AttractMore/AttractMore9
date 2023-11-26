@@ -17,6 +17,7 @@ summary:
   client: "Mary Smith Photography"
   role: "Attractmore carried out the development, testing, migration and implementation of this site for Mary Smith. The core design was produced by Designs Like These but with detailed layouts being designed by ourselves."
   website: "https://marysmithphotography.com"
+extraStyles: "/scss/work-item.scss"
 ---
 
 The new website for Mary Smith Photography was another collaboration with Nikki Shield of [Designs Like These](https://www.designslikethese.co.uk). In this case AttractMore and Designs Like These jointly conducted the [research and analysis](/services/website-creation/understanding-your-business/), then Nikki worked with Mary on the graphic design, i.e. colour palette, fonts, styling of headings, links and overall look and feel. The screen layouts for all different devices was a joint exercise.

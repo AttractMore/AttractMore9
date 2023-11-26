@@ -1,35 +1,77 @@
 {{- define "main" }}
 
 <aside class="breadcrumbs wrap">
-  <a href="/">Home</a> » <a href="/services-detail/">Services</a> » {{ .Title }}
+  <a href="/">Home</a><span> » </span><a href="/work/">Work</a><span> » </span>{{ .Title }}
 </aside>
+<section class="work-item">
 
 {{ partial "page-header.html" . }}
-<section class="content-sidebar wrap">
 
-  <article class="services" role="article" itemscope itemtype="http://schema.org/BlogPosting">
-    {{ .Content }}
-  </article>
-
-  <aside class="sidebar">
-    <div class="sidebar__inner">
-
-      <h3>Services</h3>
-      <nav>
-        {{- $currentPage := . }}
-        <ul>
-          {{- range $.Site.Data.servicesnav.items -}}
-          <li>
-            <a href="{{ .url }}" {{- if eq $.Page.RelPermalink .url }} aria-current="page" data-state="active" {{- end }} >{{ .text }}</a>
-          </li>
+<article>
+  <div class="wrap">
+    {{- with .Params.summary -}}
+      <a class="work-item-hero-image" href="{{ .website }}" rel="nofollow">
+    {{- end -}}
+      {{- $workItemMainImage := .Params.image }}
+      <figure>
+        <img
+          src="{{ site.Params.cloudinaryPath }}{{ site.Params.cloudinaryWorkDetailParms | safeURL }}w_820{{ site.Params.cloudinaryWorkDetailFolder }}{{ $workItemMainImage }}" alt="{{ .Params.imageAlt }}"
+          srcset="
+          {{- range site.Params.cloudinaryWorkDetailWidths -}}
+            {{ site.Params.cloudinaryPath }}{{ site.Params.cloudinaryWorkDetailParms | safeURL }}w_{{ . }}{{ site.Params.cloudinaryWorkDetailFolder }}{{ $workItemMainImage }}{{ print " " . "w,"}}
           {{- end -}}
-        </ul>
-      </nav>
-    </div>
+          "
+          sizes="{{- site.Params.cloudinaryWorkDetailSizes -}}">
+      </figure>
+    </a>
+    <h2>Background</h2>
+    {{- with .Params.textContent -}}
+    <p>{{ .background | safeHTML }}</p>
+    {{- end -}}
+    <h2>Project</h2>
+    <figure>
+      {{- $workItemMobileImage := .Params.mobileImage }}
 
-  </aside>
-</section>
+      <img loading="lazy" class="alignright"
+      src="{{ site.Params.cloudinaryPath }}{{ site.Params.cloudinaryWorkDetailParms | safeURL }}w_500{{ site.Params.cloudinaryWorkDetailFolder }}{{ $workItemMobileImage }}" alt="{{ .Params.imageAlt }} - mobile version of site"
+      srcset="
+      {{- range site.Params.cloudinaryWorkDetailMobileWidths -}}
+        {{ site.Params.cloudinaryPath }}{{ site.Params.cloudinaryWorkDetailParms | safeURL }}w_{{ . }}{{ site.Params.cloudinaryWorkDetailFolder }}{{ $workItemMobileImage }}{{ print " " . "w,"}}
+      {{- end -}}
+      " >
+    </figure>
+    {{ .Content | safeHTML }}
+    <h2 class="work-item-outcome">Outcome</h2>
+    {{- with .Params.textContent -}}
+      <p>{{ .outcome | safeHTML }}</p>
+    {{- end -}}
+
+    {{- with .Params.testimonial -}}
+      <h2>Testimonial</h2>
+      <div class="testimonials">
+        <p>{{ .p1 | safeHTML }}</p>
+        {{- if .p2 -}}
+          <p>{{ .p2 | safeHTML }}</p>
+        {{- end -}}
+        {{- if .p3 -}}
+          <p>{{ .p3 | safeHTML }}</p>
+        {{- end -}}
+      </div>
+    {{- end -}}
+
+    {{- with .Params.summary -}}
+    <h2>Summary</h2>
+    <h3>Client</h3>
+    <p>{{ .client }}</p>
+    <h3>Our role</h3>
+    <p>{{ .role }}</p>
+    <h3>Website</h3>
+    <a href="{{ .website | safeURL }}">{{ .website | safeURL }}</a>
+    {{- end -}}
+  </div>
+</article>
 
 {{ partial "cta.html" . }}
+</section>
 
 {{- end }}{{/* end main */}}
