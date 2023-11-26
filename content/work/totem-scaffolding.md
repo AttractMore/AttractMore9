@@ -7,8 +7,7 @@ text: "A secure, mobile-friendly website for a Scaffolding company in Oxfordshir
 link: "/work/totem-scaffolding/"
 imageMain: "totem-scaffolding-4x3.jpg"
 image: "totem.jpg"
-mobileImage: "totem-mobile"
-mobileImageType: "jpg"
+mobileImage: "totem-mobile_gaeeom.jpg"
 imageAlt: "Totem Scaffolding Oxfordshire"
 textContent:
   background: "Totem Scaffolding are a well-established scaffolding company based in Oxfordshire. Their previous website was out-of-date and was not mobile-friendly. In addition, it did not reflect the fact that Totem are now handling bigger and more complex projects."
