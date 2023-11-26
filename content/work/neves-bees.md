@@ -5,6 +5,7 @@ pageHeaderTitle: "Neve's Bees"
 metaDesc: "Neve's Bees make lip balms from organic beeswax. An online shop that is both simple and effective has been created for her to sell these products online."
 text: "An efficient, modern online shop for the sale of organic beeswax cosmetic products. The site started small but has grown as the business has developed. Email marketing is incorporated including abandoned cart management. The owner can easily add new products and add articles to the blog."
 link: "/work/neves-bees/"
+ctaText: "Get in touch about a better website"
 imageMain: "neves-bees-4x3.jpg"
 image: "neves-bees-cosmetics.jpg"
 mobileImage: "neves-bees-mobile_qknkhy.jpg"
@@ -14,7 +15,7 @@ textContent:
   outcome: "The client now has a site that shows off her products on all device types, which is easy to use both for visitors and for herself. The site is set up for the expansion of her business into different product areas and for the tracking of her sales. It is simple for her to add new products, change prices, update stock levels and to publish new articles about her business."
 testimonial:
   p1: "I would highly recommend Roger. Roger initially created for us a simple yet attractive e-commerce website which worked perfectly and fit our budgets. As our business has grown and we’ve had more money to invest, Roger has been instrumental in developing our website. Roger also prepared a detailed report on how we could improve SEO for our website. We were able to make our budgets work to the maximum by actioning some of the (easier!) recommendations ourselves and factoring out the (harder!) ones to Roger. The result has been a significant increase in our organic web traffic. Roger also responds to our requests really quickly which I really appreciate - it helps me feel that we are truly supported and protected from an IT point of view."
-summary:
+summaryInfo:
   client: "Neve's Bees"
   role: "Development, testing and implementation"
   website: "https://www.nevesbees.co.uk"

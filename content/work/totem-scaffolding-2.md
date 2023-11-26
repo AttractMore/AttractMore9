@@ -5,6 +5,7 @@ title: "Totem Scaffolding"
 pageHeaderTitle: "Totem Scaffolding (2021)"
 text: "A secure, fast, mobile-friendly website for an Oxfordshire based scaffolding company. Technically, this is a straightforward site but the design is modern and clear to showcase the capabilities, size and professionalism of this company. The site is implemented on especially fast hosting and is built so that it can still work even if the site visitor is offline."
 link: "/work/totem-scaffolding-2/"
+ctaText: "Get in touch about a better website"
 imageMain: "totem21-4x3_oljx54.jpg"
 image: "totem-scaffolding-21_hhwzrk.jpg"
 mobileImage: "totem21-mobile_rqzlqt.jpg"
@@ -12,7 +13,7 @@ imageAlt: "Totem Scaffolding Oxfordshire"
 textContent:
   background: "Totem Scaffolding are a well-established and growing scaffolding company based in Oxfordshire. We built their previous website a number of years ago and, in the intervening time, the company has grown substantially and contacted us regarding a new site that would reflect the nature of the expanded organisation."
   outcome: "The client now has a new website that reflects the size and professionalism of the company."
-summary:
+summaryInfo:
   client: "Totem Scaffolding"
   role: "Development, testing and implementation."
   website: "https://www.totemscaffolding.com"

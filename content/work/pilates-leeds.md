@@ -5,6 +5,7 @@ pageHeaderTitle: "Pilates Leeds"
 metaDesc: "This is a new site for Pilates Leeds replacing our previous site. Greater competition and a significant development of the business drove the redesign."
 text: "A responsive, secure website for an expanding Pilates business in Leeds. The site has a modern design and integrates with an external class booking and payments system. The owner uses the content management system to update the site on a regular basis."
 link: "/work/pilates-leeds/"
+ctaText: "Get in touch about a better website"
 imageMain: "pilates-leeds-4x3.jpg"
 image: "pilates-leeds.jpg"
 mobileImage: "pilates-leeds-mobile_btvahs.jpg"
@@ -14,7 +15,7 @@ textContent:
   outcome: "Pilates Leeds now have a new website that properly represents the business as it is now. It is easy to use, fully mobile responsive and secure. The implementation of the online questionnaire saves on admin in classes and helps ensure that the necessary data is reliably collected. All the pages from the previous site are <a href='https://www.attractmore.uk/services/website-creation/website-migration-implementation/'>automatically redirected</a> to appropriate pages on the new site so visitors and search engines are not left with ‘page not found’ errors and it also serves to make sure that all social media posts that reference pages from the site, still function."
 testimonial:
   p1: "Thank you for all of your sterling efforts.  I TRULY TOTALLY couldn't have done it without you and really didn't anticipate how much my business would grow as a result of the website. My business has grown much more than I had envisaged and this is entirely down to the quality of the website and the SEO.  All down to you."
-summary:
+summaryInfo:
   client: "Pilates Leeds"
   role: "Design, development, testing, migration and implementation."
   website: "https://pilates-leeds.com"

@@ -5,6 +5,7 @@ title: "Hygienic and Environmental Engineering Services (HEES)"
 pageHeaderTitle: "Hygienic and Environmental Engineering Services (HEES)"
 text: "This modern, mobile-friendly, fast and secure site replaces a very old site which was difficult to update and generally reflected badly on the company. The new site was built from the ground up using WordPress. HEES wanted to use most of the text from the previous site but have it updated to more modern, accessible language. We made much more use of photos of the projects HEES had undertaken to give the site more visual interest and to demonstrate the capabilities of this specialist engineering company."
 link: "/work/hygienic-and-environmental-engineering-services/"
+ctaText: "Get in touch about a better website"
 imageMain: "hees-4x3_cd3enr.jpg"
 image: "hees_xjfj29.jpg"
 mobileImage: "hees-mobile_n7ei7e.jpg"
@@ -12,7 +13,7 @@ imageAlt: "Hygienic and Environmental Engineering Services (HEES)"
 textContent:
   background: "This project was to replace a very old website which the company had had in place for over 10 years. It wasn't secure and didn't work properly on mobile phones. Some of the information on the old site was out of date and it gave a poor impression of the company, especially when compared to competitor websites."
   outcome: "HEES now has a fast, secure modern website that works well on screens of all sizes which is much more appropriate for their business."
-summary:
+summaryInfo:
   client: "HEES"
   role: "Design, development, testing and implementation."
   website: "https://hees.uk.com"

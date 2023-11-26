@@ -5,6 +5,7 @@ title: "Totem Scaffolding"
 pageHeaderTitle: "Totem Scaffolding"
 text: "A secure, mobile-friendly website for a Scaffolding company in Oxfordshire. Technically, this is a straightforward site but the design is modern and clear to showcase the capabilities and approach of this company."
 link: "/work/totem-scaffolding/"
+ctaText: "Get in touch about a better website"
 imageMain: "totem-scaffolding-4x3.jpg"
 image: "totem.jpg"
 mobileImage: "totem-mobile_gaeeom.jpg"
@@ -12,7 +13,7 @@ imageAlt: "Totem Scaffolding Oxfordshire"
 textContent:
   background: "Totem Scaffolding are a well-established scaffolding company based in Oxfordshire. Their previous website was out-of-date and was not mobile-friendly. In addition, it did not reflect the fact that Totem are now handling bigger and more complex projects."
   outcome: "The client now has a new website that reflects the nature and professionalism of the company. 70% of site visitors arrive via an online search."
-summary:
+summaryInfo:
   client: "Totem Scaffolding"
   role: "Development, testing and implementation."
   website: "https://totemscaffolding.com"

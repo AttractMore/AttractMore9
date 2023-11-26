@@ -5,6 +5,7 @@ title: "MCR, St. John's College Oxford"
 pageHeaderTitle: "MCR, St. John's College Oxford"
 text: "A modern, responsive website for the graduate community at St. John's College Oxford. The site was designed and built to a fairly tight timescale to be live before the start of the academic year. There are frequent changes to the site which we manage on behalf of the client."
 link: "/work/st-johns-college-oxford-mcr/"
+ctaText: "Get in touch about a better website"
 imageMain: "sjc-mcr-4x3.jpg"
 image: "st-johns-college-oxford-mcr.jpg"
 mobileImage: "ssnpt-mobile_ui89nd.jpg"
@@ -12,7 +13,7 @@ imageAlt: "Graduate Community, St. John's College, Oxford"
 textContent:
   background: "The Middle Common Room (MCR) of St. John’s College Oxford, is the community of graduate students that study there. We were contacted by their Vice President to design and build a new website to replace the very old website that did not work on mobile devices."
   outcome: "St. John’s MCR now have a modern, attractive website that works on devices of all types. It is easy to update and will serve the client for many years, enhancing the reputation of the graduate community at one of Oxford’s most prestigious colleges."
-summary:
+summaryInfo:
   client: "MCR St. John's College Oxford"
   role: "Design, development, testing and implementation."
   website: "https://mcr.sjc.ox.ac.uk"

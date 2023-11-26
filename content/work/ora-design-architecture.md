@@ -5,6 +5,7 @@ pageHeaderTitle: "Ora Design Architecture"
 metaDesc: "This project for Ora Design Architecture was a rebranding and a new site. The old site was replaced with a contemporary look and more appropriate content to help build the business."
 text: "This project for Ora Design Architecture was both a rebranding and a new website. The previous site had been in place for many years and needed to be replaced with a more modern design and more appropriate content to help build the business."
 link: "/work/ora-design-architecture/"
+ctaText: "Get in touch about a better website"
 imageMain: "ora-design-4x3.jpg"
 image: "ora-design-architecture.jpg"
 mobileImage: "ora-design-mobile_i4teqt.jpg"
@@ -15,7 +16,7 @@ textContent:
   outcome: "The business now has a site they can be proud of which is fast, modern, secure that presents them in a much more favourable light than before. The client is able to update the content as they wish, simply and quickly."
 testimonial:
   p1: "Roger really helped me to establish my business branding and developed a fresh new website. As a relatively new business I had little content to work with and encouraged a different approach to overcome this. Roger <strong>developed a fantastic new site within a fixed budget</strong>, taking on all the technical migration aspects from my old to new site."
-summary:
+summaryInfo:
   client: "Ora Design Architecture"
   role: "Design, development, testing, migration of existing site and implementation"
   website: "https://www.oradesign.co.uk"

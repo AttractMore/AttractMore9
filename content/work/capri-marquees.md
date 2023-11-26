@@ -5,6 +5,7 @@ pageHeaderTitle: "Capri Marquees"
 metaDesc: "Capri Marquees are a well-established business based in Oxfordshire. Their old website was no longer serving them well so they commissioned a new modern site"
 text: "An effective, mobile-friendly website for a Marquee company in Oxfordshire. This is a modern, elegant design reflecting the nature of the events for which the marquees are used. It incorporates a marquee planning tool for clients to use."
 link: "/work/capri-marquees/"
+ctaText: "Get in touch about a better website"
 imageMain: "capri-marquees-4x3.jpg"
 image: "capri.jpg"
 imageAlt: "Capri Marquees, Oxfordshire"
@@ -12,7 +13,7 @@ mobileImage: "capri-mobile_bsberk.jpg"
 textContent:
   background: "Capri Marquees are a well-established marquee hire business. They are based in Oxfordshire but operate across the Midlands and South of the UK. Their previous website was functional but old-fashioned and it did not display properly on mobiles or tablets. It was also somewhat slow to load. They felt that they were losing out to competitors and so commissioned a new website."
   outcome: "Capri Marquees now have a modern website that works properly on mobiles and tablets and loads quickly whatever device is used. As of the date of writing, site visitors are up 18% and page views are up 10% compared with the corresponding period in the previous year. Visitors arriving via the search engines account for 74% of all visitors (compared to only 54% in the same period in the previous year)."
-summary:
+summaryInfo:
   client: "Capri Marquees"
   role: "Development, testing, migration of existing site and implementation"
   website: "https://caprimarquees.com"

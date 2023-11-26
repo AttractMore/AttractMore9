@@ -5,6 +5,7 @@ pageHeaderTitle: "Mary Smith Photography"
 metaDesc: "Mary Smith Photography asked us to create a modern, mobile friendly website that would show off her photographs to best effect & help her gain more clients"
 text: "New website for a photographer specialising in wedding and family photography. There a many galleries within the site to show off the photos and it is backed with a straightforward content management system so the owner can upload photos and articles."
 link: "/work/mary-smith-photography/"
+ctaText: "Get in touch about a better website"
 imageMain: "mary-smith-photography-4x3.jpg"
 image: "mary-smith-photography.jpg"
 mobileImage: "mary-smith-mobile_karn0l.jpg"
@@ -12,7 +13,7 @@ imageAlt: "Mary Smith Photography, Oxfordshire"
 textContent:
   background: "Mary Smith Photography offers a professional photography service for weddings, family portraits and for commercial customers. Her previous website did not place sufficient emphasis on her work and the photos were rather small. The site was also quite slow to load and did not work properly on mobiles and other smaller screen devices. There was a need for a more modern, mobile friendly site which gave her photographs much greater prominence and this is what we were able to provide."
   outcome: "There was hardly any downtime at the point of implementation and pages from the new site were soon appearing in Google searches. Within a few weeks Mary noticed a definite increase in the number of enquiries she was getting as the new site was performing so much better in the search engines than the previous site."
-summary:
+summaryInfo:
   client: "Mary Smith Photography"
   role: "Attractmore carried out the development, testing, migration and implementation of this site for Mary Smith. The core design was produced by Designs Like These but with detailed layouts being designed by ourselves."
   website: "https://marysmithphotography.com"

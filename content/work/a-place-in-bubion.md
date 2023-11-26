@@ -5,6 +5,7 @@ pageHeaderTitle: "A Place in Bubión"
 metaDesc: "A modern and sophisticated website for a holiday cottage in Bubión, Southern Spain. Good use of photography and simple navigation. Fast & mobile friendly."
 text: "The holiday cottage market is very competitive and the previous site did not do justice to this lovely place. We were engaged to carry out a complete redesign of the website for a holiday let in Southern Spain to give it a modern, more appealing look."
 link: "/work/a-place-in-bubion/"
+ctaText: "Get in touch about a better website"
 imageMain: "holiday-bubion-4x3.jpg"
 image: "holidaycottagealpujarras.jpg"
 mobileImage: "holidaycottagealpujarras-mobile_gii6nj.png"
@@ -12,7 +13,7 @@ imageAlt: "A Place in Bubión, Spain"
 textContent:
   background: "This is a replacement website for an attractive holiday cottage located in Bubión in the Alpujarras in Southern Spain. The previous site didn’t work properly on mobiles and the design had become very dated which detracted from the appeal of the accommodation. The property owner commissioned a new website to properly show off the cottage and thereby increase bookings."
   outcome: "The client now has a much more modern, secure, mobile friendly website that does justice to the attractive accommodation she offers in Bubión in Southern Spain."
-summary:
+summaryInfo:
   client: "A Place in Bubión"
   role: "Design, development, testing and implementation."
   website: "https://holidaycottagealpujarras.com"

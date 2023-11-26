@@ -5,14 +5,15 @@ pageHeaderTitle: "Neve's Bees 2021"
 metaDesc: "Neve's Bees sell natural beeswax cosmetics. Due to the expansion of the business, a new online shop has been created to sell these products online."
 text: "A modern, product-focused online shop for the sale of natural cosmetics. This is a new website that replaces the ecommerce site we developed for Neve's Bees in 2017. The previous site did well for the business and they developed a growing range of loyal customers however, the owners realised that they would need to offer more products to be able to capitalise on their success and expand the business further."
 link: "/work/neves-bees2/"
+ctaText: "Get in touch about a better website"
 imageMain: "neves-bees2-4x3_ln2cmm.jpg"
 image: "neves-bees-cosmetics2_ffbhsx.jpg"
-mobileImage: "neves-bees-mobile_qknkhy.jpg"
+mobileImage: "neves-bees21-mobile_oinjzc.jpg"
 imageAlt: "Neve's Bees - natural beeswax cosmetics"
 textContent:
   background: "Back in 2017, we implemented the first ecommerce site for Neve's Bees. At that time, Neve's Bees had just started out selling a range of beeswax based cosmetics. Since that time, the business has grown significantly with many more products on offer."
   outcome: "The client now has a more modern and product-focused site that is the platform for further expansion of the business. It is easy to use both for customers and for herself. As before, it is simple for her to add new products, change prices, update stock levels and to publish new articles about her business."
-summary:
+summaryInfo:
   client: "Neve's Bees"
   role: "Development, testing, site migration and implementation"
   website: "https://nevesbees.co.uk"

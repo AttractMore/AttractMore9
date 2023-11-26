@@ -5,6 +5,7 @@ title: "Ox Designers"
 pageHeaderTitle: "Ox Designers"
 text: "Ox Designers is a graphic design agency specialising in STEM clients. The previous version of their website wasn't focussed on STEM companies, so the purpose of the redesign was to make the target audience clear. In addition, there were a number of technical issues that were of concern, so the project included a new WordPress theme, better SEO and speeding up the load time of the web pages. A blog is also included."
 link: "/work/oxdesigners/"
+ctaText: "Get in touch about a better website"
 imageMain: "oxdesigners-4x3_mdstwq.jpg"
 image: "oxdesigners_yfccpv.jpg"
 mobileImage: "oxdesigners-mobile_aqxr7a.jpg"
@@ -23,7 +24,7 @@ testimonial:
     <li>plus advising me on SEO</li>
     <li>and putting a slick site together that does my new brand message justice</li>
   </em></ul>"  
-summary:
+summaryInfo:
   client: "Ox Designers"
   role: "Development, testing and implementation."
   website: "https://www.oxdesigners.com/"
