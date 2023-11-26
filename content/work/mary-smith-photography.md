@@ -7,8 +7,7 @@ text: "New website for a photographer specialising in wedding and family photogr
 link: "/work/mary-smith-photography/"
 imageMain: "mary-smith-photography-4x3.jpg"
 image: "mary-smith-photography.jpg"
-mobileImage: "mary-smith-mobile"
-mobileImageType: "jpg"
+mobileImage: "mary-smith-mobile_karn0l.jpg"
 imageAlt: "Mary Smith Photography, Oxfordshire"
 textContent:
   background: "Mary Smith Photography offers a professional photography service for weddings, family portraits and for commercial customers. Her previous website did not place sufficient emphasis on her work and the photos were rather small. The site was also quite slow to load and did not work properly on mobiles and other smaller screen devices. There was a need for a more modern, mobile friendly site which gave her photographs much greater prominence and this is what we were able to provide."

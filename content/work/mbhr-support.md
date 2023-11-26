@@ -7,8 +7,7 @@ text: "Website for an HR Consultant in Oxfordshire which is mobile responsive an
 link: "/work/mbhr-support/"
 imageMain: "mbhr-4x3.jpg"
 image: "mbhr.jpg"
-mobileImage: "mbhrsupport-mobile"
-mobileImageType: "jpg"
+mobileImage: "mbhrsupport-mobile_y1ykw6.jpg"
 imageAlt: "Mandy Brearley Human Resources consultant"
 textContent:
   background: "MB HR Support, run by Mandy Brearley, is a well-known HR company working with small and medium-sized businesses in Oxfordshire and surrounding counties. Her previous website was old-fashioned and was not mobile friendly. It had also been hacked and had a number of unwanted links peppered around the site, pointing to very dubious sites. The project was to create a new site that was modern, clear, responsive and, of course, as secure as possible."

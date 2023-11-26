@@ -7,8 +7,7 @@ text: "This new site is the result of a merger of 2 existing ecommerce sites for
 link: "/work/curiosity-box/"
 imageMain: "curiosity-box-4x3_c0vbj8.jpg"
 image: "curiosity-box_ayyv7y.jpg"
-mobileImage: "curiosity-box-mobile"
-mobileImageType: "jpg"
+mobileImage: "curiosity-box-mobile_vgvt4z.jpg"
 imageAlt: "Curiosity Box - science boxes for children"
 textContent:
   background: "Curiosity Box is an established business which offers a range of science toys and STEM products for children of all ages. They were selling to individuals as well as schools using 2 different websites but decided there was value in merging the 2 different sites. They approached us to carry out the merger and, at the same time, speed up the site and improve the search engine position of their site."

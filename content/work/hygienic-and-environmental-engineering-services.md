@@ -7,8 +7,7 @@ text: "This modern, mobile-friendly, fast and secure site replaces a very old si
 link: "/work/hygienic-and-environmental-engineering-services/"
 imageMain: "hees-4x3_cd3enr.jpg"
 image: "hees_xjfj29.jpg"
-mobileImage: "hees-mobile"
-mobileImageType: "jpg"
+mobileImage: "hees-mobile_n7ei7e.jpg"
 imageAlt: "Hygienic and Environmental Engineering Services (HEES)"
 textContent:
   background: "This project was to replace a very old website which the company had had in place for over 10 years. It wasn't secure and didn't work properly on mobile phones. Some of the information on the old site was out of date and it gave a poor impression of the company, especially when compared to competitor websites."

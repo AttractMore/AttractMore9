@@ -7,8 +7,7 @@ text: "A modern, responsive website for the graduate community at St. John's Col
 link: "/work/st-johns-college-oxford-mcr/"
 imageMain: "sjc-mcr-4x3.jpg"
 image: "st-johns-college-oxford-mcr.jpg"
-mobileImage: "sjc-mcr-mobile"
-mobileImageType: "jpg"
+mobileImage: "ssnpt-mobile_ui89nd.jpg"
 imageAlt: "Graduate Community, St. John's College, Oxford"
 textContent:
   background: "The Middle Common Room (MCR) of St. John’s College Oxford, is the community of graduate students that study there. We were contacted by their Vice President to design and build a new website to replace the very old website that did not work on mobile devices."

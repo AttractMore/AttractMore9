@@ -8,7 +8,6 @@ link: "/work/totem-scaffolding-2/"
 imageMain: "totem21-4x3_oljx54.jpg"
 image: "totem-scaffolding-21_hhwzrk.jpg"
 mobileImage: "totem21-mobile_rqzlqt.jpg"
-mobileImageType: "jpg"
 imageAlt: "Totem Scaffolding Oxfordshire"
 textContent:
   background: "Totem Scaffolding are a well-established and growing scaffolding company based in Oxfordshire. We built their previous website a number of years ago and, in the intervening time, the company has grown substantially and contacted us regarding a new site that would reflect the nature of the expanded organisation."

@@ -7,8 +7,7 @@ text: "An efficient, modern online shop for the sale of organic beeswax cosmetic
 link: "/work/neves-bees/"
 imageMain: "neves-bees-4x3.jpg"
 image: "neves-bees-cosmetics.jpg"
-mobileImage: "neves-bees-mobile"
-mobileImageType: "jpg"
+mobileImage: "neves-bees-mobile_qknkhy.jpg"
 imageAlt: "Neve's Bees - natural beeswax cosmetics"
 textContent:
   background: "Neve’s Bees is a start-up based in Oxfordshire. The owner is a bee keeper who makes lip balms from the organic beeswax she collects from her hives. She has been selling the products successfully at markets and fairs but anticipates that the bulk of her business will be online, hence the need for an online shop that is both simple and effective."

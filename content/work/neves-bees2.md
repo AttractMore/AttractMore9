@@ -7,8 +7,7 @@ text: "A modern, product-focused online shop for the sale of natural cosmetics. 
 link: "/work/neves-bees2/"
 imageMain: "neves-bees2-4x3_ln2cmm.jpg"
 image: "neves-bees-cosmetics2_ffbhsx.jpg"
-mobileImage: "neves-bees21-mobile"
-mobileImageType: "jpg"
+mobileImage: "neves-bees-mobile_qknkhy.jpg"
 imageAlt: "Neve's Bees - natural beeswax cosmetics"
 textContent:
   background: "Back in 2017, we implemented the first ecommerce site for Neve's Bees. At that time, Neve's Bees had just started out selling a range of beeswax based cosmetics. Since that time, the business has grown significantly with many more products on offer."

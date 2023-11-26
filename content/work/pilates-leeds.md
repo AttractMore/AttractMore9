@@ -7,8 +7,7 @@ text: "A responsive, secure website for an expanding Pilates business in Leeds. 
 link: "/work/pilates-leeds/"
 imageMain: "pilates-leeds-4x3.jpg"
 image: "pilates-leeds.jpg"
-mobileImage: "pilates-leeds-mobile"
-mobileImageType: "jpg"
+mobileImage: "pilates-leeds-mobile_btvahs.jpg"
 imageAlt: "Pilates classes in Leeds"
 textContent:
   background: "We designed and delivered the first website for Alison of Pilates Leeds in December 2013 and in December 2017 we delivered a totally redesigned site. The reason for the new project was two-fold. Firstly, there is now more competition in Leeds for Pilates classes so there was a need to modernise and refresh the site to ensure it matched or exceeded the websites of others. Secondly, Pilates Leeds has grown and developed greatly in the three years since the original site went live. There are now 4 Pilates instructors apart from the owner, many more class types and several new venues. The site needed a different structure to allow visitors to easily find the information they needed."

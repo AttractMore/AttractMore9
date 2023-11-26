@@ -7,8 +7,7 @@ text: "A fast, mobile-friendly website for a successful ski school and accommoda
 link: "/work/british-ski-center-sierra-essence/"
 imageMain: "ski-sierra-nevada-4x3.jpg"
 image: "ssnuk.jpg"
-mobileImage: "ssnuk-mobile"
-mobileImageType: "png"
+mobileImage: "ssnuk-mobile_bktfev.png"
 imageAlt: "British Ski Center, Sierra Nevada, Spain"
 textContent:
   background: "British Ski Center and Sierra Essence are 2 companies that have a director in common. The first focuses on ski and snowboard lessons in the Sierra Nevada, Spain, whereas the second deals with accommodation, lift passes, transfers and facilities bookings. They had separate, but very similar websites previously with most content duplicated across both sites. This was confusing. In addition, the <a href='https://skiserranevada.com' target='_blank'>Portuguese ski school</a> had an almost identical site. All the sites had served the companies well for several years but a more modern design was needed with a different site structure."

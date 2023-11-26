@@ -7,8 +7,7 @@ text: "A fast, mobile-friendly site for a Portuguese ski school in Spain. The de
 link: "/work/ski-serra-nevada/"
 imageMain: "ski-serra-nevada-4x3.jpg"
 image: "ssnpt.jpg"
-mobileImage: "ssnpt-mobile"
-mobileImageType: "png"
+mobileImage: "ssnpt-mobile_ui89nd.png"
 imageAlt: "Portuguese Ski School, Sierra Nevada, Spain"
 textContent:
   background: "As I mentioned in the notes on the <a href='/work/british-ski-center-sierra-essence/'>British Ski Center / Sierra Essence</a> site, the Portuguese ski school site was entangled with the two other sites previously and had content in common with these. Given the connections between the Portuguese site, Ski Serra Nevada, and British Ski Center / Sierra Essence, it made sense for the new sites to have a similar design but they needed to be separate. In addition, the Ski Serra Nevada was simplified as they don’t deal with the accommodation, transfers and facilities handled by Sierra Essence."

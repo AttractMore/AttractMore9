@@ -7,8 +7,7 @@ text: "This project for Ora Design Architecture was both a rebranding and a new 
 link: "/work/ora-design-architecture/"
 imageMain: "ora-design-4x3.jpg"
 image: "ora-design-architecture.jpg"
-mobileImage: "ora-design-mobile"
-mobileImageType: "jpg"
+mobileImage: "ora-design-mobile_i4teqt.jpg"
 imageAlt: "Ora Design Architecture, Oxfordshire"
 imageType: "jpg"
 textContent:

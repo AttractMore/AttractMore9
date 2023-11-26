@@ -7,8 +7,7 @@ text: "The holiday cottage market is very competitive and the previous site did 
 link: "/work/a-place-in-bubion/"
 imageMain: "holiday-bubion-4x3.jpg"
 image: "holidaycottagealpujarras.jpg"
-mobileImage: "holidaycottagealpujarras-mobile"
-mobileImageType: "png"
+mobileImage: "holidaycottagealpujarras-mobile_gii6nj.png"
 imageAlt: "A Place in Bubión, Spain"
 textContent:
   background: "This is a replacement website for an attractive holiday cottage located in Bubión in the Alpujarras in Southern Spain. The previous site didn’t work properly on mobiles and the design had become very dated which detracted from the appeal of the accommodation. The property owner commissioned a new website to properly show off the cottage and thereby increase bookings."
