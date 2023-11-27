@@ -1,0 +1,17 @@
+<aside class="sidebar">
+  <div class="sidebar__inner">
+
+    <div class="categories">
+      <h3>Blog Categories</h3>
+      {{ $taxo := "categories" }}
+      <ul class="{{ $taxo }}">
+        {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
+            {{ range .Data.Terms.Alphabetical }}
+                <li><a class="post-tag" href="{{ .Page.Permalink }}">{{ .Page.Title}}</a></li>
+            {{ end }}
+        {{ end }}
+      </ul>  
+    </div>
+
+  </div>
+</aside>

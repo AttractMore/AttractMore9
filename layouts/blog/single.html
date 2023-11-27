@@ -1,0 +1,44 @@
+{{- define "main" }}
+
+{{ partial "partials/page-header.html" . }}
+{{ $dateFormatDisplay := "2 January 2006" }}
+{{ $dateFormatDetail := "2006-01-02T00:00:00.000Z" }}
+<p class="wrap post-meta">Posted <time datetime="{{ .Params.date.Format $dateFormatDetail  }}">{{ .Params.date.Format $dateFormatDisplay }}</time> by Roger</p>
+
+<section class="content-sidebar wrap">
+
+  <article>
+    <div>
+      {{ .Content | safeHTML }}
+    </div>
+
+    <aside>
+      <p class="visually-hidden" id="tags-desc">Tags that this post has been filed under.</p>
+      <p><strong>Filed under: </strong></p>
+      {{ $taxonomy := "categories" }}
+      {{ with .GetTerms $taxonomy }}
+        <ul  class="tags-list" aria-describedby="tags-desc">
+          {{ range . }}
+            <li><a href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a></li>
+          {{ end }}
+        </ul>
+      {{ end }}
+    </aside>
+
+    {{ if .Params.recommendedPosts }}
+    <footer class="recommended-posts">
+      <hr>
+      {% set postListItems = recommendedPosts %}
+      {% set postListHeadline = 'More from the blog' %}
+      {% include "partials/post-list.html" %}
+    </footer>
+    {{ end }}
+
+  {{ partial "partials/cta.html" . }}
+  </article>
+
+  {{ partial "partials/blog-sidebar.html" . }}
+
+</section>
+
+{{- end }}{{/* end main */}}

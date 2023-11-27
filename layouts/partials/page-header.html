@@ -1,8 +1,13 @@
 <div class="page-header">
   <div class="wrap">
-    <h1 class="page-header__heading">{{ .Params.pageHeaderTitle | safeHTML }}</h1>
+    <h1 class="page-header__heading">
+      {{- if .Params.pageHeaderTitle }}
+        {{ .Params.pageHeaderTitle | safeHTML }}</h1>
+      {{- else -}}
+        {{ .Title }}</h1>
+      {{- end -}}
     {{ if .Params.pageHeaderSummary.p1 }}
-    <div {{ if eq title "Work" or eq title  "AttractMore Blog" }}
+    <div {{ if (or (eq .Title "Work") (eq .Title  "AttractMore Blog")) }}
       class="larger-text"
     {{- end -}}>
       <p>{{ .Params.pageHeaderSummary.p1 | safeHTML }}</p>

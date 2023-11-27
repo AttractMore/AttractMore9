@@ -1,7 +1,9 @@
 baseURL = ""
 languageCode = "en-gb"
 title = "Low-carbon websites"
-disableKinds = ["sitemap", "taxonomy", "taxonomyTerm"]
+disableKinds = ["sitemap"]
+paginate = 5
+
 [params]
   cloudinaryPath              = "https://res.cloudinary.com/attractmore/image/upload/"
   cloudinaryHeroWidths        = ["2800", "2000", "1600", "1300", "1120", "928", "704", "480"]
@@ -19,7 +21,13 @@ disableKinds = ["sitemap", "taxonomy", "taxonomyTerm"]
 
   cloudinaryWorkDetailMobileWidths = ["500", "320"]
 
-  
+  cloudinaryBlogMainWidths    = ["500", "320"]
+  cloudinaryBlogMainParms     = "c_scale,f_auto,q_70,"
+  cloudinaryBlogMainSizes     = "(max-width: 30em) 100vw, 300px"
+  cloudinaryBlogMainFolder    = "/blog/"
+
+  cloudinaryBlogPostFullSizes = "(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
+
   cloudinaryFetchPath = "https://res.cloudinary.com/attractmore/image/fetch/"
   cloudinaryMainParms = "q_auto,f_auto"
   srcsetLargeWidths = ["930", "800", "640", "500", "400"]
