@@ -12,9 +12,10 @@ socialImage: "/images/blog/woman-pretending-to-look-through-binoculars-1200.jpg"
 extraStyles: "/scss/post.scss"
 ---
 
-<img {% hero 'woman-pretending-to-look-through-binoculars_ovnpwy' %}
-alt="Woman pretending to look through binoculars. Searching. (Photo by Gratisography from Pexels: https://www.pexels.com/photo/person-woman-eyes-face-4636/)."
-width="1920" height="1280">
+{{< content-figure folder="/blog/"
+src="woman-pretending-to-look-through-binoculars_ovnpwy.jpg"
+alt="Woman pretending to look through binoculars. Searching. (Photo by Gratisography from Pexels: https://www.pexels.com/photo/person-woman-eyes-face-4636/"
+width="1920" height="1280" defaultWidth="800" >}}
 
 If you're using all the right keywords on the pages of your website, but your site still isn't ranking particularly well, then it could be because you're not doing it right. And you wouldn't be the only one.
 
@@ -32,9 +33,11 @@ As covered in the [last blog on SEO ranking factors](https://www.attractmore.uk/
 
 Google, and other search engines, want to give users the best search experience possible, which means they don't just want to show pages that might fit a search query, they want to show the ones that definitely do. They want to ensure all search results are not just relevant but align as much as possible with **why** the user searched for that word or phrase, i.e., the search intent.
 
-<img {% hero 'looking-through-binoculars_jwsitu' %}
+{{< content-figure folder="/blog/"
+src="looking-through-binoculars_jwsitu.jpg"
 alt="A woman looking through binoculars searching for something. Content creation requires a focus on search intent for best results. (https://unsplash.com/photos/T69h1_YfR-w)."
-width="1920" height="1281">
+width="1920" height="1281" defaultWidth="800"
+loading="lazy" >}}
 
 ## What are the different types of search intent?
 
@@ -84,9 +87,11 @@ When users are looking to make a purchase, whether that's a product, service or 
 
 If you want your web pages to rank well in search engine results, then you need to understand the 'search intent' for queries that target these pages. Whilst this might seem simple it's not necessarily as clear cut as I have suggested above.
 
-<img {% hero 'three-darts-hit-the-bullseye_yrsotx' %}
+{{< content-figure folder="/blog/"
+src="three-darts-hit-the-bullseye_yrsotx.jpg"
 alt="Three darts in the bullseye. Targeting great search results by using search intent (Photo by Michiel from Pexels: https://www.pexels.com/photo/a-close-up-shot-of-a-dartboard-with-darts-on-the-bullseye-10680031/)."
-width="1920" height="1440">
+width="1920" height="1440" defaultWidth="800"
+loading="lazy" >}}
 
 If you are unclear about the intent behind a certain keyword, then do a search with this keyword in Google and check the results you get. If the top 10 results are all blog posts, the search intent is likely to be informational; if the top 10 are all product pages, the search intent is likely to be transactional. But the results may be a mixture of blog posts, reviews and product pages, in which case Google is unclear about the intent of the search phrase and you may be able to rank by producing content with different search intents.
 
@@ -114,9 +119,11 @@ Again, the clues are in the Google search results. This really only applies to i
 
 If the top results tend to be list posts (e.g. top 5 cities to visit in Spain), write a list post. If the top results are step-by-step tutorials (e.g. replace battery in dell latitude 5480) then write a step-by-step tutorial.
 
-<img {% hero 'dell-battery-replacement_vrwsjh' %}
-alt="Google search results page for Dell battery replacement showing the importance of content angle "
-width="1131" height="1163">
+{{< content-figure folder="/blog/"
+src="dell-battery-replacement_vrwsjh.jpg"
+alt="Google search results page for Dell battery replacement showing the importance of content angle."
+width="1131" height="1163" defaultWidth="800"
+loading="lazy" >}}
 
 You get the idea - match the **format** of the top-ranking results.
 
@@ -126,15 +133,19 @@ We're now really refining the content by looking in the search results to see wh
 
 A search for 'learn ukrainian' shows results that include the word 'free' or 'fast' showing that these are important factors for searchers of this phrase. If your page is called 'Comprehensive Ukrainian language course' it's not going to rank as well as if it were called 'Learn Ukrainian for free - fast results!' And, of course, the content needs to reflect the title.
 
-<img {% hero 'learn-ukrainian-search-results_wvqsnk' %}
+{{< content-figure folder="/blog/"
+src="learn-ukrainian-search-results_wvqsnk.jpg"
 alt="Google search results page for learn Ukrainian showing the importance of getting the content angle right as part of the search intent"
-width="1138" height="909">
+width="1138" height="909" defaultWidth="800"
+loading="lazy" >}}
 
 A search for Epson ink cartridges shows results that contain words such as 'cheap', 'fast', 'free delivery' etc showing that these are essential considerations for these searchers. If your page is called 'Quality Epson ink cartridges for best results' it's not going to rank as well as if it were called 'Cheap Epson ink cartridges with fast, free delivery'. Again, the content must talk about fast and free delivery as well.
 
-<img {% hero 'epson-print-cartridges-search-results_ye70dd' %}
-alt="Google search results page for Epson print cartridges showing the importance of the content angle as part of the search intent"
-width="1203" height="912">
+{{< content-figure folder="/blog/"
+src="epson-print-cartridges-search-results_ye70dd.jpg"
+alt="Google search results page for Epson print cartridges showing the importance of the content angle as part of the search intent."
+width="1203" height="912" defaultWidth="800"
+loading="lazy" >}}
 
 You should use similar words/phrases in the title and content of your page to compete with these results the top results.
 

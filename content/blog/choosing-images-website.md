@@ -6,7 +6,7 @@ categories:
   - "Web design"
 metaDesc: "Choosing images for your website is hugely important as they establish the tone of the page. Find suggestions of how to choose images and where to find them"
 excerpt: "Choosing images for your website or blog is not always straightforward and requires proper consideration. After all, images on a web page are not just decoration; they create a mood or atmosphere and provide visual interest which breaks up the text content of the page. They are an integral part of every page and can draw readers into your content if the images are chosen well. In this post I want to make some suggestions about image choice, image placement and finding good imagery."
-primaryImage: "thoughtful"
+cloudinaryPrimaryImage: "thoughtful_u2ybql"
 primaryImageAlt: "How to choose the right images for your website"
 extraStyles: "/scss/post.scss"
 ---
@@ -22,7 +22,12 @@ When we’re discussing images, these could be photos or illustrations, however,
 
 If you’re writing a blog post about food then the obvious choice of image is a photo of the food. If you’re writing about a new product, then a photo of the product is clearly appropriate. Often though, the subject of posts and pages is not quite as tangible and so the choice of image is not quite as clear.
 
-![Choosing images for your website](/optim/blog/thoughtful.jpg){width=500}{data-responsiver=blogside}
+{{< content-figure folder="/blog/"
+class="alignright"
+src="thoughtful_u2ybql.jpg"
+alt="Choosing images for your website"
+width="500" height="281" defaultWidth="500" >}}
+
 If you are writing a piece which is questioning and reflective then an image that supports that mood will be suitable. It may have nothing to do with the actual subject matter of the post but an image that creates the right atmosphere will draw readers in and help establish that reflective mood in their minds. So in broad terms, images can be chosen that represent the actual subject of the blog post or that support the emotional tone of the writing. It is worth deciding which of these two styles you will adopt for a given post.
 
 In addition, if you use photos that include people, make sure, as far as possible, that the individuals face into your page or towards your reader. Readers tend to follow eye lines so if a photo shows someone looking away from your text, that is where you reader's eyes will be drawn and so they will become distracted from your content.
@@ -45,7 +50,13 @@ It is worth checking how your post will look on smaller screens as well as large
 
 Beware of copyright! It is not OK to simply search on Google, find an image you like and copy it into your website because that image may be copyrighted.
 
-![Searching for suitable images](/optim/blog/light-at-the-end-of-the-tunnel.jpg){width=500}{data-responsiver=blogside}
+{{< content-figure folder="/blog/"
+class="alignright"
+src="light-at-the-end-of-the-tunnel_dsoivn.jpg"
+alt="Searching for suitable images"
+width="500" height="333" defaultWidth="500"
+loading="lazy" >}}
+
 One way of avoiding copyright issues is to take photos for your website yourself. If you do this, you may want to add a note to the pages stating your ownership of the photos. However, you do need to be a reasonable photographer as poor quality shots can really detract from the blog posts and have a detrimental effect on your entire site. In many people’s minds, poor quality photos = poor quality products and services offered through the website.
 
 There are many websites that offer images for purchase as a search on ‘stock photos’ will show. The images you may want to buy are often relatively inexpensive (around £1) and for this you have a perpetual, non-exclusive licence to use the image. Websites offering this service include

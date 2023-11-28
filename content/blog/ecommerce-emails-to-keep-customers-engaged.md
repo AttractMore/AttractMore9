@@ -15,17 +15,10 @@ extraStyles: "/scss/post.scss"
 
 Keeping in contact with customers (and potential customers) has long been an integral part of running an online shop. In this article I want to explore a range of different type of email you could send to keep customer engaged, to encourage them to purchase and to keep them informed.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/ecommerce-emails-to-keep-customers-engaged_ncvx49.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/ecommerce-emails-to-keep-customers-engaged_ncvx49.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/ecommerce-emails-to-keep-customers-engaged_ncvx49.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/ecommerce-emails-to-keep-customers-engaged_ncvx49.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/ecommerce-emails-to-keep-customers-engaged_ncvx49.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/ecommerce-emails-to-keep-customers-engaged_ncvx49.jpg"
-  alt="Woman looking at computer screen seeing emails from ecommerce store"
-  width="1920"
-  height="1280">
+{{< content-figure folder="/blog/"
+src="ecommerce-emails-to-keep-customers-engaged_ncvx49.jpg"
+alt="Woman looking at computer screen seeing emails from ecommerce store"
+width="1920" height="1280" defaultWidth="800" >}}
 
 If you have an online shop, I'm sure you are using some of these ideas already. Some ideas may not be applicable in your particular case but I hope you can pick up at least one or two ideas for new emails to send out.
 
@@ -45,18 +38,11 @@ Sent immediately after the customer completes a purchase. Rather than this being
 
 Here is a straightforward example from EE. Pleasant, friendly and informal.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/ee-thank-you-for-your-order_wcqyrw.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/ee-thank-you-for-your-order_wcqyrw.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/ee-thank-you-for-your-order_wcqyrw.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/ee-thank-you-for-your-order_wcqyrw.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/ee-thank-you-for-your-order_wcqyrw.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/ee-thank-you-for-your-order_wcqyrw.jpg"
-  alt="An email from EE thanking the customer for their order"
-  loading="lazy"
-  width="1124"
-  height="1166">
+{{< content-figure folder="/blog/"
+src="ee-thank-you-for-your-order_wcqyrw.jpg "
+alt="An email from EE thanking the customer for their order"
+width="1124" height="1166" defaultWidth="800"
+loading="lazy" >}}
 
 ### Your items are on their way
 
@@ -68,18 +54,11 @@ I would also suggest you include a link to your returns policy. I know some peop
 
 Amazon's emails are not noted for their design appeal. They are functional, informative and effective but won't win any design awards.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/amazon-dispatch_x1wcyt.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/amazon-dispatch_x1wcyt.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/amazon-dispatch_x1wcyt.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/amazon-dispatch_x1wcyt.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/amazon-dispatch_x1wcyt.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/amazon-dispatch_x1wcyt.jpg"
-  alt="Amazon dispatch email"
-  loading="lazy"
-  width="2062"
-  height="1474">
+{{< content-figure folder="/blog/"
+src="amazon-dispatch_x1wcyt.jpg"
+alt="Amazon dispatch email"
+width="2062" height="1474" defaultWidth="800"
+loading="lazy" >}}
 
 ### Welcome email
 
@@ -93,19 +72,13 @@ Where appropriate, include links to pages on your site and relevant customer tes
 
 This welcome email from Headspace is very simple, emphasising the benefits of the products and their desire to support the customer.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/headspace-welcome_kxikvn.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/headspace-welcome_kxikvn.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/headspace-welcome_kxikvn.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/headspace-welcome_kxikvn.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/headspace-welcome_kxikvn.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_600/blog/headspace-welcome_kxikvn.jpg"
-  alt="Headspace welcome email"
-  style="max-width: 601px; margin-left: auto; margin-right: auto;"
-  loading="lazy"
-  width="601"
-  height="796">
+{{< content-figure folder="/blog/"
+class="aligncentre"
+style="max-width: 601px;"
+src="headspace-welcome_kxikvn.jpg"
+alt="Headspace welcome email"
+width="601" height="796" defaultWidth="601"
+loading="lazy" >}}
 
 ### Abandoned cart
 
@@ -117,35 +90,23 @@ If you're not already sending out emails to recover abandoned carts, it is well 
 
 The first example abandoned cart email below is clean and well-designed. To encourage the purchase, a time-limited discount is offered. The issue is see with this is that customers may become wise to this approach and always abandon their carts in order to get the 15% discount.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/abandoned-cart-2_fue6de.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/abandoned-cart-2_fue6de.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/abandoned-cart-2_fue6de.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/abandoned-cart-2_fue6de.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/abandoned-cart-2_fue6de.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_580/blog/abandoned-cart-2_fue6de.jpg"
-  alt="An abandoned cart email from Kate Spade"
-  style="max-width: 579px; margin-left: auto; margin-right: auto;"
-  loading="lazy"
-  width="579"
-  height="687">
+{{< content-figure folder="/blog/"
+class="aligncentre"
+style="max-width: 579px;"
+src="abandoned-cart-2_fue6de.jpg"
+alt="An abandoned cart email from Kate Spade"
+width="579" height="687" defaultWidth="579"
+loading="lazy" >}}
 
 Kerastase take a simpler approach to remind the customer who has abandoned and to remind them of the benefits of the product.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/abandoned-cart-1_tbat9v.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/abandoned-cart-1_tbat9v.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/abandoned-cart-1_tbat9v.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/abandoned-cart-1_tbat9v.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/abandoned-cart-1_tbat9v.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_667/blog/abandoned-cart-1_tbat9v.jpg"
-  alt="An abandoned cart email from Kerastase"
-  style="max-width: 667px; margin-left: auto; margin-right: auto;"
-  loading="lazy"
-  width="667"
-  height="608">
+{{< content-figure folder="/blog/"
+class="aligncentre"
+style="max-width: 667px;"
+src="abandoned-cart-1_tbat9v.jpg"
+alt="An abandoned cart email from Kerastase"
+width="667" height="608" defaultWidth="667"
+loading="lazy" >}}
 
 ### Re-engagement
 
@@ -153,19 +114,13 @@ Depending on the type(s) of products you offer, a re-engagement email may be app
 
 The example below is related to email opening rather than product purchase but the principle is the same. Offer an incentive to encourage a customer to purchase from you again.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/reengagement-email_oos21l.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/reengagement-email_oos21l.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/reengagement-email_oos21l.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/reengagement-email_oos21l.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/reengagement-email_oos21l.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_460/blog/reengagement-email_oos21l.jpg"
-  alt="A re-engagement email"
-  style="max-width: 458px; margin-left: auto; margin-right: auto;"
-  loading="lazy"
-  width="458"
-  height="782">
+{{< content-figure folder="/blog/"
+class="aligncentre"
+style="max-width: 458px;"
+src="reengagement-email_oos21l.jpg"
+alt="A re-engagement email"
+width="458" height="782" defaultWidth="458"
+loading="lazy" >}}
 
 ### Review of products purchased
 
@@ -173,19 +128,13 @@ If appropriate, why not email a customer a few weeks after purchase and ask them
 
 Here's a good example from iHerb.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/product-review-email_ynfies.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/product-review-email_ynfies.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/product-review-email_ynfies.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/product-review-email_ynfies.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/product-review-email_ynfies.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_700/blog/product-review-email_ynfies.jpg"
-  alt="An email asking for a product review"
-  style="max-width: 699px; margin-left: auto; margin-right: auto;"
-  loading="lazy"
-  width="699"
-  height="666">
+{{< content-figure folder="/blog/"
+class="aligncentre"
+style="max-width: 699px;"
+src="product-review-email_ynfies.jpg"
+alt="An email asking for a product review"
+width="699" height="666" defaultWidth="699"
+loading="lazy" >}}
 
 ### Subscriptions
 
@@ -193,19 +142,13 @@ If you offer subscriptions to certain products on your site, you might consider 
 
 Here's a good example.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/dollar-shave-club-subscription-email_ca7ns8.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/dollar-shave-club-subscription-email_ca7ns8.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/dollar-shave-club-subscription-email_ca7ns8.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/dollar-shave-club-subscription-email_ca7ns8.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/dollar-shave-club-subscription-email_ca7ns8.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_700/blog/dollar-shave-club-subscription-email_ca7ns8.jpg"
-  alt="An email suggesting subscription add-ons"
-  style="max-width: 697px; margin-left: auto; margin-right: auto;"
-  loading="lazy"
-  width="697"
-  height="790">
+{{< content-figure folder="/blog/"
+class="aligncentre"
+style="max-width: 697px;"
+src="dollar-shave-club-subscription-email_ca7ns8.jpg"
+alt="An email suggesting subscription add-ons"
+width="697" height="790" defaultWidth="697"
+loading="lazy" >}}
 
 ### Account related - Password reset/email verification
 
@@ -219,19 +162,13 @@ When you launch new products, a promotional email to your list will let people k
 
 This example from Neve's Bees offers a 15% discount on their new body oil products.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/neves-bees-new-product-body-oils_z4ssxc.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/neves-bees-new-product-body-oils_z4ssxc.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/neves-bees-new-product-body-oils_z4ssxc.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/neves-bees-new-product-body-oils_z4ssxc.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/neves-bees-new-product-body-oils_z4ssxc.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/neves-bees-new-product-body-oils_z4ssxc.jpg"
-  alt="Discount on new products email"
-  style="max-width: 996px; margin-left: auto; margin-right: auto;"
-  loading="lazy"
-  width="996"
-  height="3146">
+{{< content-figure folder="/blog/"
+class="aligncentre"
+style="max-width: 996px;"
+src="neves-bees-new-product-body-oils_z4ssxc.jpg"
+alt="Discount on new products email"
+width="996" height="3146" defaultWidth="800"
+loading="lazy" >}}
 
 ### Holiday/seasonal special offers
 
@@ -239,19 +176,13 @@ Where appropriate, many online shops send out promotions before Christmas, Black
 
 The example from Crate and Barrel below is well-designed, offering a large discount and being highly focused on encouraging the recipients to go to the shop.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/percentage-off-ecommerce_email_nr1cuy.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/percentage-off-ecommerce_email_nr1cuy.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/percentage-off-ecommerce_email_nr1cuy.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/percentage-off-ecommerce_email_nr1cuy.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/percentage-off-ecommerce_email_nr1cuy.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_700/blog/percentage-off-ecommerce_email_nr1cuy.jpg"
-  alt="Holiday / seasonal email offers"
-  style="max-width: 703px; margin-left: auto; margin-right: auto;"
-  loading="lazy"
-  width="703"
-  height="1065">
+{{< content-figure folder="/blog/"
+class="aligncentre"
+style="max-width: 703px;"
+src="percentage-off-ecommerce_email_nr1cuy.jpg"
+alt="Holiday / seasonal email offers"
+width="703" height="1065" defaultWidth="700"
+loading="lazy" >}}
 
 ### Guides/tutorials/best practice
 
@@ -263,19 +194,13 @@ Of course, there's no harm in promoting some products in these emails but the pr
 
 In this email, the content is educational but the intent is still promotional.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/harrys-educational-welcome-email_ysvu6c.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/harrys-educational-welcome-email_ysvu6c.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/harrys-educational-welcome-email_ysvu6c.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/harrys-educational-welcome-email_ysvu6c.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/harrys-educational-welcome-email_ysvu6c.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_576/blog/harrys-educational-welcome-email_ysvu6c.jpg"
-  alt="Educational / instructional email"
-  style="max-width: 576px; margin-left: auto; margin-right: auto;"
-  loading="lazy"
-  width="576"
-  height="844">
+{{< content-figure folder="/blog/"
+class="aligncentre"
+style="max-width: 576px;"
+src="harrys-educational-welcome-email_ysvu6c.jpg"
+alt="educational / instructional email"
+width="576" height="844" defaultWidth="576"
+loading="lazy" >}}
 
 ### Discount if you spend more than £x
 
@@ -283,19 +208,13 @@ Consider running a promotion that offers a certain percentage off the basket tot
 
 The email from White Stuff offers a fixed discount amount rather than a percentage. It's a striking design with a clear message.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/discount-if-spend-more-than_erkzxe.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/discount-if-spend-more-than_erkzxe.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/discount-if-spend-more-than_erkzxe.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/discount-if-spend-more-than_erkzxe.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/discount-if-spend-more-than_erkzxe.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_662/blog/discount-if-spend-more-than_erkzxe.jpg"
-  alt="Ecommerce email offering a discount if you spend more than a certain amount of money"
-  style="max-width: 662px; margin-left: auto; margin-right: auto;"
-  loading="lazy"
-  width="662"
-  height="1225">
+{{< content-figure folder="/blog/"
+class="aligncentre"
+style="max-width: 662px;"
+src="discount-if-spend-more-than_erkzxe.jpg "
+alt="Ecommerce email offering a discount if you spend more than a certain amount of money"
+width="662" height="1225" defaultWidth="662"
+loading="lazy" >}}
 
 ### Milestones - customer, subscribers, business anniversary
 
@@ -311,19 +230,13 @@ To celebrate these milestones you could offer the customer a gift (if it's a cus
 
 Here Vimeo are promoting their Plus package to people who subscriber a year ago. Again, this is a clear, well-designed and focused email.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/anniversary-vimeo_rns36y.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/anniversary-vimeo_rns36y.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/anniversary-vimeo_rns36y.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/anniversary-vimeo_rns36y.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/anniversary-vimeo_rns36y.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_384/blog/anniversary-vimeo_rns36y.jpg"
-  alt="Ecommerce email from Vimeo at one year anniversary of subscription"
-  style="max-width: 384px; margin-left: auto; margin-right: auto;"
-  loading="lazy"
-  width="384"
-  height="525">
+{{< content-figure folder="/blog/"
+class="aligncentre"
+style="max-width: 384px;"
+src="anniversary-vimeo_rns36y.jpg"
+alt="Ecommerce email from Vimeo at one year anniversary of subscription"
+width="384" height="525" defaultWidth="384"
+loading="lazy" >}}
 
 ### Limited offers
 
@@ -331,19 +244,13 @@ Run a promotion for a limited period or for a certain number of items. Email you
 
 This email from Manach gives a very short timescale to take advantage of the promotion. I don't think such a short time period would work for all businesses, but limited time offers can work well to boost sales.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/time-limited-offer-1_ovupl2.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/time-limited-offer-1_ovupl2.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/time-limited-offer-1_ovupl2.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/time-limited-offer-1_ovupl2.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/time-limited-offer-1_ovupl2.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/time-limited-offer-1_ovupl2.jpg"
-  alt="Time-limited promotional offer ecommerce email"
-  style="max-width: 923px; margin-left: auto; margin-right: auto;"
-  loading="lazy"
-  width="923"
-  height="1544">
+{{< content-figure folder="/blog/"
+class="aligncentre"
+style="max-width: 923px;"
+src="time-limited-offer-1_ovupl2.jpg"
+alt="Time-limited promotional offer ecommerce email"
+width="923" height="1544" defaultWidth="923"
+loading="lazy" >}}
 
 ### Info about subscriptions
 
@@ -359,7 +266,10 @@ I appreciate that some of the promotional emails that I have mentioned here will
 
 If you'd like any help in creating emails for your business, please do let us know. We'd be happy to help.
 
-[Contact Us](https://www.attractmore.uk/contact/){.primary-btn}
+{{< rawhtml >}}
+
+<p><a href="https://www.attractmore.uk/contact/" class="primary-btn">Contact Us</a></p>
+{{< /rawhtml >}}
 
 ### Further reading
 

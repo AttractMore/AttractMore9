@@ -5,7 +5,7 @@ categories:
   - "Digital customer issues"
 metaDesc: "Your website needs to appeal to digital customers, i.e. people who are strongly influenced by digital technology. It's a big opportunity that many ignore."
 excerpt: "Recent posts on this blog have focused on issue of a technical nature like page load speed, but this time I am going to offer some thoughts about customers, especially digital customers. This is important as an <strong>understanding of your customers will affect the design of your site and its content.</strong>"
-primaryImage: "digital-customer-unhappy-with-website"
+cloudinaryPrimaryImage: "digital-customer-unhappy-with-website_oglsaf"
 primaryImageAlt: "Understand your customers"
 extraStyles: "/scss/post.scss"
 ---
@@ -14,7 +14,13 @@ Recent posts on this blog have focused on issues of a technical nature like page
 
 First of all, you may not refer to the people you do business with as customers - clients, donors or patients might be more appropriate. Whatever word you use, it is important to recognise that these people (which includes me and, most likely, you) are changing their attitudes, behaviours and expectations due to the influence of digital technology and the term being used to describe them is digital customers. Breaking this down a little, digital customers are people who readily use their smartphone for browsing the internet, they are comfortable using social media and may also contribute to blogs, review sites etc., sharing their experiences both good and bad. It is impossible to say what proportion of the population fit this description in any country but it is certain that the percentage will grow and grow rapidly. Google refers to this group as [Generation C](https://www.thinkwithgoogle.com/intl/en-gb/consumer-insights/) or the YouTube generation and believes they represent a ‘powerful new force in consumer culture’.
 
-![Digital Customer unhappy with website](/optim/blog/digital-customer-unhappy-with-website.jpg){width=500}{data-responsiver=blogside}
+{{< content-figure folder="/blog/"
+class="alignright"
+src="digital-customer-unhappy-with-website_oglsaf.jpg"
+alt="Digital Customer unhappy with website"
+width="500" height="281599" defaultWidth="500"
+loading="lazy" >}}
+
 Just think how many more people now use their phones for browsing the internet and even for buying products. Millions upon millions of people use Facebook, Twitter, LinkedIn, Pinterest etc. Think about TripAdvisor, Amazon and many other sites where people regularly leave their thoughts about places and products. There are, of course, many more examples. And please don’t fall into the trap of believing that most of these people are less than 30 years old. They’re of all ages and as Google says ‘It’s not an age group; it’s an attitude and mindset.
 
 OK, so why does this matter to you as a business owner? It matters because your website, social media pages and anything else you might manage online that is connected to your business needs to appeal to this group as well as the rest of the population. Customers, all customers, are much more likely to engage with your business if your web presence is attractive to them. I'm not suggesting that your site should be made only to grab the attention to digital customers, not at all, but I am saying that you need to account for this group in creating your site. They are an important segment and should not be ignored.

@@ -5,7 +5,7 @@ categories:
   - "Security"
 metaDesc: "I believe we have a duty, both personal and professional, to use strong passwords. Here are some practical steps you can take to protect yourself."
 excerpt: "As everyone knows, there is a lot of attempted fraud on the internet and there are people who would like to use your userid and password to access the services you use. Why do they do this? It may be that they can get financial information, e.g. credit card details, which they can take advantage of or, they may just want to use your email address to send SPAM messages to others. The first of these can obviously lead to your finances being compromised (usually quantifiable) and the second results in <strong>reputational damage</strong>, both personal and affecting your business (unquantifiable). Neither of these outcomes are, in any way, desirable. However, there are <strong>simple actions you can take to protect yourself.</strong>"
-primaryImage: "appeal-strong-passwords"
+cloudinaryPrimaryImage: "appeal-strong-passwords_twbbuo"
 primaryImageAlt: "Strong passwords make the internet safer"
 extraStyles: "/scss/post.scss"
 ---
@@ -14,7 +14,13 @@ This is an appeal about passwords – an appeal that you always use strong passw
 
 As everyone knows, there is a lot of attempted fraud on the internet and there are people who would like to use your userid and password to access the services you use. Why do they do this? It may be that they can get financial information, e.g. credit card details, which they can take advantage of or, they may just want to use your email address to send SPAM messages to others. The first of these can obviously lead to your finances being compromised (usually quantifiable) and the second results in **reputational damage**, both personal and affecting your business (unquantifiable). Neither of these outcomes are, in any way, desirable.
 
-![An appeal about passwords](/optim/blog/appeal-strong-passwords.jpg){width=500}{data-responsiver=blogside}
+{{< content-figure folder="/blog/"
+class="alignright"
+src="appeal-strong-passwords_twbbuo.jpg"
+alt="An appeal for strong passwords"
+width="500" height="334" defaultWidth="500"
+loading="lazy" >}}
+
 In addition, if you have a website that you can update yourself, like WordPress, then if your userid and password can be guessed, others can access your server and utilise that machine for other criminal activities such as bombarding other sites with random requests as a means to cause another company’s site to collapse. The reason people do this is to extort money from the website owner in return for stopping the barrage of spurious requests. The effect of this activity on your site (i.e. the one sending the requests) may not be that obvious but the speed with which your pages load will decline, causing user frustration, and the search engines are likely to discover this activity on your server and may, therefore, ban your site from their listings.
 
 To protect ourselves and our businesses **I believe we have a duty to use strong passwords that are difficult to guess or break.**

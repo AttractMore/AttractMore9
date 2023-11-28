@@ -13,18 +13,10 @@ extraStyles: "/scss/post.scss"
 
 ## A beginner’s guide to making your website more accessible
 
-<img
-  class="hero-image"
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/visually-impaired-man-using-computer_evugdr.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/visually-impaired-man-using-computer_evugdr.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/visually-impaired-man-using-computer_evugdr.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/visually-impaired-man-using-computer_evugdr.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/visually-impaired-man-using-computer_evugdr.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/visually-impaired-man-using-computer_evugdr.jpg"
-  alt="Websites need to be built in a way that makes them accessible to visually impaired people."
-  width="1920"
-  height="1280">
+{{< content-figure folder="/blog/"
+src="visually-impaired-man-using-computer_evugdr.jpg"
+alt="Websites need to be built in a way that makes them accessible to visually impaired people."
+width="1920" height="1280" defaultWidth="800" >}}
 
 **“The power of the web is in its universality. Access by everyone regardless of disability is an essential aspect.” Tim Berners-Lee, W3C Director and Inventor of the World Wide Web**
 
@@ -68,35 +60,21 @@ Web accessibility covers everything from content management systems to forms, an
 
 With a big ‘skip to main content’ banner (use the tab key), large images and well-designed buttons, the [Scope site](https://www.scope.org.uk/) isn’t just a great example of an accessible website, it also shows accessible sites don’t have to look dull and boring.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/scope-home-page_cmeoig.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/scope-home-page_cmeoig.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/scope-home-page_cmeoig.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/scope-home-page_cmeoig.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/scope-home-page_cmeoig.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/scope-home-page_cmeoig.jpg"
-  alt="Disability website - Scope - home page showing good example of accessible website."
-  loading="lazy"
-  width="1920"
-  height="1479">
+{{< content-figure folder="/blog/"
+src="scope-home-page_cmeoig.jpg"
+alt="Disability website - Scope - home page showing good example of accessible website."
+width="1920" height="1479" defaultWidth="800"
+loading="lazy" >}}
 
 **Gov.uk**
 
 [https://www.gov.uk/](https://www.gov.uk/) It might not be the prettiest website, but it does try and make the overall experience as inclusive as possible. As well as having well-structured HTML, it also incorporates a lot of small enhancements for screen reader and keyboard users, so they have full use of the site.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/uk-government-home-page_pjuzjh.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/uk-government-home-page_pjuzjh.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/uk-government-home-page_pjuzjh.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/uk-government-home-page_pjuzjh.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/uk-government-home-page_pjuzjh.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/uk-government-home-page_pjuzjh.jpg"
-  alt="UK Government website home page showing good example of accessible website."
-  loading="lazy"
-  width="1816"
-  height="1715">
+{{< content-figure folder="/blog/"
+src="uk-government-home-page_pjuzjh.jpg"
+alt="UK Government website home page showing good example of accessible website."
+width="1816" height="1715" defaultWidth="800"
+loading="lazy" >}}
 
 **Paralympic.org**
 
@@ -104,18 +82,11 @@ With a big ‘skip to main content’ banner (use the tab key), large images and
 
 As well as including a text size adjuster on the home page, the images and video are large with plenty of white space around them to help them stand out.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/paralympics-home-page_kcvuhk.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/paralympics-home-page_kcvuhk.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/paralympics-home-page_kcvuhk.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/paralympics-home-page_kcvuhk.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/paralympics-home-page_kcvuhk.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/paralympics-home-page_kcvuhk.jpg"
-  alt="Paralympics website - home page showing good example of accessible website."
-  loading="lazy"
-  width="1920"
-  height="1797">
+{{< content-figure folder="/blog/"
+src="paralympics-home-page_kcvuhk.jpg"
+alt="Paralympics website - home page showing good example of accessible website."
+width="1920" height="1797" defaultWidth="800"
+loading="lazy" >}}
 
 ## Take your first steps to web accessibility
 

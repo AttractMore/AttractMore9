@@ -6,7 +6,7 @@ categories:
   - "Web design"
 metaDesc: "This post contains a business website checklist aimed at helping business owners gain greater success from their website. Download the ebook now."
 excerpt: "All the posts on this site are aimed at people who want to get the most from their website in terms of number of engaged and interested visitors, so potentially increasing the amount of business they are able to carry out. To that end, I have written an ebook that contains 35 items that will influence the success of your business website which you can download for free."
-primaryImage: "get-more-from-your-business-website"
+cloudinaryPrimaryImage: "get-more-from-your-business-website_b7zeeq"
 primaryImageAlt: "Business website success checklist"
 extraStyles: "/scss/post.scss"
 ---
@@ -15,7 +15,12 @@ All the posts on this site are aimed at business people who want to get the most
 
 To that end, I have written an ebook that contains 33 items (updated to 35 items October 2020 ) that will influence the success of your business website. The book includes suggestions and ideas about:
 
-![Business Website Checklist](/optim/blog/get-more-from-your-business-website.jpg){width=500}{data-responsiver=blogside}
+{{< content-figure folder="/blog/"
+class="alignright"
+src="get-more-from-your-business-website_b7zeeq.jpg"
+alt="Business Website Checklist"
+width="500" height="599" defaultWidth="500"
+loading="lazy" >}}
 
 - the purpose of your website, i.e. what do you expect the website to do for your business
 - the design of the site

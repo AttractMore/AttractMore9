@@ -13,9 +13,9 @@ extraStyles: "/scss/post.scss"
 
 ## Set your eCommerce site up for success
 
-<img {% hero 'building-an-ecommerce-site-rupixen_jt1ivk.jpg' %}
-alt="eCommerce sites need to stand out from the competition. Use these 8 tips to make sure your site is as good as it can be."
-width="1920" height="1280">
+{{< content-figure folder="/blog/"
+src="building-an-ecommerce-site-rupixen_jt1ivk.jpg"
+alt="eCommerce sites need to stand out from the competition. Use these 8 tips to make sure your site is as good as it can be." width="1920" height="1280" defaultWidth="800" >}}
 
 The Coronavirus Pandemic has been responsible for many changes to how we live our lives, including curtailing our desire and ability to visit retail stores in-person. In fact, during 2020, ecommerce growth in the UK alone increased nearly fivefold and this year (2022) [20.3% of global retail sales](https://www.emarketer.com/content/global-ecommerce-forecast-2022) are expected to come from online purchases. And when you see [brands like Primark](https://www.bbc.co.uk/news/business-61863413) finally taking the online plunge, you know it’s a trend that is here to stay.
 
@@ -29,9 +29,11 @@ While it might be tempting to cram as much information into a single page as pos
 
 [Wayfair.co.uk](https://www.wayfair.co.uk/kitchenware-tableware/pdp/symple-stuff-multi-hand-blender-super-1000w-4-in-1-u003070425.html) is a great example of how to get it right. Although they do provide lots of information on each individual product, they put everything under drop-down tabs, so you can pick and choose what information you see when.
 
-<img {% hero 'wayfair_kl5aie.jpg' %}
+{{< content-figure folder="/blog/"
+src="wayfair_kl5aie.jpg"
 alt="Wayfair avoids cluttering the page yet provides all the info a customer may need."
-width="1920" height="1366">
+width="1920" height="1366" defaultWidth="800"
+loading="lazy" >}}
 
 ### 2. Be very clear on your pricing
 
@@ -39,9 +41,11 @@ For many of us price is the primary driver for potential purchases, so it needs 
 
 [ASOS.com](https://www.asos.com/influence/influence-wrap-front-mini-dress-in-mixed-floral-print/prd/202377077?clr=multi&colourWayId=202377093&cid=5235) is a good example of how to display prices. Not only do they clearly show the price but also the discount you will be getting, which is a good way of encouraging someone to buy.
 
-<img {% hero 'asos_zvytct.jpg' %}
+{{< content-figure folder="/blog/"
+src="asos_zvytct.jpg"
 alt="Being crystal clear about product pricing is an essential element of successful eCommerce."
-width="1920" height="1505">
+width="1920" height="1505" defaultWidth="800"
+loading="lazy" >}}
 
 Also make sure you are clear about delivery charges. A survey found [55% of people abandon their shopping carts](https://www.drip.com/blog/cart-abandonment-statistics) because they felt extra costs, such as delivery fees and taxes, were too high. Consider giving free delivery, as for many, that’s an added incentive to buy.
 
@@ -55,9 +59,11 @@ You could also opt for simple product videos, such as on the [Nike site](https:/
 
 If you use still photography, use a number of high-resolution images from different angles, such as [wiggle.co.uk](https://www.wiggle.co.uk/vitus-vitesse-evo-crs-di2-road-bike-2022) do for their products.
 
-<img {% hero 'wiggle_v1zxbe.jpg' %}
+{{< content-figure folder="/blog/"
+src="wiggle_v1zxbe.jpg"
 alt="Use high resolution product images to showcase products to best effect."
-width="1920" height="1505">
+width="1920" height="1505" defaultWidth="800"
+loading="lazy" >}}
 
 And always try to show the product 'in context' such as how earphones look on someone's head or how a blender looks in a busy kitchen.
 
@@ -73,9 +79,11 @@ We’ve all heard the horror stories of things going wrong online, so make sure 
 
 Brand is so much more than a logo or a colour scheme. It’s about who you are, what your ethos is and why you exist. Remember online is a very competitive place, so having a genuine brand story that resonates with your target audience is one way of ensuring customers choose you over the competition. [Harry’](https://www.harrys.com/en/gb/our-story)s is a good example of a brand who put their core values at the heart of everything they do.
 
-<img {% hero 'harrys_in2rpc.jpg' %}
+{{< content-figure folder="/blog/"
+src="harrys_in2rpc.jpg"
 alt="Brand values and brand personality distinguish you from your competition. Harry's is a good example."
-width="1920" height="1317">
+width="1920" height="1317" defaultWidth="800"
+loading="lazy" >}}
 
 ### 7. Don’t ask people to register to checkout
 

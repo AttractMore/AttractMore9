@@ -3,6 +3,7 @@
   All images are either 500px wide or 930px wide
   Named parameters are all strings
   - class
+  - style - additional css
   - link (if you need to make the figure a link)
   - src  - the name of the image in Cloudinary
   - folder - the folder name in Cloudinary
@@ -14,7 +15,8 @@
   @returns - figure with img and, optionally, figcaption
 */}}
 
-<figure {{ with .Get "class" }} class="{{ . }}"{{ end }}>
+<figure {{ with .Get "class" }} class="{{ . }}"{{ end }}
+  {{ with .Get "style" }} style="{{ . | safeCSS }}"{{- end -}}>
   {{- if .Get "link" -}}
       <a href="{{ .Get "link" }}">
   {{- end -}}
@@ -29,7 +31,7 @@
       {{ $srcset.Set "srcsetsizes" $.Page.Site.Params.srcsetSmallSizes }}
       {{ $srcset.Set "srcsetwidths" $.Page.Site.Params.srcsetSmallWidths }}
     {{- else -}}
-        {{/* Larger imgaes in blog posts need a different sizes parameter */}}
+        {{/* Larger images in blog posts need a different sizes parameter */}}
         {{- if eq ($imgsrc.Get "folder") "/blog/" -}}
           {{ $srcset.Set "srcsetsizes" $.Page.Site.Params.cloudinaryBlogPostFullSizes }}
         {{- else -}}
