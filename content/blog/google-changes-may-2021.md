@@ -15,18 +15,10 @@ extraStyles: "/scss/post.scss"
 
 As you may already have heard, Google are planning to introduce some new factors into their search engine algorithm which will affect how pages are ranked in the search results. This change was going to happen in May 2021. However, on April 19, [Google announced](https://developers.google.com/search/blog/2021/04/more-details-page-experience) that they were delaying the update until mid-June. They also stated that the introduction would be gradual and that the 'page-experience' update 'won't play its full role [...] until the end of August'.
 
-<img
-  class="hero-image"
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/searching-in-google_g3xuft.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/searching-in-google_g3xuft.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/searching-in-google_g3xuft.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/searching-in-google_g3xuft.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/searching-in-google_g3xuft.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/searching-in-google_g3xuft.jpg"
-  alt="Page experience will become an increasingly important factor in determining how well pages rank in search results"
-  width="1920"
-  height="1280">
+{{< content-figure folder="/blog/"
+src="searching-in-google_g3xuft.jpg"
+alt="Page experience will become an increasingly important factor in determining how well pages rank in search results"
+width="1920" height="1280" defaultWidth="800" >}}
 
 They announced this nearly a year ago in the hope that website owners would start making any changes that were necessary and there is some evidence that this has been happening ([Google blog post November 2020)](https://developers.google.com/search/blog/2020/11/timing-for-page-experience).
 
@@ -44,15 +36,11 @@ The post explains what the new factors are, how you can measure your web pages a
 
 As the diagram from Google below shows, there are a number of factors that are taken into account when assessing page experience. The last 4 are already being used - it's the three in green at the top, collectively referred to as Core Web Vitals, that are the new ones.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/page-experience-search-full.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/page-experience-search-full.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/page-experience-search-full.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/page-experience-search-full.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/page-experience-search-full.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/page-experience-search-full.jpg"
-  alt="The factors that make up the search signals for page experience">
+{{< content-figure folder="/blog/"
+src="page-experience-search-full.jpg"
+alt="The factors that make up the search signals for page experience"
+width="2708" height="1509" defaultWidth="800"
+loading="lazy" >}}
 
 So, the use of page experience as a search ranking factor isn't new - it's just that Google are expanding the range of metrics they use to 'measure' page experience.
 
@@ -124,29 +112,21 @@ There are a number of tools available that will give you an indication of how yo
 
 The best one is [Google Search Console](https://search.google.com/search-console/about), if you have this set up on your website and if your site gets enough traffic for Google to have created the reports. If so, then the Core Web Vitals tab on the search console screen will show useful information about what needs improvement and on which pages as you can see in the image below.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/gsc-core-web-vitals-full.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/gsc-core-web-vitals-full.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/gsc-core-web-vitals-full.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/gsc-core-web-vitals-full.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/gsc-core-web-vitals-full.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/gsc-core-web-vitals-full.jpg"
-  alt="Google Search Console showing Core Web Vitals">
+{{< content-figure folder="/blog/"
+src="gsc-core-web-vitals-full.jpg"
+alt="Google Search Console showing Core Web Vitals"
+width="2995" height="2338" defaultWidth="800"
+loading="lazy" >}}
 
 If you don't have Google Search Console set up for your site or there is no data in the report, then the next best option is [Pagespeed Insights](https://developers.google.com/speed/pagespeed/insights/) from Google. You just type in the address of your page, click Analyze, and the results will be available within a minute.
 
 The image below shows the results for the AttractMore website. As you can see towards the bottom, both the Largest Contentful Paint and Cumulative Layout Shift scores are given but the First Input Delay is missing. There are other speed metrics given but not FID. The reason is that this metric cannot be measured easily if there is no interaction, so the data has to be collected from real users. These users will be using different devices in different ways so the data can be variable. For now, aim to get green dots against all 6 items if using Pagespeed Insights.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/attractmore-pagespeed-insights-full.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/attractmore-pagespeed-insights-full.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/attractmore-pagespeed-insights-full.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/attractmore-pagespeed-insights-full.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/attractmore-pagespeed-insights-full.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/attractmore-pagespeed-insights-full.jpg"
-  alt="Example output from Pagespeed Insights">
+{{< content-figure folder="/blog/"
+src="attractmore-pagespeed-insights-full.jpg"
+alt="Example output from Pagespeed Insights"
+width="3073" height="2038" defaultWidth="800"
+loading="lazy" >}}
 
 ## Conclusion
 

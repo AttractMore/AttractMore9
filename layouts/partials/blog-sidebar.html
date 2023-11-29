@@ -7,7 +7,7 @@
       <ul class="{{ $taxo }}">
         {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
             {{ range .Data.Terms.Alphabetical }}
-                <li><a class="post-tag" href="{{ .Page.Permalink }}">{{ .Page.Title}}</a></li>
+                <li><a class="post-tag" href="{{ .Page.Permalink }}">{{ .Page.Params.linkTitle}}</a></li>
             {{ end }}
         {{ end }}
       </ul>  

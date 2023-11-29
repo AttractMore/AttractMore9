@@ -13,18 +13,10 @@ extraStyles: "/scss/post.scss"
 
 ## How making your website accessible is also great for SEO
 
-<img
-  class="hero-image"
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/three-guys-looking-serious-at-computer_e2v6sx.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/three-guys-looking-serious-at-computer_e2v6sx.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/three-guys-looking-serious-at-computer_e2v6sx.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/three-guys-looking-serious-at-computer_e2v6sx.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/three-guys-looking-serious-at-computer_e2v6sx.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/three-guys-looking-serious-at-computer_e2v6sx.jpg"
-  alt="Websites that are built for those with disabilities, also work better for those without, and so do better in the search engines"
-  width="1920"
-  height="1280">
+{{< content-figure folder="/blog/"
+src="three-guys-looking-serious-at-computer_e2v6sx.jpg"
+alt="Websites that are built for those with disabilities, also work better for those without, and so do better in the search engines"
+width="1920" height="1280" defaultWidth="800" >}}
 
 Making your website completely accessible isn’t just the right thing to do, it also makes good business sense. As I mentioned in my [last blog on how to make your website more accessible](https://www.attractmore.uk/blog/a-starter-guide-to-accessibility/), there are **14 million disabled people in the UK**, so why wouldn’t you want to ensure they are able to easily access your business online?
 
@@ -66,18 +58,11 @@ Adding ‘Alternative text’ or alt text to an image is a **crucial accessibili
 
 But adding alt text isn’t just about providing search engines with more information about the content of the page. It’s also about ensuring images show up in Google Image searches, which offers businesses another opportunity to drive traffic to their websites.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/more-website-traffic-seo_c32fh1.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/more-website-traffic-seo_c32fh1.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/more-website-traffic-seo_c32fh1.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/more-website-traffic-seo_c32fh1.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/more-website-traffic-seo_c32fh1.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/more-website-traffic-seo_c32fh1.jpg"
-  alt="An accessible website can help bring more traffic to your website."
-  loading="lazy"
-  width="1920"
-  height="1390">
+{{< content-figure folder="/blog/"
+src="more-website-traffic-seo_c32fh1.jpg "
+alt="An accessible website can help bring more traffic to your website."
+width="1920" height="1390" defaultWidth="800"
+loading="lazy" >}}
 
 ## 4. Make sure your site includes a sitemap
 
@@ -105,18 +90,11 @@ Just like a sitemap, breadcrumbs give users another way of navigating a website 
 
 It’s also great for SEO as it shows search engines how the site is structured.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/braille-display-for-visually-impaired-users_eoinim.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/braille-display-for-visually-impaired-users_eoinim.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/braille-display-for-visually-impaired-users_eoinim.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/braille-display-for-visually-impaired-users_eoinim.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/braille-display-for-visually-impaired-users_eoinim.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/braille-display-for-visually-impaired-users_eoinim.jpg"
-  alt="For severely visually impaired users, Braille displays and keyboards are available."
-  loading="lazy"
-  width="1920"
-  height="1280">
+{{< content-figure folder="/blog/"
+src="braille-display-for-visually-impaired-users_eoinim.jpg "
+alt="For severely visually impaired users, Braille displays and keyboards are available."
+width="1920" height="1280" defaultWidth="800"
+loading="lazy" >}}
 
 ## 8. Ensure your navigation is consistent
 

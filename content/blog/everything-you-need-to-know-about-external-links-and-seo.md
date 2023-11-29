@@ -12,9 +12,10 @@ socialImage: "/images/blog/external-links-in-a-chain-1200.jpg"
 extraStyles: "/scss/post.scss"
 ---
 
-<img {% hero 'external-links-in-a-chain_kbhgxe.jpg' %}
+{{< content-figure folder="/blog/"
+src="external-links-in-a-chain_kbhgxe.jpg"
 alt="Gaining links from external websites is essential in achieving good rankings in the search engines."
-width="1920" height="1277">
+width="1920" height="1277" defaultWidth="800" >}}
 
 How many times have you thought you would just have a quick browse on the web? Chances are you will start reading one article only to find an interesting link to another website, and then another, and before you know it hours will have gone by.
 
@@ -32,9 +33,11 @@ But it’s not just an improvement in search rankings that external links help w
 - **Boost your credibility as a business**: if your site has links from trusted sources such as the BBC or from a site which has a strong reputation in your sector, then it’s an indicator you are a trustworthy and credible business.
 - **Sends referral traffic to your website**: having links on other websites is a great way of getting people to click through to your content and introducing your company to potential future customers.
 
-<img {% hero 'search-engine-statistic-graphs_rdp4od.jpg' %}
+{{< content-figure folder="/blog/"
+src="search-engine-statistic-graphs_rdp4od.jpg"
 alt="Incoming links to your website boost your credibility as a business."
-width="1920" height="1171">
+width="1920" height="1171" defaultWidth="800"
+loading="lazy" >}}
 
 ## What type of external links should you be acquiring?
 
@@ -46,9 +49,11 @@ It's also worth noting that improving your search ranking is not just related to
 
 - **Diverse:** while it might be tempting to just list your website in every online directory, Google prefers a ‘natural link profile’, which means links should come from a variety of sources and appear to be a natural fit with your content.
 
-<img {% hero 'chain-link-fence-with-colourful-padlocks_bbp1zy.jpg' %}
+{{< content-figure folder="/blog/"
+src="chain-link-fence-with-colourful-padlocks_bbp1zy.jpg"
 alt="A range of quality incoming links to your website are valuable but they must be relevant, have high authority and be a natural fit for your content."
-width="1920" height="1278">
+width="1920" height="1278" defaultWidth="800"
+loading="lazy" >}}
 
 It’s also worth remembering that links work both ways. While getting links to your site from other worthwhile websites is important, you should also be directing users to content on other websites.
 
@@ -73,9 +78,11 @@ Ideas of where you could get backlinks include:
 
 Of course, the easiest links to acquire are those that happen without you having to do anything, so I would also recommend you consistently [create high-quality content](https://www.attractmore.uk/blog/how-to-write-better-content-for-your-website/) as this is the best way to organically obtain external links.
 
-<img {% hero 'woman-browsing-the-internet_rr0uve.jpg' %}
+{{< content-figure folder="/blog/"
+src="woman-browsing-the-internet_rr0uve.jpg"
 alt="Links given voluntarily are the most valuable and this means writing great content that people want to read and share."
-width="1920" height="1574">
+width="1920" height="1574" defaultWidth="800"
+loading="lazy" >}}
 
 ## Things you definitely shouldn’t do
 
@@ -92,9 +99,11 @@ Another thing to avoid is using ‘Click here’ or ‘Learn more’. Link text 
 
 Here’s a [list of other phrases](https://web.dev/link-text/) you should avoid.
 
-<img {% hero 'chain-link-fencing_vm3nf7.jpg' %}
+{{< content-figure folder="/blog/"
+src="chain-link-fencing_vm3nf7.jpg"
 alt="Never purchase incoming links - this could help your site in the very short term but then it is likely to be detrimental and could get your site banned."
-width="1920" height="1272">
+width="1920" height="1272" defaultWidth="800"
+loading="lazy" >}}
 
 ## What about internal links?
 

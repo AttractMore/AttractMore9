@@ -11,7 +11,10 @@ socialImage: "/images/blog/good-business-charter-logo-1200.jpg"
 extraStyles: "/scss/post.scss"
 ---
 
-{{< content-figure folder="/blog/" src="GBC_Accredited_Logo_Sq_ojqwje.jpg" alt="Good Business Charter logo" width="930" height="930" defaultWidth="800" >}}
+{{< content-figure folder="/blog/"
+src="GBC_Accredited_Logo_Sq_ojqwje.jpg"
+alt="Good Business Charter logo"
+width="930" height="930" defaultWidth="800" >}}
 
 **AttractMore is delighted to announce that it has joined many other companies in signing up to the Good Business Charter (GBC), an accreditation that seeks to raise the bar on business practices for employees, tax, the environment, customers and suppliers.**
 
@@ -30,7 +33,11 @@ We are proud to be accredited by the Good Business Charter and are keen to share
 9. We commit to ethical sourcing of anything we purchase, such as by applying standards set out in the Ethical Trading Initiative Base Code where relevant.
 10. We commit to paying our suppliers promptly, and within at least 30 days.
 
-{{< content-figure folder="/blog/" src="GBC_10_Components_lquh9c.jpg" alt="10 components of the Good Business Charter that must be met by all accredited organisations" width="930" height="930" defaultWidth="800" loading="lazy" >}}
+{{< content-figure folder="/blog/"
+src="GBC_10_Components_lquh9c.jpg"
+alt="10 components of the Good Business Charter that must be met by all accredited organisations"
+width="930" height="930" defaultWidth="800"
+loading="lazy" >}}
 
 The Good Business Charter exists for all UK companies, charities and public sector organisations across all industries and sectors and works through a simple online self-certification process.  At a time when people are caring more about who they work for and who they buy from, the GBC offers a straightforward accreditation, recognising organisations that prioritise and value their employees, customers, suppliers and the environment, whilst also paying their taxes according to the spirit of the law.
 

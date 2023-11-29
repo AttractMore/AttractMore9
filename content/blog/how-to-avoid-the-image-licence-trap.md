@@ -14,18 +14,10 @@ extraStyles: "/scss/post.scss"
 
 ## Staying legal with digital images
 
-<img
-  class="hero-image"
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/close-up-of-photographer_u3xe92.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/close-up-of-photographer_u3xe92.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/close-up-of-photographer_u3xe92.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/close-up-of-photographer_u3xe92.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/close-up-of-photographer_u3xe92.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/close-up-of-photographer_u3xe92.jpg"
-  alt="How to avoid copyright infringement when using stock images. Photographers need to be paid for their work."
-  width="1920"
-  height="1280">
+{{< content-figure folder="/blog/"
+src="close-up-of-photographer_u3xe92.jpg"
+ alt="How to avoid copyright infringement when using stock images. Photographers need to be paid for their work."
+width="1920" height="1280" defaultWidth="800" >}}
 
 Simply using the [the right type of imagery](https://www.attractmore.uk/blog/choosing-images-for-your-website/) on your website can turn it from so-so to great and the best way to avoid the image licence trap, is to use your own images. They're unique and there's no issue with copyright at all.
 
@@ -39,18 +31,11 @@ I came across such a case myself recently. Someone had genuinely purchased the w
 
 The bottom line is this - every single image, whether it’s a photograph, vector file, icon or gif has been created by someone and may come with restrictions on how it can be used, so **always make sure you get the proper licence.**
 
-<img
-  class="hero-image"
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/the-scales-of-justice-for-copyright_mo3ibh.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/the-scales-of-justice-for-copyright_mo3ibh.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/the-scales-of-justice-for-copyright_mo3ibh.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/the-scales-of-justice-for-copyright_mo3ibh.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/the-scales-of-justice-for-copyright_mo3ibh.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/the-scales-of-justice-for-copyright_mo3ibh.jpg"
-  alt="The scales of justice. Don't infringe photographers' copyright. The licensor will catch up with you!"
-  width="1920"
-  height="1280">
+{{< content-figure folder="/blog/"
+src="the-scales-of-justice-for-copyright_mo3ibh.jpg"
+alt="The scales of justice. Don't infringe photographers' copyright. The licensor will catch up with you!"
+width="1920" height="1280" defaultWidth="800"
+loading="lazy" >}}
 
 ## Image licences
 
@@ -100,18 +85,11 @@ This is an image which has been put into the public domain by the creator and is
 
 Whilst the above are the most common types of licence you’ll come across, bear in mind many stock libraries will have their own licencing plans. Alamy, for example, offer [numerous different types of licences](https://www.alamy.com/licenses-and-pricing/) based on usage, type of file and even size. And even though they say the 'ready-made image licences are quick and easy to use' it’s actually quite hard to work out the correct option to pick.
 
-<img
-  class="hero-image"
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/pay-and-say-thank-you-for-images_pemxty.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/pay-and-say-thank-you-for-images_pemxty.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/pay-and-say-thank-you-for-images_pemxty.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/pay-and-say-thank-you-for-images_pemxty.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/pay-and-say-thank-you-for-images_pemxty.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/pay-and-say-thank-you-for-images_pemxty.jpg"
-  alt="Photographers and others deserve out thanks and deserve to be paid for their work"
-  width="1920"
-  height="1439">
+{{< content-figure folder="/blog/"
+src="pay-and-say-thank-you-for-images_pemxty.jpg"
+alt="Photographers and others deserve out thanks and deserve to be paid for their work"
+width="1920" height="1439" defaultWidth="800"
+loading="lazy" >}}
 
 ## What should you do if you receive _‘that’_ email?
 

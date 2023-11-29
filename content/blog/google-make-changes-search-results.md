@@ -5,7 +5,7 @@ categories:
   - "Search engines"
 metaDesc: "Mobile friendly websites become increasingly important. If you want Google to put your site in the search results, think mobile first."
 excerpt: "It seems that Google will be promoting mobile friendly websites even more strongly very soon according to an article in the Guardian today."
-primaryImage: "google2"
+cloudinaryPrimaryImage: "google2_sxyene"
 primaryImageAlt: "Search engine algorithm changes"
 extraStyles: "/scss/post.scss"
 ---

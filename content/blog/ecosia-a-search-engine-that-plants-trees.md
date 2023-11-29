@@ -18,9 +18,10 @@ Recently I wrote about the [electricity used by the Internet](https://www.attrac
 
 I do a lot of online searches every day and I bet you do too. What if every search you did helped towards planting trees? Well, there is a search engine that does just that. It's called [Ecosia](https://www.ecosia.org/). It's a strange name but it's a very good search engine.
 
-<img {% hero 'ecosia-a-search-engine-that-plants-trees_acrwvq.jpg' %}
+{{< content-figure folder="/blog/"
+src="ecosia-a-search-engine-that-plants-trees_acrwvq.jpg"
 alt="Ecosia is a search engine that invests its profits into planting trees."
-width="1920" height="1282">
+width="1920" height="1282" defaultWidth="800" >}}
 
 ## How does this work?
 
@@ -39,9 +40,11 @@ They plant trees in places such as:
 
 You can find out more detail about [how Ecosia works](https://info.ecosia.org/what) and [where they plant trees](https://blog.ecosia.org/tag/where-does-ecosia-plant-trees/).
 
-<img {% hero 'ecosia-using-profits-to-plant-trees_lkasrg.jpg' %}
+{{< content-figure folder="/blog/"
+src="ecosia-using-profits-to-plant-trees_lkasrg.jpg"
 alt="Ecosia uses its profits to plant trees."
-width="1920" height="1282">
+width="1920" height="1282" defaultWidth="800"
+loading="lazy" >}}
 
 ## Search with Ecosia
 
@@ -53,9 +56,11 @@ To be fair though, this doesn’t mean that searching with Ecosia is carbon nega
 
 If you want more reasons to use Ecosia there are [50 reasons here](https://blog.ecosia.org/50-reasons-to-use-ecosia/).
 
-<img {% hero 'ecosia-a-search-engine-that-plants-trees-in-africa_c5fzgc.jpg' %}
+{{< content-figure folder="/blog/"
+src="ecosia-a-search-engine-that-plants-trees-in-africa_c5fzgc.jpg"
 alt="Ecosia is a carbon-negative company that plants trees in Africa."
-width="1920" height="1278">
+width="1920" height="1278" defaultWidth="800"
+loading="lazy" >}}
 
 ## Making the switch
 

@@ -13,9 +13,10 @@ extraStyles: "/scss/post.scss"
 
 ## The importance of brand identity
 
-<img {% hero 'nike-strong-brand-identity_o1agst.jpg' %}
+{{< content-figure folder="/blog/"
+src="nike-strong-brand-identity_o1agst.jpg"
 alt="eCommerce sites need to be distinct from the competition. Brand identity is an important factor in customer purchase decisions."
-width="1920" height="1368">
+width="1920" height="1368" defaultWidth="800" >}}
 
 With an estimated 95% of purchases expected to be made [online by 2040](https://www.nasdaq.com/articles/uk-online-shopping-and-e-commerce-statistics-2017-2017-03-14), it’s easy to believe that if you build an eCommerce site following some of [the best practice guidelines](https://www.attractmore.uk/blog/8-winning-tips-for-building-an-ecommerce-site/), then selling your products will be straightforward. But as with almost everything in business, it’s not quite that simple.
 
@@ -39,17 +40,21 @@ Promoting how you are different from other companies comes with a number of clea
 
 Like it or not, you will have competitors and unlike shopping on the high street, it’s a lot easier online for potential customers to research similar companies and compare options. This is where brand identity comes in. Even though you might offer similar products at a comparable price to another eCommerce site, **how you present yourself will be unique to you**.
 
-<img {% hero 'mountain-warehouse-focus-on-family-and-design_l7boy5.jpg' %}
+{{< content-figure folder="/blog/"
+src="mountain-warehouse-focus-on-family-and-design_l7boy5.jpg"
 alt="eCommerce site, Mountain Warehouse, has a brand identity that focuses on family and design to make themselves distinct."
-width="1920" height="1181">
+width="1920" height="1181" defaultWidth="800"
+loading="lazy" >}}
 
 For example, [Mountain Warehouse](https://www.mountainwarehouse.com/) and [Go Outdoors](https://www.gooutdoors.co.uk/) sell the same type of products, but Mountain Warehouse focuses on family and design while Go Outdoors on price. This is evident both in the content but also in the designs of both sites.
 
 It’s this difference that makes you stand out and encourages people to buy from you, and not your competitor.
 
-<img {% hero 'go-outdoors-focus-on-price_jv3xhw.jpg' %}
+{{< content-figure folder="/blog/"
+src="go-outdoors-focus-on-price_jv3xhw.jpg"
 alt="eCommerce site, Go Outdoors, has a brand identity that focuses on lower prices to make themselves distinct."
-width="1920" height="1198">
+width="1920" height="1198" defaultWidth="800"
+loading="lazy" >}}
 
 ### Helps you understand your customers
 
@@ -57,9 +62,11 @@ If you know what your brand is all about, then you will already know the type of
 
 This in turn ensures your messaging focuses on what inspires your customers the most while ensuring your eCommerce store provides the right type of products presented in the right way for your target market. Get these right and it will help with your sales.  For [Patagonia](https://eu.patagonia.com/gb/en/home/) sustainability and activism awareness are key to their brand identity which they make clear throughout their site.
 
-<img {% hero 'patagonia-focus-on-sustainability_xvqet4.jpg' %}
+{{< content-figure folder="/blog/"
+src="patagonia-focus-on-sustainability_xvqet4.jpg"
 alt="eCommerce site, Patagonia, has a brand identity that focuses on sustainability and activism to make themselves distinct."
-width="1920" height="1181">
+width="1920" height="1181" defaultWidth="800"
+loading="lazy" >}}
 
 ### Filters out people you don’t want as customers
 

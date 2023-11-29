@@ -6,7 +6,7 @@ categories:
   - "Web design"
 metaDesc: "Business websites are not intended to be works of art, they are business assets whose purpose is to sell products and/or services to people who want them."
 excerpt: "I’ve come across a few business owners recently who believe that, because they have a website, they have done what is necessary to get new business using the internet. Then, when little or no business arrives via the website, they conclude that the internet is no good for acquiring new customers or it’s not appropriate for their business. What they miss is that often the design of their website is inappropriate for their business or that the content is inadequate. <strong>Visitors judge your business by the quality of your website</strong>. Let’s look at what’s really needed."
-primaryImage: "effective-business-websites"
+cloudinaryPrimaryImage: "effective-business-websites_oeipns"
 primaryImageAlt: "Make your business website effective"
 extraStyles: "/scss/post.scss"
 ---
@@ -15,7 +15,12 @@ extraStyles: "/scss/post.scss"
 
 I've come across a few business owners recently who believe that, because they have a website, they have done what is necessary to get new business using the internet. Then, when little or no business arrives via the website, they conclude that the internet is no good for acquiring new customers or it's not appropriate for their business.
 
-![Effective Business Websites by AttractMore](/optim/blog/effective-business-websites.jpg){width=500}{data-responsiver=blogside}
+{{< content-figure folder="/blog/"
+class="alignright"
+src="effective-business-websites_oeipns.jpg"
+alt="Effective Business Websites by AttractMore"
+width="500" height="278" defaultWidth="500" >}}
+
 What they miss is that often the design of **their website is inappropriate for their business** or that the content is insufficient, uninteresting, contains broken links, poor images etc.
 
 **Visitors judge your business by the quality of your website.**

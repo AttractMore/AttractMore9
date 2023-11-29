@@ -6,7 +6,6 @@ title: "10 important elements of good web design"
 metaDesc: "There are some elements that pretty much every business website should have. This post reviews these to see how they contribute to a good website ROI."
 excerpt: "There are some elements that pretty much every business website should have and, in this post, we will take a quick look at each one and see how they contribute to your website achieving its objectives."
 cloudinaryPrimaryImage: "trust-in-design_nl3m1j"
-primaryImage: "trust-in-design"
 primaryImageAlt: "Good website design creates a sense of trust in site visitors which is good for business."
 socialImage: "/images/blog/trust-in-design-1200.jpg"
 extraStyles: "/scss/post.scss"
@@ -34,18 +33,10 @@ Visitors expect business websites to be clear and to provide the information the
 
 The items below are intended to achieve all these objectives. First impressions are important, so it's well worth putting some thought into how to create a good one.
 
-<img
-  class="hero-image"
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/trust-in-design_nl3m1j.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/trust-in-design_nl3m1j.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/trust-in-design_nl3m1j.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/trust-in-design_nl3m1j.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/trust-in-design_nl3m1j.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/trust-in-design_nl3m1j.jpg"
-  alt="The importance to your business of good website design."
-  width="1920"
-  height="1280">
+{{< content-figure folder="/blog/"
+src="trust-in-design_nl3m1j.jpg"
+alt="The importance to your business of good website design."
+width="1920" height="1280" defaultWidth="800" >}}
 
 ### <a id="purpose"></a> 1. Have a purpose in mind for your site
 
@@ -87,16 +78,11 @@ It is likely that most of your site visitors will use a mobile phone to access y
 
 ### <a id="stock"></a> 5. Avoid stock images of people
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/fake-office-stock-image.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/fake-office-stock-image.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/fake-office-stock-image.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/fake-office-stock-image.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/fake-office-stock-image.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/fake-office-stock-image.jpg"
-  loading="lazy"
-  alt="Avoid fake looking stock images">
+{{< content-figure folder="/blog/"
+src="fake-office-stock-image.jpg"
+alt="Avoid fake looking stock images"
+width="930" height="620" defaultWidth="800"
+loading="lazy" >}}
 
 Having [images on your website](https://www.attractmore.uk/blog/choosing-images-for-your-website/) is generally a good idea to add interest and break up the text, however, images such as the one above, **do nothing for the reputation of your business** as they are so obviously **fake** and are not a true representation of your business.
 
@@ -122,31 +108,21 @@ Based on the web stats for the sites we look after, About pages tend to get a go
 
 Mailchimp have a quite extensive [About page](https://mailchimp.com/about/) which sets the tone through the main image, then describes what they do before moving on to talk about the founders and how the company came into being.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/mailchimp-about-full.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/mailchimp-about-full.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/mailchimp-about-full.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/mailchimp-about-full.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/mailchimp-about-full.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/mailchimp-about-full.jpg"
-  loading="lazy"
-  alt="The about page used by Mailchimp">
+{{< content-figure folder="/blog/"
+src="mailchimp-about-full"
+alt="The about page used by Mailchimp"
+width="930" height="1161" defaultWidth="800"
+loading="lazy" >}}
 
 The [About page for Amnesty International](https://www.amnesty.org/en/who-we-are/) again has a striking image followed by a description of what the organisation's aims are. It then moves on to talk about how it all started and how it has evolved.
 
 An about page is the place where your business can really differentiate itself. Some businesses display a photo of each one of the staff together with some brief info about them. In my view, this works well if also accompanied by some info on the background of the company itself. Here's an [example](https://wats-on.co.uk) that uses cartoon representations of the people.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/wats-on-co-uk-about.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/wats-on-co-uk-about.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/wats-on-co-uk-about.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/wats-on-co-uk-about.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/wats-on-co-uk-about.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/wats-on-co-uk-about.jpg"
-  loading="lazy"
-  alt="A good example of an about page">
+{{< content-figure folder="/blog/"
+src="wats-on-co-uk-about"
+alt="A good example of an about page"
+width="930" height="834" defaultWidth="800"
+loading="lazy" >}}
 
 ### <a id="testimonials"></a> 8. Use Testimonials
 

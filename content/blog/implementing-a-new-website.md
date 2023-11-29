@@ -7,7 +7,7 @@ categories:
   - "Search engines"
 metaDesc: "When implementing a new website, it is vital that we preserve the value accumulated in the old site and limit any drop in Google rankings to a minimum."
 excerpt: "It’s rare these days that we implement a new website for an organisation that has no existing web presence so, when putting the new site live, suitable consideration needs to be given to the old site. It is essential that we <strong>preserve the value that has been accumulated in the old site</strong> as far as possible. We also want to be able to monitor the benefits that the client gains from the new site. These are some of the activities that we undertake when putting a new website live."
-primaryImage: "preserving-value-website"
+cloudinaryPrimaryImage: "preserving-value-website_puvu5i"
 primaryImageAlt: "The importance of preserving the value in your website"
 extraStyles: "/scss/post.scss"
 ---
@@ -22,12 +22,22 @@ These are some of the activities that we undertake when putting a new website li
 
 ## Keeping the Value
 
-![Implementing a new website preserving value](/optim/blog/preserving-value-website.jpg){width=500}{data-responsiver=blogside}
+{{< content-figure folder="/blog/"
+class="alignright"
+src="preserving-value-website_puvu5i.jpg"
+alt="Implementing a new website preserving value"
+width="500" height="333" defaultWidth="500" >}}
+
 Every website develops some value during the time it is in existence. Here I am talking mostly about links from other sites, including social media posts and the knowledge that the search engines acquire about the site. Google, Bing and Yahoo will have crawled the site (hopefully) and will have created a list of the pages that they are aware of on the site – effectively a list of links to the web pages. Don't lose this value!
 
 Now, normally, when a new website is created, the names of the individual pages do not all remain the same as the ones on the old site (home, about and contact perhaps do). For example the page http://www.businesssite.com/services.php may no longer be available on the new site but there is a new page that contains similar relevant information called https://www.businesssite.com/accountancy-services/. The original page may have been mentioned in social media posts, it may have been linked to from other sites, it could have been bookmarked by potential clients and the search engines were aware of its existence.
 
-![How not to preserving the value in your old website](/optim/blog/page-not-found.jpg){width=500}{data-responsiver=blogside}
+{{< content-figure folder="/blog/"
+class="alignright"
+src="page-not-found_jstygf.jpg"
+alt="How not to preserve the value in your old website"
+width="500" height="232" defaultWidth="500" >}}
+
 If we do nothing to address this situation then, when the new site goes live, anyone trying to access the old page will get a ‘Page not Found’ message. Clearly that is not helpful as it could give the impression that your business has disappeared and it is not good for the search engines as they may draw the same conclusion. The search engines will find your new site (assuming it’s been developed properly) but it will take some time for them to do this and place the new pages in their index so they appear in the search results.
 
 The professional approach here is to ensure that, for every old URL that will no longer exist on the new site, we **automatically redirect visitors** (human and search engines) to the most relevant new page. In other words, if someone clicks on the old URL http://www.businesssite.com/services.php they are smoothly transferred to https://www.businesssite.com/accountancy-services/ without them being aware of it. The same would also be true for the search engines.
