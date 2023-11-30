@@ -31,18 +31,10 @@ This post is a follow on to the post on [Why people are trying to hack your webs
 
 If you've read that, you'll appreciate that hackers have plenty of good, lucrative reasons to get into your website however, large or small your business may be. The numbers are scary, yet there is a lot you can do to protect your website from the majority of attacks from hackers.
 
-<img
-  class="hero-image"
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/protect-website-against-hackers_pwqo8f.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/protect-website-against-hackers_pwqo8f.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/protect-website-against-hackers_pwqo8f.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/protect-website-against-hackers_pwqo8f.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/protect-website-against-hackers_pwqo8f.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/protect-website-against-hackers_pwqo8f.jpg"
-  alt="Review your website security and protect your website against hackers"
-  width="1920"
-  height="1079">
+{{< content-figure folder="/blog/"
+src="protect-website-against-hackers_pwqo8f.jpg"
+alt="Review your website security and protect your website against hackers"
+width="1920" height="1079" defaultWidth="800" >}}
 
 Some of the actions you may well be able to undertake yourself but others will need the assistance of someone with more experience of web security. There will be some cost to this but the cost of not doing it could be considerably higher. It's better to be safe than sorry as the costs for restoring your site after a hack can be high and the consequences for the reputation of your business may have even greater financial impact.
 
@@ -54,7 +46,12 @@ Let's look at some of the actions you can take to mitigate the risks.
 
 Your website hosting is vitally important and is the basis for decent security management. Many people chose cheap hosting in the belief that all hosting is the same so why pay more than the minimum. The truth is that hosting is not a commodity and different companies offer different services. You get what you pay for.
 
-![Secure website hosting helps protect against hacking](/optim/blog/web-hosting-security.jpg){width=500}{data-responsiver=blogside}
+{{< content-figure folder="/blog/"
+class="alignright"
+src="web-hosting-security_d3pngz.jpg"
+alt="Secure website hosting helps protect against hacking"
+width="500" height="333" defaultWidth="500"
+loading="lazy" >}}
 
 Cheap, shared hosting (where your website lives on the same server as many others) is unlikely to offer much in terms of protecting your site. Since the server is shared, it is possible for your site to be compromised via a hack on another website on the same server. Chose a reputable, reliable hosting company and spend more to get more security.
 
@@ -74,7 +71,12 @@ How many admin users does your site have? Are they all still needed or are some 
 
 Simple passwords are ridiculously easy to crack using a computer program. The most common password people use is, yes, it's 'password'.
 
-![Strong passwords are an essential tool in protecting your website against hackers](/optim/blog/password-security.jpg){width=930}
+{{< content-figure folder="/blog/"
+class="alignright"
+src="password-security_dgbjkw.jpg"
+alt="Strong passwords are an essential tool in protecting your website against hackers"
+width="500" height="620" defaultWidth="500"
+loading="lazy" >}}
 
 If you're serious about protecting your website (email, online bank account etc), please make your passwords more complex. Include upper and lower case letters, numbers and some 'special' characters (e.g. \*, &, ^, $, !, ?, >). 8 characters in total is really not enough - go for 12 characters. In addition, you should change your passwords regularly just in case they have been cracked or discovered by someone.
 
@@ -100,7 +102,12 @@ Ask your developers about this. The two best-known firewall software companies a
 
 WordPress is used by nearly [40% of websites](https://w3techs.com/technologies/overview/content_management) that have a content management system (February 2021). Its huge popularity makes it a prime target for hackers even though it is no less secure than many other content management systems.
 
-![There are specific actions to be taken to protect WordPress sites against hackers](/optim/blog/wordpress-website-security.jpg){width=500}{data-responsiver=blogside}
+{{< content-figure folder="/blog/"
+class="alignright"
+src="wordpress-website-security_zjshdz.jpg"
+alt="There are specific actions to be taken to protect WordPress sites against hackers"
+width="500" height="333" defaultWidth="500"
+loading="lazy" >}}
 
 The suggestions below will apply to WordPress and may also apply to other systems.
 
@@ -114,7 +121,7 @@ Some plugins and themes are available for a fee which gives the developer the in
 
 The issue here is that you will not know what additional code may have been inserted in the pirated copy of the software by the vendor. This is a popular approach among hackers who seem to be offering something for free but the cost comes later when you realise your site has been seriously hacked via the pirated software. WordFence have evidence that this is the most widespread threat to WordPress security.
 
-The [WordFence Threat report for 2020](https://www.wordfence.com/blog/2021/01/the-wordfence-2020-wordpress-threat-report/)0 states that their software blocked 4.3 billion attempts to access WordPress via software vulnerabilities so this is not a trivial issue.
+The [WordFence Threat report for 2020](https://www.wordfence.com/blog/2021/01/the-wordfence-2020-wordpress-threat-report/) states that their software blocked 4.3 billion attempts to access WordPress via software vulnerabilities so this is not a trivial issue.
 
 Moving away from plugins and the like, there are many other actions you can take to secure your WordPress site but these should probably be done by a professional software developer familiar with WordPress. These actions include:
 

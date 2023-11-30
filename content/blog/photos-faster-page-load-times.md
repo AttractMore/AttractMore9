@@ -6,7 +6,7 @@ categories:
   - "Images"
 metaDesc: "Photos are one of the main causes of slow web pages. This post examines what you, as a web site owner, can do with photos to your pages load more quickly."
 excerpt: "Uploaded photos are one of the main causes of slow web pages and this post looks into this issue and gives some suggestions about how to handle it effectively to give faster page load times."
-primaryImage: "images-major-component-of-web-pages"
+cloudinaryPrimaryImage: "images-major-component-of-web-pages_mlbrft"
 primaryImageAlt: "Images are the main component of page weight"
 extraStyles: "/scss/post.scss"
 ---
@@ -17,7 +17,12 @@ In the [last post](/blog/web-page-speed/ "Web Page Speed"), I talked about how i
 
 Firstly, let’s see some evidence for the culpability of images. The [http archive](http://httparchive.org/index.php) is a great source of information about web pages and the graph below shows the average composition of web pages over the last 6 months.
 
-![Images make up a large percentage of page weight](/optim/blog/images-major-component-of-web-pages.jpg){width=500}{data-responsiver=blogside}
+{{< content-figure folder="/blog/"
+class="alignright"
+src="images-major-component-of-web-pages_mlbrft.jpg"
+alt="Images make up a large percentage of page weight"
+width="500" height="257" defaultWidth="500" >}}
+
 Without going into the detail, we can see from the pie chart  ([source](http://httparchive.org/interesting.php?a=All&l=Oct%2015%202013)) that images make up the majority (62%) of the size of the average web page. Mostly these images are jpeg files which are the type of images that you would upload from your digital camera or mobile phone. Anything we can do to reduce the size of the images placed on our web sites will speed up the load times.
 
 ## What is size?
@@ -35,10 +40,22 @@ A photo taken with a fairly average phone camera is likely to be somewhere aroun
 
 So, the first thing we should do before uploading an image to a website is to reduce its dimensions to the maximum size it can ever be shown at on your web page. There’s little point uploading an image that is 3000px by 2000px if it is only ever going to be shown on your website at 500px by 300px. If you do upload a larger image, the browser will conveniently shrink it to the necessary dimensions on screen (usually) but the much bigger image has to be transmitted over the network before this can happen.
 
-![Photo with reduced dimensions](/optim/blog/oxford-high-street.jpg){width=500}{data-responsiver=blogside}
+{{< content-figure folder="/blog/"
+class="alignright"
+src="oxford-high-street_spgxem.jpg"
+alt="Photo with reduced dimensions"
+width="500" height="332" defaultWidth="500"
+loading="lazy" >}}
+
 Here’s an example. I took this picture of Oxford High Street last summer on my oldish compact digital camera and it was 3008px by 2000px and 2,347,945 bytes. If I was going to display this image on a web site I would probably not want it to be bigger than 500px wide. So let’s resize it to 500px by 332px.
 
-![Resize images before upload](/optim/blog/Windows-paint.jpg){width=500}{data-responsiver=blogside}
+{{< content-figure folder="/blog/"
+class="alignright"
+src="Windows-paint_at3uue.jpg"
+alt="Resize images before upload"
+width="500" height="222" defaultWidth="500"
+loading="lazy" >}}
+
 There are a number of tools available to handle image resizing and compression. On Windows, the easiest way to resize an image is to use Windows Paint as seen in the image above. Just by reducing the dimensions, the size on disk has dropped to 131,004 bytes – so it is only 6% of its original size.
 
 ## Action 2 – Compress Images

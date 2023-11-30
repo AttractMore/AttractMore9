@@ -19,18 +19,10 @@ Most businesses want their websites to be found easily by potential customers/cl
 
 This post looks at some changes that can be made to improve both **search engine visibility** and **usability** to help a business gain more clients, sell more products etc.
 
-<img
-  class="hero-image"
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/website-speed-security_w7azz0.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/website-speed-security_w7azz0.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/website-speed-security_w7azz0.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/website-speed-security_w7azz0.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/website-speed-security_w7azz0.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/website-speed-security_w7azz0.jpg"
-  alt="Improving the speed, security and accessibility of websites."
-  width="1920"
-  height="1280">
+{{< content-figure folder="/blog/"
+src="website-speed-security_w7azz0.jpg"
+alt="Improving the speed, security and accessibility of websites."
+width="1920" height="1280" defaultWidth="800" >}}
 
 ## Why
 
@@ -56,21 +48,37 @@ I'm going to show the before and after results with graphics from 2 different to
 
 The first test focuses on speed and security and these are the results with the old version of the site.
 
-![Previous version tested with WebPageTest](/optim/blog/webpagetest-am8-previous.jpg){width=930}
+{{< content-figure folder="/blog/"
+src="webpagetest-am8-previous_vkcapo.jpg"
+alt="Previous version tested with WebPageTest"
+width="930" height="118" defaultWidth="800"
+loading="lazy">}}
 
 So, really our old site did not do that well on security despite being up to date with all software levels. The second F in the diagram says that the server is not responding as fast as it should when someone accesses a web page. The remainder of the factors are good though.
 
-![Current version tested with WebPageTest](/optim/blog/webpagetest-am8-current.jpg){width=930}
+{{< content-figure folder="/blog/"
+src="webpagetest-am8-current_r5xe2g.jpg"
+alt="Current version tested with WebPageTest"
+width="930" height="122" defaultWidth="800"
+loading="lazy">}}
 
 After the changes, we're getting straight As - apart from Security when it's A+ (it turns out that there is no such thing as A+ in any other category!) So a substantial improvement in security and speed. The security changes we made were fairly simple and the improved speed was partly moving to different hosting that was both faster and quite a lot more economical that the previous hosting.
 
 The second set of tests cover performance (again) but also our other focus areas of accessibility, SEO and best practices. The graphic below shows the situation before we made changes and it's really not bad at all with all factors gaining a score of over 90 out of 100. The final item in the diagram, PWA, is a method of improving performance that we were not using, hence it's in grey.
 
-![Previous version tested with Lighthouse](/optim/blog/lighthouse-am8-previous.jpg){width=930}
+{{< content-figure folder="/blog/"
+src="lighthouse-am8-previous_j982rx.jpg"
+alt="Previous version tested with Lighthouse"
+width="930" height="230" defaultWidth="800"
+loading="lazy">}}
 
 After we made the changes to the site, we're achieving 100 out of 100 across the board and we implemented a PWA as well for even better performance.
 
-![Current version tested with Lighthouse](/optim/blog/lighthouse-am8-current.jpg){width=930}
+{{< content-figure folder="/blog/"
+src="lighthouse-am8-current_c5xqwg.jpg"
+alt="Current version tested with Lighthouse"
+width="930" height="271" defaultWidth="800"
+loading="lazy">}}
 
 ## Conclusion
 

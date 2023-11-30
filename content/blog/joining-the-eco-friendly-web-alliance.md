@@ -11,9 +11,10 @@ socialImage: "/images/blog/web-sustainability-time-running-out-1200.jpg"
 extraStyles: "/scss/post.scss"
 ---
 
-<img {% hero 'web-sustainability-time-running-out_u3q58n' %}
+{{< content-figure folder="/blog/"
+src="web-sustainability-time-running-out_u3q58n.jpg"
 alt="Asian woman with hourglass timer. Time is running out. (Photo by Ron Lach from Pexels: https://www.pexels.com/@ron-lach/gallery/)."
-width="1920" height="1280">
+width="1920" height="1280" defaultWidth="800" >}}
 
 According to [recent research](https://ecofriendlyweb.org/), the internet uses 3.7% of ALL of the world’s electricity, which is more than the aviation industry. It’s not just websites that use that power, of course - it’s email, streaming audio and video, Zoom and Teams calls etc. However, websites do make a contribution to that power consumption and that, in turn, contributes to the emission of greenhouse gasses.
 
@@ -25,9 +26,11 @@ The Eco-Friendly Alliance (EFWA) is a UK based social enterprise with a vision t
 
 Their goal is "to build on our global movement for a cleaner and greener internet" with "1 million climate-positive websites by 2030", including both new websites that are necessary and helping convert existing ones to be low-carbon and high-performing, contributing to the battle against climate change”.
 
-<img {% hero 'eco-friendly-web-alliance_yr53d3' %}
+{{< content-figure folder="/blog/"
+src="eco-friendly-web-alliance_yr53d3.jpg"
 alt="Screenshot of the Eco-Friendly Web Alliance website"
-width="1920" height="1200">
+width="1920" height="1200" defaultWidth="800"
+loading="lazy" >}}
 
 The EFWA conduct independent audits of websites on request and report back on how much carbon each page creates. If every page produces less that 1 gram of CO2 and the site uses green hosting, then the website is eligible to be accredited by the EFWA. If some pages produce more than 1 gram, then the EFWA can advise on reduction measures to bring the page within their criteria. Each accreditation lasts one year after which the EFWA re-test the website to check it is still meeting the criteria.
 
@@ -35,9 +38,11 @@ The EFWA conduct independent audits of websites on request and report back on ho
 
 There is an increasing awareness of the CO2 emissions associated with the internet and I wanted to join the EFWA to demonstrate AttractMore’s commitment to web sustainability and the environment. Not only are we committed to digital sustainability, we actively help others to do the same by working with business owners to limit the carbon emissions of their websites. This usually results in faster page load times as a useful consequence.
 
-<img {% hero 'wind-turbines-generating-renewable-energy_fgetzn' %}
+{{< content-figure folder="/blog/"
+src="wind-turbines-generating-renewable-energy_fgetzn.jpg"
 alt="Wind turbines against a bright blue sky. (Photo by Alfo Medeiros: https://www.pexels.com/photo/landscape-of-a-wind-farm-15268778/)"
-width="1920" height="1277">
+width="1920" height="1277" defaultWidth="800"
+loading="lazy" >}}
 
 ## What can you do to reduce the carbon footprint of your website?
 

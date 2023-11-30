@@ -7,7 +7,7 @@ metaDesc: "There is much you can do to improve the search engine visibility (SEO
 excerpt: "This post was prompted by a number of conversations I have had lately with business owners who believe that Search Engine Optimisation is one or more of:
 <ul><li>Really hard</li><li>Really expensive</li><li>Ineffective</li><li>Not needed anyway</li></ul>
 The truth is that SEO is needed most of the time and it can be very effective without the need to spend a lot of money. In fact, there’s a lot you can do without the need for any external help at all."
-primaryImage: "on-top-of-google-seo"
+cloudinaryPrimaryImage: "on-top-of-google-seo_tcjn3d"
 primaryImageAlt: "Using SEO techniques to improve search engine ranking"
 extraStyles: "/scss/post.scss"
 
@@ -22,7 +22,12 @@ This post was prompted by a number of conversations I have had lately with busin
 - Ineffective
 - Not needed anyway
 
-![Dominating Google SEO](/optim/blog/on-top-of-google-seo.jpg){width=500}{data-responsiver=blogside}
+{{< content-figure folder="/blog/"
+class="alignright"
+src="on-top-of-google-seo_tcjn3d.jpg"
+alt="Dominating Google SEO"
+width="500" height="280" defaultWidth="500" >}}
+
 The truth is that SEO is needed most of the time and it can be very effective without the need to spend a lot of money. In fact, there’s a lot you can do without the need for any external help at all.
 
 If you haven’t got the time (or inclination) to read the rest of this post, then here is the summary.
@@ -39,7 +44,13 @@ Also, the chances are that your competitors are not investing in SEO so changes 
 
 ## What Google wants
 
-![Google logo](/optim/blog/google2.jpg){width=500}{data-responsiver=blogside}
+{{< content-figure folder="/blog/"
+class="alignright"
+src="google2_sxyene.jpg"
+alt="Google logo"
+width="500" height="167" defaultWidth="500"
+loading="lazy">}}
+
 This post is about Google but the same principles apply to the other search engines. Search is central to Google and their reputation depends on delivering great quality results whenever anyone carries out a search. If they don’t do that consistently, then people will look for a different search provider and the whole Google behemoth will start to decline. So Google is constantly striving to find ways of getting better results to searchers faster and more effectively and this is why they frequently release updates to the way they calculate search results. Some of these are defensive to eliminate poor quality web pages and to prevent people manipulating the results.
 
 Nobody can ever promise to ‘get your site to #1 in Google’ and achieve that consistently as no one knows all the factors Google uses to rank web pages in its results. Even if a web page is #1 in Google for a certain search phrase one month, there’s no guarantee it will be in the same position next month. So SEO is not a one-off activity, it needs some on-going work (although usually not very much).
@@ -60,7 +71,13 @@ Once you have a set of keywords or phrases, please don’t stuff your web pages 
 
 The aim is to offer valuable information so, always link to other articles and web sites which can support your viewpoint or offer further relevant information.
 
-![Dominating the search engine landscape SEO](/optim/blog/dominating-google-seo.jpg){width=500}{data-responsiver=blogside}
+{{< content-figure folder="/blog/"
+class="alignright"
+src="dominating-google-seo_ommfm3.jpg"
+alt="Dominating the search engine landscape SEO"
+width="500" height="318" defaultWidth="500"
+loading="lazy">}}
+
 **Google also cares deeply about whether your site is mobile friendly and whether the pages load quickly.** Google cares because people who use websites care. As [I wrote about recently](/blog/google-search-results/ "Google Search Results"), when a search is done on a mobile device, Google now indicates in its search results if the pages it references are mobile friendly. Google has a set of criteria it applies to sites to determine their mobile friendliness and if your site doesn't pass this test then it would be well worth you making the necessary changes. Similarly, if your page load speeds are poor, work is needed to improve matters and this will have an effect on your search engine rankings. This is another area when some expert assistance may be needed.
 
 ### Elsewhere

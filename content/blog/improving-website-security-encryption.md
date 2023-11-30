@@ -5,7 +5,7 @@ categories:
   - "Security"
 metaDesc: "Website security can be significantly enhanced by installing a security certificate and encrypting traffic moving to and from the server."
 excerpt: "This blog post discusses website security in particular the increasing need to move to secure connections between server and devices used to access websites to combat hacking. The benefits of encryption are mentioned and the move to HTTPS is strongly recommended."
-primaryImage: "security-warning-firefox"
+cloudinaryPrimaryImage: "security-warning-firefox_awn3pm"
 primaryImageAlt: "Keeping websites safe"
 extraStyles: "/scss/post.scss"
 ---
@@ -24,7 +24,12 @@ Encryption of the data is achieved fairly easily by installing a security certif
 
 ## Browser Behaviour
 
-![Chrome Website security warning](/optim/blog/chrome-website-security.jpg){width=500}{data-responsiver=blogside}
+{{< content-figure folder="/blog/"
+class="alignright"
+src="chrome-website-security_tulgap.jpg"
+alt="Chrome Website security warning"
+width="500" height="195" defaultWidth="500" >}}
+
 Google is pushing hard to encourage all website owners to make their sites secure and is giving sites that have taken this step an additional (but small) boost in the search engine rankings. I believe this boost will become greater in the next 12 months as Google relentlessly pursues its objective of making the web a safer place.
 
 Google is planning on marking ALL non-https sites as ‘Not secure’ in the near future.
@@ -35,7 +40,13 @@ Google is planning on marking ALL non-https sites as ‘Not secure’ in the nea
 >
 > Source [Google](https://security.googleblog.com/2016/09/moving-towards-more-secure-web.html "website security")
 
-![Password security warning Firefox](/optim/blog/security-warning-firefox.jpg){width=500}{data-responsiver=blogside}
+{{< content-figure folder="/blog/"
+class="alignright"
+src="security-warning-firefox_awn3pm.jpg"
+alt="Password security warning Firefox"
+width="500" height="164" defaultWidth="500"
+loading="lazy">}}
+
 Firefox 52 (the current version – March 2017) is also taking this approach and marks HTTP pages with passwords or credit card fields as ‘not secure’ both in the address bar and below the insecure fields.
 
 ## Conclusion

@@ -15,17 +15,10 @@ extraStyles: "/scss/post.scss"
 
 I've written in some detail about the [benefits of good passwords](https://www.attractmore.uk/blog/password-mistakes-you-could-be-making/) but in this article, I present evidence for the value of longer, more complex passwords.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/better-passwords-resist-brute-force-attacks_b45u0a.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/better-passwords-resist-brute-force-attacks_b45u0a.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/better-passwords-resist-brute-force-attacks_b45u0a.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/better-passwords-resist-brute-force-attacks_b45u0a.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/better-passwords-resist-brute-force-attacks_b45u0a.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/better-passwords-resist-brute-force-attacks_b45u0a.jpg"
-  alt="Use stronger passwords to resist brute force attacks on your website"
-  width="1920"
-  height="1280">
+{{< content-figure folder="/blog/"
+src="better-passwords-resist-brute-force-attacks_b45u0a.jpg"
+alt="Use stronger passwords to resist brute force attacks on your website"
+width="1920" height="1280" defaultWidth="800" >}}
 
 ## Brute Force Attacks
 
@@ -43,18 +36,11 @@ It turns out that doing this is really very easy.
 
 This is the part where I show you why size matters. I want to compare passwords of 5 characters against those of 8 characters.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/longer-passwords-give-more-protection_a5bfs2.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/longer-passwords-give-more-protection_a5bfs2.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/longer-passwords-give-more-protection_a5bfs2.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/longer-passwords-give-more-protection_a5bfs2.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/longer-passwords-give-more-protection_a5bfs2.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/longer-passwords-give-more-protection_a5bfs2.jpg"
-  alt="Longer, more complex passwords give more protection against brute force attacks on your website"
-  loading="lazy"
-  width="1920"
-  height="1281">
+{{< content-figure folder="/blog/"
+src="longer-passwords-give-more-protection_a5bfs2.jpg"
+alt="Longer, more complex passwords give more protection against brute force attacks on your website"
+width="1920" height="1281" defaultWidth="800"
+loading="lazy" >}}
 
 So let's start with the 5 character passwords and work out how many combinations there could be, i.e. how many possible passwords could exist.
 

@@ -20,17 +20,10 @@ Abandoned carts in your online shop mean lost income. Below we examine the reaso
 
 If you run an online shop, I'm fairly sure you'll have come across the idea of abandoned carts. If not, here's a quick summary - an abandoned cart is where a customer places one or more items in their basket (or cart, if you prefer) but then doesn't checkout.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/ecommerce-abandoned-carts.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/ecommerce-abandoned-carts.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/ecommerce-abandoned-carts.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/ecommerce-abandoned-carts.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/ecommerce-abandoned-carts.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/ecommerce-abandoned-carts.jpg"
-  alt="Reducing the percentage of abandoned carts in your ecommerce store"
-  width="1920"
-  height="1791">
+{{< content-figure folder="/blog/"
+src="ecommerce-abandoned-carts.jpg"
+alt="Reducing the percentage of abandoned carts in your ecommerce store"
+width="1920" height="1791" defaultWidth="800" >}}
 
 Clearly, we would like the percentage of abandoned carts to be as low as possible. It's unlikely ever to drop to nothing because there will always be 'window shoppers' who add items to the cart but really they aren't yet ready to buy.
 
@@ -40,18 +33,11 @@ Putting aside the customers who are window shopping, why do the remainder abando
 
 The [Baymard Institute](https://www.baymard.com/lists/cart-abandonment-rate) surveyed over 4000 shoppers to discover why they abandoned their carts. The summary of their research is in the graphic below.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/baymard-reasons-for-cart-abandonment_dmyi13.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/baymard-reasons-for-cart-abandonment_dmyi13.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/baymard-reasons-for-cart-abandonment_dmyi13.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/baymard-reasons-for-cart-abandonment_dmyi13.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/baymard-reasons-for-cart-abandonment_dmyi13.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/baymard-reasons-for-cart-abandonment_dmyi13.jpg"
-  alt="Why do people abandon their ecommerce shopping carts"
-  loading="lazy"
-  width="2400"
-  height="1579">
+{{< content-figure folder="/blog/"
+src="baymard-reasons-for-cart-abandonment_dmyi13.jpg"
+alt="Why do people abandon their ecommerce shopping carts"
+width="2400" height="1579" defaultWidth="800"
+loading="lazy" >}}
 
 If we can deal with the reasons for cart abandonment, surely we can sell more and provide a much more satisfactory experience for our customers.
 
@@ -74,18 +60,11 @@ By all means, offer the option for people to create an account to save name and 
 
 In the screenshot below, Majestic Wine require customers to create an account. There's no option to checkout as a guest. I suspect there are plenty of potential customers who choose not to procced at this point in the process.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/force-account-creation-majestic_jqzwly.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/force-account-creation-majestic_jqzwly.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/force-account-creation-majestic_jqzwly.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/force-account-creation-majestic_jqzwly.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/force-account-creation-majestic_jqzwly.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/force-account-creation-majestic_jqzwly.jpg"
-  alt="Don't force customers to create an account in your ecommerce store"
-  loading="lazy"
-  width="1355"
-  height="764">
+{{< content-figure folder="/blog/"
+src="force-account-creation-majestic_jqzwly.jpg"
+alt="Don't force customers to create an account in your ecommerce store"
+width="1355" height="764" defaultWidth="800"
+loading="lazy" >}}
 
 ### Offer different payment methods
 
@@ -103,18 +82,11 @@ Give clear instructions and sensible, useful error messages so people can easily
 
 In this screenshot from the Basket page of Blackwell's bookshop, the layout is clear, the elements are well spaced. They also offer a chatbot to resolve any customer queries. The next screen (the checkout itself, not screenshotted here) is also clear, well-spaced and easy to use.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/simple-clear_puunsc.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/simple-clear_puunsc.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/simple-clear_puunsc.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/simple-clear_puunsc.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/simple-clear_puunsc.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/simple-clear_puunsc.jpg"
-  alt="An example of a clear and straightforward ecommerce basket (cart) page"
-  loading="lazy"
-  width="1552"
-  height="955">
+{{< content-figure folder="/blog/"
+src="simple-clear_puunsc.jpg"
+alt="An example of a clear and straightforward ecommerce basket (cart) page"
+width="1552" height="955" defaultWidth="800"
+loading="lazy" >}}
 
 ### Make sure it works on smaller screens
 
@@ -124,18 +96,11 @@ Check the stats, if you can, and see what percentage of carts are abandoned on m
 
 This screenshot of the mobile checkout on the Calzedonia website is nicely done. I'm only showing the top third of the page - there more useful info later on. However, it's clear and informative - just what is needed.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/clear-checkout-small-screens_zovaig.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/clear-checkout-small-screens_zovaig.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/clear-checkout-small-screens_zovaig.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/clear-checkout-small-screens_zovaig.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/clear-checkout-small-screens_zovaig.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/clear-checkout-small-screens_zovaig.jpg"
-  alt="An example of a clear checkout page on a mobile"
-  loading="lazy"
-  width="1440"
-  height="3843">
+{{< content-figure folder="/blog/"
+src="clear-checkout-small-screens_zovaig.jpg"
+alt="An example of a clear checkout page on a mobile"
+width="1440" height="3843" defaultWidth="800"
+loading="lazy" >}}
 
 ## Creating buyer confidence
 
@@ -147,18 +112,11 @@ If there are any other costs associated with the order, again, be clear and give
 
 The 2 images below are from the Boden website. On the left the 2 main delivery options are display and there is a More delivery options link as well. Clicking that gives the screen on the right, which offers 3 more delivery options with costs and delivery expectations. This is a good way of showing less commonly used options as it doesn't clutter up the screen with choices that many customers won't choose to use.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/clear-delivery-costs_lvsdfd.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/clear-delivery-costs_lvsdfd.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/clear-delivery-costs_lvsdfd.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/clear-delivery-costs_lvsdfd.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/clear-delivery-costs_lvsdfd.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/clear-delivery-costs_lvsdfd.jpg"
-  alt="Clear delivery costs and expectations on the Boden website"
-  loading="lazy"
-  width="1110"
-  height="697">
+{{< content-figure folder="/blog/"
+src="clear-delivery-costs_lvsdfd.jpg"
+alt="Clear delivery costs and expectations on the Boden website"
+width="1110" height="697" defaultWidth="800"
+loading="lazy" >}}
 
 ### Set clear expectations regarding delivery
 
@@ -172,18 +130,11 @@ You must, of course, have an SSL certificate if you're accepting payments online
 
 The image below is also from Boden. The text and the digicert logo and link are there to reassure customers about security.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/secure-checkout_lz6e78.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/secure-checkout_lz6e78.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/secure-checkout_lz6e78.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/secure-checkout_lz6e78.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/secure-checkout_lz6e78.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/secure-checkout_lz6e78.jpg"
-  alt="Reassuring customers that the checkout process is secure"
-  loading="lazy"
-  width="1174"
-  height="113">
+{{< content-figure folder="/blog/"
+src="secure-checkout_lz6e78.jpg"
+alt="Reassuring customers that the checkout process is secure"
+width="1174" height="113" defaultWidth="800"
+loading="lazy" >}}
 
 ### Ensure people know about your returns policy
 
@@ -191,18 +142,11 @@ This is about giving people confidence to shop. If they understand that you have
 
 The image here is again from Calzedonia. Their approach is very straightforward regarding returns.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/returns-policy_barnmq.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/returns-policy_barnmq.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/returns-policy_barnmq.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/returns-policy_barnmq.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/returns-policy_barnmq.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/returns-policy_barnmq.jpg"
-  alt="Making the ecommerce site's returns policy clear"
-  loading="lazy"
-  width="1418"
-  height="188">
+{{< content-figure folder="/blog/"
+src="returns-policy_barnmq.jpg"
+alt="Making the ecommerce site's returns policy clear"
+width="1418" height="188" defaultWidth="800"
+loading="lazy" >}}
 
 ## Conclusion
 
