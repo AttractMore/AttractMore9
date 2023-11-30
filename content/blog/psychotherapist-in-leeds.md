@@ -6,7 +6,7 @@ categories:
   - "Web design"
 metaDesc: "This new site for a psychotherapist in Leeds includes a simple menu system which adapts smoothly to the size of the screen. Benefits of testing."
 excerpt: "AttractMore have been working with Susan Carr in Leeds over a number of years and we have created a couple of websites for her to help promote the services she offers to clients. She recently asked us to create a new site which focused on her work as a psychotherapist and counsellor. The colour scheme was already determined, as was the layout for wider screens since these were carried over from one of Susan’s earlier sites. The challenge here was to create a fully responsive site that worked well on smaller screens as well as larger ones."
-primaryImage: "therapy-space-leeds"
+cloudinaryPrimaryImage: "therapy-space-leeds_ojdw0b"
 primaryImageAlt: "Psychotherapist in Leeds"
 extraStyles: "/scss/post.scss"
 ---
@@ -21,7 +21,12 @@ Note: the site isn't available any longer as Susan has retired from practice.
 
 ## Overall Design
 
-![Screenshot of Therapy Space Leeds on wider screen](/optim/blog/therapy-space-leeds.jpg){width=500}{data-responsiver=blogside}
+{{< content-figure folder="/blog/"
+class="alignright"
+src="therapy-space-leeds_ojdw0b.jpg"
+alt="Screenshot of Therapy Space Leeds on wider screen"
+width="500" height="341" defaultWidth="500" >}}
+
 Susan wanted to retain the vertical bar of square images on larger screens as seen in the screenshot here.
 
 This 2 column layout works well on larger screens but, clearly, this arrangement would not be suitable for smaller screens where a single column would be needed.
@@ -39,6 +44,12 @@ In the design phase we settled on three different layout options for images.
 There were one or two pages where the content was not sufficiently extensive (e.g. contact page) to embed the images in the text on mid-sized screens.
 
 ## Navigation
+
+{{< content-figure folder="/blog/"
+src="therapyspaceleeds-mobile-menu_c2wayp.jpg"
+alt="Therapy Space Leeds mobile menu open and closed"
+width="930" height="610" defaultWidth="800"
+loading="lazy" >}}
 
 ![Therapy Space Leeds mobile menu open and closed](/optim/blog/therapyspaceleeds-mobile-menu.jpg){width=930}
 

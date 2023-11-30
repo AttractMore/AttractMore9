@@ -1,10 +1,17 @@
 baseURL = ""
 languageCode = "en-gb"
-title = "Low-carbon websites"
+title = "Low carbon websites"
 disableKinds = ["sitemap"]
 paginate = 5
+copyright = "© 2023 AttractMore Ltd."
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["html", "rss"]
+  taxonomy = ["html", "rss"]
+  term = ["html", "rss"]
 
 [params]
+  rssTitle = "Low-carbon-websites"
   cloudinaryPath              = "https://res.cloudinary.com/attractmore/image/upload/"
   cloudinaryHeroWidths        = ["2800", "2000", "1600", "1300", "1120", "928", "704", "480"]
   cloudinaryHeroParms         = "c_fill,f_auto,q_auto:eco,h_500,"
@@ -34,6 +41,10 @@ paginate = 5
   srcsetLargeSizes = "(max-width:45em) 90vw, 50em"
   srcsetSmallWidths = ["500", "320"]
   srcsetSmallSizes = "(max-width:30em) 40vw, 96vw"
+
+  [params.author]
+    email = "roger@attractmore.co.uk"
+    name = 'Roger Knight'
 
 [menu]
   [[menu.main]]
@@ -66,29 +77,4 @@ paginate = 5
     name = "Contact"
     url = "/contact/"
     weight = 60
-
-[[redirects]]
-  from = "/optim/blog/:image"
-  to = "https://res.cloudinary.com/attractmore/image/fetch/q_auto,f_auto/https://www.attractmore.uk/images/blog/:image"
-  status = 200
-[[redirects]]
-  from = "/optim/work/:image"
-  to = "https://res.cloudinary.com/attractmore/image/fetch/q_auto,f_auto/https://www.attractmore.uk/images/work/:image"
-  status = 200
-[[redirects]]
-  from = "/optim/services/:image"
-  to = "https://res.cloudinary.com/attractmore/image/fetch/q_auto,f_auto/https://www.attractmore.uk/images/services/:image"
-  status = 200
-[[redirects]]
-  from = "/optim/testimonials/:image"
-  to = "https://res.cloudinary.com/attractmore/image/fetch/q_auto,f_auto/https://www.attractmore.uk/images/testimonials/:image"
-  status = 200
-[[redirects]]
-  from = "/optim/misc/:image"
-  to = "https://res.cloudinary.com/attractmore/image/fetch/q_auto,f_auto/https://www.attractmore.uk/images/misc/:image"
-  status = 200
-[[redirects]]    
-  from = '/**'
-  status = 404
-  to = '/404.html'
 

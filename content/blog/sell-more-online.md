@@ -19,21 +19,14 @@ Some thoughts and ideas about increasing the sales from your online store.
 
 If you have an online shop, you probably want to sell more, either to make more money or to have a greater impact with your products.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/sell-more-in-your-online-shop_dvlfde.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/sell-more-in-your-online-shop_dvlfde.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/sell-more-in-your-online-shop_dvlfde.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/sell-more-in-your-online-shop_dvlfde.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/sell-more-in-your-online-shop_dvlfde.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/sell-more-in-your-online-shop_dvlfde.jpg"
-  alt="Sell more products in your ecommerce store"
-  width="1920"
-  height="1280">
+{{< content-figure folder="/blog/"
+src="sell-more-in-your-online-shop_dvlfde.jpg"
+alt="Sell more products in your ecommerce store"
+width="1920" height="1280" defaultWidth="800" >}}
 
 In this post, I will list a number of ways in which you could increase your sales. Not all of these methods will be appropriate for all online shops but I hope you will find at least one idea which you can investigate further and implement on your site.
 
-However, before we launch into this, there are some fundamental ecommerce features that you need to have sorted first (or at least, have them well in-hand.
+However, before we launch into this, there are some fundamental ecommerce features that you need to have sorted first (or at least, have them well in-hand).
 
 Firstly, you need to get good numbers of people visiting your shop. You can do this though [search engine optimisation (SEO)](https://www.attractmore.uk/blog/tips-to-get-more-interested-visitors-to-your-website/), social media, digital advertising etc. It's worth bearing in mind that SEO work is a medium-term strategy but that its benefits continue even after you've stopped investing in it. Advertising, on the other hand, is a short-term strategy whose benefits cease as soon as you stop investing in it.
 
@@ -81,18 +74,11 @@ Coupons can be offered in many circumstances.
 
 Coupon functionality is usually easy to implement and is built into all the ecommerce platforms I have seen.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/ideas-for-selling-more-online_o9euyq.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/ideas-for-selling-more-online_o9euyq.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/ideas-for-selling-more-online_o9euyq.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/ideas-for-selling-more-online_o9euyq.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/ideas-for-selling-more-online_o9euyq.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/ideas-for-selling-more-online_o9euyq.jpg"
-  alt="Ideas to help you sell more products in your online shop"
-  loading="lazy"
-  width="1920"
-  height="1280">
+{{< content-figure folder="/blog/"
+src="ideas-for-selling-more-online_o9euyq.jpg"
+alt="Ideas to help you sell more products in your online shop"
+width="1920" height="1280" defaultWidth="800"
+loading="lazy" >}}
 
 ### Loyalty programme
 
@@ -114,18 +100,11 @@ Encouraging your customers to refer friends a colleagues to your online shop can
 
 The encouragement needs to be carefully thought through. It's usually a coupon for the referrer once the friend or colleague has actually made a purchase. You could vary the value of the coupon depending on how much the friend/colleague spends.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/refer-a-friend-or-colleague_ukgng1.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/refer-a-friend-or-colleague_ukgng1.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/refer-a-friend-or-colleague_ukgng1.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/refer-a-friend-or-colleague_ukgng1.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/refer-a-friend-or-colleague_ukgng1.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/refer-a-friend-or-colleague_ukgng1.jpg"
-  alt="Use a refer a friend or colleague scheme to increase sales in your online shop"
-  loading="lazy"
-  width="1920"
-  height="1280">
+{{< content-figure folder="/blog/"
+src="refer-a-friend-or-colleague_ukgng1.jpg"
+alt="Use a refer a friend or colleague scheme to increase sales in your online shop"
+width="1920" height="1280" defaultWidth="800"
+loading="lazy" >}}
 
 ### Subscriptions
 

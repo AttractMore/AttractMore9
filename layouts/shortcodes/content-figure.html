@@ -27,22 +27,22 @@
 
   {{ $srcset := newScratch }}
   {{- with .Get "width" -}}
-    {{- if eq . "500" -}}
-      {{ $srcset.Set "srcsetsizes" $.Page.Site.Params.srcsetSmallSizes }}
-      {{ $srcset.Set "srcsetwidths" $.Page.Site.Params.srcsetSmallWidths }}
+    {{- if eq  . "500" -}}
+      {{ $srcset.Set "srcsetsizes" site.Params.srcsetSmallSizes }}
+      {{ $srcset.Set "srcsetwidths" site.Params.srcsetSmallWidths }}
     {{- else -}}
         {{/* Larger images in blog posts need a different sizes parameter */}}
         {{- if eq ($imgsrc.Get "folder") "/blog/" -}}
-          {{ $srcset.Set "srcsetsizes" $.Page.Site.Params.cloudinaryBlogPostFullSizes }}
+          {{ $srcset.Set "srcsetsizes" site.Params.cloudinaryBlogPostFullSizes }}
         {{- else -}}
-          {{ $srcset.Set "srcsetsizes" $.Page.Site.Params.srcsetLargeSizes }}
+          {{ $srcset.Set "srcsetsizes" site.Params.srcsetLargeSizes }}
         {{- end -}}
-      {{ $srcset.Set "srcsetwidths" $.Page.Site.Params.srcsetLargeWidths }}
+      {{ $srcset.Set "srcsetwidths" site.Params.srcsetLargeWidths }}
     {{- end -}}
   {{- end -}}
 
   {{ $len := len ($srcset.Get "srcsetwidths") }}
-  <img src="{{ $.Page.Site.Params.cloudinaryPath }}{{ $.Page.Site.Params.cloudinaryMainParms | safeURL }}{{- if .Get "defaultWidth" -}}{{ print ",w_" }}{{ .Get "defaultWidth" }}{{- else -}}{{ print ",w_500"}}{{- end -}}{{ $imgsrc.Get "folder" }}{{ .Get "src" }}"
+  <img decoding="async" src="{{ $.Page.Site.Params.cloudinaryPath }}{{ $.Page.Site.Params.cloudinaryMainParms | safeURL }}{{- if .Get "defaultWidth" -}}{{ print ",w_" }}{{ .Get "defaultWidth" }}{{- else -}}{{ print ",w_500"}}{{- end -}}{{ $imgsrc.Get "folder" }}{{ .Get "src" }}"
     srcset="
       {{- range $index, $element := $srcset.Get "srcsetwidths" -}}
         {{- $.Page.Site.Params.cloudinaryPath -}} {{- $.Page.Site.Params.cloudinaryMainParms | safeURL -}}{{ print ",w_" . }}{{ $imgsrc.Get "folder" }}{{ $imgsrc.Get "imagesrc" }} {{ . }} {{- print "w" -}}

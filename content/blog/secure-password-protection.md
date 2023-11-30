@@ -17,17 +17,10 @@ Previously, I have written about [protecting your website against hacking](https
 
 I will look at the most common passwords used by people, all of which are very easy to crack but the most important part of the article is the section on the **10 ways you can protect yourself online.** Passwords are so important for our online safety and security that it is worth taking a few minutes to see what you can do to stop hackers from breaking into your accounts and doing serious damage.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/secure-passwords-to-protect-yourself-online_fv060o.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/secure-passwords-to-protect-yourself-online_fv060o.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/secure-passwords-to-protect-yourself-online_fv060o.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/secure-passwords-to-protect-yourself-online_fv060o.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/secure-passwords-to-protect-yourself-online_fv060o.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/secure-passwords-to-protect-yourself-online_fv060o.jpg"
-  alt="Use secure passwords to protect yourself online"
-  width="1920"
-  height="1287">
+{{< content-figure folder="/blog/"
+src="secure-passwords-to-protect-yourself-online_fv060o.jpg"
+alt="Use secure passwords to protect yourself online"
+width="1920" height="1287" defaultWidth="800" >}}
 
 ## Introduction
 
@@ -39,18 +32,11 @@ If you or your organisation has a website and you allow people to register with 
 
 Protecting passwords by following best practices can save you from annoyance as a minimum and serious business problems (See BBC article [The ransomware scourge ruining lives](https://www.bbc.co.uk/news/technology-56933733)) as a worst case. Making some small changes now can save a lot of time, money and heartache later.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/passwords-like-keys-to-online-accounts_inxyts.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/passwords-like-keys-to-online-accounts_inxyts.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/passwords-like-keys-to-online-accounts_inxyts.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/passwords-like-keys-to-online-accounts_inxyts.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/passwords-like-keys-to-online-accounts_inxyts.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/passwords-like-keys-to-online-accounts_inxyts.jpg"
-  alt="Use secure passwords to protect yourself online"
-  width="1920"
-  height="1280"
-  loading="lazy">
+{{< content-figure folder="/blog/"
+src="passwords-like-keys-to-online-accounts_inxyts.jpg"
+alt="Passwords are like the keys to your online accounts."
+width="1920" height="1280" defaultWidth="800"
+loading="lazy" >}}
 
 ## Most Common Passwords
 
@@ -77,18 +63,11 @@ It's common for people to use a year in their passwords - often the year they we
 
 If you're concerned that a password that you use has been compromised, then you can check by going to [haveibeenpwned](https://haveibeenpwned.com/). You enter your email address and the site will check if you have ever used that email with a password that is now in the public domain. Large password hacks are not uncommon and this site monitors them.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/password-protect-yourself-online_hmyroc.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/password-protect-yourself-online_hmyroc.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/password-protect-yourself-online_hmyroc.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/password-protect-yourself-online_hmyroc.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/password-protect-yourself-online_hmyroc.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/password-protect-yourself-online_hmyroc.jpg"
-  alt="Using weak passwords increases your chances of being hacked"
-  width="1920"
-  height="1280"
-  loading="lazy">
+{{< content-figure folder="/blog/"
+src="password-protect-yourself-online_hmyroc.jpg"
+alt="Using weak passwords increases your chances of being hacked"
+width="1920" height="1280" defaultWidth="800"
+loading="lazy" >}}
 
 ## Protect Yourself Online
 
@@ -107,18 +86,11 @@ So, being aware of the risks, how can you best protect yourself online. Here are
 9. **Use 2 Factor Authentication (2FA)** wherever possible. It's a few seconds of inconvenience every time you log in but it makes it much more difficult for hackers to gain access to your accounts. This [article from Which?](https://www.which.co.uk/news/2020/03/what-is-two-factor-authentication-2fa-and-why-should-you-care/) explains what 2FA is and the benefits it provides.
 10. **Log out of accounts** and out of devices when you've finished using them so no one else can access your information or change your password without you knowing.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/strong-passwords-will-help-avoid-hacking_pgim7i.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/strong-passwords-will-help-avoid-hacking_pgim7i.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/strong-passwords-will-help-avoid-hacking_pgim7i.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/strong-passwords-will-help-avoid-hacking_pgim7i.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/strong-passwords-will-help-avoid-hacking_pgim7i.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/strong-passwords-will-help-avoid-hacking_pgim7i.jpg"
-  alt="Hacking is a serious problem and here we suggest 10 ways in which you can protect your passwords"
-  width="1920"
-  height="1301"
-  loading="lazy">
+{{< content-figure folder="/blog/"
+src="strong-passwords-will-help-avoid-hacking_pgim7i.jpg"
+alt="Hacking is a serious problem and here we suggest 10 ways in which you can protect your passwords"
+width="1920" height="1301" defaultWidth="800"
+loading="lazy" >}}
 
 ## Conclusion
 
@@ -128,18 +100,11 @@ Many people are still unaware of the risks of weak passwords or the consequences
 
 **Understand the risks** and guard against them. Passwords are often a weak link in information security because they rely on people doing the right thing. Will you take action to protect your accounts and those of people who rely on you to do so?
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/passwords-weak-link-information-security_o5myu4.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/passwords-weak-link-information-security_o5myu4.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/passwords-weak-link-information-security_o5myu4.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/passwords-weak-link-information-security_o5myu4.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/passwords-weak-link-information-security_o5myu4.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/passwords-weak-link-information-security_o5myu4.jpg"
-  alt="Insufficient password protection is often the weak link in information security."
-  width="1920"
-  height="1365"
-  loading="lazy">
+{{< content-figure folder="/blog/"
+src="passwords-weak-link-information-security_o5myu4.jpg"
+alt="Insufficient password protection is often the weak link in information security."
+width="1920" height="1365" defaultWidth="800"
+loading="lazy" >}}
 
 ## Further Reading
 

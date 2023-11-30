@@ -13,9 +13,10 @@ extraStyles: "/scss/post.scss"
 
 ## SEO or PPC: which is better for your business?
 
-<img {% hero 'seo-ppc-pros-and-cons_qdpsac.jpg' %}
+{{< content-figure folder="/blog/"
+src="seo-ppc-pros-and-cons_qdpsac.jpg"
 alt="Both SEO and digital advertising (PPC) have pros and cons. Image shows 2 people engaged in working on an SEO campaign"
-width="1920" height="1280">
+width="1920" height="1280" defaultWidth="800" >}}
 
 For most of us, our digital discovery starts with a search engine.  There are perhaps more choices than we think, such as Ecosia, DuckDuckGo, Bing and others (I strongly recommend [Ecosia](https://www.attractmore.uk/blog/ecosia-a-search-engine-that-plants-trees/) by the way), but Google is by far the industry leader with an estimated [86% of search engine traffic](https://gs.statcounter.com/search-engine-market-share/desktop/worldwide). In fact, most of us have probably all said “just Google it” at least once!
 
@@ -45,15 +46,17 @@ All of this and more is covered in our [SEO audits of clients' websites](https:/
 
 [49% of marketers report that organic search](https://www.searchenginejournal.com/digital-marketing-channel-highest-roi/263757/) has the best ROI of any marketing channel, and when you see the pros of SEO it’s easy to see why.
 
-- **Helps you reach more of the right type of customers** Appearing on the first page of search results means your web page is relevant to the searcher and aligns with their overall search intent. This type of high-quality visitor is much more likely to make a purchase. \*\*\*\*
-- **Positions your company as trustworthy** As already mentioned, Google ranks websites based on a number of different factors, which means if your site appears on page one then it is considered to be high-quality and trustworthy. This in turn boosts your credibility in the eyes of your target audience. \*\*\*\*
+- **Helps you reach more of the right type of customers** Appearing on the first page of search results means your web page is relevant to the searcher and aligns with their overall search intent. This type of high-quality visitor is much more likely to make a purchase.
+- **Positions your company as trustworthy** As already mentioned, Google ranks websites based on a number of different factors, which means if your site appears on page one then it is considered to be high-quality and trustworthy. This in turn boosts your credibility in the eyes of your target audience.
 - **Is cost-effective** As SEO focuses on targeting people who are actually looking for your products and services it’s one of the most cost-effective marketing strategies. While it’s free if you decide to manage it yourself, using an external agency is often more practical as it allows you to focus on the core of your business.
-- **Delivers long-term results** SEO isn’t about a quick fix but rather it’s a longer-term strategy. Through producing quality content, an important factor in SEO, it will help you build trust and loyalty with your target audience and will continue to help you attract new customers far into the future. This ability to keep delivering results makes it both a more cost-effective and sustainable option than PPC. \*\*\*\*
+- **Delivers long-term results** SEO isn’t about a quick fix but rather it’s a longer-term strategy. Through producing quality content, an important factor in SEO, it will help you build trust and loyalty with your target audience and will continue to help you attract new customers far into the future. This ability to keep delivering results makes it both a more cost-effective and sustainable option than PPC.
 - **Offers your customers the best user-experience** I’ve written before about how making y[our website more accessible is also great for SEO](https://www.attractmore.uk/blog/how-making-your-website-accessible-is-also-great-for-seo/), so following SEO best practice will also benefit your customers.
 
-<img {% hero 'meeting-client-discuss-keywords_cj9f4p.jpg' %}
+{{< content-figure folder="/blog/"
+src="meeting-client-discuss-keywords_cj9f4p.jpg"
 alt="Meeting a client to discuss SEO and keyword research"
-width="1920" height="1280">
+width="1920" height="1280" defaultWidth="800"
+loading="lazy">}}
 
 ### What are the disadvantages of SEO?
 
@@ -76,9 +79,11 @@ PPC is paid for advertising, which enables you to display ads in the sponsored r
 - **Allows you complete control** You will have complete control over where your ads show and which page a user clicks through to on your website. You can even pause your campaign whenever you want to.
 - **Targets specific audiences** With PPC you can target ads specifically to users who are interested in what you have to offer. This can be done through demographics, such as age, gender and location; only showing ads for specific keywords typed into the search box; or even based on interests and habits.
 
-<img {% hero 'monitoring-results-of-seo_jal9yy.jpg' %}
+{{< content-figure folder="/blog/"
+src="monitoring-results-of-seo_jal9yy.jpg"
 alt="Monitoring the results of SEO work"
-width="1920" height="1281">
+width="1920" height="1281" defaultWidth="800"
+loading="lazy">}}
 
 ### What are disadvantages PPC?
 
@@ -88,9 +93,11 @@ While PPC does deliver instant results it also has a number of drawbacks.
 - **People don’t like ads** Some people will refuse to click on PPC ads, because they just don’t trust them,
 - **It’s a steep learning curve** Like SEO, PPC involves understanding the importance of keywords and doing the necessary research into what your customers are actually typing into the search box. You will also need to learn how to write effective ad copy, understand terminology such as ‘quality score’, ‘impressions’ and ‘click through rate’ and be able to interpret the results from your campaign.
 
-<img {% hero 'checking-results-digital-marketing-campaign_cxhcnt.jpg' %}
+{{< content-figure folder="/blog/"
+src="checking-results-digital-marketing-campaign_cxhcnt.jpg"
 alt="Man checking the progress of a digital marketing campaign"
-width="1920" height="1272">
+width="1920" height="1272" defaultWidth="800"
+loading="lazy">}}
 
 ## So, should your business choose SEO or PPC?
 

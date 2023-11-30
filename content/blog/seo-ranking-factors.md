@@ -12,9 +12,10 @@ socialImage: "/images/blog/moving-up-search-engine-rankings-1200.jpg"
 extraStyles: "/scss/post.scss"
 ---
 
-<img {% hero 'moving-up-search-engine-rankings_gw63yn.jpg' %}
+{{< content-figure folder="/blog/"
+src="moving-up-search-engine-rankings_gw63yn.jpg"
 alt="Using an understanding of SEO ranking factors to gain better positions in the search engine results."
-width="1920" height="1280">
+width="1920" height="1280" defaultWidth="800" >}}
 
 There is no point having a great looking website if nobody ever gets to see it because it’s languishing on page 37 of search results. It's [why SEO is such an important part](https://www.attractmore.uk/services/search-engine-optimisation/) of a website's design and build, and why it's so crucial to understand which are the **most important SEO ranking factors**.
 
@@ -43,9 +44,11 @@ Working out the 'search intent' for each of the keywords you want to rank for wi
 
 ## 2. **Include good quality backlinks**
 
-<img {% hero 'good-quality-links_asrz2y.jpg' %}
+{{< content-figure folder="/blog/"
+src="good-quality-links_asrz2y.jpg"
 alt="Gaining good quality backlinks to your web pages is an essential part of improving the search engine position of your website."
-width="1920" height="1280">
+width="1920" height="1280" defaultWidth="800"
+loading="lazy" >}}
 
 One of the ways Google determines whether content is worth ranking is by reviewing the number of other prominent websites that link or refer to the content.  If there are a number of links from **authoritative and relevant websites** to your web pages, this demonstrates your content is high-quality and from a trusted authority in a particular field. This in turn tells Google that the content is worth ranking higher in search.
 
@@ -53,9 +56,11 @@ This has been one of Google's most important ranking factors since 1996. Find ou
 
 ## 3. **Provide a good user-experience**
 
-<img {% hero 'providing-great-user-experience_b5vu9z.jpg' %}
+{{< content-figure folder="/blog/"
+src="providing-great-user-experience_b5vu9z.jpg"
 alt="Providing a great users experience is vitally important in moving your web pages up the search engine rankings."
-width="1920" height="1280">
+width="1920" height="1280" defaultWidth="800"
+loading="lazy" >}}
 
 Google doesn't just focus on the quality of content but also how it's provided and whether you are offering your visitors a good user-experience. This includes:
 
@@ -75,9 +80,11 @@ While those are the main SEO ranking factors, there are a few other points worth
 
 **Domain authority:** created by Moz, domain authority is a ranking metric that shows your site's expertise about a particular topic and its ability to rank well. The higher your domain authority, the higher the chances of ranking on Google. Once you have [checked your domain authority](https://moz.com/domain-analysis), you can boost it further by acquiring high-quality backlinks and by creating useful and unique content.
 
-<img {% hero 'climbing-up-google-rankings_buincm.jpg' %}
+{{< content-figure folder="/blog/"
+src="climbing-up-google-rankings_buincm.jpg"
 alt="Using an understanding of SEO ranking factors to gain better positions in the search engine results."
-width="1920" height="1280">
+width="1920" height="1280" defaultWidth="800"
+loading="lazy" >}}
 
 **E-E-A-T:** this refers to Google’s [Quality Rater Guidelines](https://static.googleusercontent.com/media/guidelines.raterhub.com/en/searchqualityevaluatorguidelines.pdf), which is a set of criteria to determine if content should be regarded as good quality or not. Aimed primarily at financial and healthcare websites, where incorrect advice could have a detrimental impact on the searcher, content needs to show Experience, Expertise, Authority and Trustworthiness (E-E-A-T) and is Google’s way of protecting people from poor quality content and misinformation. While it’s not directly a ranking factor, if you site doesn't match well with these guidelines, then it’s unlikely to rank well in search. Learn more about how to [write content which meets these criteria](https://www.attractmore.uk/blog/how-to-write-better-content-for-your-website/).
 
