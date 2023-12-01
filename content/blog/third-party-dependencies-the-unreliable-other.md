@@ -12,9 +12,10 @@ socialImage: "/images/blog/unreliable-3rd-party-dependencies-1200.jpg"
 extraStyles: "/scss/post.scss"
 ---
 
-<img {% hero 'unreliable-3rd-party-dependencies_bwvvv3' %}
+{{< content-figure folder="/blog/"
+src="unreliable-3rd-party-dependencies_bwvvv3.jpg"
 alt="Old B&W photo of people standing around a broken down car. The unreliable other. (Photo from Pexels: https://www.pexels.com/photo/grayscale-photo-of-people-standing-near-the-wrecked-vintage-car-78793/)."
-width="1920" height="1562">
+width="1920" height="1562" defaultWidth="800" >}}
 
 Sometimes, things just don't work out as you expected. People arrive late (or not at all), the five-star service promised by the holiday company only deserves one star or, in the case of the picture above, the garage's guaranteed repair didn't quite live up to its promise.
 
@@ -38,9 +39,11 @@ We could just have used default web fonts and avoided the issue of special fonts
 
 (Needless to say, I wouldn’t load fonts from external sites any more!)
 
-<img {% hero 'freedom-from-third-party-dependencies_dfxmcj' %}
+{{< content-figure folder="/blog/"
+src="freedom-from-third-party-dependencies_dfxmcj.jpg"
 alt="The word Freedom in orange neon lights representing the ideal of being free from dependencies on external resources. (Photo by Ronê Ferreira from Pexels: https://www.pexels.com/photo/close-up-photo-of-red-neon-light-signage-3690005/)."
-width="1920" height="1280">
+width="1920" height="1280" defaultWidth="800"
+loading="lazy" >}}
 
 ## Other external dependencies
 
@@ -67,9 +70,11 @@ Consider removing or replacing any resources that are causing significant perfor
 
 With any remaining 3rd-party dependencies, the aim should be to ensure that a delay or failure in any of them does not prevent your web page from loading. The worst setup is where a failing external service blocks everything else from loading. Each external service should (as far as possible) be independent of all others. There are ways and means of doing this that experienced developers should be aware of.
 
-<img {% hero 'unreliable-connection-to-external-services_jqhwqw' %}
+{{< content-figure folder="/blog/"
+src="unreliable-connection-to-external-services_jqhwqw.jpg"
 alt="Incomplete electrical wiring in a white wall. (Photo by La Miko from Pexels: https://www.pexels.com/photo/holes-on-white-wall-with-electrical-wires-3615735/)."
-width="1920" height="1280">
+width="1920" height="1280" defaultWidth="800"
+loading="lazy" >}}
 
 ## Benefits of Managing 3rd-Party Dependencies
 

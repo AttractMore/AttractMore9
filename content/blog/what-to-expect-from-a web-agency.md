@@ -35,17 +35,10 @@ These items are not in any particular order and I believe that they are all impo
 
 ## <a id="knowledgeable"></a> 1. Knowledgeable and up-to-date
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/web-agency-knowledge-experience_wal67j.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/web-agency-knowledge-experience_wal67j.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/web-agency-knowledge-experience_wal67j.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/web-agency-knowledge-experience_wal67j.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/web-agency-knowledge-experience_wal67j.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/web-agency-knowledge-experience_wal67j.jpg"
-  alt="Web agencies need to be able to demonstrate knowledge and experience"
-  width="1920"
-  height="1280">
+{{< content-figure folder="/blog/"
+src="web-agency-knowledge-experience_wal67j.jpg"
+alt="Web agencies need to be able to demonstrate knowledge and experience"
+width="1920" height="1280" defaultWidth="800" >}}
 
 Any web agency worth their salt, needs to have an in-depth understanding of the following items:
 
@@ -73,18 +66,11 @@ If the agency are offering SEO services, again they should have worked on a numb
 
 They should have a process for designing, developing and implementing a website which they should be able to describe to you and share with you. This helps everyone involved in the project know where they are and what comes next. It helps [organisation and planning](https://www.attractmore.uk/services/website-creation/project-management/).
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/website_design-development-process_pwelis.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/website_design-development-process_pwelis.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/website_design-development-process_pwelis.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/website_design-development-process_pwelis.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/website_design-development-process_pwelis.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/website_design-development-process_pwelis.jpg"
-  alt="Web agencies should have a clear process for developing websites"
-  loading="lazy"
-  width="1920"
-  height="1190">
+{{< content-figure folder="/blog/"
+src="website_design-development-process_pwelis.jpg"
+alt="Web agencies should have a clear process for developing websites"
+width="1920" height="1190" defaultWidth="800"
+loading="lazy" >}}
 
 The process must have some flexibility built in to allow it to adapt to each particular project but that should be done when there is an understanding of the scale and scope of the project.
 
@@ -110,18 +96,11 @@ You should expect a web agency to provide sensible estimates of cost and timesca
 
 ## <a id="questions"></a> 7. Ask questions
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/web-agency-questions_ccttqt.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/web-agency-questions_ccttqt.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/web-agency-questions_ccttqt.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/web-agency-questions_ccttqt.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/web-agency-questions_ccttqt.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/web-agency-questions_ccttqt.jpg"
-  alt="Web agencies will need to ask plenty of questions so they can understand what you need"
-  loading="lazy"
-  width="1920"
-  height="1280">
+{{< content-figure folder="/blog/"
+src="web-agency-questions_ccttqt.jpg"
+alt="Web agencies will need to ask plenty of questions so they can understand what you need"
+width="1920" height="1280" defaultWidth="800"
+loading="lazy" >}}
 
 At the outset of any web project (website, keyword research etc), you should expect [a lot of questions](https://www.attractmore.uk/services/website-creation/understanding-your-business/) so that the agency can understand
 
@@ -155,18 +134,11 @@ It probably goes without saying that web agencies must deliver what they say the
 
 Once a website is live, that should not be the end of the relationship between web agency and client. The agency should offer ongoing [care, maintenance and updates](https://www.attractmore.uk/services/website-support-maintenance/) the site. They shouldn't need to carry out content updates (unless the client requests this) as this ability should be provided for in the development project.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/website-support-maintenance_ynkrv8.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/website-support-maintenance_ynkrv8.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/website-support-maintenance_ynkrv8.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/website-support-maintenance_ynkrv8.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/website-support-maintenance_ynkrv8.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/website-support-maintenance_ynkrv8.jpg"
-  alt="Web agencies should offer ongoing support and maintenance for websites"
-  loading="lazy"
-  width="1920"
-  height="1371">
+{{< content-figure folder="/blog/"
+src="website-support-maintenance_ynkrv8.jpg"
+alt="Web agencies should offer ongoing support and maintenance for websites"
+width="1920" height="1371" defaultWidth="800"
+loading="lazy" >}}
 
 However, the agency are in the best position to provide software updates (e.g. WordPress plugins), carry out search engine monitoring, security monitoring and so on. Expect the agency to offer a contract for these services. This should not be a requirement of the agency but, if taken it should be renewable annually so the client can always go elsewhere if they are dissatisfied.
 

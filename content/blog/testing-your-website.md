@@ -6,14 +6,19 @@ categories:
   - "Testing"
 metaDesc: "Full website testing is essential to ensure that the websites we deliver are first class and work properly on a wide range of devices. This is how we do it."
 excerpt: "Full website testing is essential to ensure that the websites we deliver are first class and work properly on a wide range of devices. Nowadays, with the tremendous rise in the use of mobile phones, tablets and other devices for browsing the internet, <strong>testing has become a much more complex and time consuming task</strong> – and a much more important task. This is how we do it."
-primaryImage: "mobile-device-testing"
+cloudinaryPrimaryImage: "test-website-iphone6_u3oern"
 primaryImageAlt: "Esnure your website works well on mobiles as well as other devices"
 extraStyles: "/scss/post.scss"
 ---
 
 ## Testing, testing, testing
 
-![Website testing on mobile phones](/optim/blog/test-website-iphone6.jpg){width=500}{data-responsiver=blogside}
+{{< content-figure folder="/blog/"
+class="alignright"
+src="test-website-iphone6_u3oern.jpg"
+alt="Website testing on mobile phones"
+width="500" height="333" defaultWidth="500" >}}
+
 Not the most interesting or glamorous work, but absolutely essential in any web project. Five years ago, testing websites was quite straightforward as sites were designed to run on larger screens only so it was just a matter of looking at the site on a few desktop browsers and checking all was OK – maybe a few hours work.
 
 Nowadays, with the tremendous rise in the use of mobile phones, tablets and other devices for browsing the internet, **testing has become a much more complex and time consuming task** - and a much more important task.
@@ -30,7 +35,13 @@ I’m sure you will now appreciate the level of complexity involved in testing a
 
 ## Method
 
-![websites must be tested on a wide range of mobile devices](/optim/blog/mobile-device-testing.jpg){width=500}{data-responsiver=blogside}
+{{< content-figure folder="/blog/"
+class="alignright"
+src="mobile-device-testing_ajyon5.jpg"
+alt="websites must be tested on a wide range of mobile devices"
+width="500" height="333" defaultWidth="500"
+loading="lazy" >}}
+
 So, how do we approach this Herculean task? Do we have rooms full of every mobile phone, tablet, Mac, laptop, etc. and run the website on every one of them till we’re satisfied that everything works? No, that would be completely impractical, clearly.
 
 Instead, we subscribe to services on the internet that allow us to connect to a huge range of devices where we can test a website. These devices are located all over the world and we can select which ones we want to work with, load the website and then interact with the device as if it were on the desk in front of us. This is a fantastic service and allows us to check layout and function or websites across many devices.

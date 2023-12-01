@@ -17,17 +17,10 @@ Sliders (also known as carousels, rotating offers or rotating banners) were a ve
 
 They were frequently used at the top of the home page and were regarded as a great way of displaying a number of important aspects of a business - maybe a slide for each main service offered or each category of product being sold. Or, the slider could be used for showcasing featured products, special offers etc etc. I'm sure you've seen these sliders used in many different ways.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/sliders-need-to-go_vkz9p8.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/sliders-need-to-go_vkz9p8.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/sliders-need-to-go_vkz9p8.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/sliders-need-to-go_vkz9p8.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/sliders-need-to-go_vkz9p8.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/sliders-need-to-go_vkz9p8.jpg"
-  alt="An accident on skis. Sliders need to go now."
-  width="1920"
-  height="1148">
+{{< content-figure folder="/blog/"
+src="sliders-need-to-go_vkz9p8.jpg"
+alt="An accident on skis. Sliders need to go now."
+width="1920" height="1148" defaultWidth="800" >}}
 
 However, there's a problem - potentially, several problems - with these sliders, irrespective of whether the images slides from one to another or simply fade from one to the next. Harsh reality outweighs any perceived benefits of sliders.
 
@@ -65,35 +58,21 @@ Content that moves on the page is distracting at best, but for people with visua
 
 This can grab people's attention just as much as a slider. It also has the advantage of being faster to load (just one image), focuses on one thing and it won't damage performance or accessibility either.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/attractive-main-image_viv0c3.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/attractive-main-image_viv0c3.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/attractive-main-image_viv0c3.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/attractive-main-image_viv0c3.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/attractive-main-image_viv0c3.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/attractive-main-image_viv0c3.jpg"
-  alt="Attractive website main image from Neve's Bees website instead of an image slider"
-  loading="lazy"
-  width="1920"
-  height="765">
+{{< content-figure folder="/blog/"
+src="attractive-main-image_viv0c3.jpg"
+alt="Attractive website main image from Neve's Bees website instead of an image slider"
+width="1920" height="765" defaultWidth="800"
+loading="lazy" >}}
 
 ### Card type layout
 
 Maybe several images side by side in a card layout.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/card-type-layout_ddkeyy.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/card-type-layout_ddkeyy.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/card-type-layout_ddkeyy.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/card-type-layout_ddkeyy.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/card-type-layout_ddkeyy.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/card-type-layout_ddkeyy.jpg"
-  alt="Attractive card-style layout from OxDesigners instead of an image slider"
-  loading="lazy"
-  width="1920"
-  height="1507">
+{{< content-figure folder="/blog/"
+src="card-type-layout_ddkeyy.jpg"
+alt="Attractive card-style layout from OxDesigners instead of an image slider"
+width="1920" height="1507" defaultWidth="800"
+loading="lazy" >}}
 
 ### Video
 

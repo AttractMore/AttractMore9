@@ -6,14 +6,19 @@ categories:
   - "Security"
 metaDesc: "Website risk management does not receive much attention but here we discuss a particular aspect and emphasise the need for maintenance of business websites."
 excerpt: "Website risk management is not a topic that receives a great deal of attention but in this article I’d like to talk about one particular aspect of the subject and <strong>emphasise the need for ongoing support and maintenance</strong> of business websites."
-primaryImage: "website-risk-management"
+cloudinaryPrimaryImage: "website-risk-management_a7tdnm"
 primaryImageAlt: "Managing the risks of having a business website"
 extraStyles: "/scss/post.scss"
 ---
 
 Website risk management is not a topic that receives a great deal of attention but in this article I’d like to talk about one particular aspect of the subject and emphasise the need for ongoing support and maintenance of business websites.
 
-![Managing website risks](/optim/blog/website-risk-management.jpg){width=500}{data-responsiver=blogside}
+{{< content-figure folder="/blog/"
+class="alignright"
+src="website-risk-management_a7tdnm.jpg"
+alt="Managing website risks"
+width="500" height="333" defaultWidth="500" >}}
+
 There are many types of risk associated with having a business website but one of the most serious is that the security of the site is compromised. The consequences of this could be that your site is taken offline, that it is used for criminal purposes without your knowledge, that unauthorised information is posted on your site etc. All of these will lead to serious damage to the reputation of your business.
 
 Some people would take the view that the chance of such security breaches are so low that taking action to deal with them cannot be justified either in time of money and so the risk remains. While it is true that the chances that your website security will be compromised is low, the consequence of such a breach are high. Both the probability of occurrence and the impact of a risk need to be assessed to be able to make a realistic appraisal.

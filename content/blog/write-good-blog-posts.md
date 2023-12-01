@@ -5,14 +5,18 @@ categories:
   - "Blogging"
 metaDesc: "Learn how to write good blog posts by doing some basic planning the following a few simple rules. Raise the quality of your blog posts above the noise."
 excerpt: "I’ve been asked a couple of times recently about how to write good blog posts so I thought I would pull together some thoughts about this important topic. With so many blog posts available it is worth putting in some effort to ensure your posts are good quality as so many blog posts are poorly written. Yet, with some thought, a little planning and following some basic rules you can <strong>lift your posts above the noise</strong> and provide content that is worthwhile and easy to read and share."
-primaryImage: "write-a-good-blog-post"
+cloudinaryPrimaryImage: "write-a-good-blog-post_kr8adn"
 primaryImageAlt: Writing good blog posts
 extraStyles: "/scss/post.scss"
 ---
 
 I've been asked a couple of times recently about how to write good blog posts so I thought I would pull together some thoughts about this important topic. With so many blog posts available it is worth putting in some effort to ensure your posts are good quality as so many blog posts are poorly written.  Yet, with some thought, a little planning and following some basic rules you can **lift your posts above the noise** and provide content that is worthwhile and easy to read and share.
 
-![How to Write Good Blog Posts](/optim/blog/write-a-good-blog-post.jpg){width=500}{data-responsiver=blogside}
+{{< content-figure folder="/blog/"
+class="alignright"
+src="write-a-good-blog-post_kr8adn.jpg"
+alt="How to Write Good Blog Posts"
+width="500" height="435" defaultWidth="500" >}}
 
 ## Planning
 
@@ -43,7 +47,13 @@ In addition, I would suggest you **write in the first person singular**, again a
 
 ## Content
 
-![Mind map tool to help write good blog posts](/optim/blog/mind-map.jpg){width=500}{data-responsiver=blogside}
+{{< content-figure folder="/blog/"
+class="alignright"
+src="mind-map_zeb1hz.jpg"
+alt="Mind map tool to help write good blog posts"
+width="500" height="322" defaultWidth="500"
+loading="lazy" >}}
+
 The first paragraph of your blog post is crucial. You should provide a strong introduction to your topic which draws the reader in and clearly shows them how they will benefit from reading more. Making a good first impression is as important in a blog post as it is in person.
 
 Paragraphs are better if they are short. 2 or 3 sentences will be fine. I know this is not how many of us were taught to write at school but shorter paragraphs are easier to read and so make it more likely that your audience will progress through your blog post which you have taken time and effort to write.

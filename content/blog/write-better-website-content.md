@@ -20,17 +20,10 @@ Google wants to make sure that the pages that it places in the search results an
 
 In this post, I'll go into some more detail about these three quality factors - Experience, Expertise, Authority and Trustworthiness (known as E-E-A-T) and show how you can write content that meets these quality criteria in a more effective way.
 
-<img
-sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/writing-better-content-for-your-website.jpg 320w,
-https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/writing-better-content-for-your-website.jpg 560w,
-https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/writing-better-content-for-your-website.jpg 640w,
-https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/writing-better-content-for-your-website.jpg 800w,
-https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/writing-better-content-for-your-website.jpg 930w"
-src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/writing-better-content-for-your-website.jpg"
-width="930"
-height="675"
-alt="The 3 factors that influence the quality rating of your website content">
+{{< content-figure folder="/blog/"
+src="writing-better-content-for-your-website.jpg"
+alt="The 3 factors that influence the quality rating of your website content"
+width="930" height="675" defaultWidth="800" >}}
 
 ## What is E-E-A-T?
 
@@ -79,18 +72,11 @@ Here's another example, my accountant is an expert in financial accounting. She 
 
 Clearly, to write content that demonstrates expertise, you've got to know what you're talking about (and have the necessary experience).
 
-<img
-sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/showing-expertise-in-writing.jpg 320w,
-https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/showing-expertise-in-writing.jpg 560w,
-https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/showing-expertise-in-writing.jpg 640w,
-https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/showing-expertise-in-writing.jpg 800w,
-https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/showing-expertise-in-writing.jpg 930w"
-src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/showing-expertise-in-writing.jpg"
-width="930"
-height="620"
-loading="lazy"
-alt="How to demonstrate expertise in your writing">
+{{< content-figure folder="/blog/"
+src="showing-expertise-in-writing.jpg"
+alt="How to demonstrate expertise in your writing"
+width="930" height="675" defaultWidth="800"
+loading="lazy" >}}
 
 For most financial or health related topics, Google wants to see the **qualifications and formal expertise** of the author to establish expertise. Having an About page which is up-to-date with your qualifications, industry awards you have received, conferences you have spoken at etc, is a good way to establish expertise.
 
@@ -124,18 +110,11 @@ Bear in mind that authority is related to the subject matter. An established, we
 
 Trustworthiness is about the **verified accuracy** of what is published on your website. It's also about **referencing trustworthy external websites** in the content on your site. You should also link to other experts in your field as this shows that you have researched the topic.
 
-<img
-sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/building-trust-in-your-website.jpg 320w,
-https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/building-trust-in-your-website.jpg 560w,
-https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/building-trust-in-your-website.jpg 640w,
-https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/building-trust-in-your-website.jpg 800w,
-https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/building-trust-in-your-website.jpg 930w"
-src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/building-trust-in-your-website.jpg"
-loading="lazy"
-width="930"
-height="698"
-alt="How to build trust in your website content">
+{{< content-figure folder="/blog/"
+src="building-trust-in-your-website.jpg"
+alt="How to build trust in your website content"
+width="930" height="698" defaultWidth="800"
+loading="lazy" >}}
 
 It's also important to be clear about who is responsible for the content on the website and provide a means of contacting them.
 
@@ -154,18 +133,11 @@ Another useful activity, would be to check that older posts and articles are sti
 
 Not directly, as a machine can't assess E-E-A-T. So Google does not assign a score to your web pages according to how well they match the E-E-A-T criteria. However, Google are constantly adjusting their algorithm in ways that aim to improve the quality of the search results using the data obtained through their army of quality raters.
 
-<img
-sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/improving-google-rankings.jpg 320w,
-https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/improving-google-rankings.jpg 560w,
-https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/improving-google-rankings.jpg 640w,
-https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/improving-google-rankings.jpg 800w,
-https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/improving-google-rankings.jpg 930w"
-src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/improving-google-rankings.jpg"
-loading="lazy"
-width="930"
-height="568"
-alt="Improve your Google rankings with quality content that meets the E-E-A-T criteria">
+{{< content-figure folder="/blog/"
+src="improving-google-rankings.jpg"
+alt="Improve your Google rankings with quality content that meets the E-E-A-T criteria"
+width="930" height="568" defaultWidth="800"
+loading="lazy" >}}
 
 ## A quick note on AI
 
@@ -181,9 +153,11 @@ So, AI is good for creating content outlines and/or an initial draft for some co
 
 E-E-A-T is an approach Google uses to protect searchers from dubious, poor quality content and limit the spread of misinformation, which is surely something to be applauded. So, if your site's content does not demonstrate that the content is trustworthy, it is unlikely that your site will rank well in search.
 
-<img {% hero 'EEAT-diagram_y2lmgd.jpg' %}
+{{< content-figure folder="/blog/"
+src="EEAT-diagram_y2lmgd.jpg"
 alt="Diagram of the 4 E-E-A-T factors for rating content showing that trust is the most important factor"
-width="1920" height="1018">
+width="1920" height="1018" defaultWidth="800"
+loading="lazy" >}}
 
 Google has established these guidelines because this is what people want and Google want to put the sites that people want to read towards the top of the search results. So, adjust your content for E-E-A-T and show that it is trustworthy, not so much for Google's sake but for your site visitors' sake. Don't follow the guidelines slavishly but consider how best to signal to Google that your content can be trusted and this will depend on the type of content you produce. In that way you stand the best chance of ranking better in Google search.
 

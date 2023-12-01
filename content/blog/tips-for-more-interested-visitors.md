@@ -24,18 +24,10 @@ In this post, I want to offer some suggestions for
 - getting your business website found in Google and other search engines
 - encouraging searchers to click on your page in the search results.
 
-<img
-  class="hero-image"
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/keyword-research-for-search-engine-optimisation_rwqt00.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/keyword-research-for-search-engine-optimisation_rwqt00.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/keyword-research-for-search-engine-optimisation_rwqt00.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/keyword-research-for-search-engine-optimisation_rwqt00.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/keyword-research-for-search-engine-optimisation_rwqt00.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/keyword-research-for-search-engine-optimisation_rwqt00.jpg"
-  alt="Use keyword research to improve the position of your page in the search engines"
-  width="1920"
-  height="1192">
+{{< content-figure folder="/blog/"
+src="keyword-research-for-search-engine-optimisation_rwqt00.jpg"
+alt="Use keyword research to improve the position of your page in the search engines"
+width="1920" height="1192" defaultWidth="800" >}}
 
 ## Tips to get your site found in Google etc.
 
@@ -75,7 +67,12 @@ If you're using images on your page (and you probably should be), use keywords i
 
 **Content**
 
-![Search engine success with solid keyword research illustrated with a magnifying glass](/optim/blog/web-search-illustrated-with-magnifying-glass.jpg){width=500}{data-responsiver=blogside}
+{{< content-figure folder="/blog/"
+class="alignright"
+src="web-search-illustrated-with-magnifying-glass_rexlwa.jpg"
+alt="Use keyword research to improve the position of your page in the search engines"
+width="500" height="333" defaultWidth="500"
+loading="lazy">}}
 
 Make sure that Google can make a reasonable assessment of what your page/post is about by writing a decent amount of content including references to your chosen keywords and related phrases. Aim for at least 300 words. If the content is insufficient, Google won't be confident about ranking the page in the search engines. you don't need to repeat your keyword - instead, chose closely related phrases. Repeating the same phrases multiple times is bad practice and will have the opposite effect to the one intended, i.e. your site is likely to go down in the search results.
 
@@ -97,7 +94,11 @@ Once a searcher is on a search results page that includes a reference to your si
 
 Below is a result from Google UK for the search 'Solicitor in Oxford' carried out on a mobile device.
 
-![Anatomy of a search result](/optim/blog/mobile-search-result-anatomy.jpg){width=930}
+{{< content-figure folder="/blog/"
+src="mobile-search-result-anatomy_lf1bzr.jpg"
+alt="Anatomy of a search result"
+width="930" height="244" defaultWidth="800"
+loading="lazy">}}
 
 I'm sure you've seen results like this but I've labelled up three of the parts, as I will be referring to them below.
 

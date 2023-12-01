@@ -13,18 +13,10 @@ extraStyles: "/scss/post.scss"
 
 ## Intro - What are you about?
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  class="hero-image"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/what-are-you-about_pgnor1.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/what-are-you-about_pgnor1.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/what-are-you-about_pgnor1.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/what-are-you-about_pgnor1.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/what-are-you-about_pgnor1.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/what-are-you-about_pgnor1.jpg"
-  alt="What does your About page say about you? Don't leave customers guessing."
-  width="1920"
-  height="1280">
+{{< content-figure folder="/blog/"
+src="what-are-you-about_pgnor1.jpg"
+alt="What does your About page say about you? Don't leave customers guessing."
+width="1920" height="1280" defaultWidth="800" >}}
 
 Your site visitors want an answer to this question and will naturally go to your About page to get some answers. On most websites, the About pages tends to get visited a lot. Check your analytics to see what percentage of your visitors check out your About page.
 
@@ -39,18 +31,11 @@ So your about page need to accomplish several objectives:
 
 In summary, **your About page is an opportunity to make a good impression and then to engage with potential customers**, however, it's common to find weak and inadequate about pages.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/about-us_f1wbk9.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/about-us_f1wbk9.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/about-us_f1wbk9.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/about-us_f1wbk9.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/about-us_f1wbk9.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/about-us_f1wbk9.jpg"
-  alt="Include details of your team on the About page."
-  loading="lazy"
-  width="1920"
-  height="1280">
+{{< content-figure folder="/blog/"
+src="about-us_f1wbk9.jpg"
+alt="Include details of your team on the About page."
+width="1920" height="1280" defaultWidth="800"
+loading="lazy" >}}
 
 ## What to include
 
@@ -76,33 +61,19 @@ Towards the bottom of the page you can add
 
 ## Examples
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/mailchimp-about-full.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/mailchimp-about-full.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/mailchimp-about-full.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/mailchimp-about-full.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/mailchimp-about-full.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/mailchimp-about-full.jpg"
-  alt="Mailchimp About page."
-  loading="lazy"
-  width="930"
-  height="1161">
+{{< content-figure folder="/blog/"
+src="mailchimp-about-full.jpg"
+alt="Mailchimp About page."
+width="930" height="1161" defaultWidth="800"
+loading="lazy" >}}
 
 Mailchimp has an excellent [About page](https://mailchimp.com/about/). It's makes clear what Mailchimp do and shows strong branding. There's a good deal of history but also plenty about culture and values. There are additional links at the bottom of the page and contact details in the footer below.
 
-<img
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/macmillan-about-page_mm1xkt.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/macmillan-about-page_mm1xkt.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/macmillan-about-page_mm1xkt.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/macmillan-about-page_mm1xkt.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/macmillan-about-page_mm1xkt.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/macmillan-about-page_mm1xkt.jpg"
-  alt="Macmillan About page."
-  loading="lazy"
-  width="1920"
-  height="1689">
+{{< content-figure folder="/blog/"
+src="macmillan-about-page_mm1xkt.jpg"
+alt="Macmillan About page."
+width="1920" height="1689" defaultWidth="800"
+loading="lazy" >}}
 
 I also like the [MacMillan about page](https://www.macmillan.org.uk/about-us) which is simple and clear. I says exactly what they do and provides a great video that expands on that. There are links on the page for more detail, depending on your needs and there's a clear Contact section. Social media profiles are available in a side bar. This page doesn't have a lot of content but signposts other pages so the visitor can easily find what they want.
 

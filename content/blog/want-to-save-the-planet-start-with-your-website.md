@@ -11,18 +11,10 @@ socialImage: "/images/blog/internet-high-electricity-usage-1200.jpg"
 extraStyles: "/scss/post.scss"
 ---
 
-<img
-  class="hero-image"
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/internet-high-electricity-usage_zeefki.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/internet-high-electricity-usage_zeefki.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/internet-high-electricity-usage_zeefki.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/internet-high-electricity-usage_zeefki.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/internet-high-electricity-usage_zeefki.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/internet-high-electricity-usage_zeefki.jpg"
-  alt="Here are actions to take to help reduce the massive amount of electricity used by the internet"
-  width="1920"
-  height="1321">
+{{< content-figure folder="/blog/"
+src="internet-high-electricity-usage_zeefki.jpg"
+alt="Here are actions to take to help reduce the massive amount of electricity used by the internet"
+width="1920" height="1321" defaultWidth="800" >}}
 
 We all know we are facing a climate emergency, but have you ever given much thought to the role the internet plays in this?
 
@@ -40,19 +32,11 @@ For the past couple of decades, we’ve been told digital is best. Why buy a boo
 
 But sadly, this simply isn’t the case.  In his book ‘[World Wide Waste’](https://gerrymcgovern.com/books/world-wide-waste/), Gerry McGovern points out that 16 million trees would need to be planted to offset the pollution caused by the estimated 1.9 trillion yearly searches on Google.
 
-<img
-  class="hero-image"
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/internet-uses-same-amount-of-electricity-as-uk_qiwyri.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/internet-uses-same-amount-of-electricity-as-uk_qiwyri.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/internet-uses-same-amount-of-electricity-as-uk_qiwyri.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/internet-uses-same-amount-of-electricity-as-uk_qiwyri.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/internet-uses-same-amount-of-electricity-as-uk_qiwyri.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/internet-uses-same-amount-of-electricity-as-uk_qiwyri.jpg"
-  alt="The internet as a whole uses roughly the same amount of electricity as the UK"
-  loading="lazy"
-  width="1920"
-  height="1280">
+{{< content-figure folder="/blog/"
+src="internet-uses-same-amount-of-electricity-as-uk_qiwyri.jpg"
+alt="The internet as a whole uses roughly the same amount of electricity as the UK"
+width="1920" height="1280" defaultWidth="800"
+loading="lazy" >}}
 
 So, contrary to popular belief, going digital doesn’t mean you aren’t having an environmental impact. In fact, this great [infographic from Climate Care](https://www.climatecare.org/resources/news/infographic-carbon-footprint-internet/) shows that everything from manufacturing and shipping to the amount of data we use gaming, watching videos and even emailing is having a detrimental impact on the environment.
 
@@ -70,19 +54,11 @@ A good starting point for most businesses is to try and respect the principles o
 
 You can even sign the manifesto to show your company is committed to a greener internet but the key takeaway is that web design should prioritise the health of our planet.
 
-<img
-  class="hero-image"
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/power-hungry-computer-servers_e2pojt.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/power-hungry-computer-servers_e2pojt.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/power-hungry-computer-servers_e2pojt.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/power-hungry-computer-servers_e2pojt.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/power-hungry-computer-servers_e2pojt.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/power-hungry-computer-servers_e2pojt.jpg"
-  alt="The servers used to power the internet consume a large quantity of electricity"
-  loading="lazy"
-  width="1920"
-  height="1279">
+{{< content-figure folder="/blog/"
+src="power-hungry-computer-servers_e2pojt.jpg"
+alt="The servers used to power the internet consume a large quantity of electricity"
+width="1920" height="1279" defaultWidth="800"
+loading="lazy" >}}
 
 ## How can you make your website more sustainable?
 

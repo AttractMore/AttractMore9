@@ -5,7 +5,7 @@ categories:
   - "Testing"
 metaDesc: "Browsers are not always consistent in the way they display a web page so we test websites thoroughly. Recently, during testing, we found a bug in Chrome."
 excerpt: "Browsers are not all the same and they are not always consistent in the way they display a web page. Because of this, we test websites thoroughly. Recently, during testing, we found a bug in Chrome."
-primaryImage: "text-alongside-image-bug"
+cloudinaryPrimaryImage: "text-alongside-image-bug_yeue1a"
 primaryImageAlt: "Bug found in Chrome 87 and Edge 87"
 socialImage: "/images/blog/website-testing-social-1200.jpg"
 extraStyles: "/scss/post.scss"
@@ -25,11 +25,18 @@ Recently, when testing a full re-implementation of this website, something unusu
 
 We expected that paragraphs of text would display alongside an image as in the screenshot below.
 
-![Text alongside an image, working correctly](/optim/blog/text-alongside-image-correct.jpg){width=930}
+{{< content-figure folder="/blog/"
+src="text-alongside-image-correct_z6gklu.jpg"
+alt="Text alongside an image, working correctly"
+width="930" height="646" defaultWidth="800" >}}
 
 What we got was rather different. See the screen shot below.
 
-![Text alongside image showing bug in Chrome 87 and Edge 87](/optim/blog/text-alongside-image-bug.jpg){width=930}
+{{< content-figure folder="/blog/"
+src="text-alongside-image-bug_yeue1a.jpg"
+alt="Text alongside image showing bug in Chrome 87 and Edge 87"
+width="930" height="711" defaultWidth="800"
+loading="lazy" >}}
 
 The first line was alongside the image, then there was a large gap before the remaining text displayed below the image.
 

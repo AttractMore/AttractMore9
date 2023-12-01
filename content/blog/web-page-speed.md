@@ -6,7 +6,7 @@ categories:
   - "Speed"
 metaDesc: "Web page speed is important both for humans and also for search engines. This post looks at the factors involved and what can be done to improve matters."
 excerpt: "In this post I want to touch on some factors which influence web page speed i.e. how quickly a web page appears on your screen. Clearly this is important for visitors to your site who don’t want to be kept waiting while the page loads. However, it’s also important because Google uses page load speed as one of the factors that determine where the page is placed in the search results."
-primaryImage: "web-page-speed-test"
+cloudinaryPrimaryImage: "web-page-speed-test_zlm1uf"
 primaryImageAlt: "Understanding how web pages arrive on your screen"
 extraStyles: "/scss/post.scss"
 ---
@@ -21,7 +21,11 @@ It's important to appreciate that a web page is not a single unit but instead is
 
 The graph below shows this 'waterfall'. Each line represents a component (15 in this case) and the horizontal axis is time, so you can see how long each component takes to load and which parts of the process can take place in parallel.
 
-![Web Page Speed Test](/optim/blog/web-page-speed-test.jpg){width=930}
+{{< content-figure folder="/blog/"
+src="web-page-speed-test_zlm1uf.jpg"
+alt="Web Page Speed Test"
+width="930" height="294" defaultWidth="500"
+loading="lazy">}}
 
 This page loads in 1.4s (which is great!) and you will see from the length of the horizontal lines that some components take longer to load than others. Each request to the server takes time and each transfer of a component from the server back to your device also takes time. Clearly the larger the component (large photo, for example), the longer the time it takes to travel across the network.
 
@@ -36,4 +40,4 @@ There are four main ways of improving page load speed
 
 As professional web developers, option 1 is out of hands as anyone can access as web site from anywhere using a broadband or mobile network so we need to be able to deliver web pages as fast as possible on any connection. We can certainly advise regarding web hosting to address point 2 but we focus our efforts on options 3 and 4. When creating a website for a client we always look to reduce the number of server requests made and ensure that each component needed by a site is optimised so it is as small as it can be thereby minimising its transfer time. We use a variety of tools to analyse web page speed to look for bottlenecks and then remove them. In these ways we ensure that we do as much as we can to make pages load quickly both for human visitors and for positioning in the search results.
 
-In the next article I will look at the main culprit of slow pages - photos - and show how we can make sure they can be used effectively without slowing down the page.
+In the [next article](/blog/photos-faster-page-load-times/) I will look at the main culprit of slow pages - photos - and show how we can make sure they can be used effectively without slowing down the page.

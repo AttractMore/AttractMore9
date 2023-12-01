@@ -5,7 +5,7 @@ categories:
   - "Web design"
 metaDesc: "A summary description of the various activities involved in creating a professional web site. It's not as straightforward as you might think!"
 excerpt: "It’s a common question – 'What do you actually do?' Fair question to ask. OK, here’s what’s involved in creating a professional web site and how your business will benefit from this approach."
-primaryImage: "services"
+cloudinaryPrimaryImage: "services_bvtb4b"
 primaryImageAlt: "Creating professional websites"
 extraStyles: "/scss/post.scss"
 ---
@@ -14,7 +14,12 @@ It's a common question - "What do you actually do?" Fair question to ask. OK, he
 
 ### Design
 
-![Creating a professional web site with AttractMore Web Design Oxford](/optim/blog/services.jpg){width=500}{data-responsiver=blogside}
+{{< content-figure folder="/blog/"
+class="alignright"
+src="services_bvtb4b.jpg"
+alt="Creating a professional web site with AttractMore Web Design Oxford"
+width="500" height="298" defaultWidth="500" >}}
+
 This involves determining the best structure for the site - pages, sub-pages, navigation, header, footer, sidebar(s), layout,  formatting of quotes, images, designing in the integration with social media, thinking about usability, accessibility, typefaces, type sizes, colours, logo and branding. Much of this has to be considered for different screen widths to ensure it all looks good and operates properly on mobiles, tablets and desktops.
 
 ### Content

@@ -11,18 +11,10 @@ socialImage: "/images/blog/powerboat-speed-over-water-1200.jpg"
 extraStyles: "/scss/post.scss"
 ---
 
-<img
-  class="hero-image"
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/powerboat-speed-over-water_qsuvsi.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/powerboat-speed-over-water_qsuvsi.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/powerboat-speed-over-water_qsuvsi.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/powerboat-speed-over-water_qsuvsi.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/powerboat-speed-over-water_qsuvsi.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/powerboat-speed-over-water_qsuvsi.jpg"
-  alt="Powerboat speeding. Web pages need to load quickly to keep users engaged"
-  width="1920"
-  height="1080">
+{{< content-figure folder="/blog/"
+src="powerboat-speed-over-water_qsuvsi.jpg"
+alt="Powerboat speeding. Web pages need to load quickly to keep users engaged"
+width="1920" height="1080" defaultWidth="800" >}}
 
 Whenever we access a website, we expect a few things. For it to be easy to navigate, accessible on all types of devices and for it to quickly provide the information we are looking for. **We also expect it to load quickly**. 57% of online consumers will leave a site after waiting just 3 seconds, and [80% of those will never return](https://blog.hubspot.com/marketing/consumer-psychology-ecommerce-checkout-infographic?__hstc=200701681.28c67391d41667dc743ce9a175f4c9df.1648121456366.1648121456366.1648121456366.1&__hssc=200701681.1.1648121456366&__hsfp=2724359239). If that stat doesn’t scare you, it should!
 
@@ -40,19 +32,11 @@ As already mentioned, website visitors won’t stick around if you site doesn’
 
 If people won’t wait for Amazon, then why would they wait for you? Your website is often the first impression your customers have of your company, and **a slow website can make you come across as unprofessional and even unreliable.**
 
-<img
-  class="hero-image"
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/waiting-waiting-waiting_nogzeg.jpg 320w,
-  https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/waiting-waiting-waiting_nogzeg.jpg 560w,
-  https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/waiting-waiting-waiting_nogzeg.jpg 640w,
-  https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/waiting-waiting-waiting_nogzeg.jpg 800w,
-  https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/waiting-waiting-waiting_nogzeg.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/waiting-waiting-waiting_nogzeg.jpg"
-  alt="Nobody wants to wait for a web page to load"
-  loading="lazy"
-  width="1920"
-  height="1280">
+{{< content-figure folder="/blog/"
+src="waiting-waiting-waiting_nogzeg.jpg"
+alt="Nobody wants to wait for a web page to load"
+width="1920" height="1280" defaultWidth="800"
+loading="lazy" >}}
 
 And, of course, slow page loading times will also impact on how well you rank in [search engine results](https://www.attractmore.uk/blog/how-making-your-website-accessible-is-also-great-for-seo/). **Speed has been a Google ranking factor for a while** but they recently incorporated it into their [Core Web Vitals update](https://developers.google.com/search/docs/advanced/experience/page-experience) to ensure visitors get the best user experience possible.
 
@@ -82,19 +66,12 @@ Embedding the video (as YouTube suggests) will load all sorts of code which will
 
 Here's an example. As you can see, we have overlaid a Play button on to the video but the image is just a still, not the video itself.
 
-<a href="https://skisierranevada.co.uk/ski/"><img
-  class="hero-image"
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320,e_improve:outdoor/blog/ski-sierra-nevada-video_khnmou.jpg 320w,
-  https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560,e_improve:outdoor/blog/ski-sierra-nevada-video_khnmou.jpg 560w,
-  https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640,e_improve:outdoor/blog/ski-sierra-nevada-video_khnmou.jpg 640w,
-  https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800,e_improve:outdoor/blog/ski-sierra-nevada-video_khnmou.jpg 800w,
-  https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930,e_improve:outdoor/blog/ski-sierra-nevada-video_khnmou.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800,e_improve:outdoor/blog/ski-sierra-nevada-video_khnmou.jpg"
-  alt="Avoid loading or embedding YouTube or other videos to improve page load speed. Only load the video when the visitor asks for it to be played."
-  loading="lazy"
-  width="1920"
-  height="1660"></a>
+{{< content-figure folder="/blog/"
+link="https://skisierranevada.co.uk/ski/"
+src="ski-sierra-nevada-video_khnmou.jpg"
+alt="Avoid loading or embedding YouTube or other videos to improve page load speed. Only load the video when the visitor asks for it to be played."
+width="1920" height="1660" defaultWidth="800"
+loading="lazy" >}}
 
 ### 3. Review your hosting
 
@@ -110,19 +87,11 @@ This is one of the most effective ways of increasing the speed of your website. 
 
 If you are using a content management system like WordPress **review the plugins you are using**. Having too many can slow it down, so deactivate and delete any you don’t use.
 
-<img
-  class="hero-image"
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/website-faster-than-a-speeding-car_v5lelt.jpg 320w,
-  https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/website-faster-than-a-speeding-car_v5lelt.jpg 560w,
-  https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/website-faster-than-a-speeding-car_v5lelt.jpg 640w,
-  https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/website-faster-than-a-speeding-car_v5lelt.jpg 800w,
-  https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/website-faster-than-a-speeding-car_v5lelt.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/website-faster-than-a-speeding-car_v5lelt.jpg"
-  alt="It's worth investing some time in making your website faster than a speeding car."
-  loading="lazy"
-  width="1920"
-  height="1080">
+{{< content-figure folder="/blog/"
+src="website-faster-than-a-speeding-car_v5lelt.jpg"
+alt="It's worth investing some time in making your website faster than a speeding car."
+width="1920" height="1080" defaultWidth="800"
+loading="lazy" >}}
 
 Hopefully, this has given you some idea of why you should speed up your website and some easy ways of doing it.
 

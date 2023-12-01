@@ -19,18 +19,10 @@ The [next post](https://www.attractmore.uk/blog/how-to-protect-your-website-agai
 
 ## Introduction
 
-<img
-  class="hero-image"
-  sizes="(max-width: 58em) 96vw, (max-width: 64em) 40em, 50em"
-  srcset="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_320/blog/why-hackers-want-your-website_qldhyq.jpg 320w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_560/blog/why-hackers-want-your-website_qldhyq.jpg 560w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_640/blog/why-hackers-want-your-website_qldhyq.jpg 640w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/why-hackers-want-your-website_qldhyq.jpg 800w,
-          https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_930/blog/why-hackers-want-your-website_qldhyq.jpg 930w"
-  src="https://res.cloudinary.com/attractmore/image/upload/c_scale,f_auto,q_70,w_800/blog/why-hackers-want-your-website_qldhyq.jpg"
-  alt="What are hackers trying to get from your website?"
-  width="1920"
-  height="1280">
+{{< content-figure folder="/blog/"
+src="why-hackers-want-your-website_qldhyq.jpg"
+alt="What are hackers trying to get from your website?"
+width="1920" height="1280" defaultWidth="800" >}}
 
 When you go out of your house for any length of time, my guess is that you don't leave your front door wide open. That would just be inviting trouble. And yet, you may be doing something similar with your website.
 
@@ -64,7 +56,11 @@ The reason the hackers do this is not so people will click on the links, but rat
 
 For many business owners who suffer this type of attack, the first time they become aware of it is when they are told that their site cannot be found in Google any more.
 
-![Cyber security breaches of small and medium sized business websites are fairly common](/optim/blog/cybersecurity-breaches-attacks.jpg){width=930}
+{{< content-figure folder="/blog/"
+src="cybersecurity-breaches-attacks_dap1mu.jpg"
+alt="Cyber security breaches of small and medium sized business websites are fairly common"
+width="930" height="620" defaultWidth="800"
+loading="lazy" >}}
 
 ### Redirect visitors elsewhere
 
@@ -78,7 +74,12 @@ In addition, this behaviour will not go unnoticed by Google who may remove your 
 
 If you store any customer or client data on your web server, then hackers will be delighted to steal this to sell on for the purposes of identity theft or a variety of other fraudulent purposes. You may have collected people's names and email addresses on your website to send them a report or simply to add them to a mailing list. If you allow people to pay for items on your website (23% of websites according to the [UK government's 2020 survey](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/893399/Cyber_Security_Breaches_Survey_2020_Statistical_Release_180620.pdf)), you may also be storing credit card details, address details etc, which may be even more valuable to hackers.
 
-![Shield yourself from malicious hackers by fixing security vulnerabilities](/optim/blog/website-security-vulnerabilities.jpg){width=500}{data-responsiver=blogside}
+{{< content-figure folder="/blog/"
+class="alignright"
+src="website-security-vulnerabilities_miclsp.jpg"
+alt="Shield yourself from malicious hackers by fixing security vulnerabilities"
+width="500" height="333" defaultWidth="500"
+loading="lazy" >}}
 
 A friend of mine (a lady in her 70s living in Oxford) recently bought some shoes online. The following day her bank rang to tell her that there was a transaction on her VISA card for escort services in Hong Kong and asked her if this was this correct? Clearly it wasn't and the card was stopped but it was obvious that hackers had got hold of her credit card details from the website and used them. Is she going to buy from that website again? Certainly not.
 
