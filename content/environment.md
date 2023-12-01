@@ -1,15 +1,19 @@
 ---
 title: "Environmental Statement"
-layout: "layouts/page.html"
+type: "miscellaneous"
 pageRobots: "noindex,follow"
 metaDesc: "The internet uses a LOT of power. Find out how your website can generate less carbon dioxide by optimising the resources and compressing the content."
+extraStyles: "/scss/miscellaneous.scss"
 ---
 
 The internet uses a lot of powerand is responsible for [3.7% of global emissions](https://ecofriendlyweb.org/). Of course, it's not just the laptops, tablets and phones we use, the main power consumers are the web servers and the networks that keep the internet running.
 
 According to some [estimates](https://www.websitecarbon.com/), the internet as a whole uses around 416TWh per year which is more than the annual electricity consumption of the entire UK. A large part of this energy use is due to streaming video and playing games. Back in 2018, [Fortune reported](https://fortune.com/2018/10/02/netflix-consumes-15-percent-of-global-internet-bandwidth/) that Netflix alone was using 15% of the internet bandwidth.
 
-![Computer servers use a great deal of power](/optim/misc/computer-servers-using-power.jpg){width=930}
+{{< content-figure folder="/misc/"
+src="computer-servers-using-power_fcmbgg.jpg"
+alt="Computer servers use a great deal of power"
+width="930" height="555" defaultWidth="500" >}}
 
 As concerned business owners, is there anything we can do to reduce the energy used by our websites? Well, the answer is yes, however, the overall effect we can have is very small. I would argue that it's still worth doing as much as we can, as many small changes, taken together, will have a larger effect - so the more businesses that take this approach, the less carbon dioxide produced.
 

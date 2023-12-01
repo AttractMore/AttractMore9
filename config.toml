@@ -5,8 +5,8 @@ disableKinds = ["sitemap"]
 paginate = 5
 copyright = "© 2023 AttractMore Ltd."
 [outputs]
-  home = ["HTML", "RSS"]
-  section = ["html", "rss"]
+  home = ["HTML"]
+  section = ["html"]
   taxonomy = ["html", "rss"]
   term = ["html", "rss"]
 

@@ -1,0 +1,62 @@
+{{- define "main" }}
+
+  {{- partial "hero-image.html" . }}
+
+<article class="services trapezium-right-grey">
+  <div class="wrap">
+    <ul class="services__block">
+      {{- range $.Site.Data.homeservices.items -}}
+      <li class="services__block-item">
+        <a aria-label="{{ .header }}" href="{{ .url }}">
+          <svg aria-hidden="true" class="tree"><use xlink:href="/icons/defs.svg#icon-{{ .svg}}"></use></svg>
+          <span class="visually-hidden">{{ .header }}</span>
+        </a>
+        <a href="{{ .url }}">
+          <h2>{{ .header }}</h2>
+        </a>
+        <p>{{ .text }}</p>
+        <a href="{{ .url }}"
+          >More details<svg aria-hidden="true" class="icon icon-arrow-right4"><use xlink:href="/icons/symbol-defs.svg#icon-arrow-right4"></use></svg>
+        </a>
+      </li>
+      {{- end -}}
+    </ul>
+  </div>
+</article>
+
+<section class="ebook trapezium-left-light-blue">
+  <div class="wrap cf">
+    <div class="ebook__contents">
+
+      <div class="ebook__contents-intro">
+        <h2>Assess the effectiveness of your website</h2>
+        <p>To assess how effective your website is and how to improve it, we would be happy to send you a copy of our free eBook.</p>
+        <p>The eBook is based on our many years of experience and is intended for business owners. It's not technical but suggests 35 aspects of a website which should be examined to see if improvements can be made. It's straightforward and could make a significant difference to the effectiveness of your site.</p>
+        <p class="centre"><a target="_blank" href="/files/get-more-from-your-business-website.pdf" class="blue-btn">Download our eBook</a></p>
+      </div>
+      <div class="ebook__contents-image">
+        <a href="/files/get-more-from-your-business-website.pdf">
+          <img decoding="async" src="{{ $.Page.Site.Params.cloudinaryPath }}{{ $.Page.Site.Params.cloudinaryMainParms | safeURL }},w_500/blog/get-more-from-your-business-website_b7zeeq.jpg"
+          srcset="
+              {{- $.Page.Site.Params.cloudinaryPath -}} {{- $.Page.Site.Params.cloudinaryMainParms | safeURL -}},w_500/blog/get-more-from-your-business-website_b7zeeq.jpg 500w,
+              {{- $.Page.Site.Params.cloudinaryPath -}} {{- $.Page.Site.Params.cloudinaryMainParms | safeURL -}},w_320/blog/get-more-from-your-business-website_b7zeeq.jpg 320w"
+              loading="lazy" 
+              sizes="(max-width: 44em) 96vw, 33vw"
+              width="500" height="599"
+              alt="How to get more from your business website">
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section class="testimonials-block">
+    <div class="wrap">
+      <h2>What our clients say</h2>
+      {{ partial "partials/testimonials.html" . }}
+    </div>
+  </section>
+  
+  {{ partial "partials/cta.html" . }} 
+  
+  {{- end }}{{/* end main */}}

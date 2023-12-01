@@ -1,0 +1,43 @@
+<ul class="testimonials">
+  {{- range $.Site.Data.testimonials.items -}}
+    <li class="testimonials__item">
+      <aside class="testimonials__item-text">
+        <p>{{ .text | safeHTML }}</p>
+        {{- if .text2 }}
+          <p>{{ .text2 | safeHTML }}
+        {{- end -}}
+        </p>
+      </aside>
+      <aside class="testimonials__item-attribution">
+        {{ if .workpage }}
+          <a class="testimonials__item-attribution-image" href="/work{{ .workpage }}">
+        {{- else -}}
+          <div class="testimonials__item-attribution-image">
+        {{- end -}}
+        <img decoding="async" src="{{ $.Page.Site.Params.cloudinaryPath }}{{ $.Page.Site.Params.cloudinaryMainParms | safeURL }},w_200/testimonials/{{ .photo }}.jpg"
+        srcset="
+          {{- $.Page.Site.Params.cloudinaryPath -}} {{- $.Page.Site.Params.cloudinaryMainParms | safeURL -}},w_200/testimonials/{{ .photo }}.jpg 200w,
+          {{- $.Page.Site.Params.cloudinaryPath -}} {{- $.Page.Site.Params.cloudinaryMainParms | safeURL -}},w_150/Testimonials/{{ .photo }}.jpg 150w"
+        loading="lazy" 
+        sizes="(max-width: 44em) 150px, 200px"
+        alt="{{ .name }} - {{ .organisation }}">
+        {{- if .workpage -}}
+          </a>
+        {{- else -}}
+          </div>
+        {{- end -}}
+        <aside class="testimonials__item-attribution-text">
+          <p class="mb-0-5">{{ .name }}</p>
+          <p>
+            {{- if .workpage -}}
+              <a href="/work{{ .workpage }}">{{ .organisation }}</a>
+            {{- else -}}
+              {{ .organisation }}
+            {{- end -}}
+          </p>
+        </aside>
+      </aside>
+      <hr>
+    </li>
+  {{- end -}}
+</ul>

@@ -1,8 +1,9 @@
 ---
 title: "Privacy and Cookies"
-layout: "layouts/page.html"
+type: "miscellaneous"
 pageRobots: "noindex,follow"
 metaDesc: "This is our privacy and cookies policy which we are committed to upholding. At present we don't store any cookies in visitors' browsers."
+extraStyles: "/scss/miscellaneous.scss"
 ---
 
 # Privacy & Cookies
