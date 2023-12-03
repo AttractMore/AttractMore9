@@ -1,0 +1,57 @@
+{{- define "main" }}
+{{- partial "partials/hero-image.html" . -}}
+{{- partial "partials/page-header.html" . -}}
+
+<section class="contact content-sidebar wrap">
+  <article class="services">
+    {{ .Content | safeHTML }}
+    <form class="mb-1-5" id="enquiryform" netlify-honeypot="gotcha" action="/thanks/" data-netlify="true" >
+      <input type="hidden" name="subject" value="AttractMore Information Request" />
+      <fieldset>
+        <p>
+          <label for="realname">Your name: <em class="required">(required)</em></label>
+          <input name="realname" id="realname" type="text" maxlength="25" autocomplete="name" placeholder="Your name..." required />
+        </p>
+
+        <div class="email-entry">
+          <label for="email">Email address:<em class="required">(required)</em></label>
+          <input name="email" id="email" type="email" autocomplete="email" placeholder="Your email..." required maxlength="100" />
+          <p class="email-suggestion"><span class="alert">! </span>Did you mean <a class="suggested-email"><span class="address"></span>@<span class="domain"></span></a>? Click or tap the amended email to use.</p>
+
+        </div>
+
+        <p>
+          <label for="msg">Please tell us how we can help you:</label>
+          <textarea name="msg" id="msg" rows="8" required></textarea>
+        </p>
+
+        <p style="display:none">
+          <label for="agree">Indicate agreement</label>
+          <input id="agree" type="text" name="gotcha">
+        </p>
+        <p>
+          <input id="consent" type="checkbox" name="consent" required />
+          <label for="consent">I agree to the storage and handling of my data by AttractMore</label>
+        </p>
+      </fieldset>
+
+      <fieldset class="mb-1-5">
+        <button class="blue-btn" type="submit" id="submit" name="submit" value="submit">Send</button>
+      </fieldset>
+
+    </form>
+    <blockquote>
+      I would highly recommend AttractMore. Roger initially created for us a simple yet attractive e-commerce website which worked perfectly and fit our budgets. Roger also prepared a detailed report on how we could improve SEO for our website.  The result has been a <strong>significant increase in our organic web traffic</strong>. Roger also responds to our requests really quickly which I really appreciate - it helps me feel that we are truly <strong>supported and protected from an IT point of view.</strong> - Julie Macken, Neve's Bees.
+    </blockquote>
+
+  </article>
+  <aside class="sidebar">
+    <div class="sidebar__inner">
+      <blockquote>Change almost never fails because it's too early. It almost always fails because it's too late.</blockquote>
+      <cite>— Seth Godin</cite>
+      <blockquote>Ideas in secret die. They need light and air or they starve to death.</blockquote>
+      <cite>— Seth Godin</cite>
+    </div>
+  </aside>
+</section>
+{{- end }}{{/* end main */}}

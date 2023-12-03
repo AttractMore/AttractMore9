@@ -1,0 +1,9 @@
+{{ $related := (where (.Site.RegularPages.Related .) "Section" "blog") | first 2 }}
+{{ with $related }}
+<div class="post-list">
+  <h2>More from the blog</h2>
+    {{ range $i, $p := . }}
+      {{ partial "partials/post-list-item" . }}
+    {{ end }}
+</div>
+{{ end }}

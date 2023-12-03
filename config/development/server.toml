@@ -1,0 +1,31 @@
+[[headers]]
+  for = '/**'
+  [headers.values]
+    Content-Security-Policy = "base-uri 'self'; default-src 'self'; script-src 'self' https://storage.googleapis.com https://unpkg.com 'unsafe-inline'; object-src 'none'; img-src 'self' https://res.cloudinary.com; style-src 'self' 'unsafe-inline'; connect-src 'self' https://api.websitecarbon.com https://res.cloudinary.com;"
+    Referrer-Policy = 'strict-origin-when-cross-origin'
+    X-Content-Type-Options = 'nosniff'
+    X-Frame-Options = 'DENY'
+    X-XSS-Protection = '1; mode=block'
+
+[[redirects]]
+  from = "/tags/accessibility/"
+  to = "/categories/accessibility/"
+  force = true
+  status = 301
+
+[[redirects]]
+  from = "/tags/blogging/"
+  to = "/categories/blogging/"
+  force = true
+  status = 301
+
+[[redirects]]
+  from = "/tags/content/"
+  to = "/categories/content/"
+  force = true
+  status = 301
+
+[[redirects]]
+  from = '/**'
+  status = 404
+  to = '/404.html'

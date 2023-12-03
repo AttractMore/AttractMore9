@@ -25,14 +25,10 @@
       {{ end }}
     </aside>
 
-    {{ if .Params.recommendedPosts }}
     <footer class="recommended-posts">
       <hr>
-      {% set postListItems = recommendedPosts %}
-      {% set postListHeadline = 'More from the blog' %}
-      {% include "partials/post-list.html" %}
+      {{ partial "partials/related-posts.html" . }}
     </footer>
-    {{ end }}
 
   {{ partial "partials/cta.html" . }}
   </article>

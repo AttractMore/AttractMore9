@@ -1,0 +1,31 @@
+baseURL = "http://localhost:1313"
+languageCode = "en-gb"
+title = "Low carbon websites"
+paginate = 5
+copyright = "©2023 AttractMore Ltd."
+[outputs]
+  page = [ "html" ]
+  home = [ "html", "rss", "imagessitemap" ]
+  taxonomy = [ "html"]
+  term = [ "html" ]
+[outputFormats]
+  [outputFormats.RSS]
+    baseName = "feed"
+    mediatype = "application/rss+xml"
+  [outputFormats.imagessitemap]
+    baseName  = 'imagessitemap'
+    mediaType = 'application/xml'
+    noUgly = true # default is false
+
+[related]
+  threshold = 0 
+  includeNewer = true
+  toLower = false
+
+  [[related.indices]]
+    name = "categories"
+    weight = 100
+
+  [[related.indices]]
+    name = "date"
+    weight = 10
