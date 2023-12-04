@@ -1,0 +1,31 @@
+[[main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 10
+[[main]]
+  identifier = "services"
+  name = "Services"
+  url = "/services/"
+  weight = 20
+[[main]]
+  identifier = "work"
+  name = "Work"
+  url = "/work/"
+  weight = 30
+[[main]]
+  identifier = "blog"
+  name = "Blog"
+  url = "/blog/"
+  weight = 40
+[[main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 50
+[[main]]
+  identifier = "contact"
+  name = "Contact"
+  url = "/contact/"
+  weight = 60
+

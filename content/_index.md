@@ -1,5 +1,6 @@
 ---
-title: "Low carbon websites"
+title: "Home"
+pageHeaderTitle: "Low carbon websites"
 metaDesc: "The internet has huge potential to benefit organisations. AttractMore can help you increase your visibility and customer base with an effective web presence"
 extraStyles: "/scss/home.scss"
 intro:

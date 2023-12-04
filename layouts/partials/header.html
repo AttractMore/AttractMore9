@@ -16,13 +16,14 @@
 
       <nav class="nav site-head__nav pushy pushy-right" aria-labelledby="burger" id="main-menu">
         <div class="pushy-content">
-        {{- $currentPage := . }}
+          {{- $currentPageTitle := .Title }}
+          {{ $currentPageTitle }}
           <ul id="menu" class="nav__list">
-            {{- range site.Menus.main }}
+            {{- range .Site.Menus.main }}
               <li>
-                  <a href="{{ .URL }}" title="{{ .Name }}" class="pushy-link {{- if $currentPage.IsMenuCurrent .Menu .  }} active {{- end }}">
-                    {{ .Name }}
-                  </a>
+                <a href="{{ .URL }}" title="{{ .Name }}" class="pushy-link" {{- if eq $currentPageTitle .Name }} aria-current="page" data-state="active" {{- end }}>
+                  {{ .Name }}
+                </a>
               </li>
             {{- end }}
           </ul>

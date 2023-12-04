@@ -1,5 +1,5 @@
 ---
-title: "AttractMore Blog"
+title: "Blog"
 metaDesc: "News and articles to help you get the best from your business website or online shop. More articles are added on a regular basis so do check back for more."
 pageHeaderTitle: "AttractMore Blog"
 pageHeaderSummary:
