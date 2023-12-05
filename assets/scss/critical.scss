@@ -20,9 +20,6 @@ body {
   @include set-font-size(1);
   color: var(--textColour);
   background-color: var(--bg);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-smoothing: antialiased;
   min-width: 320px;
   position: relative;
 }
@@ -176,7 +173,7 @@ article {
 	UTILITIES
 ********************************************/
 @import "utilities/visually-hidden";
-@import "utilities/pushy";
+@import "utilities/main-menu";
 @import "utilities/hr";
 @import "utilities/image-align";
 @import "utilities/blockquote";

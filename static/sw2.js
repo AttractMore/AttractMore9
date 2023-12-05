@@ -21,8 +21,8 @@ const RUNTIME = "runtime-v119";
 const PRECACHE_URLS = [
   "./index.html",
   "./", // Alias for index.html
-  "./images/apple-touch-icon.png",
-  "./images/favicon-32x32.png",
+  "./favicons/apple-touch-icon.png",
+  "./favicons/favicon-32x32.png",
   "./about/index.html",
   "./work/index.html",
   "./services/index.html",
@@ -32,16 +32,14 @@ const PRECACHE_URLS = [
   "./services/branding-graphic-design/index.html",
   "./services/website-reviews-renovation/index.html",
   "./services/website-support-maintenance/index.html",
-  "./fonts/symbol-defs.svg",
+  "./icons/symbol-defs.svg",
   //  './fonts/icomoon.svg',
   //  './fonts/icomoon.woff',
-  "./images/defs.svg",
+  "./icons/defs.svg",
   "./images/logo/attractmore-logo-large.png",
   "./images/logo/attractmore-logo-large@2x.png",
   "./images/logo/attractmore-logo-small.png",
   "./images/logo/attractmore-logo-small@2x.png",
-  "./js/pushy-vanilla.min.js",
-  "./js/dark-mode-toggle.js",
   "./js/scripts.js",
 ];
 

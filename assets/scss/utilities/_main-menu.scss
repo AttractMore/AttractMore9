@@ -1,0 +1,208 @@
+/* See https://web.dev/articles/website-navigation */
+
+.site-head__nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: $menu-width;
+  overscroll-behavior: contain;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch; /* enables momentum scrolling in iOS overflow elements */
+  &[aria-expanded="true"] {
+    background-color: $theme-green;
+    svg {
+      fill: $white;
+    }
+  }
+
+  li {
+    margin: 1em 0;
+    &:first-child {
+      margin-top: 4.5rem;
+    }
+  }
+  a {
+    display: block;
+    color: $white;
+    padding: 9px 12px;
+    text-decoration: none;
+    font-size: $base-font-size2;
+    font-weight: 400;
+    &:after {
+      margin-left: 0.5em;
+      content: "❯"; /* https://unicode-table.com/en/sets/arrow-symbols/ */
+      opacity: 0;
+      transition: opacity 0.2s ease-in-out;
+    }
+    &:hover,
+    &[data-state="active"] {
+      color: $white;
+      text-decoration: none;
+      &:after {
+        opacity: 1;
+      }
+    }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    & {
+      transition: background-color 0.4s ease;
+    }
+    ul {
+      transition: transform 0.3s ease, visibility 0.3s ease;
+    }
+  }
+  [aria-expanded="false"] + ul {
+    transform: translateX(100%);
+    visibility: hidden;
+  }
+  &[aria-expanded="false"] {
+    background-color: transparent;
+  }
+  button {
+    all: unset;
+    position: absolute;
+    border: none;
+    top: 0.5rem;
+    right: 1em;
+    text-decoration: none;
+    padding: 0.5em 0.5rem;
+    color: $text-color;
+    width: 38px;
+    height: 38px;
+    display: block;
+    background: transparent;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    i {
+      display: block;
+      width: 24px;
+      height: 3px;
+      background: var(--tertiary);
+      @include centerer();
+      transition: all 0.4s ease-in-out;
+      &:before,
+      &:after {
+        content: "";
+        height: 3px;
+        background: var(--tertiary);
+        width: 24px;
+        @include centerer();
+        transition: all 0.4s ease-in-out;
+      }
+      &:before {
+        margin-top: -8px;
+      }
+      &:after {
+        margin-top: 8px;
+      }
+    }
+    &[aria-expanded="true"] {
+      i {
+        background: transparent;
+        &:before,
+        &:after {
+          left: -2px;
+          width: 28px;
+          background: $white;
+        }
+        &:before {
+          @include transform(rotate(45deg));
+          top: 6px;
+          margin-top: -6px;
+        }
+        &:after {
+          @include transform(rotate(-45deg));
+          top: -10px;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $bp-large) {
+  .site-head__nav {
+    background-color: transparent;
+    position: relative;
+    width: auto;
+    height: auto;
+    transition: none;
+    transform: none;
+    overflow: visible;
+    [aria-expanded="false"] + ul {
+      transform: none;
+      visibility: visible;
+    }
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+      text-transform: uppercase;
+      transition: none;
+      li {
+        display: inline-block;
+        margin: 0 0.5em 0;
+        padding: 0;
+        width: auto;
+        line-height: 1;
+        &:first-child {
+          margin-top: 0;
+        }
+      }
+      a {
+        display: inline-block;
+        position: relative;
+        transition: all 0.3s ease-out 0s;
+        padding: 0.75em;
+        margin: 0;
+        color: var(--textColour);
+        &:after {
+          position: absolute;
+          left: 50%;
+          margin: 0;
+          content: "";
+          bottom: 0;
+          height: 2px;
+          width: 0;
+          transform: translate(-50%, 0);
+          transition: all 0.3s ease-out 0s;
+          background-color: $theme-green;
+        }
+        &:hover {
+          color: var(--textColour);
+          &:after {
+            width: 100%;
+          }
+        }
+        &[data-state="active"] {
+          color: var(--textColour);
+          &:after {
+            width: 100%;
+            opacity: 1;
+          }
+        }
+      }
+      li:last-child {
+        margin-right: 0;
+        a {
+          margin-right: 0;
+        }
+      }
+    }
+    @media (prefers-reduced-motion: no-preference) {
+      & {
+        transition: none;
+      }
+      ul {
+        transition: none;
+      }
+    }
+
+    button {
+      display: none;
+    }
+  }
+}

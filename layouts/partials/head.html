@@ -8,14 +8,15 @@
 <link rel="dns-prefetch" href="https://res.cloudinary.com" />
 <link rel="preconnect" href="https://storage.googleapis.com" />
 
-{{- $opts := dict "transpiler" "libsass" "targetPath" "css/style.css" "outputStyle" "compressed" }}
-{{- with resources.Get "/scss/critical.scss" | toCSS $opts | minify | fingerprint }}
-<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+{{- $opts := dict "transpiler" "libsass" "targetPath" "css/critical.css" "outputStyle" "compressed" }}
+{{- with resources.Get "/scss/critical.scss" | toCSS $opts }}
+<style>{{ .Content | safeCSS }}</style>
 {{- end -}}
 
 {{- if .Params.extraStyles }}
-{{- with resources.Get .Params.extraStyles | toCSS $opts | minify | fingerprint }}
-<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+{{- $opts := dict "transpiler" "libsass" "targetPath" "css/styles.css" "outputStyle" "compressed" }}
+{{- with resources.Get .Params.extraStyles | toCSS $opts  }}
+<style>{{ .Content | safeCSS }}</style>
 {{- end -}}
 {{- end }}
 
@@ -45,3 +46,28 @@
 {{- range .AllTranslations -}}
 <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}" />
 {{ end -}}
+
+{{- if ne .Title "Home" -}}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "{{ .Title }}",
+          "item": "{{ .Permalink }}"
+        }
+      ]
+    }
+  </script>
+{{- end -}}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "url": "https://www.attractmore.uk",
+    "logo": "https://www.attractmore.uk/images/attractmore-logomark.png"
+  }
+</script>

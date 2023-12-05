@@ -12,24 +12,23 @@
                   /images/logo/attractmore-logo-small.png 200w"
                   sizes="(min-width: 30em) 300px, 200px">
       </a>
-      <button id="burger" class="menu-btn burger" title="menu button" aria-label="Show navigation menu" aria-expanded="false" tabindex="0"><i></i><span class="visually-hidden">menu</span></button>
 
-      <nav class="nav site-head__nav pushy pushy-right" aria-labelledby="burger" id="main-menu">
-        <div class="pushy-content">
-          {{- $currentPageTitle := .Title }}
-          {{ $currentPageTitle }}
-          <ul id="menu" class="nav__list">
-            {{- range .Site.Menus.main }}
-              <li>
-                <a href="{{ .URL }}" title="{{ .Name }}" class="pushy-link" {{- if eq $currentPageTitle .Name }} aria-current="page" data-state="active" {{- end }}>
-                  {{ .Name }}
-                </a>
-              </li>
-            {{- end }}
-          </ul>
-
-        </div>
+      <nav class="nav site-head__nav" aria-expanded="false">
+        {{- $currentPageTitle := .Title }}
+        <ul id="menu" class="nav__list">
+          {{- range .Site.Menus.main }}
+            <li>
+              <a href="{{ .URL }}" title="{{ .Name }}" {{- if eq $currentPageTitle .Name }} aria-current="page" data-state="active" {{- end }}>
+                {{ .Name }}
+              </a>
+            </li>
+          {{- end }}
+        </ul>
       </nav>
+      <template id="burger-template">
+        <button type="button" aria-expanded="false" aria-label="Menu" aria-controls="main"><i></i><span class="visually-hidden">menu</span>
+        </button>
+      </template>
     </div>
   </div>
 </header>
