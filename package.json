@@ -1,0 +1,28 @@
+{
+  "name": "attractmore9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tinacms dev -c \"hugo server -D\"",
+    "build": "tinacms build && hugo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AttractMore/AttractMore9.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AttractMore/AttractMore9/issues"
+  },
+  "homepage": "https://github.com/AttractMore/AttractMore9#readme",
+  "dependencies": {
+    "tinacms": "^1.5.28"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.5.39",
+    "@types/node": "^20.10.3"
+  }
+}

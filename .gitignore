@@ -1,3 +1,5 @@
 resources/*
 .hugo*
 public/*
+node_modules
+.env
