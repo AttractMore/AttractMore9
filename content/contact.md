@@ -3,7 +3,6 @@ title: "Contact"
 type: "miscellaneous"
 layout: "contact"
 metaDesc: "Feel free to contact us so we can discuss how we can help your business make better use of the internet to grow your business."
-extraStyles: "/scss/contact.scss"
 intro:
   image: "growing-plant.jpg"
   imageAlt: "Get in touch about growing your business"

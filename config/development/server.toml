@@ -1,7 +1,7 @@
 [[headers]]
   for = '/**'
   [headers.values]
-    Content-Security-Policy = "base-uri 'self'; default-src 'self'; script-src 'self' https://storage.googleapis.com https://unpkg.com http://localhost:4001 'unsafe-inline'; object-src 'none'; img-src 'self' https://res.cloudinary.com; style-src 'self' 'unsafe-inline'; connect-src 'self' https://api.websitecarbon.com https://res.cloudinary.com http://localhost:4001;"
+    Content-Security-Policy = "base-uri 'self'; default-src 'self' https://cdn.jsdelivr.net; script-src 'self' https://storage.googleapis.com https://unpkg.com http://localhost:4001 https://cdn.jsdelivr.net 'unsafe-inline'; object-src 'none'; img-src 'self' https://res.cloudinary.com; style-src 'self' https://cdn.jsdelivr.net 'unsafe-inline'; connect-src 'self' https://api.websitecarbon.com https://res.cloudinary.com ws://localhost:4001/admin/ http://localhost:4001;"
     Referrer-Policy = 'strict-origin-when-cross-origin'
     X-Content-Type-Options = 'nosniff'
     X-Frame-Options = 'DENY'
