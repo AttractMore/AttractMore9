@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/AttractMore/AttractMore9#readme",
   "dependencies": {
-    "@cloudflare/pages-plugin-mailchannels": "^0.1.2",
     "tinacms": "^1.5.28"
   },
   "devDependencies": {
