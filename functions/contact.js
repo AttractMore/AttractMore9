@@ -58,14 +58,14 @@ const handleFormData = async function onRequest({ body, context }) {
 
   let replyBody;
   if (response.ok) {
-    replyBody = { "success": true, "message": "Message sent successfully" };
+    console.log("Message sent successfully");
+    return Response.redirect("./thanks/");
   } else {
     console.error(response.status, response.statusText);
     replyBody = { "success": false, "message": response.statusText };
+    return new Response(JSON.stringify(replyBody), {
+      headers: corsHeaders,
+      status: response.status,
+    });
   }
-
-  return new Response(JSON.stringify(replyBody), {
-    headers: corsHeaders,
-    status: response.status,
-  });
 };
