@@ -4,7 +4,6 @@ export async function onRequestPost(context) {
 
 async function submitHandler(context) {
   let response = await context.request.formData();
-  let result = await response.json();
 
   // const reqBody = Object.fromEntries(body);
 
@@ -16,9 +15,9 @@ async function submitHandler(context) {
   //     "Consent": consent,
   //   },
   // };
-  console.log("Result = " + JSON.stringify(result));
+  console.log("Result = " + JSON.stringify(response));
 
-  return handleFormData({ body: result, context: context });
+  return handleFormData({ body: response, context: context });
 }
 
 const handleFormData = async function onRequest({ body, context }) {
