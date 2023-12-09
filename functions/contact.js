@@ -28,6 +28,7 @@ const handleFormData = async function onRequest({ body, context }) {
     "Content-Type": "application/json;charset=UTF-8",
     "Access-Control-Max-Age": "86400",
   };
+  console.log(body);
   const request = new Request("https://api.sendgrid.com/v3/mail/send");
   const response = await fetch(request, {
     method: "POST",
@@ -45,12 +46,12 @@ const handleFormData = async function onRequest({ body, context }) {
         email: "emailsender.searched@simplelogin.com",
         name: "AttractMore Website",
       },
-      reply_to: { email: reqBody.email },
-      subject: "Contact Form Submission from " + reqBody.email,
+      reply_to: { email: body.email },
+      subject: "Contact Form Submission from " + body.email,
       content: [
         {
           type: "text/plain",
-          value: reqBody.message + reqBody.consent,
+          value: body.message + body.consent,
         },
       ],
     }),
