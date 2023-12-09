@@ -28,7 +28,7 @@ const handleFormData = async function onRequest({ body, context }) {
     "Content-Type": "application/json;charset=UTF-8",
     "Access-Control-Max-Age": "86400",
   };
-  console.log("body: " + body);
+  console.log("body: " + JSON.stringify(body));
   console.log("email: " + body.fields.email);
   const request = new Request("https://api.sendgrid.com/v3/mail/send");
   const response = await fetch(request, {
