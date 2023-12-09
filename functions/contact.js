@@ -20,6 +20,10 @@ async function submitHandler(context) {
 }
 
 const handleFormData = async function onRequest({ body, context }) {
+  console.log("Name = " + body.fields.Name);
+  console.log("Email = " + body.fields.Email);
+  console.log("Message = " + body.fields.Message);
+  console.log("Consent = " + body.fields.Consent);
   const corsHeaders = {
     "Access-Control-Allow-Origin": "*",
     "Access-Control-Allow-Methods": "POST, OPTIONS",
@@ -62,7 +66,7 @@ const handleFormData = async function onRequest({ body, context }) {
         },
         {
           type: "text/html",
-          value: `<strong>Message: ${body.fields.message}</strong>`,
+          value: `<strong>Message: ${body.fields.Message}</strong>`,
         },
       ],
     }),
