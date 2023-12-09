@@ -60,6 +60,10 @@ const handleFormData = async function onRequest({ body, context }) {
           type: "text/plain",
           value: body.fields.Message,
         },
+        {
+          type: "text/html",
+          value: `<strong>Message: ${body.fields.message}`,
+        },
       ],
     }),
   });
@@ -67,8 +71,7 @@ const handleFormData = async function onRequest({ body, context }) {
   let replyBody;
   if (response.ok) {
     console.log("Message sent successfully");
-    console.log(JSON.stringify(response));
-    // console.log(JSON.stringify(response.headers));
+    console.log(response.status + response.statusText);
     return Response.redirect("https://attractmore9.pages.dev/thanks/");
   } else {
     console.error(response.status, response.statusText);
