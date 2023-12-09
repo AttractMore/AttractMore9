@@ -16,9 +16,8 @@ async function submitHandler(context) {
     },
   };
   console.log("Email = " + reqBody.fields.Email);
-  console.log("Name = " + reqBody.fields.Name);
 
-  return handleFormData({ body: body, context: context });
+  return handleFormData({ body: reqBody, context: context });
 }
 
 const handleFormData = async function onRequest({ body, context }) {
@@ -30,8 +29,7 @@ const handleFormData = async function onRequest({ body, context }) {
     "Content-Type": "application/json;charset=UTF-8",
     "Access-Control-Max-Age": "86400",
   };
-  // console.log("body: " + JSON.parse(body));
-  console.log("email fields: " + body.email);
+  console.log("email fields: " + body.fields.Email);
   const request = new Request("https://api.sendgrid.com/v3/mail/send");
   const response = await fetch(request, {
     method: "POST",
@@ -50,11 +48,11 @@ const handleFormData = async function onRequest({ body, context }) {
         name: "AttractMore Website",
       },
       reply_to: { email: body.email },
-      subject: "Contact Form Submission from " + body.email,
+      subject: "Contact Form Submission from " + body.fields.email,
       content: [
         {
           type: "text/plain",
-          value: body.message + body.consent,
+          value: body.fields.message + body.fields.consent,
         },
       ],
     }),
