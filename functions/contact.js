@@ -47,6 +47,10 @@ const handleFormData = async function onRequest({ body, context }) {
               email: "roger@attractmore.co.uk",
               name: "Roger Knight",
             },
+            {
+              email: "roger@rogerknight.info",
+              name: "me",
+            },
           ],
         },
       ],
@@ -58,7 +62,7 @@ const handleFormData = async function onRequest({ body, context }) {
         email: body.fields.Email,
         name: body.fields.Name,
       },
-      subject: "Contact Form Submission",
+      subject: "Contact Form Submission from " + body.fields.Name,
       content: [
         {
           type: "text/plain",
