@@ -32,7 +32,7 @@ const handleFormData = async function onRequest({ body }) {
   const response = await fetch(request, {
     method: "POST",
     headers: {
-      "Authorization": `Bearer: ${env.SG_API_KEY}`,
+      "Authorization": `Bearer ${context.env.SG_API_KEY}`,
       "Content-type": "application/json",
     },
     body: JSON.stringify({
