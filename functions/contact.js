@@ -38,19 +38,27 @@ const handleFormData = async function onRequest({ body, context }) {
     body: JSON.stringify({
       personalizations: [
         {
-          to: [{ email: "roger@attractmore.co.uk" }],
+          to: [
+            {
+              email: "roger@attractmore.co.uk",
+              name: "Roger Knight",
+            },
+          ],
         },
       ],
       from: {
         email: "emailsender.searched@simplelogin.com",
         name: "AttractMore Website",
       },
-      reply_to: { email: body.fields.Email },
-      subject: "Contact Form Submission from " + body.fields.Email,
+      reply_to: {
+        email: body.fields.Email,
+        name: body.fields.Name,
+      },
+      subject: "Contact Form Submission",
       content: [
         {
           type: "text/plain",
-          value: body.fields.Message + body.fields.Consent,
+          value: body.fields.Message,
         },
       ],
     }),
@@ -58,7 +66,7 @@ const handleFormData = async function onRequest({ body, context }) {
 
   let replyBody;
   if (response.ok) {
-    console.log("Message sent successfully");
+    console.log("Message sent successfully" + response.body + response.headers);
     return Response.redirect("https://attractmore9.pages.dev/thanks/");
   } else {
     console.error(response.status, response.statusText);
