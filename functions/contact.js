@@ -15,7 +15,7 @@ async function submitHandler(context) {
   //     "Consent": consent,
   //   },
   // };
-  console.log(response);
+  console.log(response.email);
 
   return handleFormData({ body: response, context: context });
 }
