@@ -62,7 +62,7 @@ const handleFormData = async function onRequest({ body, context }) {
         },
         {
           type: "text/html",
-          value: `<strong>Message: ${body.fields.message}`,
+          value: `<strong>Message: ${body.fields.message}</strong>`,
         },
       ],
     }),
