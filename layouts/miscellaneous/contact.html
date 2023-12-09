@@ -5,12 +5,12 @@
 <section class="contact content-sidebar wrap">
   <article class="services">
     {{ .Content | safeHTML }}
-    <form class="mb-1-5" id="enquiryform" action="https://formcarry.com/s/ylmtjNKzv7" method="POST">
+    <form class="mb-1-5" id="enquiryform" method="POST">
       <input type="hidden" name="subject" value="AttractMore Information Request" />
       <fieldset>
         <p>
-          <label for="realname">Your name: <em class="required">(required)</em></label>
-          <input name="realname" id="realname" type="text" maxlength="25" autocomplete="name" placeholder="Your name..." required />
+          <label for="name">Your name: <em class="required">(required)</em></label>
+          <input name="name" id="name" type="text" maxlength="25" autocomplete="name" placeholder="Your name..." required />
         </p>
 
         <div class="email-entry">
@@ -20,8 +20,8 @@
         </div>
 
         <p>
-          <label for="msg">Please tell us how we can help you:</label>
-          <textarea name="msg" id="msg" rows="8" required></textarea>
+          <label for="message">Please tell us how we can help you:</label>
+          <textarea name="message" id="message" rows="8" required></textarea>
         </p>
 
         <p>

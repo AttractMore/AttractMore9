@@ -1,3 +1,4 @@
+import { contact } from "../functions/contact.js";
 import DarkModeToggle from "./dark-mode-toggle.js";
 const elements = [...document.querySelectorAll('[data-behaviour="dark-mode-toggle"]')];
 elements.forEach((el) => new DarkModeToggle(el));
@@ -39,3 +40,9 @@ nav.addEventListener("keyup", (e) => {
 });
 
 nav.insertBefore(burgerClone, list);
+
+/**
+ * Submit form using Cloudflare function
+ */
+const enquiryForm = document.getElementById("enquiryform");
+enquiryForm.addEventListener("submit", contact);

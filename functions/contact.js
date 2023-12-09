@@ -1,0 +1,72 @@
+export async function onRequestPost(context) {
+  return await submitHandler(context);
+}
+
+async function submitHandler(context) {
+  const body = await context.request.formData();
+
+  const { name, email, message, consent } = Object.fromEntries(body);
+
+  const reqBody = {
+    fields: {
+      "Name": name,
+      Email: email,
+      Message: message,
+      "Consent": consent,
+    },
+  };
+
+  return handleFormData({ body: reqBody });
+}
+
+const handleFormData = async function onRequest({ body }) {
+  const corsHeaders = {
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "POST, OPTIONS",
+    "Access-Control-Allow-Credentials": "true",
+    "Access-Control-Allow-Headers": "Js-Auth-Key, Content-Type",
+    "Content-Type": "application/json;charset=UTF-8",
+    "Access-Control-Max-Age": "86400",
+  };
+  const request = new Request("https://api.sendgrid.com/v3/mail/send");
+  const requestBody = JSON.parse(body);
+  const response = await fetch(request, {
+    method: "POST",
+    headers: {
+      "Authorization": "Bearer " + SG_API_KEY,
+      "Content-type": "application/json",
+    },
+    body: JSON.stringify({
+      personalizations: [
+        {
+          to: [{ email: "roger@attractmore.co.uk" }],
+        },
+      ],
+      from: {
+        email: "emailsender.searched@simplelogin.com",
+        name: "AttractMore Website",
+      },
+      reply_to: { email: requestBody.email },
+      subject: "Contact Form Submission from " + requestBody.email,
+      content: [
+        {
+          type: "text/plain",
+          value: requestBody.message + requestBody.consent,
+        },
+      ],
+    }),
+  });
+
+  let body;
+  if (response.ok) {
+    body = { "success": true, "message": "Message sent successfully" };
+  } else {
+    console.error(response.status, response.statusText);
+    body = { "success": false, "message": response.statusText };
+  }
+
+  return new Response(JSON.stringify(body), {
+    headers: corsHeaders,
+    status: response.status,
+  });
+};
