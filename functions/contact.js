@@ -16,10 +16,10 @@ async function submitHandler(context) {
     },
   };
 
-  return handleFormData({ body: reqBody });
+  return handleFormData({ body: reqBody, context: context });
 }
 
-const handleFormData = async function onRequest({ body }) {
+const handleFormData = async function onRequest({ body, context }) {
   const corsHeaders = {
     "Access-Control-Allow-Origin": "*",
     "Access-Control-Allow-Methods": "POST, OPTIONS",
