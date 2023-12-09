@@ -3,21 +3,21 @@ export async function onRequestPost(context) {
 }
 
 async function submitHandler(context) {
-  let response = await context.request.formData();
+  const body = await context.request.formData();
 
-  // const reqBody = Object.fromEntries(body);
+  const { name, email, message, consent } = Object.fromEntries(body);
 
-  // const reqBody = {
-  //   fields: {
-  //     "Name": name,
-  //     Email: email,
-  //     Message: message,
-  //     "Consent": consent,
-  //   },
-  // };
-  console.log(response.email);
+  const reqBody = {
+    fields: {
+      "Name": name,
+      Email: email,
+      Message: message,
+      "Consent": consent,
+    },
+  };
+  console.log("Email = " + body.email);
 
-  return handleFormData({ body: response, context: context });
+  return handleFormData({ body: body, context: context });
 }
 
 const handleFormData = async function onRequest({ body, context }) {
