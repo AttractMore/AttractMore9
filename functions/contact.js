@@ -65,7 +65,7 @@ const handleFormData = async function onRequest({ body }) {
     replyBody = { "success": false, "message": response.statusText };
   }
 
-  return new Response(JSON.stringify(body), {
+  return new Response(JSON.stringify(replyBody), {
     headers: corsHeaders,
     status: response.status,
   });
