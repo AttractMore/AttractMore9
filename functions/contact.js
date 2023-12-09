@@ -15,7 +15,6 @@ async function submitHandler(context) {
       "Consent": consent,
     },
   };
-  console.log("Email = " + reqBody.fields.Email);
 
   return handleFormData({ body: reqBody, context: context });
 }
@@ -29,7 +28,6 @@ const handleFormData = async function onRequest({ body, context }) {
     "Content-Type": "application/json;charset=UTF-8",
     "Access-Control-Max-Age": "86400",
   };
-  console.log("email fields: " + body.fields.Email);
   const request = new Request("https://api.sendgrid.com/v3/mail/send");
   const response = await fetch(request, {
     method: "POST",
@@ -47,12 +45,12 @@ const handleFormData = async function onRequest({ body, context }) {
         email: "emailsender.searched@simplelogin.com",
         name: "AttractMore Website",
       },
-      reply_to: { email: body.email },
-      subject: "Contact Form Submission from " + body.fields.email,
+      reply_to: { email: body.fields.Email },
+      subject: "Contact Form Submission from " + body.fields.Email,
       content: [
         {
           type: "text/plain",
-          value: body.fields.message + body.fields.consent,
+          value: body.fields.Message + body.fields.Consent,
         },
       ],
     }),
