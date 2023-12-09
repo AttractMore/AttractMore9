@@ -20,7 +20,6 @@ async function submitHandler(context) {
 }
 
 const handleFormData = async function onRequest({ body }) {
-  console.log("start handleFormData");
   const corsHeaders = {
     "Access-Control-Allow-Origin": "*",
     "Access-Control-Allow-Methods": "POST, OPTIONS",
@@ -29,9 +28,6 @@ const handleFormData = async function onRequest({ body }) {
     "Content-Type": "application/json;charset=UTF-8",
     "Access-Control-Max-Age": "86400",
   };
-  console.log("before parse body");
-  // const requestBody = JSON.parse(body);
-  console.log("after parse body");
   const request = new Request("https://api.sendgrid.com/v3/mail/send");
   const response = await fetch(request, {
     method: "POST",
