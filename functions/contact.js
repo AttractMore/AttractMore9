@@ -57,12 +57,12 @@ const handleFormData = async function onRequest({ body }) {
     }),
   });
 
-  let body;
+  let replyBody;
   if (response.ok) {
-    body = { "success": true, "message": "Message sent successfully" };
+    replyBody = { "success": true, "message": "Message sent successfully" };
   } else {
     console.error(response.status, response.statusText);
-    body = { "success": false, "message": response.statusText };
+    replyBody = { "success": false, "message": response.statusText };
   }
 
   return new Response(JSON.stringify(body), {
