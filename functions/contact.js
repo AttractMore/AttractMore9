@@ -10,8 +10,8 @@ async function submitHandler(context) {
   const reqBody = {
     fields: {
       "Name": name,
-      Email: email,
-      Message: message,
+      "Email": email,
+      "Message": message,
       "Consent": consent,
     },
   };
@@ -71,7 +71,6 @@ const handleFormData = async function onRequest({ body, context }) {
   let replyBody;
   if (response.ok) {
     console.log("Message sent successfully");
-    console.log(response.type);
     return Response.redirect("https://attractmore9.pages.dev/thanks/");
   } else {
     console.error(response.status, response.statusText);
