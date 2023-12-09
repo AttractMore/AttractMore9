@@ -9,8 +9,8 @@
       <p class="centre"><a target="_blank" href="/files/get-more-from-your-business-web$.Page.Site.Params.pdf" class="blue-btn">Download our eBook</a></p>
     <p>The AttractMore team</p>
     {{- $cloudinaryParms = "c_scale,f_auto,q_auto,"  -}}
-    {{- $$cloudinaryFolder := "/contact/" -}}
-    {{- $$image = "sunlight-in-the-forest.jpg" -}}
+    {{- $cloudinaryFolder := "/contact/" -}}
+    {{- $image = "sunlight-in-the-forest.jpg" -}}
     <img class="mb-1-5" loading="lazy"
       width="1920" height="1080"
       src="{{ $.Page.Site.Params.cloudinaryPath }}{{ $cloudinaryParms }}w_800{{ $cloudinaryFolder }}{{ $image }}" alt="Sunlight in the forest"
