@@ -29,8 +29,7 @@ const handleFormData = async function onRequest({ body, context }) {
     "Access-Control-Max-Age": "86400",
   };
   // console.log("body: " + JSON.parse(body));
-  console.log("email body: " + body.email);
-  console.log("email fields: " + fields.email);
+  console.log("email fields: " + body.fields.email);
   const request = new Request("https://api.sendgrid.com/v3/mail/send");
   const response = await fetch(request, {
     method: "POST",
