@@ -3,18 +3,18 @@ export async function onRequestPost(context) {
 }
 
 async function submitHandler(context) {
-  const body = await context.request.formData();
+  const reqBody = await context.request.formData();
 
-  const { name, email, message, consent } = Object.fromEntries(body);
+  // const reqBody = Object.fromEntries(body);
 
-  const reqBody = {
-    fields: {
-      "Name": name,
-      Email: email,
-      Message: message,
-      "Consent": consent,
-    },
-  };
+  // const reqBody = {
+  //   fields: {
+  //     "Name": name,
+  //     Email: email,
+  //     Message: message,
+  //     "Consent": consent,
+  //   },
+  // };
 
   return handleFormData({ body: reqBody, context: context });
 }
