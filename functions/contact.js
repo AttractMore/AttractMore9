@@ -46,12 +46,12 @@ const handleFormData = async function onRequest({ body, context }) {
         email: "emailsender.searched@simplelogin.com",
         name: "AttractMore Website",
       },
-      reply_to: { email: body.email },
-      subject: "Contact Form Submission from " + body.email,
+      reply_to: { email: body.fields.email },
+      subject: "Contact Form Submission from " + body.fields.email,
       content: [
         {
           type: "text/plain",
-          value: body.message + body.consent,
+          value: body.fields.message + body.fields.consent,
         },
       ],
     }),
