@@ -3,7 +3,8 @@ export async function onRequestPost(context) {
 }
 
 async function submitHandler(context) {
-  const reqBody = await context.request.formData();
+  let response = await context.request.formData();
+  let result = await response.json();
 
   // const reqBody = Object.fromEntries(body);
 
@@ -15,8 +16,9 @@ async function submitHandler(context) {
   //     "Consent": consent,
   //   },
   // };
+  console.log("Result = " + JSON.stringify(result));
 
-  return handleFormData({ body: reqBody, context: context });
+  return handleFormData({ body: result, context: context });
 }
 
 const handleFormData = async function onRequest({ body, context }) {
@@ -29,7 +31,7 @@ const handleFormData = async function onRequest({ body, context }) {
     "Access-Control-Max-Age": "86400",
   };
   // console.log("body: " + JSON.parse(body));
-  console.log("email fields: " + body.fields.email);
+  console.log("email fields: " + body.email);
   const request = new Request("https://api.sendgrid.com/v3/mail/send");
   const response = await fetch(request, {
     method: "POST",
