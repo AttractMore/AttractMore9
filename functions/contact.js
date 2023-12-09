@@ -71,7 +71,7 @@ const handleFormData = async function onRequest({ body, context }) {
   let replyBody;
   if (response.ok) {
     console.log("Message sent successfully");
-    console.log(response.status + response.statusText);
+    console.log(response.type);
     return Response.redirect("https://attractmore9.pages.dev/thanks/");
   } else {
     console.error(response.status, response.statusText);
