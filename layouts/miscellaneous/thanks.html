@@ -6,20 +6,6 @@
 
   <article>
     <p>{{ .Content }}</p>
-      <p class="centre"><a target="_blank" href="/files/get-more-from-your-business-web$.Page.Site.Params.pdf" class="blue-btn">Download our eBook</a></p>
-    <p>The AttractMore team</p>
-    {{- $cloudinaryParms = "c_scale,f_auto,q_auto,"  -}}
-    {{- $cloudinaryFolder := "/contact/" -}}
-    {{- $image = "sunlight-in-the-forest.jpg" -}}
-    <img class="mb-1-5" loading="lazy"
-      width="1920" height="1080"
-      src="{{ $.Page.Site.Params.cloudinaryPath }}{{ $cloudinaryParms }}w_800{{ $cloudinaryFolder }}{{ $image }}" alt="Sunlight in the forest"
-      srcset="
-        {{ $.Page.Site.Params.cloudinaryPath }}{{ $cloudinaryParms }}w_700{{ $cloudinaryFolder }}{{ $image }} 700w,
-        {{ $.Page.Site.Params.cloudinaryPath }}{{ $cloudinaryParms }}w_600{{ $cloudinaryFolder }}{{ $image }} 600w,
-        {{ $.Page.Site.Params.cloudinaryPath }}{{ $cloudinaryParms }}w_450{{ $cloudinaryFolder }}{{ $image }} 450w,
-        {{ $.Page.Site.Params.cloudinaryPath }}{{ $cloudinaryParms }}w_350{{ $cloudinaryFolder }}{{ $image }} 350w"
-        sizes="(min-width:58em) 62vw, 96vw">
   </article>
   <aside class="sidebar">
     <div class="sidebar__inner">
