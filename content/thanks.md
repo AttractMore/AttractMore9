@@ -1,5 +1,7 @@
 ---
 title: "Thanks"
+type: "miscellaneous"
+layout: "thanks"
 pageRobots: "noindex,follow"
 ---
 
