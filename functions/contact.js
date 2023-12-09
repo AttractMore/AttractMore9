@@ -44,7 +44,7 @@ const handleFormData = async function onRequest({ body, context }) {
         {
           to: [
             {
-              email: "emailsender.searched@simplelogin.com",
+              email: "roger@attractmore.co.uk",
               name: "Roger Knight",
             },
             {
@@ -55,7 +55,7 @@ const handleFormData = async function onRequest({ body, context }) {
         },
       ],
       from: {
-        email: "roger@attractmore.co.uk",
+        email: "emailsender.searched@simplelogin.com",
         name: "AttractMore Website",
       },
       reply_to: {
