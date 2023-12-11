@@ -28,7 +28,6 @@
 /***********************************
   SKEWED background
 ***********************************/
-
 @mixin skew($angle-top, $angle-bottom, $origin-top-x, $origin-top-y, $origin-bottom-x, $origin-bottom-y) {
   position: relative;
   z-index: 1;
@@ -44,6 +43,7 @@
     right: 0;
     z-index: -1;
     -webkit-backface-visibility: hidden; // for Chrome Windows
+    backface-visibility: hidden;
   }
 
   &:before {
