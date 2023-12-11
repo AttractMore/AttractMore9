@@ -23,10 +23,11 @@
     transition: transform 200ms ease-out;
     will-change: transform;
     &:hover {
-      @include transform(scale(1.1));
+      transform: scale(1.1);
     }
   }
-  p, li {
+  p,
+  li {
     @include set-font-size(1.05);
   }
 }
@@ -35,18 +36,18 @@
   .services {
     &__item {
       &-content {
-        @include flex-it();
-        @include flex-justify-content(space-between);
+        display: flex;
+        justify-content: space-between;
         aside {
-          @include flex(0, 1, 25%);
+          flex: 0 1 25%;
         }
         div {
-          @include flex(0, 1, 70%);
+          flex: 0 1 70%;
         }
       }
       &:nth-child(odd) {
         .services__item-content {
-          @include flex-direction(row-reverse);
+          flex-direction: row-reverse;
         }
       }
     }

@@ -3,8 +3,7 @@
     margin: 1em 0;
     color: var(--textColour);
   }
-  &__contents-intro
-  p {
+  &__contents-intro p {
     @include set-font-size(1.1);
   }
   &__contents-image {
@@ -15,12 +14,12 @@
   }
 }
 
-@media screen and (min-width:$bp-medium) {
+@media screen and (min-width: $bp-medium) {
   .ebook__contents {
-    @include flex-it();
-    @include flex-justify-content(space-between);
+    display: flex;
+    justify-content: space-between;
     > div {
-      @include flex(0,1,48%);
+      flex: 0 1 48%;
     }
     &-image {
       margin-top: 2em;

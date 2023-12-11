@@ -67,11 +67,11 @@
 @media screen and (min-width: $bp-small) {
   .footer-nav-block2 {
     ul {
-      @include flex-it();
-      @include flex-justify-content(space-between);
-      @include flex-wrap(wrap);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
       li {
-        @include flex(0, 1, 50%);
+        flex: 0 1 50%;
         margin-bottom: 1.5em;
       }
     }
@@ -80,22 +80,22 @@
 
 @media screen and (min-width: $bp-large) {
   .footer-nav {
-    @include flex-it();
-    @include flex-justify-content(space-between);
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 1.5em;
   }
   .footer-nav-block1 {
-    @include flex(0, 1, 11em);
+    flex: 0 1 11em;
   }
   .footer-nav-block2 {
-    @include flex-align-self(flex-end);
-    @include flex(0, 1, 36em);
+    align-self: flex-end;
+    flex: 0 1 36em;
     ul {
       text-align: right;
-      @include flex-wrap(nowrap);
+      flex-wrap: nowrap;
       li {
         margin-bottom: 3px;
-        @include flex(0, 1, auto);
+        flex: 0 1 auto;
       }
     }
   }
@@ -130,10 +130,10 @@
     }
   }
   .final-footer {
-    @include flex-it();
-    @include flex-justify-content(space-between);
+    display: flex;
+    justify-content: space-between;
     p {
-      @include flex(0, 1, auto);
+      flex: 0 1 auto;
       margin-bottom: 0;
       padding-bottom: 1em;
     }

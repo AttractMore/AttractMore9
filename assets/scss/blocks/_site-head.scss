@@ -8,14 +8,14 @@
   background: var(--bg);
   z-index: 15;
   &__inner {
-    @include flex-it();
-    @include flex-justify-content(space-between);
+    display: flex;
+    justify-content: space-between;
   }
   &__brand {
     width: 200px;
   }
   &__nav {
-    @include flex-align-self(center);
+    align-self: center;
   }
 }
 

@@ -1,6 +1,6 @@
-@import 'utilities/variables';
-@import 'utilities/mixins';
-@import 'utilities/larger-text';
+@import "utilities/variables";
+@import "utilities/mixins";
+@import "utilities/larger-text";
 .work-items {
   ul {
     margin: 0;
@@ -26,13 +26,13 @@
 @media screen and (min-width: $bp-medium) {
   .work-items__item {
     padding: 0;
-    @include flex-it();
-    @include flex-justify-content(space-between);
+    display: flex;
+    justify-content: space-between;
     &:nth-child(even) {
-      @include flex-direction(row-reverse);
+      flex-direction: row-reverse;
     }
     > * {
-      @include flex(0,1,46%);
+      flex: 0 1 46%;
     }
     h2 {
       margin-top: 2em;
