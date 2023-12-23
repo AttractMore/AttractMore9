@@ -19,7 +19,7 @@ async function submitHandler(context) {
   return handleFormData({ body: reqBody, context: context });
 }
 const handleFormData = async function onRequest({ body, context }) {
-  const reponse = await fetch(context.env.ZOHO_WEBHOOK, {
+  const response = await fetch(context.env.ZOHO_WEBHOOK, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -38,4 +38,16 @@ const handleFormData = async function onRequest({ body, context }) {
       `,
     }),
   });
+  let replyBody;
+  if (response.ok) {
+    console.log("Message sent successfully");
+    return Response.redirect("https://attractmore9.pages.dev/thanks/");
+  } else {
+    console.error(response.status, response.statusText);
+    replyBody = { "success": false, "message": response.statusText };
+    return new Response(JSON.stringify(replyBody), {
+      headers: corsHeaders,
+      status: response.status,
+    });
+  }
 };
