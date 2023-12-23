@@ -174,7 +174,8 @@ textarea {
  */
 
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -184,7 +185,8 @@ input { /* 1 */
  */
 
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -426,4 +428,18 @@ select {
     transition-duration: 0.01s !important;
     scroll-behavior: auto !important;
   }
+}
+
+// Tidy up headings
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+// prevent orphans
+p {
+  text-wrap: pretty;
 }
