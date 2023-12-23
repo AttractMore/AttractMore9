@@ -1,8 +1,4 @@
 export async function onRequestPost(context) {
-  return await submitHandler(context);
-}
-
-async function submitHandler(context) {
   const body = await context.request.formData();
 
   const { name, email, message, consent } = Object.fromEntries(body);
