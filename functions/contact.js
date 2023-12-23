@@ -14,7 +14,7 @@ export async function onRequestPost(context) {
       <html>
       <body>
       <p>Contact request from Attractmore website.</p>
-        <p>Name: ${name}</p>
+        <p>Name: ${body.name}</p>
         <p>Email: ${email}</p>
         <p>Message: ${message}</p>
         <p>Consent: ${consent}</p>
