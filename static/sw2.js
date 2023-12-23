@@ -14,8 +14,8 @@ limitations under the License.
 // Names of the two caches used in this version of the service worker.
 // Change to v2, etc. when you update any of the local resources, which will
 // in turn trigger the install event again.
-const PRECACHE = "precache-v122";
-const RUNTIME = "runtime-v122";
+const PRECACHE = "precache-v123";
+const RUNTIME = "runtime-v123";
 
 // A list of local resources we always want to be cached.
 const PRECACHE_URLS = [
@@ -33,8 +33,7 @@ const PRECACHE_URLS = [
   "./services/website-reviews-renovation/index.html",
   "./services/website-support-maintenance/index.html",
   "./icons/symbol-defs.svg",
-  //  './fonts/icomoon.svg',
-  //  './fonts/icomoon.woff',
+  "./icons/icon-defs.svg",
   "./icons/defs.svg",
   "./images/logo/attractmore-logo-large.png",
   "./images/logo/attractmore-logo-large@2x.png",
