@@ -13,8 +13,8 @@ export async function onRequestPost(context) {
       message: `
       <html>
       <body>
-      <p>Contact request from Attractmore website.</p>
-        <p>Name: ${body.name}</p>
+      <h1>Contact request from Attractmore website.</h1>
+        <p>Name: ${name}</p>
         <p>Email: ${email}</p>
         <p>Message: ${message}</p>
         <p>Consent: ${consent}</p>
@@ -25,7 +25,6 @@ export async function onRequestPost(context) {
   });
   let replyBody;
   if (response.ok) {
-    console.log("Message sent successfully");
     return Response.redirect("https://attractmore9.pages.dev/thanks/");
   } else {
     console.error(response.status, response.statusText);
