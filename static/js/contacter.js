@@ -1,4 +1,4 @@
-import { contact } from "../functions/contact.js";
+import contact from "../functions/contact.js";
 
 /**
  * Submit form using Cloudflare function
