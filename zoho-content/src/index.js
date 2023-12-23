@@ -4,6 +4,7 @@
  */
 
 async function submitHandler(request, env) {
+	console.log('method: ' + request.method);
 	if (request.method !== 'POST') {
 		return new Response('Method Not Allowed', {
 			status: 405,
