@@ -17,10 +17,11 @@ async function submitHandler(context) {
       message: `
       <html>
       <body>
+      <p>Contact request from Attractmore website.</p>
         <p>Name: ${name}</p>
         <p>Email: ${email}</p>
-        <p>Phone: ${message}</p>
-        <p>Message: ${consent}</p>
+        <p>Message: ${message}</p>
+        <p>Consent: ${consent}</p>
       </body>
     </html>
       `,
@@ -34,7 +35,6 @@ async function submitHandler(context) {
     console.error(response.status, response.statusText);
     replyBody = { "success": false, "message": response.statusText };
     return new Response(JSON.stringify(replyBody), {
-      headers: corsHeaders,
       status: response.status,
     });
   }
