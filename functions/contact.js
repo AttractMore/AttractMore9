@@ -7,18 +7,6 @@ async function submitHandler(context) {
 
   const { name, email, message, consent } = Object.fromEntries(body);
 
-  const reqBody = {
-    fields: {
-      "Name": name,
-      "Email": email,
-      "Message": message,
-      "Consent": consent,
-    },
-  };
-
-  return handleFormData({ body: reqBody, context: context });
-}
-const handleFormData = async function onRequest({ body, context }) {
   const response = await fetch(context.env.ZOHO_WEBHOOK, {
     method: "POST",
     headers: {
@@ -29,10 +17,10 @@ const handleFormData = async function onRequest({ body, context }) {
       message: `
       <html>
       <body>
-        <p>Name: ${body.fields.Name}</p>
-        <p>Email: ${body.fields.Email}</p>
-        <p>Phone: ${body.fields.Message}</p>
-        <p>Message: ${body.fields.Consent}</p>
+        <p>Name: ${name}</p>
+        <p>Email: ${email}</p>
+        <p>Phone: ${message}</p>
+        <p>Message: ${consent}</p>
       </body>
     </html>
       `,
@@ -50,4 +38,4 @@ const handleFormData = async function onRequest({ body, context }) {
       status: response.status,
     });
   }
-};
+}
