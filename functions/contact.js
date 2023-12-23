@@ -25,14 +25,14 @@ const handleFormData = async function onRequest({ body, context }) {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      subject: "Noel Voice Contact Form",
+      subject: "AM9 Website Contact Form",
       message: `
       <html>
       <body>
         <p>Name: ${body.fields.name}</p>
-        <p>Email: ${body.fields.email}}</p>
-        <p>Phone:${body.fields.message}}</p>
-        <p>Message: ${body.fields.consent}}</p>
+        <p>Email: ${body.fields.email}</p>
+        <p>Phone:${body.fields.message}</p>
+        <p>Message: ${body.fields.consent}</p>
       </body>
     </html>
       `,
