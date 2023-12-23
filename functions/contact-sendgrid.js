@@ -18,22 +18,74 @@ async function submitHandler(context) {
 
   return handleFormData({ body: reqBody, context: context });
 }
-handleFormData = await fetch(context.env.ZOHO_WEBHOOK, {
-  method: "POST",
-  headers: {
-    "Content-Type": "application/json",
-  },
-  body: JSON.stringify({
-    subject: "Noel Voice Contact Form",
-    message: `
-    <html>
-    <body>
-      <p>Name: ${body.fields.name}</p>
-      <p>Email: ${body.fields.email}}</p>
-      <p>Phone:${body.fields.message}}</p>
-      <p>Message: ${body.fields.consent}}</p>
-    </body>
-  </html>
-    `,
-  }),
-});
+
+const handleFormData = async function onRequest({ body, context }) {
+  console.log("Name = " + body.fields.Name);
+  console.log("Email = " + body.fields.Email);
+  console.log("Message = " + body.fields.Message);
+  console.log("Consent = " + body.fields.Consent);
+  const corsHeaders = {
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "POST, OPTIONS",
+    "Access-Control-Allow-Credentials": "true",
+    "Access-Control-Allow-Headers": "Js-Auth-Key, Content-Type",
+    "Content-Type": "application/json;charset=UTF-8",
+    "Access-Control-Max-Age": "86400",
+  };
+  const request = new Request("https://api.sendgrid.com/v3/mail/send");
+  const response = await fetch(request, {
+    method: "POST",
+    headers: {
+      "Authorization": `Bearer ${context.env.SG_API_KEY}`,
+      "Content-type": "application/json",
+    },
+    body: JSON.stringify({
+      personalizations: [
+        {
+          to: [
+            {
+              email: "roger@attractmore.co.uk",
+              name: "Roger Knight",
+            },
+            {
+              email: "roger@rogerknight.info",
+              name: "me",
+            },
+          ],
+        },
+      ],
+      from: {
+        email: "emailsender.searched@simplelogin.com",
+        name: "AttractMore Website",
+      },
+      reply_to: {
+        email: body.fields.Email,
+        name: body.fields.Name,
+      },
+      subject: "Contact Form Submission from " + body.fields.Name,
+      content: [
+        {
+          type: "text/plain",
+          value: body.fields.Message,
+        },
+        {
+          type: "text/html",
+          value: `<strong>Message: ${body.fields.Message}</strong>`,
+        },
+      ],
+    }),
+  });
+
+  let replyBody;
+  if (response.ok) {
+    console.log("Message sent successfully");
+    return Response.redirect("https://attractmore9.pages.dev/thanks/");
+  } else {
+    console.error(response.status, response.statusText);
+    replyBody = { "success": false, "message": response.statusText };
+    return new Response(JSON.stringify(replyBody), {
+      headers: corsHeaders,
+      status: response.status,
+    });
+  }
+};
