@@ -13,9 +13,6 @@ async function submitHandler(request, env) {
 
 	const { name, email, message, consent } = Object.fromEntries(body);
 
-	// The keys in "fields" are case-sensitive, and
-	// should exactly match the field names you set up
-	// in your Airtable table, such as "First Name".
 	const reqBody = {
 		fields: {
 			Name: name,

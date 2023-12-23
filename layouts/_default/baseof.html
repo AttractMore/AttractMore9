@@ -15,7 +15,6 @@
     {{- partial "partials/dark-mode-toggle.html" . }}
     <script type="module" defer src="/js/scripts.js"></script>
     {{- if eq .Title "Contact" -}}
-      <script type="module" src="/js/contacter.js"></script>
       <script src="/js/mailcheck.min.js"></script>
       <script defer src="/js/runMailcheck.js"></script>
     {{- end -}}
