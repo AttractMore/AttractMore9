@@ -45,8 +45,8 @@ async function sendDataToZoho(env, body) {
 		}),
 	});
 	let replyBody;
-	console.log(response.statusText);
-	console.log(response.status);
+	console.log('StatusText: ' + response.statusText);
+	console.log('Status: ' + response.status);
 	if (response.ok) {
 		return Response.redirect('https://attractmore9.pages.dev/thanks/');
 	} else {
