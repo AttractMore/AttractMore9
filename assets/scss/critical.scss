@@ -17,6 +17,7 @@ html {
 
 body {
   font-family: $sans-serif;
+  font-weight: 300;
   @include set-font-size(1);
   color: var(--textColour);
   background-color: var(--bg);
@@ -90,7 +91,7 @@ h4,
 h5,
 .h5 {
   text-rendering: optimizelegibility;
-  font-weight: 400;
+  font-weight: 300;
   color: var(--primary);
 
   /* removing text decoration from all headline links */

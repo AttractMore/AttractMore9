@@ -6,15 +6,16 @@
   color: $white !important;
   font-size: 1em;
   line-height: 1;
-  font-weight: normal;
+  font-weight: 500;
   padding: 16px 18px;
-  border-radius:$radius;
+  border-radius: $radius;
   border: 0;
   cursor: pointer;
   transition: background-color 0.14s ease-in-out;
 
   // hovering on the btn
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     color: $white;
     text-decoration: none;
   } // end hover
@@ -38,7 +39,6 @@
     // draw a noticeable focus style for keyboard focus on browsers that support :focus-visible
     outline: 3px solid $theme-blue;
   }
-
 } // end .button
 
 .blue-btn {
@@ -53,7 +53,6 @@
   &:active {
     background-color: lighten($theme-blue, 18%);
   } // end active
-
 } // end blue button
 
 .primary-btn {
@@ -68,24 +67,22 @@
   &:active {
     background-color: lighten($theme-blue, 18%);
   } // end active
-
 } // end blue button
 
 .green-transp-btn {
   @extend .btn; // here we load the btn defaults
   background-color: transparent;
   color: var(--primary) !important;
-  border:2px solid var(--primary);
+  border: 2px solid var(--primary);
 
   &:hover,
   &:focus {
-    background-color: rgba(0,0,0,0.15);
+    background-color: rgba(0, 0, 0, 0.15);
   } // end hover
 
   &:active {
-    background-color: rgba(0,0,0,0.25);
+    background-color: rgba(0, 0, 0, 0.25);
   } // end active
-
 } // end green-transp button
 
 .cta-button {
@@ -100,10 +97,9 @@
   &:active {
     background-color: lighten($bright-green, 18%);
   } // end active
-
 } // end cta button
 
 #mc-embedded-subscribe {
-	@extend .blue-btn;
-//	padding:8px 12px;
+  @extend .blue-btn;
+  //	padding:8px 12px;
 }
