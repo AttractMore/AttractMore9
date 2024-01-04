@@ -13,6 +13,14 @@
   }
   &__brand {
     width: 200px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    img {
+      width: 3em;
+      padding: 0 0.5em 0 0;
+    }
   }
   &__nav {
     align-self: center;
