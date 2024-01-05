@@ -9,7 +9,7 @@
     clip-path: polygon(100% 0, 100% 93%, 29% 100%, 0 93%, 0 0);
   }
   p {
-    color: $white;
+    color: var(--white);
     @include set-font-size(1.6);
     text-align: center;
     max-width: 600px;

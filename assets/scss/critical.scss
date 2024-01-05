@@ -54,7 +54,7 @@ a:visited {
 a {
   &:focus {
     // fallback style for browsers that don't support :focus-visible
-    outline: 3px solid $theme-blue;
+    outline: 3px solid var(--darkOrange);
   }
 
   &:focus:not(:focus-visible) {
@@ -64,7 +64,7 @@ a {
 
   &:focus:focus-visible {
     // draw a noticeable focus style for keyboard focus on browsers that support :focus-visible
-    outline: 3px solid $theme-blue;
+    outline: 3px solid var(--darkOrange);
   }
 
   &:link {

@@ -6,23 +6,23 @@
   border-top-right-radius: 50%;
   border-bottom-right-radius: 50%;
   background-color: $grey;
-  box-shadow: 0 0 4px rgba(82,76,76,.5);
-  transition: all .2s ease-in;
+  box-shadow: 0 0 4px rgba(82, 76, 76, 0.5);
+  transition: all 0.2s ease-in;
   &:hover {
     &:after {
       content: "Switch between dark and light mode";
       position: absolute;
       left: 100%;
       top: 50%;
-      transform: translate(0,-50%);
+      transform: translate(0, -50%);
       font-size: 14px;
       white-space: nowrap;
       margin-left: 6px;
-      box-shadow: 0 0 4px rgba(0,0,0,.2);
+      box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
       padding: 4px 8px;
       border-radius: 4px;
-      background-color: $white;
-      color: $text-color;
+      background-color: var(--white);
+      color: var(--textColour);
     }
   }
 }
@@ -36,7 +36,7 @@
   cursor: pointer;
   line-height: 1;
   svg {
-    fill: $white;
+    fill: var(--white);
     transition: fill 0.2s;
   }
 
@@ -48,7 +48,7 @@
 
   &:focus {
     // fallback style for browsers that don't support :focus-visible
-    outline: 3px solid $theme-blue;
+    outline: 3px solid var(--darkOrange);
   }
 
   &:focus:not(:focus-visible) {
@@ -58,7 +58,7 @@
 
   &:focus:focus-visible {
     // draw a noticeable focus style for keyboard focus on browsers that support :focus-visible
-    outline: 3px solid $theme-blue;
+    outline: 3px solid var(--darkOrange);
   }
 }
 
@@ -66,7 +66,7 @@
   width: 24px;
   height: 24px;
   line-height: 1;
-  fill: $white;
+  fill: var(--white);
 }
 
 .c-dark-mode-toggle__icon--light {

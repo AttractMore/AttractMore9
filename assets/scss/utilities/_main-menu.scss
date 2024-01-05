@@ -12,7 +12,7 @@
   &[aria-expanded="true"] {
     background-color: $theme-green;
     svg {
-      fill: $white;
+      fill: var(--white);
     }
   }
 
@@ -24,7 +24,7 @@
   }
   a {
     display: block;
-    color: $white;
+    color: var(--white);
     padding: 9px 12px;
     text-decoration: none;
     font-size: $base-font-size2;
@@ -36,7 +36,7 @@
     }
     &:hover,
     &[data-state="active"] {
-      color: $white;
+      color: var(--white);
       text-decoration: none;
       &:after {
         opacity: 1;
@@ -67,7 +67,7 @@
     right: 1em;
     text-decoration: none;
     padding: 0.5em 0.5rem;
-    color: $text-color;
+    color: var(--textColour);
     width: 38px;
     height: 38px;
     display: block;
@@ -104,7 +104,7 @@
         &:after {
           left: -2px;
           width: 28px;
-          background: $white;
+          background: var(--white);
         }
         &:before {
           transform: rotate(45deg);
@@ -139,7 +139,6 @@
       display: flex;
       justify-content: space-between;
       margin: 0;
-      text-transform: uppercase;
       transition: none;
       li {
         display: inline-block;

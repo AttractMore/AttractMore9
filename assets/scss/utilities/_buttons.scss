@@ -3,7 +3,7 @@
   position: relative;
   font-family: $sans-serif;
   text-decoration: none;
-  color: $white !important;
+  color: var(--white) !important;
   font-size: 1em;
   line-height: 1;
   font-weight: 500;
@@ -16,7 +16,7 @@
   // hovering on the btn
   &:hover,
   &:focus {
-    color: $white;
+    color: var(--white);
     text-decoration: none;
   } // end hover
 
@@ -27,7 +27,7 @@
 
   &:focus {
     // fallback style for browsers that don't support :focus-visible
-    outline: 3px solid $theme-blue;
+    outline: 3px solid var(--darkOrange);
   }
 
   &:focus:not(:focus-visible) {
@@ -37,35 +37,35 @@
 
   &:focus:focus-visible {
     // draw a noticeable focus style for keyboard focus on browsers that support :focus-visible
-    outline: 3px solid $theme-blue;
+    outline: 3px solid var(--darkOrange);
   }
 } // end .button
 
 .blue-btn {
   @extend .btn; // here we load the btn defaults
-  background-color: $theme-blue;
+  background-color: var(--darkOrange);
 
   &:hover,
   &:focus {
-    background-color: lighten($theme-blue, 12%);
+    background-color: var(--lightOrange);
   } // end hover
 
   &:active {
-    background-color: lighten($theme-blue, 18%);
+    background-color: var(--lightOrange);
   } // end active
 } // end blue button
 
 .primary-btn {
   @extend .btn; // here we load the btn defaults
-  background-color: $theme-blue;
+  background-color: var(--darkOrange);
 
   &:hover,
   &:focus {
-    background-color: lighten($theme-blue, 12%);
+    background-color: var(--lightOrange);
   } // end hover
 
   &:active {
-    background-color: lighten($theme-blue, 18%);
+    background-color: var(--lightOrange);
   } // end active
 } // end blue button
 
@@ -87,11 +87,11 @@
 
 .cta-button {
   @extend .btn; // here we load the btn defaults
-  background-color: $theme-blue;
+  background-color: var(--lightOrange);
 
   &:hover,
   &:focus {
-    background-color: lighten($theme-blue, 12%);
+    background-color: var(--lightOrange);
   } // end hover
 
   &:active {
