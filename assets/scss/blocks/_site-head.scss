@@ -1,11 +1,9 @@
 .site-head {
-  padding: 0.5em 0;
-  border-bottom: 1px solid $mid-grey;
+  padding: 1.5em 0;
   min-height: 3.5em;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background: var(--bg);
   z-index: 15;
   &__inner {
     display: flex;
@@ -20,8 +18,8 @@
     align-items: center;
     font-size: 1.5em;
     img {
-      width: 2.5em;
-      padding: 0 0.25em 0 0;
+      width: 1.75em;
+      padding: 0 0.1em 0 0;
     }
   }
   &__nav {
@@ -33,7 +31,7 @@
   .site-head {
     &__brand {
       width: 300px;
-      font-size: 2em;
+      font-size: 1.75em;
     }
   }
 }

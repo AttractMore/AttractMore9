@@ -1,14 +1,15 @@
 .btn {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   position: relative;
   font-family: $sans-serif;
+  font-weight: 500;
   text-decoration: none;
-  color: var(--white) !important;
+  color: var(--textColour) !important;
   font-size: 1em;
   line-height: 1;
-  font-weight: 500;
-  padding: 16px 18px;
-  border-radius: $radius;
+  padding: 10px;
+  border-radius: var(--button-radius);
   border: 0;
   cursor: pointer;
   transition: background-color 0.14s ease-in-out;
@@ -16,7 +17,7 @@
   // hovering on the btn
   &:hover,
   &:focus {
-    color: var(--white);
+    color: var(--textColour);
     text-decoration: none;
   } // end hover
 
@@ -27,7 +28,7 @@
 
   &:focus {
     // fallback style for browsers that don't support :focus-visible
-    outline: 3px solid var(--darkOrange);
+    outline: 3px solid var(--textColour);
   }
 
   &:focus:not(:focus-visible) {
@@ -37,25 +38,29 @@
 
   &:focus:focus-visible {
     // draw a noticeable focus style for keyboard focus on browsers that support :focus-visible
-    outline: 3px solid var(--darkOrange);
+    outline: 3px solid var(--textColour);
   }
 } // end .button
 
-.blue-btn {
-  @extend .btn; // here we load the btn defaults
+.primary-btn {
+  @extend .btn;
   background-color: var(--darkOrange);
+  svg {
+    width: 0.85em;
+    height: 0.85em;
+    margin-left: 2em;
+  }
 
   &:hover,
   &:focus {
     background-color: var(--lightOrange);
-  } // end hover
+  }
 
   &:active {
     background-color: var(--lightOrange);
-  } // end active
-} // end blue button
-
-.primary-btn {
+  }
+}
+.blue-btn {
   @extend .btn; // here we load the btn defaults
   background-color: var(--darkOrange);
 

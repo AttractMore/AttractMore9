@@ -1,6 +1,23 @@
 {{- define "main" }}
 
-  {{- partial "hero-image.html" . }}
+<section class="intro">
+  {{- partial "partials/header.html" . -}}
+  <div class="wrap">
+    <article class="intro__content">
+
+      <h1>E-commerce<br><span>websites</span> for<br>businesses<br>that care</h1>
+      <img src="/images/misc/forest-tree.webp" decoding="async" width="387" height="387" alt="tree" >
+      <div class="intro__text">
+        <p>Many e-commerce websites aren't selling as much as they could and business owners become frustrated. We create smooth, fast, secure, responsive e-commerce websites that help you sell more without costing the earth.</p>
+        <a class="primary-btn" href="#">Getting started<svg aria-hidden="true"><use xlink:href="/icons/icon-defs.svg#icon-arrow-right-bold"></use></svg></a>
+      </div>
+
+
+    </article>
+  </div>
+</section>
+
+  {{/*- partial "hero-image.html" . */}}
 
 <article class="services trapezium-right-grey">
   <div class="wrap">

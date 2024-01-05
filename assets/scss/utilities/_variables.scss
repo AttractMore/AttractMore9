@@ -33,6 +33,7 @@ $link-hover: var(--secondaryHover);
   --darkGreen: #597a36;
   --white: #ffffff;
   --black: #000000;
+  --button-radius: 15% / 80%;
 
   @media (prefers-color-scheme: dark) {
     --bg: #222;

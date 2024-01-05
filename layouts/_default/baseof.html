@@ -6,7 +6,9 @@
 </head>
 
 <body id="top">
+  {{ if not .IsHome }}  
     {{- partial "header.html" . }}
+  {{- end -}}
     <main class="main">
         {{- block "main" . }}{{ end }}
     </main>
