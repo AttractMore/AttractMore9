@@ -81,3 +81,35 @@
     }
   }
 }
+
+.owner-designer {
+  padding: 2em 0;
+  h2 {
+    text-align: center;
+  }
+  ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.making-a-difference {
+  padding: 2em 0;
+  .attractmore {
+    svg {
+      width: 2em;
+      height: 2em;
+      fill: var(--darkOrange);
+    }
+  }
+  background-color: var(--slateGrey);
+  h2 {
+    color: var(--white);
+  }
+  p {
+    color: var(--lightBlue);
+  }
+}

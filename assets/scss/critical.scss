@@ -108,12 +108,11 @@ h1,
 h2,
 .h2 {
   @include set-font-size(1.333);
-  text-transform: none;
 }
 h3,
 .h3 {
+  color: var(--darkGreen);
   font-size: 1.05em;
-  text-transform: uppercase;
   margin-bottom: 0.5em;
 }
 h4,

@@ -17,9 +17,10 @@
     justify-content: flex-start;
     align-items: center;
     font-size: 1.5em;
-    img {
-      width: 1.75em;
-      padding: 0 0.1em 0 0;
+    svg {
+      fill: var(--darkOrange);
+      width: 2em;
+      height: 2em;
     }
   }
   &__nav {
