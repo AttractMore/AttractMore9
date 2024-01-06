@@ -5,7 +5,7 @@
   bottom: 5%;
   border-top-right-radius: 50%;
   border-bottom-right-radius: 50%;
-  background-color: $grey;
+  background-color: var(--grey);
   box-shadow: 0 0 4px rgba(82, 76, 76, 0.5);
   transition: all 0.2s ease-in;
   &:hover {

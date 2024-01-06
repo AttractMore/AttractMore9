@@ -1,12 +1,12 @@
 blockquote {
-  border:1px solid $mid-grey;
-  border-left:4px solid $theme-green;
-  padding:1.5em;
+  border: 1px solid var(--midGrey) y;
+  border-left: 4px solid $theme-green;
+  padding: 1.5em;
   margin: 1em 0;
   p {
     margin-top: 0;
     &:last-of-type {
-      margin:0;
+      margin: 0;
     }
   }
 }
@@ -19,11 +19,11 @@ blockquote {
       padding-bottom: 0;
       &:before {
         content: open-quote;
-        font-family: "Georgia",Cambria,Times New Roman,Times,serif;
+        font-family: "Georgia", Cambria, Times New Roman, Times, serif;
         font-size: 4em;
-        line-height: .1em;
-        margin-right: .15em;
-        vertical-align: -.35em;
+        line-height: 0.1em;
+        margin-right: 0.15em;
+        vertical-align: -0.35em;
       }
     }
     cite {

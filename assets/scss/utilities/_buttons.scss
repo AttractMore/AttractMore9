@@ -100,7 +100,7 @@
   } // end hover
 
   &:active {
-    background-color: lighten($bright-green, 18%);
+    background-color: var(--darkGreen);
   } // end active
 } // end cta button
 

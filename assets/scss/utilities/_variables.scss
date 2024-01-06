@@ -3,13 +3,6 @@ COLOURS
 *********************/
 $theme-green: #207737;
 $theme-red: #be3622;
-$theme-blue: #373dc4;
-
-$mid-grey: #ccc;
-$grey: #ededed;
-
-$light-blue-bg: #d6ebff;
-$bright-green: #27a324;
 
 $link-color: var(--secondary);
 $link-hover: var(--secondaryHover);
@@ -17,11 +10,10 @@ $link-hover: var(--secondaryHover);
 :root {
   --bg: #fff;
   --bgFoot: #ededed;
-  --bgSidebar: #{$grey};
+  --bgSidebar: #ededed;
   --textColour: #24373f;
   --primary: #{$theme-green};
   --secondary: #{$theme-red};
-  --tertiary: #{$theme-blue};
   --secondaryHover: rgba(227, 115, 99, 0.99);
   --background-grey: #ededed;
   --background-light-blue: #d6ebff;
@@ -31,9 +23,11 @@ $link-hover: var(--secondaryHover);
   --lightBlue: #bde0dd;
   --lightYellow: #fdf8e3;
   --darkGreen: #597a36;
+  --midGrey: #cccccc;
+  --grey: #ededed;
   --white: #ffffff;
   --black: #000000;
-  --button-radius: 15% / 80%;
+  --button-radius: 30px;
 
   @media (prefers-color-scheme: dark) {
     --bg: #222;
@@ -42,7 +36,6 @@ $link-hover: var(--secondaryHover);
     --textColour: #fff;
     --primary: #{lighten($theme-green, 10%)};
     --secondary: #{lighten($theme-red, 15%)};
-    --tertiary: #{lighten($theme-blue, 15%)};
     --secondaryHover: #ddd;
     --background-grey: #222;
     --background-light-blue: #222;
@@ -56,7 +49,6 @@ $link-hover: var(--secondaryHover);
   --textColour: #fff;
   --primary: #{lighten($theme-green, 10%)};
   --secondary: #{lighten($theme-red, 15%)};
-  --tertiary: #{lighten($theme-blue, 15%)};
   --secondaryHover: #ddd;
   --background-grey: #222;
   --background-light-blue: #222;

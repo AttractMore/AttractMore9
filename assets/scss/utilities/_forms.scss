@@ -15,7 +15,7 @@ textarea,
   border-radius: $radius;
   vertical-align: middle;
   box-shadow: none;
-  border: 1px solid $mid-grey;
+  border: 1px solid var(--midGrey);
   width: 100%;
   max-width: 400px;
   font-family: inherit;
@@ -25,9 +25,8 @@ textarea,
   // a focused input (or hovered on)
   &:focus,
   &:active {
-    background-color: lighten($grey, 4%);
+    background-color: var(--lightGrey);
   } // end hover or focus
-
 } // end input defaults
 
 // textareas
@@ -40,8 +39,8 @@ textarea {
   margin-bottom: 1em;
 }
 fieldset {
-	border: 0;
-	padding: 0;
+  border: 0;
+  padding: 0;
 }
 .email-suggestion {
   overflow: hidden;
