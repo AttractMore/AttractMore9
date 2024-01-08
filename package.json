@@ -1,11 +1,16 @@
 {
   "name": "attractmore9",
   "version": "1.0.0",
-  "description": "",
+  "description": "AttractMore 9",
+  "browserslist": [
+    "> 0.15%",
+    "not dead"
+  ],
   "main": "index.js",
   "scripts": {
     "dev": "tinacms dev -c \"hugo server -D\"",
-    "build": "tinacms build && hugo"
+    "build": "tinacms build && hugo",
+    "test": "sass assets/scss:assets/css --no-source-map --style=compressed && hugo serve"
   },
   "repository": {
     "type": "git",
@@ -24,6 +29,6 @@
   "devDependencies": {
     "@tinacms/cli": "^1.5.39",
     "@types/node": "^20.10.6",
-    "wrangler": "^3.22.2"
+    "wrangler": "^3.22.3"
   }
 }

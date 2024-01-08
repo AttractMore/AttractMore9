@@ -20,7 +20,8 @@ $link-hover: var(--secondaryHover);
   --slateGrey: #405165;
   --darkOrange: #f39200;
   --lightOrange: #f9b45c;
-  --lightBlue: #bde0dd;
+  --lightBlue: rgb(189, 224, 221);
+  --paleLightBlue: rgb(189, 224, 221, 0.3);
   --lightYellow: #fdf8e3;
   --darkGreen: #597a36;
   --midGrey: #cccccc;
@@ -28,6 +29,7 @@ $link-hover: var(--secondaryHover);
   --white: #ffffff;
   --black: #000000;
   --button-radius: 30px;
+  --radius: 4px;
 
   @media (prefers-color-scheme: dark) {
     --bg: #222;
@@ -70,8 +72,6 @@ $bp-huge: 70em; /* 1120px */
 /***************************************
 	OTHERS
 ***************************************/
-$radius: 4px;
-$skew: 1.5deg;
 $base-font-size: 16px;
 $base-font-size2: 18px;
 $line-height: 1.5;

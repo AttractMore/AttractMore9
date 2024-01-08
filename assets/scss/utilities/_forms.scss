@@ -12,7 +12,7 @@ textarea,
   margin-bottom: 14px;
   font-size: 1em;
   color: var(--textColour);
-  border-radius: $radius;
+  border-radius: var(--radius);
   vertical-align: middle;
   box-shadow: none;
   border: 1px solid var(--midGrey);

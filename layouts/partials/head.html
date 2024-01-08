@@ -8,25 +8,17 @@
 <link rel="dns-prefetch" href="https://res.cloudinary.com" />
 <link rel="preconnect" href="https://storage.googleapis.com" />
 
-{{- $opts := dict "transpiler" "libsass" "targetPath" "css/critical.css" "outputStyle" "compressed" }}
-{{- with resources.Get "/scss/critical.scss" | toCSS $opts }}
+{{- $opts := dict "transpiler" "dartsass" "targetPath" "css/styles.css" "outputStyle" "compressed" }}
+{{- with resources.Get "/scss/critical.scss" | toCSS $opts -}}
 <style>{{ .Content | safeCSS }}</style>
 {{- end -}}
 
-{{- if .Params.extraStyles }}
-{{- $opts := dict "transpiler" "libsass" "targetPath" "css/styles.css" "outputStyle" "compressed" }}
-{{- with resources.Get .Params.extraStyles | toCSS $opts  }}
+{{- if .Params.extraStyles -}}
+{{- with resources.Get .Params.extraStyles | toCSS $opts -}}
 <style>{{ .Content | safeCSS }}</style>
 {{- end -}}
-{{- end }}
+{{- end -}}
 
-{{- if site.Params.analytics.google.SiteVerificationTag -}}
-<meta name="google-site-verification" content="{{ site.Params.analytics.google.SiteVerificationTag }}" />
-{{- end }} 
-
-{{- if site.Params.analytics.bing.SiteVerificationTag -}}
-<meta name="msvalidate.01" content="{{ site.Params.analytics.bing.SiteVerificationTag }}" />
-{{- end -}} 
 
 {{- /* Favicons */}} 
 <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />

@@ -28,7 +28,7 @@ body {
 LAYOUT & GRID STYLES
 *********************/
 .wrap {
-  width: 96%;
+  width: 92%;
   margin: 0 auto;
   max-width: 1200px;
 }
@@ -113,8 +113,7 @@ h2,
 h3,
 .h3 {
   color: var(--darkGreen);
-  font-size: 1.05em;
-  margin-bottom: 0.5em;
+  font-size: clamp(1.375rem, 1.239rem + 0.682vw, 1.75rem);
 }
 h4,
 .h4 {
@@ -152,6 +151,10 @@ article {
 
 .flow > * + * {
   margin-top: $flow-space;
+}
+
+svg {
+  aspect-ratio: 1;
 }
 
 .breadcrumbs {
