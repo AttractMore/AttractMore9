@@ -212,8 +212,65 @@
   background-image: linear-gradient(0deg, var(--lightYellow), var(--lightBlue));
   background-repeat: no-repeat;
   padding: 3em 0;
+  .testimonial {
+    margin-bottom: 3em;
+  }
   img {
     max-width: 300px;
     border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: $bp-medium) {
+  .testimonials {
+    .testimonial {
+      display: flex;
+      justify-content: space-between;
+      figure {
+        flex: 0 1 25%;
+      }
+      .text-block {
+        flex: 0 1 70%;
+      }
+      &.even {
+        flex-direction: row-reverse;
+      }
+    }
+  }
+}
+
+.great-fit {
+  padding: 3em 0;
+  span {
+    color: var(--darkGreen);
+  }
+  .button-block {
+    text-align: center;
+  }
+}
+
+.un-sdgs {
+  padding: 3em 0;
+  background-color: var(--lightYellow);
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  li {
+    margin: 0 0 3em;
+    padding: 0;
+    flex: 0 1 45%;
+  }
+}
+@media screen and (min-width: $bp-medium) {
+  .un-sdgs {
+    li {
+      flex: 0 1 16%;
+    }
   }
 }
