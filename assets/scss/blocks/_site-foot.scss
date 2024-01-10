@@ -1,67 +1,63 @@
-.site-foot {
-  background-color: var(--bgFoot);
-  border-top: 1px solid var(--midGrey) y;
-  padding: 1.5em 0;
-  li {
-    list-style: none;
-  }
-  .h3 {
-    margin-bottom: 1.5em;
-  }
-}
-.footer-nav,
-.final-footer {
-  text-align: center;
+.footer-nav {
+  background-color: var(--slateGrey);
+  padding: 2em 0;
 }
 .footer-nav-block1 {
-  margin-bottom: 1.5em;
-  padding-top: 0.5em;
-  li {
-    a {
-      padding: 12px 15px;
-      border: 2px solid;
-      border-radius: 50%;
+  .site-foot__brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3em;
+    svg {
+      fill: var(--darkOrange);
+      width: 2em;
+      height: 2em;
+    }
+    .logo-text {
+      color: var(--lightBlue);
+      font-size: 1.75em;
+    }
+  }
+  .linkedin {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+    svg {
+      fill: var(--lightOrange);
+      width: 1.5em;
+      height: 1.5em;
+    }
+    span {
+      color: var(--lightOrange);
+      padding-left: 0.75em;
+      align-self: end;
+      line-height: 1;
     }
   }
 }
 .footer-nav-block2 {
-  margin-bottom: 1.5em;
+  margin-bottom: 4em;
+  ul,
   li {
-    margin-bottom: 1em;
+    margin: 0;
+    padding: 0;
+    list-style: none;
   }
-}
-.accreditations {
-  margin-bottom: 1em;
-  text-align: center;
   li {
-    margin-bottom: 1em;
-    img {
-      margin: 0 auto;
-    }
-    &:first-child {
-      img {
-        width: 98px;
-        height: 104px;
-      }
-    }
-    &:nth-child(2) {
-      img {
-        max-width: 418px;
-      }
-    }
-    &:last-child {
-      img {
-        max-width: 104px;
-      }
-    }
+    margin-bottom: 0.5em;
+    text-align: center;
+  }
+  a {
+    color: var(--lightOrange);
   }
 }
 
-.final-footer {
-  padding-bottom: 1em;
+.company-info {
+  padding-bottom: 2em;
   p {
-    margin-bottom: 0;
-    padding-bottom: 1.5em;
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 0.5em;
   }
 }
 @media screen and (min-width: $bp-small) {
@@ -72,70 +68,50 @@
       flex-wrap: wrap;
       li {
         flex: 0 1 50%;
-        margin-bottom: 1.5em;
+        margin-bottom: 1em;
       }
     }
   }
 }
 
-@media screen and (min-width: $bp-large) {
+@media screen and (min-width: $bp-medium) {
   .footer-nav {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 1.5em;
+    > div {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 1fr 1fr;
+    }
   }
   .footer-nav-block1 {
-    flex: 0 1 11em;
+    grid-column: 1/3;
+    .site-foot__brand,
+    .linkedin {
+      justify-content: flex-start;
+    }
   }
   .footer-nav-block2 {
-    align-self: flex-end;
-    flex: 0 1 36em;
     ul {
-      text-align: right;
-      flex-wrap: nowrap;
-      li {
-        margin-bottom: 3px;
-        flex: 0 1 auto;
-      }
-    }
-  }
-  .accreditations {
-    margin-bottom: 2em;
-    text-align: left;
-    ul {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      display: block;
+      text-align: left;
     }
     li {
-      flex: 0 1 auto;
-      &:nth-child(2) {
-        img {
-          max-width: 418px;
-          margin: 0;
-        }
-      }
-      &:last-child {
-        display: flex;
-        align-items: center;
-        justify-content: end;
-        img {
-          max-width: 104px;
-          margin: 0;
-        }
-        p {
-          margin: 0 0 0 1em;
-        }
-      }
+      text-align: left;
     }
   }
-  .final-footer {
-    display: flex;
-    justify-content: space-between;
+
+  #wcb {
+    order: 3;
+    &.carbonbadge {
+      text-align: left !important;
+    }
+  }
+
+  .company-info {
+    grid-column: 1/3;
     p {
       flex: 0 1 auto;
       margin-bottom: 0;
-      padding-bottom: 1em;
+      text-align: left;
     }
   }
 }

@@ -12,6 +12,7 @@
     <main class="main">
         {{- block "main" . }}{{ end }}
     </main>
+    {{ partial "accreditations.html" . -}}
     {{ partial "footer.html" . -}}
 
     {{- partial "partials/dark-mode-toggle.html" . }}
