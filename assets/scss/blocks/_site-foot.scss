@@ -3,11 +3,17 @@
   padding: 2em 0;
 }
 .footer-nav-block1 {
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .site-foot__brand {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 3em;
+    width: fit-content;
     svg {
       fill: var(--darkOrange);
       width: 2em;
@@ -22,6 +28,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 1em;
+    width: fit-content;
     svg {
       fill: var(--lightOrange);
       width: 1.5em;
@@ -92,6 +99,9 @@
     }
   }
   .footer-nav-block1 {
+    ul {
+      align-items: flex-start;
+    }
     grid-column: 1/3;
     .site-foot__brand,
     .linkedin {
