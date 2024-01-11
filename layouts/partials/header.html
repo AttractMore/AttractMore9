@@ -8,6 +8,10 @@
         AttractMore
       </a>
 
+      <button class="nav-burger" type="button" aria-expanded="false" aria-label="Menu" aria-controls="menu">
+        <i></i>
+        <span class="visually-hidden">menu</span>
+      </button>
       <nav class="nav site-head__nav" aria-expanded="false">
         {{- $currentPageTitle := .Title }}
         <ul id="menu" class="nav__list">
@@ -20,10 +24,6 @@
           {{- end }}
         </ul>
       </nav>
-      <template id="burger-template">
-        <button type="button" aria-expanded="false" aria-label="Menu" aria-controls="main"><i></i><span class="visually-hidden">menu</span>
-        </button>
-      </template>
     </div>
   </div>
 </header>

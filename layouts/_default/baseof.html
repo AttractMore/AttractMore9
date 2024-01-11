@@ -6,22 +6,21 @@
 </head>
 
 <body id="top">
-  {{ if not .IsHome }}  
-    {{- partial "header.html" . }}
-  {{- end -}}
-    <main class="main">
-        {{- block "main" . }}{{ end }}
-    </main>
-    {{ partial "accreditations.html" . -}}
-    {{ partial "footer.html" . -}}
+  {{- partial "header.html" . }}
+  <main class="main">
+    {{- block "main" . }}{{ end }}
+  </main>
+  {{ partial "accreditations.html" . -}}
+  {{ partial "footer.html" . -}}
 
-    {{- partial "partials/dark-mode-toggle.html" . }}
-    <script type="module" defer src="/js/scripts.js"></script>
-    {{- if eq .Title "Contact" -}}
-      <script src="/js/mailcheck.min.js"></script>
-      <script defer src="/js/runMailcheck.js"></script>
-    {{- end -}}
-    {{/*- partial "partials/service-worker.html" . */}}
+  {{- partial "partials/dark-mode-toggle.html" . }}
+  <script type="module" defer src="/js/scripts.js"></script>
+  {{- if eq .Title "Contact" -}}
+    <script src="/js/mailcheck.min.js"></script>
+    <script defer src="/js/runMailcheck.js"></script>
+  {{- end -}}
+  {{/*- partial "partials/service-worker.html" . */}}
+  <div class="site-overlay"></div>
 </body>
 
 </html>

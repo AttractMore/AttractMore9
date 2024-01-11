@@ -2,7 +2,7 @@ baseURL = "http://localhost:1313"
 languageCode = "en-gb"
 title = "Low carbon websites"
 paginate = 5
-copyright = "©2023 AttractMore Ltd."
+copyright = "©2024 AttractMore Ltd."
 [outputs]
   page = [ "html" ]
   home = [ "html", "rss", "imagessitemap" ]

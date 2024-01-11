@@ -33,6 +33,15 @@
       align-self: end;
       line-height: 1;
     }
+    &:hover,
+    &:active {
+      svg {
+        fill: var(--secondaryHover);
+      }
+      span {
+        color: var(--secondaryHover);
+      }
+    }
   }
 }
 .footer-nav-block2 {
@@ -79,7 +88,7 @@
     > div {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: 1fr 1fr;
+      grid-template-rows: 1fr auto;
     }
   }
   .footer-nav-block1 {
