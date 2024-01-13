@@ -6,8 +6,6 @@
     <a href="/">Home</a> » <a href="/services-detail/">Services</a> » {{ .Title }}
   </aside>
   
-  {{ partial "page-header.html" . }}
-  
   <article class="intro wrap" role="article" itemscope itemtype="http://schema.org/BlogPosting">
     <div class="flow larger-text">
       {{ .Content }}
@@ -27,7 +25,7 @@
             <h2>{{.header}}</h2>
           </a>
           <p>{{.text}}</p>
-          <a class="primary-btn" href="{{ .url}}">More information<svg aria-hidden="true"><use xlink:href="/icons/icon-defs.svg#icon-arrow-right-bold"></use></svg></a>
+          <p><a class="primary-btn" href="{{ .url}}">More information<svg aria-hidden="true"><use xlink:href="/icons/icon-defs.svg#icon-arrow-right-bold"></use></svg></a></p>
         </li>
       {{- end -}}
       </ul>

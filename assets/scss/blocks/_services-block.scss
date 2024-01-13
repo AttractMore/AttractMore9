@@ -15,7 +15,7 @@
     svg.tree {
       width: auto;
       height: 70px;
-      transition: transform 200ms ease-out;
+      transition: transform 0.2s ease-out;
       will-change: transform;
       &:hover {
         transform: scale(1.2);
@@ -27,11 +27,8 @@
     p {
       padding: 0 1.5em;
       @include set-font-size(1.05);
-    }
-    a {
       &:last-of-type {
         margin-top: auto;
-        @include set-font-size(1.1);
       }
     }
   }
