@@ -18,7 +18,8 @@ html {
 body {
   font-family: $sans-serif;
   font-weight: 300;
-  @include set-font-size(1);
+  font-size: clamp(1.125rem, 1.057rem + 0.341vw, 1.313rem);
+  line-height: 1.4;
   color: var(--textColour);
   background-color: var(--bg);
   min-width: 320px;
@@ -132,7 +133,7 @@ h5,
   margin: 1em 0;
 }
 p {
-  margin-bottom: 1.5em;
+  margin: 0 0 1.5em;
   color: var(--textColour);
 }
 

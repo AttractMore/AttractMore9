@@ -20,7 +20,7 @@
     h1 {
       grid-row: 1;
       grid-column: 1 / 6;
-      margin-bottom: 1em;
+      margin-bottom: 0.5em;
       span {
         color: var(--darkGreen);
       }
@@ -61,9 +61,12 @@
 @media screen and (min-width: $bp-medium) {
   .intro {
     &__content {
+      padding-left: 3%;
+      padding-right: 3%;
       img {
         grid-row: 1 / 3;
         grid-column: 4 / 7;
+        margin-top: 1rem;
       }
       .intro__text {
         grid-column: 1 / 4;
@@ -74,8 +77,17 @@
 @media screen and (min-width: $bp-large) {
   .intro {
     &__content {
+      grid-template-columns: repeat(12, 1fr);
       h1 {
-        grid-column: 1 / 3;
+        grid-column: 1 / 6;
+      }
+      img {
+        grid-column: 6/12;
+        max-width: 420px;
+        justify-self: end;
+      }
+      .intro__text {
+        grid-column: 1/6;
       }
     }
   }
@@ -98,8 +110,9 @@
     padding: 0;
     justify-content: center;
     p {
-      max-width: 40ch;
+      max-width: 36ch;
       padding-right: 1em;
+      margin-top: 0;
     }
     > svg {
       align-self: start;
@@ -114,6 +127,7 @@
       justify-content: space-around;
       li {
         flex: 0 1 40%;
+        margin-bottom: 1em;
       }
     }
   }
@@ -150,7 +164,7 @@
     margin: 0 auto;
   }
   .arrow-down {
-    margin: -1em 0 0 7.5%;
+    margin: -1em 0 0 5%;
     width: 3em;
     height: 3em;
     fill: var(--midGrey);
@@ -161,7 +175,8 @@
   .making-a-difference {
     article {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
+      padding: 0 2em;
       align-items: center;
       > * {
         flex: 0 1 40%;
@@ -174,7 +189,7 @@
 }
 
 .be-better {
-  padding: 3em 0;
+  padding: 4em 0 3em;
   .logo-plus-button {
     display: grid;
     justify-items: center;
@@ -211,9 +226,18 @@
   background-color: var(--lightBlue);
   background-image: linear-gradient(0deg, var(--lightYellow), var(--lightBlue));
   background-repeat: no-repeat;
-  padding: 3em 0 1em;
+  padding: 3em 0 0.5em;
+  h2 {
+    text-align: center;
+    margin-bottom: 1.5em;
+  }
   .testimonial {
     margin-bottom: 3em;
+  }
+  figure {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
   }
   img {
     max-width: 300px;
