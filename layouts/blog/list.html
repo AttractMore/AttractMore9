@@ -1,7 +1,11 @@
 {{- define "main" }}
 
-{{ partial "partials/page-header.html" . }}
-  
+<article class="intro wrap" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="flow larger-text">
+    {{ .Content }}
+  </div>
+</article>
+
 <section class="content-sidebar wrap">
   <article class="feed">
     <div class="post-list">

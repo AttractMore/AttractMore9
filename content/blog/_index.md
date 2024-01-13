@@ -8,3 +8,7 @@ paginationPrevText: "Newer posts"
 paginationNextText: "Older posts"
 extraStyles: "/scss/post.scss"
 ---
+
+# AttractMore Blog
+
+News and articles to help you get the best from your website or online shop.

@@ -49,7 +49,10 @@ So, for me it is essential that all aspects of AttractMore operate according to 
 
 To that end, AttractMore has been accepted by the [Good Business Charter](https://goodbusinesscharter.com/) as meeting the 10 components of responsible business practice.
 
-![Good Business Charter - 10 components of good business practice](/optim/misc/gbc-components.jpg){width=930}
+{{< content-figure folder="/misc/"
+src="gbc-components_ugex59"
+alt="Good Business Charter Compnents"
+width="930" height="828" defaultWidth="500" >}}
 
 ## Accessibility
 
