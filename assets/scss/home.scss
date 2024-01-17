@@ -9,9 +9,10 @@
 
 .intro {
   background-color: var(--lightBlue);
-  background-image: url(images/misc/cloud-blur.webp), linear-gradient(0deg, var(--lightYellow), var(--lightBlue));
+  background-image: url(images/misc/cloud-blur2.webp), linear-gradient(0deg, var(--lightYellow), var(--lightBlue));
   background-repeat: no-repeat, no-repeat;
   background-position: center, center;
+  background-size: cover;
   &__content {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
