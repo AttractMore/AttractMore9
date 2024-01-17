@@ -9,7 +9,7 @@ excerpt: "Achieving good search engine rankings for pages of your website is not
 cloudinaryPrimaryImage: "woman-pretending-to-look-through-binoculars_ovnpwy"
 primaryImageAlt: "White woman using her hands as a way of pretending to be looking through binoculars"
 socialImage: "/images/blog/woman-pretending-to-look-through-binoculars-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 {{< content-figure folder="/blog/"

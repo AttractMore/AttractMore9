@@ -8,7 +8,7 @@ excerpt: "Sliders (also known as carousels, rotating offers or rotating banners)
 cloudinaryPrimaryImage: "sliders-need-to-go_vkz9p8"
 primaryImageAlt: "Sliders, carousels, rotating offers on websites need to go"
 socialImage: "/images/blog/sliders-need-to-go-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 ## Intro

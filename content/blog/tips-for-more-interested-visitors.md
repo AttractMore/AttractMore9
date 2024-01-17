@@ -8,7 +8,7 @@ excerpt: "Keyword research is an important first step in helping to get your web
 cloudinaryPrimaryImage: "keyword-research-for-search-engine-optimisation_rwqt00"
 primaryImageAlt: "Use keyword research to improve the positioning of your web pages in Google etc."
 socialImage: "/images/blog/keyword-research-for-search-engine-optimisation-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 ## Intro

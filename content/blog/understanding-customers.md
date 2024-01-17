@@ -8,7 +8,7 @@ metaDesc: "Understanding your customers is a critical success factors for your b
 excerpt: "One of the most important factors in creating a successful business website is gaining a clear understanding of the customers you want to attract. When AttractMore are reviewing a website or building a new site, conducting research into customers (or clients, donors, patients etc.) is one of the essential first steps we take. Only then can we ensure that <strong>any recommendations or design decisions we make are targeted towards the people the business wants to attract.</strong>"
 cloudinaryPrimaryImage: "know-your-customers_qfl3ph"
 primaryImageAlt: "Gain a clear understanding of your customers"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 One of the most important factors in creating a successful business website is gaining a clear understanding of the customers you want to attract.

@@ -17,7 +17,7 @@ summaryInfo:
   client: "A Place in Bubión"
   role: "Design, development, testing and implementation."
   website: "https://holidaycottagealpujarras.com"
-extraStyles: "/scss/work-item.scss"
+extraStyles: "/css/work-item.css"
 ---
 
 The objectives for the new site were that it should look modern, be easy to use, load quickly, make much better use of photos and, of course, that it should work easily on mobile smartphones.

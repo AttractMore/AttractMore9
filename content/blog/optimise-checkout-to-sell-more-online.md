@@ -9,7 +9,7 @@ cloudinaryPrimaryImage: "ecommerce-abandoned-carts"
 cloudinaryPrimaryImageHash: ""
 primaryImageAlt: "Optimise the ecommerce checkout and sell more online"
 socialImage: "/images/blog/ecommerce-abandoned-cart-actions-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 ## Summary

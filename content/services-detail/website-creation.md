@@ -10,5 +10,5 @@ intro:
   summary2: "Our websites don't just look professional but genuinely ARE professional through and through. This includes detailed search engine optimisation to improve the visibility of your site online."
 ctaText: "Get in touch about a better website"
 weight: 10
-extraStyles: "/scss/service-item.scss"
+extraStyles: "/css/service-item.css"
 ---

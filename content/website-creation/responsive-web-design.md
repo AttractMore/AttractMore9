@@ -7,7 +7,7 @@ prevUrl: "/services/website-creation/project-management/"
 prevTitle: "Project Management"
 pageHeaderTitle: "Responsive Web design"
 url: "/services/website-creation/responsive-web-design/"
-extraStyles: "/scss/service-item.scss"
+extraStyles: "/css/service-item.css"
 ---
 
 With the majority of people accessing the internet on hand-held devices as well as PCs, we strongly believe that today’s websites should cater for and work well on whatever device and screen size your visitors choose to use – rather than being a good experience on some devices and frustrating on others. Indeed, back in April 2015 Google announced that, for searches conducted on mobile phones, it will reward websites that are ‘mobile friendly’ and disadvantage those that are not.

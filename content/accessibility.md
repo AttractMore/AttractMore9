@@ -3,7 +3,7 @@ title: "Accessibility Statement"
 type: "miscellaneous"
 pageRobots: "noindex,follow"
 metaDesc: "Find out how we have built this website to be useable by as many people as possible. Let us know if we can improve accessibility."
-extraStyles: "/scss/miscellaneous.scss"
+extraStyles: "/css/miscellaneous.css"
 ---
 
 We want our website to be useable by as many people as possible, irrespective of any disability they may be experiencing, temporarily or permanently. We have built this website to be accessible with common assistive technologies and different ways of using websites. This means that you can:

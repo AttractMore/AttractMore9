@@ -8,7 +8,7 @@ excerpt: "As users, we expect a lot from a decent website. We expect it to look 
 cloudinaryPrimaryImage: "powerboat-speed-over-water_qsuvsi"
 primaryImageAlt: "Powerboat speeding. Web pages need to load quickly to keep users engaged and to improve how your  web pages rank in the search engines."
 socialImage: "/images/blog/powerboat-speed-over-water-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 {{< content-figure folder="/blog/"

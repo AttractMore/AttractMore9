@@ -4,7 +4,7 @@ metaDesc: "You only get one chance to make a first impression so it is vital tha
 weight: 60
 ctaText: "Get in touch about branding & graphic design"
 pageHeaderTitle: "Branding & Graphic Design<br>It can really make a difference."
-extraStyles: "/scss/service-item.scss"
+extraStyles: "/css/service-item.css"
 ---
 
 As we well know, you only get one chance to make a first impression. It is important, therefore, that when a potential new customer sees material online or in print which relates to your business, it has been **designed to reflect your brand and appeal to your audience**.

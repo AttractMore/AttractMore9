@@ -9,7 +9,7 @@ metaDesc: "Website reviews are a cost-effective way for businesses to discover h
 excerpt: "Many website owners know their site is not bringing in the business it should but they’re not sure why or what to do about it. They’re unwilling to pay for a new website as they may just end up in the same situation. A useful step to take in these circumstances is to commission a website review which will examine all aspects of the site. Our <strong>independent website reviews</strong> provide a prioritised list of actions that a business can take to improve its website so as to bring in more business and achieve the desired return on investment."
 cloudinaryPrimaryImage: "roi_mrvbor"
 primaryImageAlt: "Getting a decent return on the investment made in a website or online shop"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 Website reviews are a straightforward, cost-effective way for businesses to discover how they can improve their websites and achieve the return on investment they wanted.

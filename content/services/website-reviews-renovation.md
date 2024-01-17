@@ -6,7 +6,7 @@ weight: 40
 metaDesc: "Website reviews are an essential component of a cost effective approach to website management that achieves the best ROI. Read about our strategy here."
 ctaText: "Get in touch about Website Reviews"
 pageHeaderTitle: "Website Reviews and Renovation"
-extraStyles: "/scss/service-item.scss"
+extraStyles: "/css/service-item.css"
 summaryText: "<p>If you are dissatisfied with your web presence for any reason we can carry out a review. We can address your dissatisfaction by suggesting ways to</p>
 <ul>
 <li>Improve your showing in the search engines</li>

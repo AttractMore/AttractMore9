@@ -4,7 +4,7 @@ metaDesc: "Website reviews are an essential component of a cost effective approa
 weight: 40
 ctaText: "Get in touch about Website Reviews"
 pageHeaderTitle: "Website Reviews and Renovation"
-extraStyles: "/scss/service-item.scss"
+extraStyles: "/css/service-item.css"
 ---
 
 The majority of organisations consider the creation of a website as a project with a defined end date: the implementation. Some years may then pass without significant updates to the until the site becomes so out of date that a new web project is initiated and so the cycle continues as in the diagram below.

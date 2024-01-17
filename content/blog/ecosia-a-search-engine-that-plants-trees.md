@@ -9,7 +9,7 @@ excerpt: "There is something simple that you can do to help counteract the clima
 cloudinaryPrimaryImage: "ecosia-a-search-engine-that-plants-trees_acrwvq"
 primaryImageAlt: "Ecosia is a search engine that invests its profits into planting trees."
 socialImage: "/images/blog/ecosia-a-search-engine-that-plants-trees-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 ## Plants trees while you search

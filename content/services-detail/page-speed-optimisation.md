@@ -3,7 +3,7 @@ title: "Page Speed Optimisation"
 metaDesc: "People don't have the patience to wait for web pages to load. After 3s, 53% of visitors will leave. Do your pages take longer than 3s to load?"
 ctaText: "Get in touch about page speed optimisation"
 pageHeaderTitle: "Page Speed Optimisation"
-extraStyles: "/scss/service-item.scss"
+extraStyles: "/css/service-item.css"
 ---
 
 You don’t like web pages that load slowly and neither do your site visitors. Most people do not have the patience to wait for more than a few seconds for pages to load. [Studies](https://www.thinkwithgoogle.com/marketing-resources/data-measurement/mobile-page-speed-new-industry-benchmarks/) show that, after 3 seconds, 53% of mobile visitors will simply leave the page if it's not loaded.

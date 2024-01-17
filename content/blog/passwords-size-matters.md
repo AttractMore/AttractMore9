@@ -8,7 +8,7 @@ excerpt: "Passwords remain a fundamental feature of online security yet they rem
 cloudinaryPrimaryImage: "better-passwords-resist-brute-force-attacks_b45u0a"
 primaryImageAlt: "11 feature of professional web agencies"
 socialImage: "/images/blog/better-passwords-resist-brute-force-attacks-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 ## Intro

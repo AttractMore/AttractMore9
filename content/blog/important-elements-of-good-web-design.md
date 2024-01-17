@@ -8,7 +8,7 @@ excerpt: "There are some elements that pretty much every business website should
 cloudinaryPrimaryImage: "trust-in-design_nl3m1j"
 primaryImageAlt: "Good website design creates a sense of trust in site visitors which is good for business."
 socialImage: "/images/blog/trust-in-design-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 ## Summary

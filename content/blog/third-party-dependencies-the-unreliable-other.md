@@ -9,7 +9,7 @@ excerpt: "Sometimes, in life, things we rely on don't work out as expected. It's
 cloudinaryPrimaryImage: "unreliable-3rd-party-dependencies_bwvvv3"
 primaryImageAlt: "Old black and white photo of broken down car with a small crowrd gathered around it"
 socialImage: "/images/blog/unreliable-3rd-party-dependencies-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 {{< content-figure folder="/blog/"

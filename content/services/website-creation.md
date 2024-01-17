@@ -12,7 +12,7 @@ intro:
   summary1: "We specialise in creating modern, responsive websites that deliver value to your organisation."
   summary2: "Our websites don't just look professional but genuinely ARE professional through and through. This includes detailed search engine optimisation to improve the visibility of your site online."
 ctaText: "Get in touch about a better website"
-extraStyles: "/scss/service-item.scss"
+extraStyles: "/css/service-item.css"
 summaryText: "<h3>Research</h3>
 
 <p>Before we consider the design of a website, we carry out a <strong>design research phase</strong> in which we develop a deep understanding your business and your customers/clients.</p>

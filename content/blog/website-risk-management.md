@@ -8,7 +8,7 @@ metaDesc: "Website risk management does not receive much attention but here we d
 excerpt: "Website risk management is not a topic that receives a great deal of attention but in this article I’d like to talk about one particular aspect of the subject and <strong>emphasise the need for ongoing support and maintenance</strong> of business websites."
 cloudinaryPrimaryImage: "website-risk-management_a7tdnm"
 primaryImageAlt: "Managing the risks of having a business website"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 Website risk management is not a topic that receives a great deal of attention but in this article I’d like to talk about one particular aspect of the subject and emphasise the need for ongoing support and maintenance of business websites.

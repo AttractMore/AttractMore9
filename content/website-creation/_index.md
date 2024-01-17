@@ -9,7 +9,7 @@ intro:
 ctaText: "Get in touch about a better website"
 weight: 10
 url: "/services/website-creation/"
-extraStyles: "/scss/websitecreation.scss"
+extraStyles: "/css/websitecreation.css"
 ---
 
 # Website Creation

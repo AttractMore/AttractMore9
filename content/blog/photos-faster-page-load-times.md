@@ -8,7 +8,7 @@ metaDesc: "Photos are one of the main causes of slow web pages. This post examin
 excerpt: "Uploaded photos are one of the main causes of slow web pages and this post looks into this issue and gives some suggestions about how to handle it effectively to give faster page load times."
 cloudinaryPrimaryImage: "images-major-component-of-web-pages_mlbrft"
 primaryImageAlt: "Images are the main component of page weight"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 In the [last post](/blog/web-page-speed/ "Web Page Speed"), I talked about how important it was that web pages load quickly so preventing your readers having to wait too long before seeing your content. Uploaded photos are one of the main causes of slow pages and this post looks into this issue and gives some suggestions about how to handle it effectively to give faster page load times.

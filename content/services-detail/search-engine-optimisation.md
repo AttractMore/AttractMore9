@@ -4,7 +4,7 @@ metaDesc: "If your site is performing poorly in the search engines, you are not 
 weight: 20
 ctaText: "Get in touch about Search Engine Optimisation"
 pageHeaderTitle: "Search Engine Optimisation"
-extraStyles: "/scss/service-item.scss"
+extraStyles: "/css/service-item.css"
 ---
 
 You may have heard that Search Engine Optimisation (SEO) is dead. This is simply not true. What is true, however, is that **SEO has changed considerably over the years** and it is now more complex than it used to be.

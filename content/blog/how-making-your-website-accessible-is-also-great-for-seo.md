@@ -8,7 +8,7 @@ excerpt: "Google now includes 'page experience' as a factor in determining searc
 cloudinaryPrimaryImage: "three-guys-looking-serious-at-computer_e2v6sx"
 primaryImageAlt: "Making website accessible to people with disabilities improves search engine rankings as well."
 socialImage: "/images/blog/three-guys-looking-serious-at-computer-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 ## How making your website accessible is also great for SEO

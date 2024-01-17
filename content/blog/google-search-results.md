@@ -7,7 +7,7 @@ metaDesc: "Google search results are now starting to prioritise those sites whic
 excerpt: "It goes without saying that the position your business’s web pages appear in the Google search results will affect the number of visitors your site attracts. What you may not be aware of is that Google have recently started making another change in the way that they decide the order in which to show their results for any given search phrase. Google can now make an accurate assessment of whether your site is adapted to work well on smaller screens as well as larger ones. Based on that assessment, they are now starting to prioritise sites that work well on mobiles and de-prioritise those that don’t. This will affect your site if it is not mobile friendly."
 cloudinaryPrimaryImage: "mobile-website-google-search_nvuj6z"
 primaryImageAlt: "Having a mobile-friendly website affects the search engine ranking of your website"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 It goes without saying that the position your business’s web pages appear in the Google search results will affect the number of visitors your site attracts. What you may not be aware of is that Google have recently started making another change in the way that they decide the order in which to show their results for any given search phrase.

@@ -7,7 +7,7 @@ metaDesc: "This article explains what is meant by responsive web design, why it'
 excerpt: "For those that are uncertain, I wanted to take a few minutes to describe what is meant by responsive web design and the significant business benefits that can be obtained."
 cloudinaryPrimaryImage: "responsive-web-design-1_j9nx1b"
 primaryImageAlt: "Website design that adapts to the size of the device it's displayed on"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 For those that are uncertain, I wanted to take a few minutes to describe what is meant by **responsive web design** and what the business benefits are to you.

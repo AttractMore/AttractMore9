@@ -6,7 +6,7 @@ metaDesc: "To protect and improve the return on investment you achieve from your
 ctaText: "Get in touch about support & maintenance"
 weight: 50
 pageHeaderTitle: "Support & Maintenance for your Website"
-extraStyles: "/scss/service-item.scss"
+extraStyles: "/css/service-item.css"
 summaryText: "<p>To get the <strong>best return on your investment</strong> in a website it needs to be looked after. The Content Management System and any other software that underpins your site will need to be updated regularly to bring in new functionality and to counter any security vulnerabilities that have been detected.</p>
 
 <p>Small changes will be needed to ensure your site continues to deliver the best performance and, if your organisation does not have an in-house support and maintenance team, we can offer that service directly to you.</p>"

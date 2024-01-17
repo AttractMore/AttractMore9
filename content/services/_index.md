@@ -1,7 +1,7 @@
 ---
 title: "Services"
 metaDesc: "AttractMore provide a wide range of digital services to help you make the most of your website and your investment in digital technologies."
-extraStyles: "/scss/services.scss"
+extraStyles: "/css/services.css"
 intro:
   image: "pines-in-the-sky.jpg"
   imageAlt: "Grow your business with an effective website"

@@ -28,7 +28,7 @@ summaryInfo:
   client: "Ox Designers"
   role: "Development, testing and implementation."
   website: "https://www.oxdesigners.com/"
-extraStyles: "/scss/work-item.scss"
+extraStyles: "/css/work-item.css"
 ---
 
 The purpose of this redesign and rebuild was two-fold.

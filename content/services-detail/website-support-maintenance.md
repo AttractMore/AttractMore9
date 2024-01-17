@@ -4,7 +4,7 @@ metaDesc: "To protect and improve the return on investment you achieve from your
 ctaText: "Get in touch about support & maintenance"
 weight: 50
 pageHeaderTitle: "Support & Maintenance for your Website"
-extraStyles: "/scss/service-item.scss"
+extraStyles: "/css/service-item.css"
 ---
 
 To get the best from your website, it must be looked after. A good analogy is with a garden. A newly planted garden will be in excellent condition but without the necessary care and maintenance it will soon fall into neglect. The same is true of a website where content and software can easily become outdated. In order to **protect and improve the return on investment** you achieve from your site, we offer a range of support and maintenance services.

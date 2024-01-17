@@ -7,7 +7,7 @@ metaDesc: "Your website needs to appeal to digital customers, i.e. people who ar
 excerpt: "Recent posts on this blog have focused on issue of a technical nature like page load speed, but this time I am going to offer some thoughts about customers, especially digital customers. This is important as an <strong>understanding of your customers will affect the design of your site and its content.</strong>"
 cloudinaryPrimaryImage: "digital-customer-unhappy-with-website_oglsaf"
 primaryImageAlt: "Understand your customers"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 Recent posts on this blog have focused on issues of a technical nature like page load speed, but this time I am going to offer some thoughts about customers, especially digital customers.

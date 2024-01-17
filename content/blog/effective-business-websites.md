@@ -8,7 +8,7 @@ metaDesc: "Business websites are not intended to be works of art, they are busin
 excerpt: "I’ve come across a few business owners recently who believe that, because they have a website, they have done what is necessary to get new business using the internet. Then, when little or no business arrives via the website, they conclude that the internet is no good for acquiring new customers or it’s not appropriate for their business. What they miss is that often the design of their website is inappropriate for their business or that the content is inadequate. <strong>Visitors judge your business by the quality of your website</strong>. Let’s look at what’s really needed."
 cloudinaryPrimaryImage: "effective-business-websites_oeipns"
 primaryImageAlt: "Make your business website effective"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 ## Business Websites Must be Effective Websites

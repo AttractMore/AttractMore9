@@ -8,7 +8,7 @@ excerpt: "Having a clear and consistent brand identity is an important factor fo
 cloudinaryPrimaryImage: "nike-strong-brand-identity_o1agst"
 primaryImageAlt: "eCommerce sites need to be distinct from the competition. Having a clear, consistent brand identity makes a significant difference."
 socialImage: "/images/blog/nike-strong-brand-identity-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 ## The importance of brand identity

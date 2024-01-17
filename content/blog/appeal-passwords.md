@@ -7,7 +7,7 @@ metaDesc: "I believe we have a duty, both personal and professional, to use stro
 excerpt: "As everyone knows, there is a lot of attempted fraud on the internet and there are people who would like to use your userid and password to access the services you use. Why do they do this? It may be that they can get financial information, e.g. credit card details, which they can take advantage of or, they may just want to use your email address to send SPAM messages to others. The first of these can obviously lead to your finances being compromised (usually quantifiable) and the second results in <strong>reputational damage</strong>, both personal and affecting your business (unquantifiable). Neither of these outcomes are, in any way, desirable. However, there are <strong>simple actions you can take to protect yourself.</strong>"
 cloudinaryPrimaryImage: "appeal-strong-passwords_twbbuo"
 primaryImageAlt: "Strong passwords make the internet safer"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 This is an appeal about passwords – an appeal that you always use strong passwords.

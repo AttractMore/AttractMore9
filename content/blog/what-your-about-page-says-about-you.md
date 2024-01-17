@@ -8,7 +8,7 @@ excerpt: "The About page on your website is an important resource and it will in
 cloudinaryPrimaryImage: "what-are-you-about_pgnor1"
 primaryImageAlt: "What does your About page say about you? Don't leave customers guessing. Find out how to create a great About page."
 socialImage: "/images/blog/what-are-you-about-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 ## Intro - What are you about?

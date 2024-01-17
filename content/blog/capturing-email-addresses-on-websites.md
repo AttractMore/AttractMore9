@@ -8,7 +8,7 @@ metaDesc: "Best practice for capturing email addresses on contact and sign up fo
 excerpt: "It’s almost certainly the case that you have a contact form on your website and likely that you have other ways of capturing visitors’ email addresses such as a sign up form. In this post I focus on capturing email addresses on contact and sign up forms and ensuring that the email address we capture is correct."
 cloudinaryPrimaryImage: "email-format-validation_qwvhhb"
 primaryImageAlt: "Checking to make sure email addresses that visitors have entered are valid"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 It’s almost certainly the case that you have a contact form on your website and likely that you have other ways of capturing visitors’ email addresses such as a sign up form. Most people dislike filling in contact forms and keeping the amount of data that has to be completed to a minimum helps with sign up rates. In this post, however, I want to focus on capturing email addresses on contact and sign up forms. This is the most important piece of information on these forms and I believe that it is important that we do what we can to ensure the email address we capture is correct.

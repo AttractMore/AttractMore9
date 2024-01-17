@@ -7,7 +7,7 @@ prevUrl: "/services/website-creation/web-development-website-testing/"
 prevTitle: "Website development and testing"
 pageHeaderTitle: "Website Migration & Implementation"
 url: "/services/website-creation/website-migration-implementation/"
-extraStyles: "/scss/service-item.scss"
+extraStyles: "/css/service-item.css"
 ---
 
 The final stage of the web project involves much more than just moving the test site on to the live server. To minimise issues and maximise impact proper consideration should be given to a range of pre-implementation and post-implementation activities.

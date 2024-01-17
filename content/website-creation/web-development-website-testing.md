@@ -7,7 +7,7 @@ prevUrl: "/services/website-creation/content-creation/"
 prevTitle: "Website content creation and copywriting"
 pageHeaderTitle: "Web Development & Website Testing"
 url: "/services/website-creation/web-development-website-testing/"
-extraStyles: "/scss/service-item.scss"
+extraStyles: "/css/service-item.css"
 ---
 
 By this stage in the process, we will have determined the design of your new website, its navigation menu and started its content creation. We will also have tested the prototype pages – and, based on feedback, made any necessary adjustments/modifications.

@@ -8,7 +8,7 @@ excerpt: "Your website is at risk from hackers and this post explores some measu
 cloudinaryPrimaryImage: "protect-website-against-hackers_pwqo8f"
 primaryImageAlt: "How you can protect your business website against hackers."
 socialImage: "/images/blog/protect-website-against-hackers-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 ## Summary

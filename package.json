@@ -10,7 +10,8 @@
   "scripts": {
     "dev": "tinacms dev -c \"hugo server -D\"",
     "build": "tinacms build && hugo",
-    "test": "sass assets/scss:assets/css --no-source-map --style=compressed && hugo serve"
+    "test": "sass assets/scss:assets/css --no-source-map --style=compressed && hugo serve",
+    "testtina": "sass assets/scss:assets/css --no-source-map --style=compressed && tinacms dev -c \"hugo server -D\""
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,6 @@
   "devDependencies": {
     "@tinacms/cli": "^1.5.39",
     "@types/node": "^20.10.6",
-    "wrangler": "^3.22.3"
+    "wrangler": "^3.22.4"
   }
 }

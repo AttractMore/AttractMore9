@@ -8,7 +8,7 @@ excerpt: "Few of us can imagine not accessing the internet. As well as providing
 cloudinaryPrimaryImage: "visually-impaired-man-using-computer_evugdr"
 primaryImageAlt: "Small changes to your website can make it more accessible and make it useable by the many millions of disabled people in the UK."
 socialImage: "/images/blog/visually-impaired-man-using-computer-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 ## A beginner’s guide to making your website more accessible

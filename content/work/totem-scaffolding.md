@@ -17,7 +17,7 @@ summaryInfo:
   client: "Totem Scaffolding"
   role: "Development, testing and implementation."
   website: "https://totemscaffolding.com"
-extraStyles: "/scss/work-item.scss"
+extraStyles: "/css/work-item.css"
 ---
 
 This project was another collaboration with Nikki from [Designs Like These](https://www.designslikethese.co.uk/). Nikki designed the site and we built, tested and implemented it. This site does not use a Content Management Systems such as WordPress, as the client did not anticipate making changes themselves nor writing a blog. The site was coded in HTML and CSS and one advantage of this approach is that it decreases the exposure and vulnerability of the site to attack by hackers.

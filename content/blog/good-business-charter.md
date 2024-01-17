@@ -8,7 +8,7 @@ excerpt: "To demonstrate our commitment to good business practice, we applied to
 cloudinaryPrimaryImage: "GBC_Accredited_Logo_Sq_ojqwje"
 primaryImageAlt: "Logo of the Good Business Charter"
 socialImage: "/images/blog/good-business-charter-logo-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 {{< content-figure folder="/blog/"

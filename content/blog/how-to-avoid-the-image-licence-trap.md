@@ -9,7 +9,7 @@ excerpt: "Most organisations want to have images on their websites to make them 
 cloudinaryPrimaryImage: "close-up-of-photographer_u3xe92"
 primaryImageAlt: "Make sure you have the correct licence for photographs and other assets you use on your website, social media and other marketing."
 socialImage: "/images/blog/close-up-of-photographer-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 ## Staying legal with digital images

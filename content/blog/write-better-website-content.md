@@ -11,7 +11,7 @@ cloudinaryPrimaryImage: "writing-better-content-for-your-website"
 cloudinaryPrimaryImageHash: ""
 primaryImageAlt: "The 3 factors that influence the quality rating of your website content"
 socialImage: "/images/blog/writing-better-content-for-your-website-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 ## Summary

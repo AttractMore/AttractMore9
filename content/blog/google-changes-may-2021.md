@@ -8,7 +8,7 @@ excerpt: "Starting in June 2021 (originally scheduled for May), Google are intro
 cloudinaryPrimaryImage: "searching-in-google_g3xuft"
 primaryImageAlt: "Google are making change to their search algorithm. Page experience will play a larger part with the introduction of 3 new factors, referred to as Core Web Vitals."
 socialImage: "/images/blog/searching-in-google-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 ## Introduction

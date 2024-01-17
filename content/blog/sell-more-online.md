@@ -8,7 +8,7 @@ excerpt: "If you have an online shop, you probably want to sell more, either to 
 cloudinaryPrimaryImage: "sell-more-in-your-online-shop_dvlfde"
 primaryImageAlt: "ways to increase the sales in your online shop"
 socialImage: "/images/blog/sell-more-in-your-online-shop-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 ## Summary

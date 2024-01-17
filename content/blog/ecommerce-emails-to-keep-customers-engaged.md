@@ -8,7 +8,7 @@ excerpt: "If you are involved in running an online shop, I'm sure you appreciate
 cloudinaryPrimaryImage: "ecommerce-emails-to-keep-customers-engaged_ncvx49"
 primaryImageAlt: "Discover useful ecommerce emails to keep customers engaged"
 socialImage: "/images/blog/ecommerce-emails-to-keep-customers-engaged-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 ## Intro

@@ -1,6 +1,6 @@
-import DarkModeToggle from "./dark-mode-toggle.js";
-const elements = [...document.querySelectorAll('[data-behaviour="dark-mode-toggle"]')];
-elements.forEach((el) => new DarkModeToggle(el));
+// import DarkModeToggle from "./dark-mode-toggle.js";
+// const elements = [...document.querySelectorAll('[data-behaviour="dark-mode-toggle"]')];
+// elements.forEach((el) => new DarkModeToggle(el));
 
 /**
  * @description - Set target=_blank on all external links

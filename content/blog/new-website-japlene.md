@@ -8,7 +8,7 @@ metaDesc: "Details of the process and results of creating a new website for Japl
 excerpt: "Japlene dressmakers recently engaged us to produce a new website for them to replace an old, out-dated site that had been in place for several years. Japlene are based in Headington and create a range of bespoke dresses for all types of special occasions including weddings, christenings, parties etc. Read about how we approached this project and delivered a successful result."
 cloudinaryPrimaryImage: "japlene-tablet-screenshot_vjngvl"
 primaryImageAlt: "Japlene dressmakers Oxford"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 {{< content-figure folder="/blog/"

@@ -8,7 +8,7 @@ metaDesc: "This new site for a psychotherapist in Leeds includes a simple menu s
 excerpt: "AttractMore have been working with Susan Carr in Leeds over a number of years and we have created a couple of websites for her to help promote the services she offers to clients. She recently asked us to create a new site which focused on her work as a psychotherapist and counsellor. The colour scheme was already determined, as was the layout for wider screens since these were carried over from one of Susan’s earlier sites. The challenge here was to create a fully responsive site that worked well on smaller screens as well as larger ones."
 cloudinaryPrimaryImage: "therapy-space-leeds_ojdw0b"
 primaryImageAlt: "Psychotherapist in Leeds"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 N.B. Due to illness, this site has been taken down.

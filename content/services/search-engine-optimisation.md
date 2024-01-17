@@ -6,7 +6,7 @@ weight: 20
 metaDesc: "If your site is performing poorly in the search engines, you are not getting a good return on the investment you have made in your web site."
 ctaText: "Get in touch about Search Engine Optimisation"
 pageHeaderTitle: "Search Engine Optimisation"
-extraStyles: "/scss/service-item.scss"
+extraStyles: "/css/service-item.css"
 summaryText: "<p>Ensuring <strong>site visibility</strong> in Google, Bing and other search engines is a priority for organisations. These days, search engine optimisation is far more than just matching keywords and acquiring incoming links. Many more factors have a significant bearing on where your site will be positioned in the search results for a given phrase.</p>
 
 <P>If you would like to <strong>improve the SEO</strong> of your existing website, we can examine your site and make recommendations for improvement. These suggestions will cover ‘on page’ factors such as the content and technical elements as well as ‘off page’ aspects such as links and social media.</p>

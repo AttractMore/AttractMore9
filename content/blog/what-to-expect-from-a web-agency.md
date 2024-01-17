@@ -8,7 +8,7 @@ excerpt: "There are lots of web agencies to choose from. Some are large organisa
 cloudinaryPrimaryImage: "web-agency-knowledge-experience_wal67j"
 primaryImageAlt: "11 feature of professional web agencies"
 socialImage: "/images/blog/web-agency-knowledge-experience-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 ## Summary

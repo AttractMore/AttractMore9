@@ -4,7 +4,7 @@ COLOURS
 $theme-green: #207737;
 $theme-red: #be3622;
 
-$link-color: var(--secondary);
+$link-color: var(--darkerOrange);
 $link-hover: var(--secondaryHover);
 
 :root {
@@ -13,11 +13,13 @@ $link-hover: var(--secondaryHover);
   --bgSidebar: #ededed;
   --textColour: #24373f;
   --primary: #{$theme-green};
+  --red: #be3622;
   --secondary: #be3622;
   --secondaryHover: rgba(227, 115, 99, 0.99);
   --background-grey: #ededed;
   --background-light-blue: #d6ebff;
   --slateGrey: #405165;
+  --darkerOrange: #cc6615;
   --darkOrange: #f39200;
   --lightOrange: #f9b45c;
   --lightBlue: rgb(189, 224, 221);
@@ -25,6 +27,7 @@ $link-hover: var(--secondaryHover);
   --lightYellow: #fdf8e3;
   --darkGreen: #597a36;
   --midGrey: #cccccc;
+  --darkPurple: #482683;
   --grey: #ededed;
   --white: #ffffff;
   --black: #000000;

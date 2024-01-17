@@ -17,7 +17,7 @@ summaryInfo:
   client: "Totem Scaffolding"
   role: "Development, testing and implementation."
   website: "https://www.totemscaffolding.com"
-extraStyles: "/scss/work-item.scss"
+extraStyles: "/css/work-item.css"
 ---
 
 This project was another productive and enjoyable collaboration with Nikki from [Designs Like These](https://www.designslikethese.co.uk/). Nikki designed the site and we, at AttractMore, built, tested and implemented it. Like the previous site, this does not use a Content Management Systems such as WordPress, as the client did not anticipate making changes themselves.

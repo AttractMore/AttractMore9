@@ -3,7 +3,7 @@ title: "Environmental Statement"
 type: "miscellaneous"
 pageRobots: "noindex,follow"
 metaDesc: "The internet uses a LOT of power. Find out how your website can generate less carbon dioxide by optimising the resources and compressing the content."
-extraStyles: "/scss/miscellaneous.scss"
+extraStyles: "/css/miscellaneous.css"
 ---
 
 The internet uses a lot of powerand is responsible for [3.7% of global emissions](https://ecofriendlyweb.org/). Of course, it's not just the laptops, tablets and phones we use, the main power consumers are the web servers and the networks that keep the internet running.

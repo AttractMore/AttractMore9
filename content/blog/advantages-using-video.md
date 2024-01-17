@@ -8,7 +8,7 @@ metaDesc: "There are two distinct advantages of using video on your web site. It
 excerpt: "There are a number of advantages of using video on your business website. Not only does it help make a stronger connection with site visitors it can help improve search engine rankings. However, it needs to be done properly and that is the subject of this post."
 cloudinaryPrimaryImage: "advantages-of-using-video_seveec"
 primaryImageAlt: "The benefits of using video on your website"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 I recently had a short promotional video made for [AttractMore](https://www.attractmore.uk/) as I believe that there are two important advantages of using video.

@@ -8,7 +8,7 @@ excerpt: "Browsers are not all the same and they are not always consistent in th
 cloudinaryPrimaryImage: "text-alongside-image-bug_yeue1a"
 primaryImageAlt: "Bug found in Chrome 87 and Edge 87"
 socialImage: "/images/blog/website-testing-social-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 Browsers are not all the same and they are not always consistent in the way they display a web page. A page that displays OK on Firefox, may not look the same on Chrome and the layout may not be what is expected - or vice versa. Also different versions of the same browser may show the same page in slightly different ways. A page in Chrome 85 on an Android phone, may not show in the same way as the same page in Chrome 85 on an iPad, for instance.

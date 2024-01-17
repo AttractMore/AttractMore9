@@ -13,7 +13,7 @@ excerpt: "The start of a new year is a good time to review the effectiveness of 
 cloudinaryPrimaryImage: "reasons-to-get-new-website_cvhrr7"
 primaryImageAlt: "The New Year is an ideal time to review your business website and see whether it is still fit for purpose or whether it needs replacing."
 socialImage: "/images/blog/reasons-to-get-new-website-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 ## Why invest in a new website in 2022?

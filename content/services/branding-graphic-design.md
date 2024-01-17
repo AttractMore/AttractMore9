@@ -4,7 +4,7 @@ metaDesc: "You only get one chance to make a first impression so it is vital tha
 weight: 60
 ctaText: "Get in touch about branding & graphic design"
 pageHeaderTitle: "Branding & Graphic Design"
-extraStyles: "/scss/service-item.scss"
+extraStyles: "/css/service-item.css"
 detailUrl: "/services/branding-graphic-design/"
 svgId: "tree14"
 summaryText: "<p>Having a strong visual brand can be hugely important in <strong>differentiating your business from competitors</strong> and in making an impact on potential customers. Colours, logo, typography, tone of voice, animation style etc. all play their part in creating the visual brand of your company. Through having a good understanding of your business we can work with you to <strong>create a distinctive brand identity</strong> that truly reflects your organisation.</p>

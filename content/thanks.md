@@ -3,7 +3,7 @@ title: "Thanks"
 type: "miscellaneous"
 layout: "thanks"
 pageRobots: "noindex,follow"
-extraStyles: "/scss/thanks.scss"
+extraStyles: "/css/thanks.css"
 ---
 
 Thanks for sending us a message.

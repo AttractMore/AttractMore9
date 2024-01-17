@@ -20,7 +20,7 @@ summaryInfo:
   client: "British Ski Center / Sierra Essence"
   role: "Development, testing, migration of existing site and implementation."
   website: "https://skisierranevada.co.uk"
-extraStyles: "/scss/work-item.scss"
+extraStyles: "/css/work-item.css"
 ---
 
 We decided to have a single WordPress website for British Ski Center / Sierra Essence that would cover all their business activities and a separate website (but with a similar design) for the Portuguese ski school which was simpler and less extensive.

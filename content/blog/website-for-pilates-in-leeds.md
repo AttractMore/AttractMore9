@@ -8,7 +8,7 @@ metaDesc: "We recently launched a website for an Pilates instructor in Leeds whi
 excerpt: "Just over a month ago now, we launched a new web site for Alison Plant, an experienced Pilates instructor in Leeds. As you would expect, the web site looks great and works well on screens of all sizes, from larger desktop monitors to mobile smartphones."
 cloudinaryPrimaryImage: "pilates-leeds-mobile-smartphone_s5rblx"
 primaryImageAlt: "Pilates classes in Leeds"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 Just over a month ago now we launched a new web site for Alison Plant, an experienced Pilates instructor in Leeds. As you would expect, the web site looks great and works well on screens of all sizes, from larger desktop monitors to mobile smartphones.

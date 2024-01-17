@@ -8,7 +8,7 @@ excerpt: "Passwords are, at the moment at least, an essential part of our online
 cloudinaryPrimaryImage: "secure-passwords-to-protect-yourself-online_fv060o"
 primaryImageAlt: "Everyone needs to use strong passwords to protect themselves against hacking online"
 socialImage: "/images/blog/secure-passwords-to-protect-yourself-online-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 ## Summary

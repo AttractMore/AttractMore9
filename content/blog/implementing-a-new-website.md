@@ -9,7 +9,7 @@ metaDesc: "When implementing a new website, it is vital that we preserve the val
 excerpt: "It’s rare these days that we implement a new website for an organisation that has no existing web presence so, when putting the new site live, suitable consideration needs to be given to the old site. It is essential that we <strong>preserve the value that has been accumulated in the old site</strong> as far as possible. We also want to be able to monitor the benefits that the client gains from the new site. These are some of the activities that we undertake when putting a new website live."
 cloudinaryPrimaryImage: "preserving-value-website_puvu5i"
 primaryImageAlt: "The importance of preserving the value in your website"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 ## Introduction

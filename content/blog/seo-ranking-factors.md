@@ -9,7 +9,7 @@ excerpt: "It's pointless having a great site that doesn't get traffic from searc
 cloudinaryPrimaryImage: "moving-up-search-engine-rankings_gw63yn"
 primaryImageAlt: "Moving up the search engine rankings begins with understanding the main SEO ranking factors."
 socialImage: "/images/blog/moving-up-search-engine-rankings-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 {{< content-figure folder="/blog/"

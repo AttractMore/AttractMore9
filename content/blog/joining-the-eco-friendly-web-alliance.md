@@ -8,7 +8,7 @@ excerpt: "The internet uses around <strong>3.7% of the world's electricity</stro
 cloudinaryPrimaryImage: "web-sustainability-time-running-out_u3q58n"
 primaryImageAlt: "Asian woman wearing safety glasses with a sand clock hourglass timer and some dead twigs in front of her"
 socialImage: "/images/blog/web-sustainability-time-running-out-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 {{< content-figure folder="/blog/"

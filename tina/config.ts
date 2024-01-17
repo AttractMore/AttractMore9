@@ -86,7 +86,7 @@ export default defineConfig({
         path: "content/blog",
         defaultItem: () => {
           return {
-            extraStyles: "/scss/post.scss",
+            extraStyles: "/css/post.css",
             date: new Date().toISOString(),
           };
         },
@@ -128,7 +128,7 @@ export default defineConfig({
           {
             type: "string",
             name: "cloudinaryPrimaryImage",
-            label: "Primary Image",
+            label: "Primary Image (cloudinary)",
             required: true,
           },
           {
@@ -140,7 +140,7 @@ export default defineConfig({
           {
             type: "string",
             name: "socialImage",
-            label: "Image for social media",
+            label: "Image for social media (cloudinary include path)",
             required: true,
           },
           {
@@ -163,7 +163,7 @@ export default defineConfig({
         path: "content/services",
         defaultItem: () => {
           return {
-            extraStyles: "/scss/service-item.scss",
+            extraStyles: "/css/service-item.css",
           };
         },
         fields: [
@@ -182,7 +182,7 @@ export default defineConfig({
         path: "content/services-detail",
         defaultItem: () => {
           return {
-            extraStyles: "/scss/service-item.scss",
+            extraStyles: "/css/service-item.css",
           };
         },
         fields: [
@@ -201,7 +201,7 @@ export default defineConfig({
         path: "content/website-creation",
         defaultItem: () => {
           return {
-            extraStyles: "/scss/service-item.scss",
+            extraStyles: "/css/service-item.css",
           };
         },
         fields: [
@@ -220,7 +220,7 @@ export default defineConfig({
         path: "content/work",
         defaultItem: () => {
           return {
-            extraStyles: "/scss/work-item.scss",
+            extraStyles: "/css/work-item.css",
           };
         },
         fields: [

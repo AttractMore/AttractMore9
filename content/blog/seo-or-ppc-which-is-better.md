@@ -8,7 +8,7 @@ excerpt: "If you want your business to get noticed in the search engines, there 
 cloudinaryPrimaryImage: "seo-ppc-pros-and-cons_qdpsac"
 primaryImageAlt: "Pros and cons of SEO and digital advertising (PPC). Make an informed decision about which is best for your business"
 socialImage: "/images/blog/seo-ppc-pros-and-con-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 ## SEO or PPC: which is better for your business?

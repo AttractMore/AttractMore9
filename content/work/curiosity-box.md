@@ -21,7 +21,7 @@ summaryInfo:
   client: "Curiosity Box"
   role: "Design, development, data merge, testing and implementation."
   website: "https://curiosity-box.com"
-extraStyles: "/scss/work-item.scss"
+extraStyles: "/css/work-item.css"
 ---
 
 This project was complex merger of 2 well-established online shops. Both of the these used WordPress/WooCommerce as their base and the new merged shop does the same, as the platform had proved effective, easy to manage and update.

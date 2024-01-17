@@ -9,7 +9,7 @@ metaDesc: "Growing mobile usage to access the web means you should review your m
 excerpt: "This article looks at the growing usage of mobile devices to access the internet and proposes a series of actions to be taken by businesses to improve the effectiveness of their website for these devices. This includes ways of checking if your site is mobile friendly, thoughts about page load speed, AMP pages and search engine optimisation."
 cloudinaryPrimaryImage: "StatCounter-comparison-GB-monthly-201501-2016121_tqsmcf"
 primaryImageAlt: "More and more people use their mobile smartphones to access the internet"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 ## Some Mobile Usage Statistics

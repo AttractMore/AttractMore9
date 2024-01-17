@@ -6,7 +6,7 @@ weight: 30
 metaDesc: "People don't have the patience to wait for web pages to load. After 3s, 53% of visitors will leave. Do your pages take longer than 3s to load?"
 ctaText: "Get in touch about page speed optimisation"
 pageHeaderTitle: "Page Speed Optimisation"
-extraStyles: "/scss/service-item.scss"
+extraStyles: "/css/service-item.css"
 summaryText: "<p>Slow loading web pages give a poor impression of your business to site visitors. If their first contact with your brand is a frustrating one, it is unlikely that they will want to engage with you. A study by Google showed that, if a page takes over 3 seconds to load, over 50% of visitors will leave before it completes.</p>
 
 <p>In addition, Google downgrades slow loading pages in the search results which may well lead to you receiving less traffic than otherwise.</p>

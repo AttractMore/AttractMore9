@@ -7,7 +7,7 @@ metaDesc: "Learn how to write good blog posts by doing some basic planning the f
 excerpt: "I’ve been asked a couple of times recently about how to write good blog posts so I thought I would pull together some thoughts about this important topic. With so many blog posts available it is worth putting in some effort to ensure your posts are good quality as so many blog posts are poorly written. Yet, with some thought, a little planning and following some basic rules you can <strong>lift your posts above the noise</strong> and provide content that is worthwhile and easy to read and share."
 cloudinaryPrimaryImage: "write-a-good-blog-post_kr8adn"
 primaryImageAlt: Writing good blog posts
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 I've been asked a couple of times recently about how to write good blog posts so I thought I would pull together some thoughts about this important topic. With so many blog posts available it is worth putting in some effort to ensure your posts are good quality as so many blog posts are poorly written.  Yet, with some thought, a little planning and following some basic rules you can **lift your posts above the noise** and provide content that is worthwhile and easy to read and share.

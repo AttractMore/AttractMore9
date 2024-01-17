@@ -8,7 +8,7 @@ metaDesc: "This is a brief outline of the project to implement a new website for
 excerpt: "ClientMailer now have a modern and professional website which properly reflects the products and services that they offer to their customers. The site looks good and works well on all device types and, importantly, it loads quickly. Peter Davey and his colleagues at ClientMailer are very pleased with the new site and they full expect that it will help them win more business in the future."
 cloudinaryPrimaryImage: "clientmailer-mobile-screenshot_wwylo5"
 primaryImageAlt: "Mobile responsive websites"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 {{< content-figure folder="/blog/"

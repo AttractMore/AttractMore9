@@ -7,7 +7,7 @@ metaDesc: "A summary description of the various activities involved in creating 
 excerpt: "It’s a common question – 'What do you actually do?' Fair question to ask. OK, here’s what’s involved in creating a professional web site and how your business will benefit from this approach."
 cloudinaryPrimaryImage: "services_bvtb4b"
 primaryImageAlt: "Creating professional websites"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 It's a common question - "What do you actually do?" Fair question to ask. OK, here's what's involved in creating a professional web site.

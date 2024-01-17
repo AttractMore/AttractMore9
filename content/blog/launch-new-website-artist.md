@@ -7,7 +7,7 @@ metaDesc: "This week we have launched a new website. The site adapts its layout 
 excerpt: "This week we have launched a new website – it’s the latest version of the site for Sue Heron who is an artist based in Huddersfield. Sue specialises in painting landscapes, people and animals. This is the second website we have created for Sue and in this new version, Sue was keen to change the background colour to black so as to make the artwork stand out more from the page. The design has been simplified so as to place the focus firmly on the paintings and there is very little colour on the site other than that provided by the artworks."
 cloudinaryPrimaryImage: "contemporary-landscape-artist-screenshot_u74w5b"
 primaryImageAlt: "New website for an artist"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 This week we have launched a new website - it's the latest version of the site for [Sue Heron](http://contemporarylandscapeartist.co.uk) who is an artist based in Huddersfield. Sue specialises in painting landscapes, people and animals.

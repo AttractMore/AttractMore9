@@ -8,7 +8,7 @@ metaDesc: "Choosing images for your website is hugely important as they establis
 excerpt: "Choosing images for your website or blog is not always straightforward and requires proper consideration. After all, images on a web page are not just decoration; they create a mood or atmosphere and provide visual interest which breaks up the text content of the page. They are an integral part of every page and can draw readers into your content if the images are chosen well. In this post I want to make some suggestions about image choice, image placement and finding good imagery."
 cloudinaryPrimaryImage: "thoughtful_u2ybql"
 primaryImageAlt: "How to choose the right images for your website"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 Choosing images for your website or blog is not always straightforward and requires proper consideration. After all, images on a web page are not just decoration; they create a mood or atmosphere and provide visual interest which breaks up the text content of the page. They are an integral part of every page and can draw readers into your content if the images are chosen well. In this post I want to make some suggestions about image choice, image placement and finding good imagery.

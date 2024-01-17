@@ -8,7 +8,7 @@ metaDesc: "Full website testing is essential to ensure that the websites we deli
 excerpt: "Full website testing is essential to ensure that the websites we deliver are first class and work properly on a wide range of devices. Nowadays, with the tremendous rise in the use of mobile phones, tablets and other devices for browsing the internet, <strong>testing has become a much more complex and time consuming task</strong> – and a much more important task. This is how we do it."
 cloudinaryPrimaryImage: "test-website-iphone6_u3oern"
 primaryImageAlt: "Esnure your website works well on mobiles as well as other devices"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 ## Testing, testing, testing

@@ -8,7 +8,7 @@ excerpt: "The data centres and telecoms networks used by the internet consume a 
 cloudinaryPrimaryImage: "internet-high-electricity-usage_zeefki"
 primaryImageAlt: "The internet uses a huge amount of electricity. Here's what you can do to help reduce that."
 socialImage: "/images/blog/internet-high-electricity-usage-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 {{< content-figure folder="/blog/"

@@ -7,7 +7,7 @@ prevUrl: "/services/website-creation/responsive-web-design/"
 prevTitle: "Responsive, secure web design"
 pageHeaderTitle: "Content Creation"
 url: "/services/website-creation/content-creation/"
-extraStyles: "/scss/service-item.scss"
+extraStyles: "/css/service-item.css"
 ---
 
 In parallel with designing your new website, we will undertake with you a **content audit** of your existing website. Based on our findings we will provide guidance and a detailed plan of what content we think is required for your new website.

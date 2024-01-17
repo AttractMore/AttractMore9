@@ -1,13 +1,14 @@
 ---
 title: "About"
 metaDesc: "Our values; Honesty, Reliability, Focus on client needs, Open about difficulties & opportunities, Responding professionally to requests, Ethical approach"
-pageHeaderTitle: "About"
-extraStyles: "/scss/about.scss"
+extraStyles: "/css/about.css"
 intro:
   image: "almond-blossom.jpg"
   imageAlt: "Grow your business with an effective website"
   overlay: "We craft digital experiences to help you grow your business."
 ---
+
+# About AttractMore
 
 We work collaboratively with our clients to **help them succeed using the internet**. Whether it is a new website, an email marketing campaign or a search engine optimisation project, our experts put heart and soul into crafting online experiences that genuinely promote clients’ businesses. We love what we do and we’d be delighted to work with you and your business.
 

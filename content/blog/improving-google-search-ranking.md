@@ -9,7 +9,7 @@ excerpt: "This post was prompted by a number of conversations I have had lately 
 The truth is that SEO is needed most of the time and it can be very effective without the need to spend a lot of money. In fact, there’s a lot you can do without the need for any external help at all."
 cloudinaryPrimaryImage: "on-top-of-google-seo_tcjn3d"
 primaryImageAlt: "Using SEO techniques to improve search engine ranking"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 
 ---
 

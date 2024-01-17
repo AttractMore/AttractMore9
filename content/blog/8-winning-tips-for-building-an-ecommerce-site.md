@@ -8,7 +8,7 @@ excerpt: "There's no doubt that competition in the eCommerce space is fierce. Th
 cloudinaryPrimaryImage: "building-an-ecommerce-site-rupixen_jt1ivk"
 primaryImageAlt: "eCommerce sites need to stand out from the competition. Use these 8 tips to make sure your site is as good as it can be."
 socialImage: "/images/blog/building-an-ecommerce-site-rupixen-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 ## Set your eCommerce site up for success

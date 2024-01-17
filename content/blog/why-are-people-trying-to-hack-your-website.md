@@ -8,7 +8,7 @@ excerpt: "Hackers are scanning the internet for websites that have security vuln
 cloudinaryPrimaryImage: "why-hackers-want-your-website_qldhyq"
 primaryImageAlt: "What do hackers want with a small business website?"
 socialImage: "/images/blog/why-hackers-want-your-website-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 ## Summary

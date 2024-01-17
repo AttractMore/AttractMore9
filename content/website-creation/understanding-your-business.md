@@ -7,7 +7,7 @@ prevUrl: "/services/website-creation/website-migration-implementation/"
 prevTitle: "Website Migration and Implementation"
 pageHeaderTitle: "Understanding your Business"
 url: "/services/website-creation/understanding-your-business/"
-extraStyles: "/scss/service-item.scss"
+extraStyles: "/css/service-item.css"
 ---
 
 In order to design and create successful websites, we follow a model that, over the years, we have found to be highly effective. It means **exploring some important questions with you**, so that we fully understand your business as well as the type of clients you work with before we commence any detailed design work. We believe these are important and necessary steps for you **to secure a good ROI on your new website.**

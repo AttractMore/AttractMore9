@@ -7,7 +7,7 @@ prevUrl: "/services/website-creation/understanding-your-business/"
 prevTitle: "Understanding your business and clients"
 pageHeaderTitle: "Project Management"
 url: "/services/website-creation/project-management/"
-extraStyles: "/scss/service-item.scss"
+extraStyles: "/css/service-item.css"
 ---
 
 Creating a new website for a business is not a straightforward task. For example, it:

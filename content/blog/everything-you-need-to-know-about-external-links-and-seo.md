@@ -9,7 +9,7 @@ excerpt: "It is very difficult to achieve a decent search engine ranking for a w
 cloudinaryPrimaryImage: "external-links-in-a-chain_kbhgxe"
 primaryImageAlt: "Inbound links from reputable websites help your site achieve higher rankings in Google and the other search engines."
 socialImage: "/images/blog/external-links-in-a-chain-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 {{< content-figure folder="/blog/"

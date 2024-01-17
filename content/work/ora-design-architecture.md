@@ -20,7 +20,7 @@ summaryInfo:
   client: "Ora Design Architecture"
   role: "Design, development, testing, migration of existing site and implementation"
   website: "https://www.oradesign.co.uk"
-extraStyles: "/scss/work-item.scss"
+extraStyles: "/css/work-item.css"
 ---
 
 Before we started on the design, we spent some time understanding the business and its target customers to appreciate what the customers needed, their concerns and the outcomes they wanted. We also examined competitor websites in some detail to see how they addressed the customer needs. This aspect of our work leads to more successful websites and is an important part of our [process](/services/website-creation/understanding-your-business/).

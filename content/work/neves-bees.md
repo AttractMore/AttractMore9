@@ -19,7 +19,7 @@ summaryInfo:
   client: "Neve's Bees"
   role: "Development, testing and implementation"
   website: "https://www.nevesbees.co.uk"
-extraStyles: "/scss/work-item.scss"
+extraStyles: "/css/work-item.css"
 ---
 
 This project was another collaboration with Nikki from [Designs Like These](https://www.designslikethese.co.uk/). Nikki designed the logo and packaging for Neve’s Bees before moving on to the design of the website. The client decided she wanted to use a WordPress theme for the site so the design was (mostly) tailored within the options offered by the theme. The selected theme incorporated the Woocommerce online shop software.

@@ -8,7 +8,7 @@ metaDesc: "This post contains a business website checklist aimed at helping busi
 excerpt: "All the posts on this site are aimed at people who want to get the most from their website in terms of number of engaged and interested visitors, so potentially increasing the amount of business they are able to carry out. To that end, I have written an ebook that contains 35 items that will influence the success of your business website which you can download for free."
 cloudinaryPrimaryImage: "get-more-from-your-business-website_b7zeeq"
 primaryImageAlt: "Business website success checklist"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 All the posts on this site are aimed at business people who want to get the most from their website in terms of number of engaged and interested visitors, so potentially increasing the amount of business they are able to carry out.

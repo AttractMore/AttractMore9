@@ -10,7 +10,7 @@ excerpt: "Some simple changes to a website can significantly improve its speed, 
 cloudinaryPrimaryImage: "website-speed-security_w7azz0"
 primaryImageAlt: "Significant improvements in website speed, security and accessibility"
 socialImage: "/images/blog/website-speed-security-1200.jpg"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 ## Intro

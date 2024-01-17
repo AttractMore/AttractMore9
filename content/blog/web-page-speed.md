@@ -8,7 +8,7 @@ metaDesc: "Web page speed is important both for humans and also for search engin
 excerpt: "In this post I want to touch on some factors which influence web page speed i.e. how quickly a web page appears on your screen. Clearly this is important for visitors to your site who don’t want to be kept waiting while the page loads. However, it’s also important because Google uses page load speed as one of the factors that determine where the page is placed in the search results."
 cloudinaryPrimaryImage: "web-page-speed-test_zlm1uf"
 primaryImageAlt: "Understanding how web pages arrive on your screen"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 In this post I want to touch on some factors which influence web page speed i.e. how quickly a web page appears on your screen. Clearly this is important for visitors to your site who don't want to be kept waiting while the page loads. However, it's also important because Google uses page load speed as one of the factors that determine where the page is placed in the search results.

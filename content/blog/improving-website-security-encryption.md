@@ -7,7 +7,7 @@ metaDesc: "Website security can be significantly enhanced by installing a securi
 excerpt: "This blog post discusses website security in particular the increasing need to move to secure connections between server and devices used to access websites to combat hacking. The benefits of encryption are mentioned and the move to HTTPS is strongly recommended."
 cloudinaryPrimaryImage: "security-warning-firefox_awn3pm"
 primaryImageAlt: "Keeping websites safe"
-extraStyles: "/scss/post.scss"
+extraStyles: "/css/post.css"
 ---
 
 ‘Hacking’, as we all know, is a major problem on the internet and one that is of increasing concern for **website security**.

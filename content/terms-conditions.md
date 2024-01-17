@@ -3,7 +3,7 @@ title: "Terms and Conditions"
 type: "miscellaneous"
 pageRobots: "noindex,follow"
 metaDesc: "The terms and conditions of use of our website. These are very straightforward but we do want to be clear about intellectual property and your rights to use info from our site."
-extraStyles: "/scss/miscellaneous.scss"
+extraStyles: "/css/miscellaneous.css"
 ---
 
 # Terms & Conditions
