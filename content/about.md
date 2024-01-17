@@ -1,16 +1,18 @@
 ---
 title: "About"
 metaDesc: "Our values; Honesty, Reliability, Focus on client needs, Open about difficulties & opportunities, Responding professionally to requests, Ethical approach"
+hero:
+  h1: "A web agency<br>committed to<br>people, planet and<br> your profit"
+  p1: "We work collaboratively with our clients to help them succeed using the internet."
+  p2: "We put our knowledge and expertise into crafting online experiences that genuinely promote clients’ businesses. We love what we do and we’d be delighted to work with you and your business."
+  imgSrc: "/images/misc/forest-tree.webp"
+  imgAlt: "Effective, high-performing, low carbon websites, delivering value to your business"
 extraStyles: "/css/about.css"
 intro:
   image: "almond-blossom.jpg"
   imageAlt: "Grow your business with an effective website"
   overlay: "We craft digital experiences to help you grow your business."
 ---
-
-# About AttractMore
-
-We work collaboratively with our clients to **help them succeed using the internet**. Whether it is a new website, an email marketing campaign or a search engine optimisation project, our experts put heart and soul into crafting online experiences that genuinely promote clients’ businesses. We love what we do and we’d be delighted to work with you and your business.
 
 ## Vision
 

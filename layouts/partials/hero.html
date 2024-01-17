@@ -1,0 +1,21 @@
+<section class="hero">
+  <div class="wrap">
+    <article class="hero__content">
+
+      {{- with .Param "hero" }}
+      <h1>{{ .h1 | safeHTML }}</h1>
+      <img src="{{ .imgSrc }}" decoding="async" width="387" height="387" alt="{{ .imgAlt }}" >
+      <div class="hero__content-text">
+        <p>{{ .p1 }}</p>
+        {{ with .p2 }}
+        <p>{{ . }}</p>
+        {{- end -}}
+        {{ with .button}}
+        <a class="primary-btn" href="{{ .buttonLink }}">{{ .buttonText }}<svg aria-hidden="true"><use xlink:href="/icons/icon-defs.svg#icon-arrow-right-bold"></use></svg></a>
+        {{- end -}}
+      </div>
+      {{- end -}}
+
+    </article>
+  </div>
+</section>

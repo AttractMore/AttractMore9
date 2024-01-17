@@ -1,7 +1,6 @@
 {{- define "main" }}
   
-  {{- partial "hero-image.html" . }}
-
+  {{ partial "partials/hero.html" . }}
   <article class="intro wrap" role="article" itemscope itemtype="http://schema.org/BlogPosting">
     <div class="flow larger-text">
       {{ .Content }}

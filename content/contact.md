@@ -3,14 +3,13 @@ title: "Contact"
 type: "miscellaneous"
 layout: "contact"
 metaDesc: "Feel free to contact us so we can discuss how we can help your business make better use of the internet to grow your business."
-intro:
-  image: "growing-plant.jpg"
-  imageAlt: "Get in touch about growing your business"
-  overlay: "Let's start a conversation"
+hero:
+  h1: "Partner<br>with us<br>for a better<br>business website"
+  p1: "We'd be delighted to hear from you and to understand how we can help you to grow your business through your website. There's no obligation, of course, and we're always happy to have a conversation to see what we can offer and if we are a good fit for you."
+  imgSrc: "../images/misc/forest-tree.webp"
+  imgAlt: "Contact us for high-performing, low-carbon websites, delivering value to your business"
 pageRobots: "noindex,follow"
 extraStyles: "/css/contact.css"
 ---
-
-# Contact
 
 We would be delighted to hear from you so we can discuss how we can help your organisation make better use of the internet to grow your business. Please let us have some brief details using the form below and we will respond within one working day. Thanks.

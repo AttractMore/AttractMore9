@@ -1,10 +1,9 @@
 /* See https://web.dev/articles/website-navigation */
 .nav-burger {
-  all: unset;
   position: absolute;
   border: none;
-  top: 1.5rem;
-  right: 1em;
+  top: 2rem;
+  right: 1.25em;
   text-decoration: none;
   padding: 0.5em 0.5rem;
   color: var(--textColour);
@@ -15,6 +14,22 @@
   transition: all 0.4s ease-in-out;
   cursor: pointer;
   z-index: 20;
+  &:focus {
+    // fallback style for browsers that don't support :focus-visible
+    outline: 3px solid var(--darkOrange);
+    outline-offset: 2px;
+  }
+
+  &:focus:not(:focus-visible) {
+    // Remove the focus indicator on mouse focus for browsers that do support :focus-visible
+    outline: none;
+  }
+
+  &:focus:focus-visible {
+    // draw a noticeable focus style for keyboard focus on browsers that support :focus-visible
+    outline: 3px solid var(--darkOrange);
+    outline-offset: 2px;
+  }
   i {
     display: block;
     &:before,
@@ -79,6 +94,15 @@
   background-color: var(--slateGrey);
   &[aria-expanded="false"] {
     transform: translateX(100%);
+    a {
+      display: none;
+    }
+  }
+  &[aria-expanded="true"] {
+    // transform: translateX(100%);
+    a {
+      display: block;
+    }
   }
 
   ul {
@@ -94,7 +118,7 @@
     }
   }
   a {
-    display: block;
+    // display: block;
     color: var(--white);
     padding: 9px 12px;
     text-decoration: none;
@@ -120,9 +144,6 @@
       transition: transform 0.4s ease;
     }
   }
-  [aria-expanded="false"] {
-    transform: translateX(100%);
-  }
 }
 
 @media screen and (min-width: $bp-large) {
@@ -140,6 +161,9 @@
     overflow: visible;
     &[aria-expanded="false"] {
       transform: none;
+      a {
+        display: inline-block;
+      }
     }
 
     ul {
