@@ -21,9 +21,10 @@
             <svg aria-hidden="true" class="tree"><use xlink:href="/icons/defs.svg#icon-{{ .svg}}"></use></svg>
             <span class="visually-hidden">{{ .header }}</span>
           </a>
-          <a href="{{ .url}}">
-            <h2>{{.header}}</h2>
-          </a>
+          <h2>
+            <a href="{{ .url}}">{{.header}}</a>
+          </h2>
+          
           <p>{{.text}}</p>
           <p><a class="primary-btn" href="{{ .url}}">More information<svg aria-hidden="true"><use xlink:href="/icons/icon-defs.svg#icon-arrow-right-bold"></use></svg></a></p>
         </li>

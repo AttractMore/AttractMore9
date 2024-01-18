@@ -18,8 +18,11 @@
       margin-top: 0;
     }
   }
-  a[data-state="active"] {
-    color: $link-hover;
+  a {
+    text-decoration: none;
+    &[data-state="active"] {
+      color: $link-hover;
+    }
   }
 }
 @media screen and (min-width: $bp-small) {

@@ -6,7 +6,7 @@ metaDesc: "Feel free to contact us so we can discuss how we can help your busine
 hero:
   h1: "Partner<br>with us<br>for a better<br>business website"
   p1: "We'd be delighted to hear from you and to understand how we can help you to grow your business through your website. There's no obligation, of course, and we're always happy to have a conversation to see what we can offer and if we are a good fit for you."
-  imgSrc: "../images/misc/forest-tree.webp"
+  imgSrc: "../images/misc/forest-tree3.webp"
   imgAlt: "Contact us for high-performing, low-carbon websites, delivering value to your business"
 pageRobots: "noindex,follow"
 extraStyles: "/css/contact.css"

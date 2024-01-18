@@ -45,7 +45,7 @@ LINK STYLES
 a,
 a:visited {
   color: var(--darkerOrange);
-  text-decoration: none;
+  // text-decoration: none;
 
   &:hover,
   &:focus {
@@ -79,6 +79,9 @@ a {
 }
 a[id] {
   scroll-margin-top: 5em;
+}
+a:has(h2) {
+  text-decoration: none;
 }
 
 /******************************************************************

@@ -5,7 +5,7 @@ hero:
   h1: "A web agency<br>committed to<br>people, planet and<br> your profit"
   p1: "We work collaboratively with our clients to help them succeed using the internet."
   p2: "We put our knowledge and expertise into crafting online experiences that genuinely promote clients’ businesses. We love what we do and we’d be delighted to work with you and your business."
-  imgSrc: "/images/misc/forest-tree.webp"
+  imgSrc: "/images/misc/forest-tree2.webp"
   imgAlt: "Effective, high-performing, low carbon websites, delivering value to your business"
 extraStyles: "/css/about.css"
 intro:

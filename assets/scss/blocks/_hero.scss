@@ -2,12 +2,16 @@
   display: grid;
   place-items: center;
   grid-template-areas: "hero";
+  .wrap {
+    z-index: 5;
+  }
   > * {
     grid-area: hero;
   }
   > img {
-    object-fit: cover;
-    width: 100%;
+    z-index: 1;
+    opacity: 0.4;
+    filter: blur(6px);
   }
   background-color: var(--lightBlue);
   background-image: linear-gradient(0deg, var(--lightYellow), var(--lightBlue));
