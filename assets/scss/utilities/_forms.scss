@@ -29,7 +29,7 @@ textarea,
 
 // textareas
 textarea {
-  max-width: 97%;
+  max-width: calc(100% - 26px); // padding-left + padding-right + border
   min-height: 120px;
   line-height: 1.5em;
 }
