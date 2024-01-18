@@ -6,14 +6,12 @@ input[type="email"],
 textarea,
 .field {
   display: block;
-  height: 40px;
   line-height: 40px;
   padding: 0 12px;
   margin-bottom: 14px;
   font-size: 1em;
   color: var(--textColour);
   border-radius: var(--radius);
-  vertical-align: middle;
   box-shadow: none;
   border: 1px solid var(--midGrey);
   width: 100%;
@@ -31,7 +29,7 @@ textarea,
 
 // textareas
 textarea {
-  max-width: 100%;
+  max-width: 97%;
   min-height: 120px;
   line-height: 1.5em;
 }
