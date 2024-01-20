@@ -1,0 +1,81 @@
+/***************************************
+	FAQs
+***************************************/
+.faqlist {
+  margin: 0 0 1.5rem;
+  button {
+    border: 0;
+    background: transparent;
+    display: block;
+    margin: 0;
+    padding: 0 0 0 2em;
+    font-size: inherit;
+    cursor: pointer;
+    color: var(--darkOrange);
+    text-align: left;
+    font-weight: 500;
+    &:hover {
+      color: var(--red);
+      text-decoration: underline;
+    }
+    &:focus {
+      // fallback style for browsers that don't support :focus-visible
+      outline: 3px solid var(--darkOrange);
+      outline-offset: 2px;
+    }
+
+    &:focus:not(:focus-visible) {
+      // Remove the focus indicator on mouse focus for browsers that do support :focus-visible
+      outline: none;
+    }
+
+    &:focus:focus-visible {
+      // draw a noticeable focus style for keyboard focus on browsers that support :focus-visible
+      outline: 3px solid var(--darkOrange);
+      outline-offset: 2px;
+    }
+  }
+  dt {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: 0;
+    padding: 0.5em;
+    outline: none;
+    font-weight: 500;
+    transition: color 0.4s ease-in-out;
+    &:before {
+      //content: '⮟';
+      content: "❯";
+      //	content: '\25bc';
+      color: var(--darkOrange);
+      position: absolute;
+      top: 0.5em;
+
+      transition: transform 0.4s ease-in-out;
+    }
+    &.selected {
+      &:before {
+        transform: rotate(90deg);
+      }
+    }
+  }
+  dd {
+    max-height: 0;
+    background-color: var(--grey);
+    overflow: hidden;
+    height: 100%;
+    transition: max-height 0.7s ease-in-out;
+    margin: 0 0 0 0.4em;
+    aside {
+      padding: 1em 1rem;
+      margin: 0;
+      p:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  dt.selected + dd {
+    max-height: 800px;
+  }
+}

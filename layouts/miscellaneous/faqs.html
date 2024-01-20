@@ -1,0 +1,26 @@
+{{- define "main" }}
+
+<section class="content-sidebar wrap">
+
+  <article role="article" itemscope itemtype="http://schema.org/BlogPosting">
+    <div>
+      {{ .Content }}
+    </div>
+    
+    <dl class="faqlist">
+      {{ $index := 0}} 
+      {{- range $index, $element:= $.Site.Data.faqs.items -}}
+      <dt class="faquestion"><button aria-controls="answer-{{ $index }}" aria-expanded="false">{{ .question }}</button></dt>
+      <dd id="answer-{{ $index }}">
+        <aside class="faqanswer">{{ .answer | safeHTML }}</aside>
+      </dd>
+      <hr />
+      {{end}}
+    </dl>
+
+  </article>
+
+  {{ partial "partials/blog-sidebar.html" . }}
+</section>
+
+{{- end }}{{/* end main */}}

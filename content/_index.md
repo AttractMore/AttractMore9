@@ -8,7 +8,7 @@ hero:
   imgSrc: "/images/misc/forest-tree.webp"
   imgAlt: "Low-carbon websites to help protect the planet. (Photo by Jan Huber https://unsplash.com/photos/green-leafed-tree-at-daytime-4OhFZSAT3sw)"
   button:
-    buttonLink: "#"
+    buttonLink: "/contact/"
     buttonText: "Getting started"
 extraStyles: "/css/home.css"
 ---

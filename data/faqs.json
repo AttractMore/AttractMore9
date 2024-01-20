@@ -1,0 +1,56 @@
+{
+  "items": [
+    {
+      "question": "How much carbon does the internet produce?",
+      "answer": "<p>The internet uses a VAST amount of electricity. Estimates suggest the figure is 3.7% of ALL the electricity generated in the world and the amount is increasing. For comparison, the internet uses more electricity that the UK does.</p><p>Electricity is used by internet servers, by networks that transmit data across the world and by our mobiles, tablets, laptops and other devices we use.</p><p>Most of the electricity is generated using fossil fuels and is, therefore, responsible for emitting very significant amounts of carbon into the atmosphere. Studies suggest that the carbon emissions of the internet are comparable to (or exceed) the carbon emissions of the global aviation industry.</p><p>We can reduce (or at least control) this by improving the efficiency of websites and by using tools that help reduce server load. But, like recycling, the more people that do this, the greater the positive impact on the environment.</p>"
+    },
+    {
+      "question": "How much carbon do websites produce?",
+      "answer": "<p>The median CO<sub>2</sub> usage is 0.79g/pageview for desktop and 0.69g/pageview for mobiles. However, at the 90th percentile, the figures and 3.09g/pageview for desktop and 2.76g/pageview on mobile (<a href='https://almanac.httparchive.org/en/2022/sustainability#carbon-emissions' rel='noopener, noreferrer'>source</a>). Bear in mind that these figures are for one page visited once. Typically, a web page is visited hundreds if not many thousand times a year so the environmental impact adds up and can become significant.</p><p>As an example, assuming an average website emitting 0.79g CO<sub>2</sub>e/pageview, visited 5000 times a month will emit - 0.79 x 5000 x 12 grams CO<sub>2</sub>e in a year = 47.4 tonnes CO<sub>2</sub>e in a year which is equivalent to boiling water for 6425 cups of tea (source Wholegrain Digital) or driving approximately 210 miles in a petrol or diesel car (a petrol or diesel car in the UK produces approx 226g CO<sub>2</sub>e/mile. <a href='https://www.gov.uk/government/statistics/transport-and-environment-statistics-2023/transport-and-environment-statistics-2023'>Source</a></p><p>The new sites we create produce between 0.1-0.3g/ page view which is significantly below the average. One of our sites that emits 0.2g CO<sub>2</sub>e/pageview and has 5000 views/month would therefore emit 0.2 x 5000 x 12 grams CO<sub>2</sub>e in a year = 12 tonnes - only a quarter of the average.</p><p>Please be aware that many of these figures are estimates rather than absolute measurements.</p>"
+    },
+    {
+      "question": "Why do some websites produce more carbon than others?",
+      "answer": "<p>Lots of reasons. A common culprit is due to the way images are handled. If a web page includes images, these are sent individually (usually) over the internet. If the images are larger than the space available on the receiving device, then data is being transmitted unnecessarily and this uses more power which, in turn creates more carbon emissions.</p><p>There are other inefficiencies built into many websites which is why these use more power either on the server or the network leading to greater CO<sub>2</sub>e emissions.</p>"
+    },
+    {
+      "question": "What are the benefits of a sustainable website?",
+      "answer": "<p>Firstly, of course, is making a positive difference to the environment by reducing the carbon emissions of your site. Typically, we can reduce the carbon footprint to 0.3g CO<sub>2</sub>e/pageview or less. This could be a large reduction depending on the existing characteristics of your site.</p><p>Secondly, by reducing the amount of data transferred over the internet, the response time of your web pages will improve. This is beneficial for users and there are several studies that show that poor response times result in a higher percentage of people abandoning a website.</p><p>Thirdly, search engines prefer to promote websites with faster response times because people don't want to have to wait for the information they want. So, all other things being equal, faster websites will appear higher in the search engine results.</p><p>In addition, it shows that a business prioritises environmental issues and is committed to sustainability practices.</p>"
+    },
+    {
+      "question": "Are low-carbon websites better for SEO?",
+      "answer": "<p>Generally, yes, simply because they're faster. An important aspect of creating a low-carbon website is reducing the quantity of data transmitted over the internet. One way we do this is making sure than any images are correctly sized for the device they're going to be displayed on. There's no point sending a 1200 pixel wide image to a mobile phone that has a screen that's only 400px wide. It's inefficient and a waste. by improving efficiency, the load time of pages goes down.</p><p>Users prefer faster websites and search engines prioritise user experience, so slower web pages tend to move down the search engine results listings and faster ones move higher.</p>"
+    },
+    {
+      "question": "How do sustainable websites contribute to a business's carbon reduction plans?",
+      "answer": "<p>It's perfectly possible to get an estimate of the carbon emissions of a website and we always measure the before and after position of the pages of sites we work on. If you know how many visits each page gets every year (from your analytics) then you can easily calculate the reduction in CO<sub>2</sub>e emissions resulting from the work on the website. If you're a business that offsets your carbon emissions by planting trees or other activities, you may be able to reduce the amount you spend on this is you have a low-carbon website.</p>"
+    },
+    {
+      "question": "Can a website be powered by renewable energy?",
+      "answer": "<p>Yes. There are a number of hosting companies that power their data centres using renewable energy sources and in some cases, a business can choose. Some websites (e.g. Shopify) include hosting in their service so a website on that platform cannot choose a green hosting company. In 2022, around 10% of websites were hosted with companies that used green energy (<a href='https://almanac.httparchive.org/en/2022/sustainability#how-many-of-the-sites-listed-in-the-http-archive-run-on-green-hosting' rel='noopener, noreferrer'>source</a>).</p><p>That covers hosting but we also need to consider the network. Here, the choice rests with the user (although, in reality, there's probably little difference between suppliers). Their mobile may be on O2 or Vodafone and their broadband provider may be BT. As far as I can ascertain, no network provider runs their service on renewable energy.</p><p>Therefore, even with green hosting, every effort must be made to reduce the data transmitted over the network to reduce the carbon emissions of a website.</p>"
+    },
+    {
+      "question": "How does SEO contribute to reduce digital carbon footprint of the web?",
+      "answer": "<p>An SEO-optimised site will be found more easily in the search engines for relevant searches. Therefore, if someone is searching for the products or services you offer and they find your site easily and quickly, fewer searches will be needed and/or fewer pages of search results will be returned. This means less work on servers and less data transmission, hence less electricity needed leading to lower carbon emissions.</p>"
+    },
+    {
+      "question": "What do you do to create a sustainable website?",
+      "answer": "<p>From a technical perspective,</p><ul><li>we ensure your site is hosted with a company that powers their servers with renewable energy</li><li>we create multiple versions of every image on your site and make sure we deliver the best sized image in the best format for the device requesting it</li><li>we optimise the code running on the server to make it as efficient as possible</li><li>we optimise font files and other code to keep them as small as possible</li><li>we ensure all resources are loaded in the optimal way</li><li>we enable caching so devices don't always have to get resources from the server.</li><li>etc.</li></ul>"
+    },
+    {
+      "question": "What process do you follow?",
+      "answer": "<p>The exact process will depend on the specifics of the project but as a minimum we will:</p><ul><li>Conduct a discovery phase where we will gain a greater understanding of the business, it's aims and objectives and, in particular the goals of the website. This phase also includes an analysis of competitors, an understanding of what the website needs to include and the client's design ideas.</li><li>Undertake keyword research for the client to find the best phrases used by people to find the products and/or services offered by the client</li><li>Produce initial designs for the new site</li><li>Support the production of the website content, in particular the use of keywords in content.</li><li>Build web pages</li><li>Test web pages for appearance, function, performance and carbon emissions.</li><li>Plan the migration from the old site to the new site.</li><li>Move new site live</li><li>Test and check that all is well. Test performance and carbon emissions on live server.</li></ul><p>You can find more information on our <a href='/services/website-creation/'>website creation page</a></p>"
+    },
+    {
+      "question": "Can you make changes to my existing site to reduce its carbon emissions?",
+      "answer": "<p>Possibly. Some web platforms make it very difficult to make worthwhile improvements aimed at reducing carbon emissions e.g. Shopify. However, many other platforms do allow a wider range of changes both to the website and the hosting where significant carbon savings could potentially be made.</p><p>We evaluate this on a case-by-case basis and would be happy to take a look at your site to see what can be done. Please do contact us and give us some brief details.</p>"
+    },
+    {
+      "question": "What does a website have to sacrifice to be low carbon?",
+      "answer": "<p>In most cases the answer is nothing. It's perfectly possible to create an attractive, fast, secure and effective website that is also low-carbon. A low-carbon website is certainly NOT an unattractive, boring site with no images!</p>"
+    },
+    {
+      "question": "How much does it cost to have a new low-carbon website?",
+      "answer": "<p>The answer is that it depends! A simple 10 page website is not going to cost as much as a complex ecommerce site with 500 products for sale. The cost with depend on the scope and complexity of the website you have in mind and also whether you'd like us to work on search optimisation.</p><p>Please contact us and let's have a conversation about your plans. We will then be in a better position to give you a much better idea of costs.</p>"
+    }
+  ]
+}
