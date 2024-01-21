@@ -10,7 +10,7 @@
     <dl class="faqlist">
       {{ $index := 0}} 
       {{- range $index, $element:= $.Site.Data.faqs.items -}}
-      <dt class="faquestion"><button aria-controls="answer-{{ $index }}" aria-expanded="false">{{ .question }}</button></dt>
+      <dt class="faquestion"><button aria-controls="answer-{{ $index }}" aria-expanded="false">{{ .question | safeHTML }}</button></dt>
       <dd id="answer-{{ $index }}">
         <aside class="faqanswer">{{ .answer | safeHTML }}</aside>
       </dd>

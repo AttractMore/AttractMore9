@@ -6,7 +6,7 @@
 
 <link rel="preconnect" href="https://res.cloudinary.com" />
 <link rel="dns-prefetch" href="https://res.cloudinary.com" />
-<link rel="preconnect" href="https://storage.googleapis.com" />
+<!-- <link rel="preconnect" href="https://storage.googleapis.com" /> -->
 
 {{/*- $opts := dict "transpiler" "dartsass" "targetPath" "css/styles.css" "outputStyle" "compressed" */}}
 {{/*- with resources.Get "/scss/critical.scss" | toCSS $opts -*/}}
@@ -21,6 +21,27 @@
 {{- end -}}
 {{- end -}}
 
+{{if eq .Title "FAQs"}} 
+  <script defer type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+    {{ $len:= len $.Site.Data.faqs.items }}
+    {{- range $index, $element:= $.Site.Data.faqs.items -}}
+      {
+        "@type": "Question",
+        "name": "{{.question}}",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "{{ .answer }}"
+        }
+      }{{if ne (add $index 1) $len }},{{end}}
+    {{end}}
+    ]
+  }
+  </script>
+{{end}}
 
 {{- /* Favicons */}} 
 <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
