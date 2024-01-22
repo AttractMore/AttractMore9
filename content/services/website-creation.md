@@ -23,11 +23,11 @@ summaryText: "<h3>Research</h3>
 
 <h3>Detailed Design</h3>
 
-<p>Armed with the knowledge gained from the research phase we can move quickly into detailed design of your new website. We will always ensure that the designs are <strong>mobile friendly</strong> and that they will adapt smoothly to display well on screens of all sizes. Design also considers <strong>performance</strong> and even at this early stage we design for speed.</p>
+<p>Armed with the knowledge gained from the research phase we can move quickly into detailed design of your new website. We will always ensure that the designs are <strong>mobile friendly</strong> and that they will adapt smoothly to display well on screens of all sizes. Design also considers potential <strong>carbon emissions</strong> and <strong>performance</strong>. Even at this early stage we design for sustainability and speed.</p>
 
 <h3>Testing, Migration & Implementation</h3>
 
-<p>Following development of the site we carry out an <strong>extensive testing phase</strong> on 40-50 different devices using the latest browsers and operating systems as well as older versions to ensure your new site will work on any device. We also test page load speed and fine tune for best performance.</p>
+<p>Following development of the site we carry out an <strong>extensive testing phase</strong> on 40-50 different devices using the latest browsers and operating systems as well as older versions to ensure your new site will work on any device. We also <strong>check carbon emissions</strong> and <strong>test page load speed</strong>, fine tuning for lowest emissions and best performance.</p>
 
 <p>We produce a migration plan for your site to make sure that the value accumulated in your previous site is carried forward to the new site and that ‘page not found’ errors do not occur.</p>"
 ---

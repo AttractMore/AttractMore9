@@ -45,7 +45,7 @@ LINK STYLES
 a,
 a:visited {
   color: var(--darkerOrange);
-  // text-decoration: none;
+  text-underline-offset: 4px;
 
   &:hover,
   &:focus {
