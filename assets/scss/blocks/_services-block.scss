@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 1em 0;
+  padding: 3em 0;
   margin-left: 0;
   &-item {
     min-width: 307px;
@@ -22,7 +22,7 @@
       }
     }
     h2 {
-      margin: 1em 0.5em;
+      margin: 0.5em;
     }
     p {
       padding: 0 1.5em;

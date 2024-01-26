@@ -19,7 +19,7 @@
     }
   }
   svg.tree {
-    width: 100px;
+    width: 180px;
     transition: transform 200ms ease-out;
     will-change: transform;
     &:hover {
@@ -38,6 +38,7 @@
       &-content {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         aside {
           flex: 0 1 25%;
         }
@@ -52,8 +53,8 @@
       }
     }
     svg.tree {
-      width: 120px;
-      margin-top: 3em;
+      width: 200px;
+      margin-top: -3em;
     }
   }
 }

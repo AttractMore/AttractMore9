@@ -6,7 +6,7 @@ ctaText: "Get in touch about branding & graphic design"
 pageHeaderTitle: "Branding & Graphic Design"
 extraStyles: "/css/service-item.css"
 detailUrl: "/services/branding-graphic-design/"
-svgId: "tree14"
+svgId: "tree6"
 summaryText: "<p>Having a strong visual brand can be hugely important in <strong>differentiating your business from competitors</strong> and in making an impact on potential customers. Colours, logo, typography, tone of voice, animation style etc. all play their part in creating the visual brand of your company. Through having a good understanding of your business we can work with you to <strong>create a distinctive brand identity</strong> that truly reflects your organisation.</p>
 
 <p>We can also create printed materials for your business – brochures, flyers, reports, banners etc., or design graphics for use online on your website of social media. This can include infographics if required.</p>"

@@ -9,9 +9,7 @@
     li {
       margin-bottom: 2em;
       &.green-hosted {
-        display: flex;
-        align-items: center;
-        svg {
+        img {
           width: 6em;
         }
       }
@@ -36,7 +34,11 @@
       justify-content: space-between;
       li {
         margin-bottom: 0;
-        &.green-hosted,
+        &.green-hosted {
+          img {
+            width: 8em;
+          }
+        }
         &.gbc {
           svg {
             width: 6em;
@@ -55,7 +57,11 @@
   .accreditations {
     ul {
       li {
-        &.green-hosted,
+        &.green-hosted {
+          img {
+            width: 8em;
+          }
+        }
         &.gbc {
           svg {
             width: 8em;

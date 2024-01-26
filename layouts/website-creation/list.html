@@ -18,7 +18,7 @@
         {{- range $.Site.Data.websitecreationservices.items -}}
         <li class="services__block-item">
           <a aria-label="{{ .header }}" href="{{ .url}}">
-            <svg aria-hidden="true" class="tree"><use xlink:href="/icons/defs.svg#icon-{{ .svg}}"></use></svg>
+            <svg aria-hidden="true" class="tree"><use xlink:href="/icons/leaf-defs.svg#{{ .svg}}"></use></svg>
             <span class="visually-hidden">{{ .header }}</span>
           </a>
           <h2>
