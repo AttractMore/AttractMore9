@@ -1,6 +1,6 @@
 .nav {
   .nav-menu {
-    width: $menu-width;
+    width: var(--menu-width);
     color: var(--white);
     background: $theme-green;
     overflow: hidden;
@@ -73,7 +73,7 @@
   position: fixed;
   z-index: 20;
   top: 0;
-  right: $menu-width;
+  right: var(--menu-width);
   left: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.2);

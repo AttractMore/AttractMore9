@@ -4,8 +4,8 @@
 <head>
     {{- partial "head.html" . }}
 </head>
-
-<body id="top" class="{{ lower .Title }}">
+{{- $s:= lower .Title -}}
+<body id="top" class="{{ replace $s " " "-" }}">
   {{- partial "header.html" . }}
   <main class="main">
     {{- block "main" . }}{{ end }}

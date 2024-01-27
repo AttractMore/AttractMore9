@@ -1,5 +1,5 @@
 /**
- * @description sets up accordion for FAQs page
+ * @description sets up accordion for FAQs page and Sustainable web design page
  */
 let acc = document.getElementsByClassName("faquestion");
 let ans = document.getElementsByClassName("faqanswer");

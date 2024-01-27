@@ -87,7 +87,7 @@
   right: 0;
   top: 0;
   height: 30em;
-  width: $menu-width;
+  width: var(--menu-width);
   overscroll-behavior: contain;
   overflow: hidden;
   -webkit-overflow-scrolling: touch; /* enables momentum scrolling in iOS overflow elements */

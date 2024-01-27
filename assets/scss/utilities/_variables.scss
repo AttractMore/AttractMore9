@@ -1,18 +1,12 @@
 /*********************
 COLOURS
 *********************/
-$theme-green: #207737;
-$theme-red: #be3622;
-
-$link-color: var(--darkerOrange);
-$link-hover: var(--secondaryHover);
-
 :root {
   --bg: #fff;
   --bgFoot: #ededed;
   --bgSidebar: #ededed;
   --textColour: #24373f;
-  --primary: #{$theme-green};
+  --primary: #207737;
   --red: #be3622;
   --secondary: #be3622;
   --secondaryHover: rgba(227, 115, 99, 0.99);
@@ -33,35 +27,7 @@ $link-hover: var(--secondaryHover);
   --black: #000000;
   --button-radius: 30px;
   --radius: 4px;
-
-  @media (prefers-color-scheme: dark) {
-    --bg: #222;
-    --bgFoot: #222;
-    --bgSidebar: #222;
-    --textColour: #fff;
-    --primary: #{lighten($theme-green, 10%)};
-    --secondary: #{lighten($theme-red, 15%)};
-    --secondaryHover: #ddd;
-    --background-grey: #222;
-    --background-light-blue: #222;
-  }
-}
-
-.th-dark {
-  --bg: #222;
-  --bgFoot: #222;
-  --bgSidebar: #222;
-  --textColour: #fff;
-  --primary: #{lighten($theme-green, 10%)};
-  --secondary: #{lighten($theme-red, 15%)};
-  --secondaryHover: #ddd;
-  --background-grey: #222;
-  --background-light-blue: #222;
-}
-
-.th-light {
-  @media (prefers-color-scheme: dark) {
-  }
+  --menu-width: 12em;
 }
 
 /***************************************
@@ -77,6 +43,4 @@ $bp-huge: 70em; /* 1120px */
 ***************************************/
 $base-font-size: 16px;
 $base-font-size2: 18px;
-$line-height: 1.5;
 $flow-space: 1em;
-$menu-width: 12em;

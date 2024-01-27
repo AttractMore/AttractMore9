@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "topic": "Images",
+      "response": "<p>To control the amount of data transferred over the network images must be managed. Images represent around 40% of the median web page size. For all images (apart from very small ones) I create several copies of the image at different widths and in different format. then I sent the best sized image in the best format to the requesting device based on its size and capability.</p><p>For example, it's inefficient to send an image 1200px wide to a phone that has a screen width of 400px. I also make sure the images are compressed and saved at a lower quality. This can reduce the size of images significantly but the reduction in quality is not visible.</p>"
+    },
+    {
+      "topic": "Fonts",
+      "response": "<p>I am also careful with fonts. I prefer to minimise the number of fonts used on a page and store the font files on the website server rather than rely on a third-party service (e.g.Google fonts).</p><p>I use modern font formats as they tend to be smaller files and we'll only include characters we're likely to use in the font file. There would be no point, for example, including Greek characters in the font file, if we're not planning to display them on the site. Again, it's about efficiency and only doing what's needed.</p>"
+    },
+    {
+      "topic": "Lazy loading",
+      "response": "<p>It makes sense to only load images, videos and code when they're actually needed on a web page. For example, I don't load videos until a user clicks on them as it would be a waste to download the data over the network if it's never going to be needed.</p>"
+    },
+    {
+      "topic": "Analytics, ads, etc.",
+      "response": "<p>I advise against ads, analytics and tracking codes as they can be slow and can be used in ways that don't respect users' privacy. There are a few analytics services I can recommend that are more performant and less invasive.<p>"
+    },
+    {
+      "topic": "Caching",
+      "response": "<p>Caching is a complex subject which can reduce network data transmission volumes. It involves storing some elements of a web page on a user's device or elsewhere in the transmission chain from server to device.</p><p>If the user leaves that web page and returns later, some of the elements of the page will be pulled from the cache rather than being downloaded from the server, so reducing power consumption on the network.</p>"
+    },
+    {
+      "topic": "Efficient code",
+      "response": "<p>To reduce server load, I work to make the code I write as efficient as possible and use coding languages that are efficient. There is a big difference between the best and worst coding languages in terms of the amount of power they require during development (source). I also compress code for live website use to reduce the file sizes.</p>"
+    },
+    {
+      "topic": "Interaction flows",
+      "response": "<p>The design of the flow of interactions on a website can also play a part in reducing emissions. Navigation needs to be clear and matched to the users' needs so they can find what they want more quickly and more easily.</p>"
+    },
+    {
+      "topic": "Green hosting",
+      "response": "<p>I recommend using a 'green' hosting company, especially those that use renewable energy rather than those that buy carbon offsets (although that's clearly better than nothing!).</p>"
+    },
+    {
+      "topic": "Server location",
+      "response": "<p>I host sites as close to users as possible so I reduce the 'data miles'. If a site's users are in multiple countries, a content delivery network may be appropriate as it has a globally distributed network of servers.</p>"
+    }
+  ]
+}

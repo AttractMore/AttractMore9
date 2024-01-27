@@ -1,0 +1,94 @@
+@import "utilities/variables";
+@import "utilities/mixins";
+@import "blocks/hero";
+@import "blocks/faqlist";
+
+.sustainable-web-design {
+  section {
+    padding: 2em 0;
+    p {
+      max-width: 80ch;
+    }
+    &.amount-carbon,
+    &.responsibility,
+    &.summary {
+      background-color: var(--lightBlue);
+    }
+    &.creation-sustainable {
+      background-color: var(--slateGrey);
+      h2,
+      p {
+        color: var(--white);
+      }
+      dd {
+        p {
+          color: var(--textColour);
+        }
+      }
+    }
+  }
+  .create-carbon,
+  .amount-carbon {
+    .illustration {
+      img {
+        display: block;
+        margin: 1em auto;
+        max-width: 8em;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $bp-medium) {
+  .sustainable-web-design {
+    .create-carbon,
+    .amount-carbon {
+      .content-image {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+        .illustration {
+          flex: 0 1 25%;
+          img {
+            margin: 0;
+            max-width: none;
+          }
+        }
+        .text-content {
+          flex: 0 1 65%;
+        }
+      }
+    }
+  }
+}
+.sustainable-web-design {
+  .amount-carbon {
+    img {
+      max-width: 800px;
+      margin-bottom: 1.5em;
+    }
+  }
+}
+
+.results {
+  .result-details {
+    aside {
+      img {
+        max-width: 400px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $bp-medium) {
+  .results {
+    .result-details {
+      display: flex;
+      justify-content: space-between;
+      aside {
+        flex: 0 1 48%;
+      }
+    }
+  }
+}

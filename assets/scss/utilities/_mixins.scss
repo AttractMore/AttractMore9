@@ -1,8 +1,8 @@
 @mixin set-font-size($factor) {
   font-size: round($base-font-size * $factor);
-  line-height: round($base-font-size * $line-height * $factor);
+  line-height: round($base-font-size * 1.5 * $factor);
   @media screen and (min-width: $bp-medium) {
     font-size: round($base-font-size2 * $factor);
-    line-height: round($base-font-size2 * $line-height * $factor);
+    line-height: round($base-font-size2 * 1.5 * $factor);
   }
 }

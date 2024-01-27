@@ -1,0 +1,140 @@
+{{- define "main" }}
+{{- partial "partials/hero.html" . -}}
+
+<section class="create-carbon">
+  <article class="wrap">
+    <h2>How does the internet create carbon?</h2>
+    <div class="content-image">
+      <div class="illustration">
+        <img src="/icons/electrical-pylon.svg" alt="illustration of electrical pylon">
+      </div>
+      <div class="text-content">
+        <p>While it may not be immediately apparent, the internet uses a vast quantity of electricity. This power is used by:</p>
+        <ul>
+          <li><strong>Servers</strong>. These powerful computers, often located in huge data centres process requests for a website, retrieve data from databases, assemble the elements that make up a web page etc. It's not just the servers themselves that use power as the servers generate a lot of heat which needs water to be pumped through the buildings to clear that heat away.</li>
+          <li><strong>Networks (mobile, wired and wireless)</strong>. Networks are responsible for transmitting data between users' devices and servers (and between servers). Every request for a web page, every form submitted or order placed sends data to a web server.</li>
+          <li><strong>Device usage (phones, laptops etc.)</strong>. While it's evident that electricity is required to power and/or charge devices, the energy consumption is further influenced by the power efficiency of the websites and apps in use.</li>
+          <li><strong>Device manufacture</strong>. Power is needed for the factories that build our phones, tablets, laptops etc.</li>
+        </ul>
+        <p>How we design and build websites will not change the carbon emissions connected with the manufacture of devices so won't be discussed further here. However, we can influence the electricity consumption in the other three areas listed above.</p>
+      </div>
+    </div>
+  </article>
+</section>
+
+<section class="amount-carbon">
+  <article class="wrap">
+    <h2>The amount of CO<sub>2</sub> generated</h2>
+    <div class="content-image">
+      <div class="illustration">
+        <img src="/icons/chimney-smoke.svg" alt="illustration of electrical pylon">
+      </div>
+      <div class="text-content">
+        <p>Carbon dioxide is released by the burning of fossil fuels and much of the electricity being used by the internet is powered by this type of fuel. In 2022 the HTTP Archive found that only 10% of websites in their study were 'green hosted'. Green hosted is not a precisely defined term and it does not mean that these hosting companies run on 100% renewable energy. However, the Green Web Foundation (GWF) independently verify hosting services to check their claims and you can see if any website is hosted on genuine 'green hosting' by using the GWF's tools.</p>
+        <p>Calculating the amount of carbon produced by the internet is not easy at all, and estimates vary due to many factors. A paper by the UK Parliament from September 2022 says "Data centres, communication networks and user devices accounted for an estimated 4-6% of global electricity use in 2020 (5-8% including televisions). While predictions vary significantly, experts generally forecast that global ICT energy use is likely to increase over the next 5-10 years."</p>
+      </div>
+    </div>
+    <p>According to a report by the Shift Project from 2019, the figure in that year was 3.7%. In their summary, the authors say “The share of digital technologies in global greenhouse gas emissions has increased by half since 2013 from 2.5% to 3.7% of global emissions.”</p>
+    <p>An article from 2020 by the BBC agrees with the 3.7% figure saying “The carbon footprint of our gadgets, the internet and the systems supporting them account for about 3.7% of global greenhouse emissions, according to some estimates. It is similar to the amount produced by the airline industry globally, explains Mike Hazas, a researcher at Lancaster University. And these emissions are predicted to double by 2025.”</p>
+      
+    <p>While there are other studies and many other articles on the same topic, if we accept that the internet, including the devices used to access websites, uses an estimated 3.7% of ALL the world's electricity, that's a huge amount of power. Most of the electricity is derived from fossil fuels, leading to carbon emissions comparable with the entire aviation industry.</p>
+    <p>Focusing specifically on websites, the median CO<sub>2</sub>e/pageview has recently been measured as 0.79g on desktop and 0.69g on mobile. This doesn't seem like much but those figures are for a single pageview. If you multiply them by the number of pageviews in a year, we can see a greater impact. There is a large variation in emissions, not surprisingly, as we see in the graph below that shows the emissions from the 10th  to 90th percentile. The numbers on the graph are for emissions when a site is accessed on a mobile device.</p>
+    <img srcset="/images/misc/web-page-carbon-emissions-800.webp 800w,
+                  /images/misc/web-page-carbon-emissions-500.webp 500w"
+        src="/images/misc/web-page-carbon-emissions-800.webp"
+        alt="graph of web page carbon emissions"
+        decoding="async"
+        loading="lazy"
+        width="800"
+        height="495"
+    >
+    <p> It's also worth noting that, on average, web pages have become heavier over time as the graph below shows. From 1 January 2020 to 1 January 2023, web pages have increased in size significantly - 126% on desktop and 305% on mobile. You can explore this data in more detail. On desktop, the median size of a web page is now nearly 2.5MB.</p>
+    <img srcset="/images/misc/growth-web-page-weight-800.webp 800w,
+        /images/misc/growth-web-page-weight-500.webp 500w"
+        src="/images/misc/growth-web-page-weight-800.webp"
+        alt="graph of web page carbon emissions"
+        decoding="async"
+        loading="lazy"
+        width="800"
+        height="533"
+    >
+  </article>
+</section>
+
+<section class="other-ghgs">
+  <article class="wrap">
+    <h2>Other Greenhouse Gases</h2>
+    <p>Greenhouse gases (GHGs) are substances in the atmosphere which trap heat and magnify sunlight so contributing to the warming of the planet.</p>
+    <p>Carbon dioxide (CO<sub>2</sub>) is the main greenhouse gas but there are others such as methane and nitrous oxide. However, the global warming potential of each of the GHGs is different.</p>
+    <p>The United Nations Intergovernmental Panel on Climate Change (IPCC) wanted a way to standardise the measurement of GHGs and developed the concept of Global Warming Potential which takes into account the warming potential and lifespan of each GHG. This is the data used by the IPCC for its calculations.</p>
+    <p>From these figures, the effect of each GHG can be expressed in terms of the amount of CO<sub>2</sub> that would be needed to cause the same effect, i.e. the CO<sub>2</sub> equivalent, or CO<sub>2</sub>e. CO<sub>2</sub>e is, therefore, a standard unit of measurement for greenhouse gases.</p>
+  </article>
+</section>
+
+<section class="responsibility">
+  <article class="wrap">
+    <h2>Taking Responsibility</h2>
+    <p>Given the impact of the internet on the environment, I strongly believe that web designers, web developers, and others who work in the digital space should take responsibility and work to reduce the carbon emissions generated by the internet. At AttractMore, I am determined to keep learning and improving our websites to make them less carbon-intensive.</p>
+    <p>The goal of sustainable web design is to do exactly that and I aim to lead by example. I am a signatory to the Sustainable Web Manifesto and this site is accredited by the Eco-friendly Web Alliance and is well below the threshold they have set for acceptable carbon emissions.</p>
+    <p>I want to reiterate that committing to sustainable web design does NOT mean creating boring, ineffective websites. On the contrary, websites created according to sustainable principles can be effective tools to help grow a business and are usually faster than other sites, leading to greater user satisfaction. Sites designed and built according to sustainable principles serve the people that use them, minimise carbon emissions AND help grow businesses - People, Planet and Profit are NOT mutually exclusive.</p>
+    <p>In the same way that the benefits of recycling paper, plastic etc. grow as more people get involved, the same is true of sustainable websites. The more low-carbon websites there are, the greater the benefit.</p>
+  </article>
+</section>
+
+<section class="creation-sustainable">
+  <article class="wrap">
+    <h2>How I Create Sustainable Websites</h2>
+    <p>Our goal is to reduce the workload on servers and devices and, importantly, to minimise data transferred across networks. These are some of the techniques I  use.</p>
+    <dl class="activity-list">
+      {{ $index := 0}} 
+      {{- range $index, $element:= $.Site.Data.sustainablewebsitecreation.items -}}
+      <dt class="faquestion"><button aria-controls="answer-{{ $index }}" aria-expanded="false">{{ .topic | safeHTML }}</button></dt>
+      <dd id="answer-{{ $index }}">
+        <aside class="faqanswer">{{ .response | safeHTML }}</aside>
+      </dd>
+      <hr />
+      {{end}}
+    </dl>
+
+  </article>
+</section>
+
+<section class="results">
+  <article class="wrap">
+    <h2>Results</h2>
+    <p>When I start a website redevelopment project I measure its carbon footprint at the start and again at the end to show the reduction I have been able to achieve. Here's an example. The existing website was slow, bloated and inefficient, producing 2.30g CO<sub>2</sub>e for each visit to the home page. After I redeveloped the site, the new home page produced a mere 0.12g CO<sub>2</sub>e - down to just over 5% of the original amount.</p>
+    <div class="result-details">
+      <aside>
+        <h3>Before</h3>
+        <img src="/images/misc/emissions-before.webp" width="400" height="350" decoding="async" loading="lazy" alt="graphic show carbon emissions of a website before derevelopment">
+      </aside>
+      <aside>
+        <h3>After</h3>
+        <img src="/images/misc/emissions-after.webp" width="400" height="350" decoding="async" loading="lazy" alt="graphic show carbon emissions of a website after derevelopment">
+      </aside>
+    </div>
+  </article>
+</section>
+
+<section class="summary">
+  <article class="wrap">
+    <h2>Summary</h2>
+    <p>Sustainable web design involves:</p>
+    <ul>
+      <li>making the website itself efficient</li>
+      <li>making the web development process efficient</li>
+      <li>using renewable energy wherever possible.</li>
+    </ul>
+    <p>If the internet was an industrial process, we'd be building in efficiency as a matter of routine. However, the power we use on the internet appears to be 'free' so we've been able to get away with large inefficiencies. Although the financial cost of using the internet is relatively low, the environmental cost is significant.</p>
+  </article>
+</section>
+
+<section class="other-considerations">
+  <article class="wrap">
+    <h2>Other Considerations</h2>
+    <p>There are other factors that contribute to pollution that arise from digital technology, such as the mining of minerals needed for devices, the amount of water needed for the cooling of servers and for the manufacture of devices. We shouldn't forget about e-waste - where do our devices go when we've finished with them? (If you have devices you no longer need, please contact <a href="https://greenmachinecomputers.com/" rel="noopener,noreferrer">Green Machine</a> who recycle devices securely and responsibly.)</p>
+
+  </article>
+</section>
+
+{{- end }}{{/* end main */}}

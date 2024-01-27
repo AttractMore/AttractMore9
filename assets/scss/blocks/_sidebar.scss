@@ -21,7 +21,7 @@
   a {
     text-decoration: none;
     &[data-state="active"] {
-      color: $link-hover;
+      color: var(--secondaryHover);
     }
   }
 }

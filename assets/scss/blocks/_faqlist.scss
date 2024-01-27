@@ -1,7 +1,8 @@
 /***************************************
 	FAQs
 ***************************************/
-.faqlist {
+.faqlist,
+.activity-list {
   margin: 0 0 1.5rem;
   button {
     border: 0;
@@ -11,7 +12,7 @@
     padding: 0 0 0 2em;
     font-size: inherit;
     cursor: pointer;
-    color: var(--darkOrange);
+    color: var(--darkerOrange);
     text-align: left;
     font-weight: 500;
     &:hover {
@@ -45,14 +46,11 @@
     font-weight: 500;
     transition: color 0.4s ease-in-out;
     &:before {
-      //content: '⮟';
       content: "❯";
-      //	content: '\25bc';
-      color: var(--darkOrange);
+      color: var(--darkerOrange);
       position: absolute;
       top: 0.5em;
-
-      transition: transform 0.4s ease-in-out;
+      transition: transform 0.2s ease-in-out;
     }
     &.selected {
       &:before {
@@ -65,7 +63,7 @@
     background-color: var(--grey);
     overflow: hidden;
     height: 100%;
-    transition: max-height 0.7s ease-in-out;
+    transition: max-height 0.4s ease-in-out;
     margin: 0 0 0 0.4em;
     aside {
       padding: 1em 1rem;
