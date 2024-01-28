@@ -30,7 +30,7 @@
   .create-carbon,
   .amount-carbon {
     .illustration {
-      img {
+      svg {
         display: block;
         margin: 1em auto;
         max-width: 8em;
@@ -42,7 +42,8 @@
 @media screen and (min-width: $bp-medium) {
   .sustainable-web-design {
     .create-carbon,
-    .amount-carbon {
+    .amount-carbon,
+    .creation-sustainable {
       .content-image {
         display: flex;
         justify-content: space-between;
@@ -50,7 +51,7 @@
         flex-direction: row-reverse;
         .illustration {
           flex: 0 1 25%;
-          img {
+          svg {
             margin: 0;
             max-width: none;
           }

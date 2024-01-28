@@ -6,7 +6,7 @@
     <h2>How does the internet create carbon?</h2>
     <div class="content-image">
       <div class="illustration">
-        <img src="/icons/electrical-pylon.svg" alt="illustration of electrical pylon">
+        <svg aria-hidden="true"><use xlink:href="/icons/green-energy-defs.svg#electrical-pylon"></use></svg>
       </div>
       <div class="text-content">
         <p>While it may not be immediately apparent, the internet uses a vast quantity of electricity. This power is used by:</p>
@@ -27,7 +27,7 @@
     <h2>The amount of CO<sub>2</sub> generated</h2>
     <div class="content-image">
       <div class="illustration">
-        <img src="/icons/chimney-smoke.svg" alt="illustration of electrical pylon">
+        <svg aria-hidden="true"><use xlink:href="/icons/green-energy-defs.svg#chimney-smoke"></use></svg>
       </div>
       <div class="text-content">
         <p>Carbon dioxide is released by the burning of fossil fuels and much of the electricity being used by the internet is powered by this type of fuel. In 2022 the HTTP Archive found that only 10% of websites in their study were 'green hosted'. Green hosted is not a precisely defined term and it does not mean that these hosting companies run on 100% renewable energy. However, the Green Web Foundation (GWF) independently verify hosting services to check their claims and you can see if any website is hosted on genuine 'green hosting' by using the GWF's tools.</p>
@@ -85,16 +85,23 @@
   <article class="wrap">
     <h2>How I Create Sustainable Websites</h2>
     <p>Our goal is to reduce the workload on servers and devices and, importantly, to minimise data transferred across networks. These are some of the techniques I  use.</p>
-    <dl class="activity-list">
-      {{ $index := 0}} 
-      {{- range $index, $element:= $.Site.Data.sustainablewebsitecreation.items -}}
-      <dt class="faquestion"><button aria-controls="answer-{{ $index }}" aria-expanded="false">{{ .topic | safeHTML }}</button></dt>
-      <dd id="answer-{{ $index }}">
-        <aside class="faqanswer">{{ .response | safeHTML }}</aside>
-      </dd>
-      <hr />
-      {{end}}
-    </dl>
+    <div class="content-image">
+      <div class="illustration">
+        <svg aria-hidden="true"><use xlink:href="/icons/green-energy-defs.svg#wind-turbine"></use></svg>
+      </div>
+      <div class="text-content">
+        <dl class="activity-list">
+          {{ $index := 0}} 
+          {{- range $index, $element:= $.Site.Data.sustainablewebsitecreation.items -}}
+          <dt class="faquestion"><button aria-controls="answer-{{ $index }}" aria-expanded="false">{{ .topic | safeHTML }}</button></dt>
+          <dd id="answer-{{ $index }}">
+            <aside class="faqanswer">{{ .response | safeHTML }}</aside>
+          </dd>
+          <hr />
+          {{end}}
+        </dl>
+      </div>
+    </div>
 
   </article>
 </section>
