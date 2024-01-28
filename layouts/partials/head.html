@@ -36,12 +36,34 @@
           "@type": "Answer",
           "text": "{{ .answer }}"
         }
-      }{{if ne (add $index 1) $len }},{{end}}
-    {{end}}
+      }{{if ne (add $index 1) $len }},{{- end -}}
+    {{- end -}}
     ]
   }
   </script>
-{{end}}
+{{- end -}}
+
+{{if eq .Title "Sustainable Web Design"}} 
+  <script defer type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+    {{ $len:= len $.Site.Data.sustainablewebsitecreation.items }}
+    {{- range $index, $element:= $.Site.Data.sustainablewebsitecreation.items -}}
+      {
+        "@type": "Question",
+        "name": "{{.topic}}",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "{{ .response }}"
+        }
+      }{{if ne (add $index 1) $len }},{{- end -}}
+    {{- end -}}
+    ]
+  }
+  </script>
+{{- end -}}
 
 {{- /* Favicons */}} 
 <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />

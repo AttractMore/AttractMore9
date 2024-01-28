@@ -43,7 +43,9 @@
   .sustainable-web-design {
     .create-carbon,
     .amount-carbon,
-    .creation-sustainable {
+    .creation-sustainable,
+    .responsibility,
+    .other-ghgs {
       .content-image {
         display: flex;
         justify-content: space-between;
@@ -90,6 +92,13 @@
       aside {
         flex: 0 1 48%;
       }
+    }
+  }
+}
+.responsibility {
+  .illustration {
+    svg {
+      fill: var(--darkOrange);
     }
   }
 }
