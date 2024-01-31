@@ -28,7 +28,7 @@
   }
   p,
   li {
-    @include set-font-size(1.05);
+    font-size: 1.05em;
   }
 }
 

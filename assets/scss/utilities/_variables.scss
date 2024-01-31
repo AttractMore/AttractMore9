@@ -25,9 +25,13 @@ COLOURS
   --grey: #ededed;
   --white: #ffffff;
   --black: #000000;
+  /***************************************
+    OTHERS
+  ***************************************/
   --button-radius: 30px;
   --radius: 4px;
   --menu-width: 12em;
+  --flow-space: 1em;
 }
 
 /***************************************
@@ -37,10 +41,3 @@ $bp-small: 30em; /* 480px */
 $bp-medium: 44em; /* 704px */
 $bp-large: 58em; /* 928px */
 $bp-huge: 70em; /* 1120px */
-
-/***************************************
-	OTHERS
-***************************************/
-$base-font-size: 16px;
-$base-font-size2: 18px;
-$flow-space: 1em;

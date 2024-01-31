@@ -26,7 +26,7 @@
     }
     p {
       padding: 0 1.5em;
-      @include set-font-size(1.05);
+      font-size: 1.05em;
       &:last-of-type {
         margin-top: auto;
       }

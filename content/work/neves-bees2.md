@@ -1,7 +1,7 @@
 ---
 weight: 12
-title: "Neve's Bees 2021"
-pageHeaderTitle: "Neve's Bees 2021"
+title: "Neve's Bees"
+pageHeaderTitle: "Neve's Bees"
 metaDesc: "Neve's Bees sell natural beeswax cosmetics. Due to the expansion of the business, a new online shop has been created to sell these products online."
 text: "A modern, product-focused online shop for the sale of natural cosmetics. This is a new website that replaces the ecommerce site we developed for Neve's Bees in 2017. The previous site did well for the business and they developed a growing range of loyal customers however, the owners realised that they would need to offer more products to be able to capitalise on their success and expand the business further."
 link: "/work/neves-bees2/"

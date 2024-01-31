@@ -1,7 +1,6 @@
 ---
 title: "Work"
 metaDesc: "Examples of our work. A portfolio of websites we have created for clients to help them build their businesses by attracting more customers."
-ctaText: "Get in touch about a better website"
 extraStyles: "/css/work.css"
 ---
 

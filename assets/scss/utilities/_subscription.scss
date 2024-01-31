@@ -4,7 +4,7 @@
     color: var(--textColour);
   }
   &__contents-intro p {
-    @include set-font-size(1.1);
+    font-size: 1.1em;
   }
   &__contents-image {
     img {
