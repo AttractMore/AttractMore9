@@ -4,7 +4,7 @@ pageHeaderTitle: "Low carbon websites"
 metaDesc: "The internet has huge potential to benefit organisations. AttractMore can help you increase your visibility and customer base with an effective web presence"
 hero:
   h1: "High-performing<br><span>low-carbon</span><br>websites for<br>businesses<br>that care"
-  p1: "Many e-commerce websites aren't selling as much as they could and business owners become frustrated. We create smooth, fast, secure, responsive e-commerce websites that help you sell more without costing the earth."
+  p1: "We create effective, sustainable websites designed for <strong>people, planet and profit</strong>. Our websites are smooth, fast, secure and attractive while reducing carbon emissions and helping your business grow."
   imgSrc: "/images/misc/forest-tree.webp"
   imgAlt: "Low-carbon websites to help protect the planet. (Photo by Jan Huber https://unsplash.com/photos/green-leafed-tree-at-daytime-4OhFZSAT3sw)"
   button:

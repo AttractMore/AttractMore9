@@ -129,7 +129,8 @@ figure {
   }
 }
 
-// Prevent orphans
+// Prevent orphans and manage line-length
 p {
   text-wrap: pretty;
+  max-width: 80ch;
 }

@@ -6,9 +6,9 @@
       <h1>{{ .h1 | safeHTML }}</h1>
       <img src="{{ .imgSrc }}" decoding="async" width="387" height="387" alt="{{ .imgAlt }}" >
       <div class="hero__content-text">
-        <p>{{ .p1 }}</p>
+        <p>{{ .p1 | safeHTML }}</p>
         {{ with .p2 }}
-        <p>{{ . }}</p>
+        <p>{{ . | safeHTML }}</p>
         {{- end -}}
         {{ with .button}}
         <a class="primary-btn" href="{{ .buttonLink }}">{{ .buttonText }}<svg aria-hidden="true"><use xlink:href="/icons/icon-defs.svg#icon-arrow-right-bold"></use></svg></a>

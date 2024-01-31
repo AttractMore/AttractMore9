@@ -14,7 +14,7 @@ textarea,
   border-radius: var(--radius);
   box-shadow: none;
   border: 1px solid var(--midGrey);
-  width: 100%;
+  width: calc(100% - 26px); // padding-left + padding-right + border;
   max-width: 400px;
   font-family: inherit;
   background-color: var(--bg);

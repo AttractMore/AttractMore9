@@ -1,13 +1,13 @@
 @import "utilities/variables";
 @import "utilities/mixins";
-@import "utilities/larger-text";
+// @import "utilities/larger-text";
 @import "blocks/hero";
 @import "utilities/forms";
-@import "blocks/services-block";
-@import "utilities/subscription";
+// @import "blocks/services-block";
+// @import "utilities/subscription";
 @import "blocks/testimonials";
 
-.owner-designer {
+.why-low-carbon {
   padding: 0 0 2em;
   h2 {
     text-align: center;
@@ -35,19 +35,28 @@
   }
 }
 @media screen and (min-width: $bp-large) {
-  .owner-designer {
+  .why-low-carbon {
     ul {
       display: flex;
       justify-content: space-around;
       li {
-        flex: 0 1 40%;
+        flex: 0 1 44%;
         margin-bottom: 1em;
+      }
+      article {
+        display: flex;
+        flex-direction: column;
+        p {
+          &:last-of-type {
+            margin-top: auto;
+          }
+        }
       }
     }
   }
 }
 
-.making-a-difference {
+.attractmore-purpose {
   padding: 2em 0;
   background-color: var(--slateGrey);
   .attractmore {
@@ -78,7 +87,7 @@
     margin: 0 auto;
   }
   .arrow-down {
-    margin: -1em 0 0 5%;
+    margin: 2em 0 0 5%;
     width: 3em;
     height: 3em;
     fill: var(--midGrey);
@@ -86,11 +95,13 @@
 }
 
 @media screen and (min-width: $bp-medium) {
-  .making-a-difference {
+  .attractmore-purpose {
     article {
+      padding: 0 2em;
+    }
+    .content-image {
       display: flex;
       justify-content: space-between;
-      padding: 0 2em;
       align-items: center;
       > * {
         flex: 0 1 40%;
@@ -102,7 +113,7 @@
   }
 }
 
-.be-better {
+.stand-out {
   padding: 4em 0 3em;
   .logo-plus-button {
     display: grid;
@@ -121,7 +132,7 @@
   }
 }
 @media screen and (min-width: $bp-medium) {
-  .be-better {
+  .stand-out {
     article {
       display: flex;
       justify-content: space-around;
@@ -131,6 +142,39 @@
       }
       .logo-plus-button {
         flex: 0 1 25%;
+      }
+    }
+  }
+}
+.carbon-calculation {
+  padding: 2em 0;
+  background-color: var(--lightBlue);
+  input {
+    max-width: 600px;
+  }
+  .illustration {
+    text-align: center;
+    svg {
+      max-width: 12em;
+    }
+  }
+}
+@media screen and (min-width: $bp-medium) {
+  .carbon-calculation {
+    .form-image {
+      display: flex;
+      justify-content: space-between;
+      // align-items: center;
+      // flex-direction: row-reverse;
+      .illustration {
+        flex: 0 1 25%;
+        svg {
+          margin: 0;
+          max-width: none;
+        }
+      }
+      form {
+        flex: 0 1 65%;
       }
     }
   }
@@ -178,7 +222,8 @@
   }
 }
 
-.great-fit {
+.great-fit,
+.work-together {
   padding: 3em 0;
   span {
     color: var(--darkGreen);

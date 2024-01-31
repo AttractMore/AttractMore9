@@ -2,7 +2,7 @@
 
 {{ partial "partials/hero.html" . }}
 
-<section class="owner-designer">
+<!--<section class="owner-designer">
   <div class="wrap">
     <h2>Business owner or Professional designer?</h2>
     <ul>
@@ -24,18 +24,48 @@
       </li>
     </ul>
   </div>
+</section>-->
+
+<section class="why-low-carbon">
+  <div class="wrap">
+    <h2>Why low-carbon websites?</h2>
+    <ul>
+      <li>
+        <svg aria-hidden="true"><use xlink:href="/icons/tree-defs.svg#tree1"></use></svg>
+        <article>
+          <h3>Problems</h3>
+          <p>Internet servers, networks and devices consume a significant amount of power - estimated at 3.7% of all the world's electricity. Most of this electricity comes from non-renewable resources, resulting in significant CO<sub>2</sub> emissions.</p>
+          <p><a class="primary-btn" href="/sustainable-web-design/">Learn more<svg aria-hidden="true"><use xlink:href="/icons/icon-defs.svg#icon-arrow-right-bold"></use></svg></a></p>
+        </article>
+      </li>
+      <li>
+        <svg aria-hidden="true"><use xlink:href="/icons/tree-defs.svg#tree2"></use></svg>
+        <article>
+          <h3>Benefits</h3>
+          <p>As well as reducing the environmental impact, a low-carbon website will load more quickly so providing a better experience for your site visitors. Search engines prefer faster websites and so, all things being equal, faster websites achieve higher positions in the search results.</p>
+          <p><a class="primary-btn" href="/faqs/">FAQs<svg aria-hidden="true"><use xlink:href="/icons/icon-defs.svg#icon-arrow-right-bold"></use></svg></a></p>
+        </article>
+      </li>
+    </ul>
+  </div>
 </section>
 
-<section class="making-a-difference">
+<section class="attractmore-purpose">
   <div class="wrap">
     <aside class="attractmore">
       <svg aria-hidden="true"><use xlink:href="/icons/logo-defs.svg#attractmore-logo"></use></svg>
       <span class="h2">AttractMore</span>
     </aside>
-    <article>
+    <article class="content-image">
       <div class="text-block">
-        <h2 class="h3">Making a difference</h2>
-        <p>If you'd like to be able to reach more people with your products, sell more, make more money and feel proud of your business, we want to help. We're particularly keen to work with eco-conscious businesses that are concerned about the environment, sustainability and the future of the planet. This coincides with our values which is why we specialise in creating low-carbon websites.</p>
+        <h2 class="h3">About AttractMore</h2>
+        <p>AttractMore is a small creative web agency with a strong interest in sustainability. After discovering how much carbon the internet produces, we researched methods for reducing those emissions and have been working with clients to keep their carbon footprint to a minimum.</p>
+        <p><a class="primary-btn" href="/about/">More info<svg aria-hidden="true"><use xlink:href="/icons/icon-defs.svg#icon-arrow-right-bold"></use></svg></a></p>
+        <h2 class="h3">What we do</h2>
+        <p>We work closely with business owners to create fast, effective websites that are eco-friendly. We also specialise in <a href="/services/search-engine-optimisation/">search engine optimisation</a> to make sure the websites we create can be found easily in the search engines.</p>
+        <p>
+          <a class="primary-btn" href="/services/">Services<svg aria-hidden="true"><use xlink:href="/icons/icon-defs.svg#icon-arrow-right-bold"></use></svg></a>
+        </p>
       </div>
       <img src="/images/misc/forest-lake.webp" alt="forest and lake" width="387" height="387" decoding="async" loading="lazy">
     </article>
@@ -43,7 +73,69 @@
   </div>
 </section>
 
-<section class="be-better">
+<section class="stand-out">
+  <div class="wrap">
+    <article>
+      <div class="text-block">
+        <h2 class="h3">Stand out with purpose</h2>
+        <p>More and more people want to work with businesses that have a conscience. Having a sustainable website is one way to demonstrate your commitment to the environment.</p>
+        <p>We're particularly keen to work with businesses that are concerned about the environment, sustainability and the future of the planet. This coincides with our values which is why we specialise in creating high-performing, low-carbon websites.</p>
+      </div>
+      <aside class="logo-plus-button">
+        <svg class="logo" aria-hidden="true"><use xlink:href="/icons/logo-defs.svg#attractmore-logo"></use></svg>
+        <a class="primary-btn" href="/contact/">Improve your website<svg aria-hidden="true"><use xlink:href="/icons/icon-defs.svg#icon-arrow-right-bold"></use></svg></a>
+      </aside>
+    </article>
+  </div>
+</section>
+
+<section class="carbon-calculation">
+  <div class="wrap">
+    <article>
+      <h2 class="h3">Carbon emissions of your website</h2>
+      <p>I can provide you with an estimate of the carbon emissions of a web page. Simply include the web page address (including the https:// part please), your name and an email address in the form below, click Calculate and I'll send you the figures.</p>
+      <div class="form-image">
+        <form>
+          <input type="hidden" name="subject" value="AttractMore Carbon Emissions Request" />
+          <fieldset>
+            <p>
+              <label for="url">Full address of web page to be checked:</label>
+              <input name="name" id="name" type="text" maxlength="25" autocomplete="name" required />
+            </p>
+            <p>
+              <label for="name">Your name:</label>
+              <input name="name" id="name" type="text" maxlength="25" autocomplete="name" required />
+            </p>
+            <div class="email-entry">
+              <label for="email">Email address:</label>
+              <input name="email" id="email" type="email" autocomplete="email" required maxlength="100" />
+              <p class="email-suggestion"><span class="alert">! </span>Did you mean <a class="suggested-email"><span class="address"></span>@<span class="domain"></span></a>? Click or tap the amended email to use.</p>
+            </div>
+          </fieldset>
+          <fieldset class="mb-1-5">
+            <button class="primary-btn" type="submit" id="submit" name="submit" value="submit">Calculate<svg aria-hidden="true"><use xlink:href="/icons/icon-defs.svg#icon-arrow-right-bold"></use></svg></button>
+          </fieldset>
+          <p><small>We will only use the information you provide to send you the carbon emissions data. We will not use the information for marketing or for any other purpose.</small></p>
+        </form>
+        <aside class="illustration">
+          <svg aria-hidden="true"><use xlink:href="/icons/tree-defs.svg#tree3"></use></svg>
+        </aside>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="great-fit">
+  <div class="wrap">
+    <p class="h1">If you're a business owner concerned about the <span>environment, sustainability and the planet</span>, who wants to do the right thing in the right way, we could be a great fit for you.</p>
+    <p class="button-block">
+      <a href="#" class="primary-btn">Book a discovery call<svg aria-hidden="true"><use xlink:href="/icons/icon-defs.svg#icon-arrow-right-bold"></use></svg></a>
+    </p>
+  </div>
+</section>
+
+
+<!--<section class="be-better">
   <div class="wrap">
     <article>
       <div class="text-block">
@@ -58,7 +150,7 @@
       </aside>
     </article>
   </div>
-</section>
+</section>-->
 
 <section class="testimonials">
   <div class="wrap">
@@ -88,11 +180,11 @@
   </div>
 </section>
 
-<section class="great-fit">
+<section class="work-together">
   <div class="wrap">
-    <p class="h1">If you're a business owner concerned about the <span>environment, sustainability and the planet</span>, who wants to do the right thing in the right way, we could be a great fit for you.</p>
+    <p class="h1 centre">Let's work together <span>for a better future</span>.</p>
     <p class="button-block">
-      <a href="#" class="primary-btn">Getting started<svg aria-hidden="true"><use xlink:href="/icons/icon-defs.svg#icon-arrow-right-bold"></use></svg></a>
+      <a href="#" class="primary-btn">Book a discovery call<svg aria-hidden="true"><use xlink:href="/icons/icon-defs.svg#icon-arrow-right-bold"></use></svg></a>
     </p>
   </div>
 </section>
