@@ -4,7 +4,7 @@ type: "miscellaneous"
 layout: "sustainable-web-design"
 metaDesc: ""
 hero:
-  h1: "Sustainable<br>Web Design"
+  h1: "Sustainable<br>Web Design.<br>A better now -<br>a better future"
   p1: "The purpose of sustainable web design is to create effective websites that emphasise People and Planet as well as Profit."
   p2: "These three objectives are not mutually exclusive, and it's entirely feasible to develop high-performance websites that successfully align with all three goals."
   imgSrc: "/images/misc/forest-tree2.webp"

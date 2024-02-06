@@ -2,7 +2,7 @@
 title: "About"
 metaDesc: "Our values; Honesty, Reliability, Focus on client needs, Open about difficulties & opportunities, Responding professionally to requests, Ethical approach"
 hero:
-  h1: "A web agency<br>committed to<br>people, planet and<br> your profit"
+  h1: "A web agency<br>committed to<br><span>people, planet</span><br>and your <span>profit</span>"
   p1: "We work collaboratively with our clients to help them succeed using the internet."
   p2: "We put our knowledge and expertise into crafting online experiences that genuinely promote clients’ businesses. We love what we do and we’d be delighted to work with you and your business."
   imgSrc: "/images/misc/forest-tree2.webp"
