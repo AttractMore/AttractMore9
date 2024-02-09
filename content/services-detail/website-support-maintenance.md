@@ -52,7 +52,7 @@ Over the years we have honed down the list of hosting providers and offer 2 pack
 
 **Having the right support and maintenance for your website is critical for its success**. We can combine the services you require into a fixed fee, annual contract which allows you to acquire the support you need at a fixed price.
 
-This [article](http://alistapart.com/article/create-an-evolutionary-web-strategy-with-a-digital-mro-plan) goes into more detail about the benefits of having a support and maintenance plan for your website and this [post](http://sethgodin.typepad.com/seths_blog/2016/11/and-when-it-breaks.html) discusses how to recognise errors on your website that could frustrate visitors and potentially be the cause of lost business.
+This [article](https://alistapart.com/article/create-an-evolutionary-web-strategy-with-a-digital-mro-plan) goes into more detail about the benefits of having a support and maintenance plan for your website and this [post](https://sethgodin.typepad.com/seths_blog/2016/11/and-when-it-breaks.html) discusses how to recognise errors on your website that could frustrate visitors and potentially be the cause of lost business.
 
 ### Related Posts
 

@@ -70,10 +70,10 @@ There are, however, a whole range of other sites that offer images some or all o
 - [Unsplash](https://unsplash.com/)
 - [Gratisography](https://gratisography.com/)
 - [Pixabay](https://pixabay.com/en/)
-- [Travel Coffee Book](http://travelcoffeebook.com/)
+- [Travel Coffee Book](https://travelcoffeebook.com/)
 - [Pexels](https://www.pexels.com)
-- [DesignersPics](http://www.designerspics.com/)
-- [Tinyography](http://www.tinyography.com/)
+- [DesignersPics](https://www.designerspics.com/)
+- [Tinyography](https://www.tinyography.com/)
 
 And if you need more, here is another blog post with more suggestions - [A list of over 100 free or nearly free image sites](https://www.whoishostingthis.com/resources/free-stock-images/)
 
@@ -81,6 +81,6 @@ Don't forget to [resize and compress images](/blog/photos-and-faster-page-load-t
 
 ## Conclusion
 
-As I said at the beginning, choosing photos for a web page or blog post is not always easy and it require proper consideration, perhaps as much consideration as the words themselves. Imagery has a huge impact on how visitors perceive your website and good quality images are well worth some money for. There are also a lot of nasty, hackneyed and downright awful images out there that should be avoided. Here’s a [link to one](http://image.shutterstock.com/display_pic_with_logo/59027/59027,1194826198,1/stock-photo-business-people-voting-d-illustration-isolated-in-white-background-6887593.jpg) which is of a style which I dislike a lot but which I see frequently. Please don’t use images like this. Instead choose images that harmonise well with your colour scheme and which complement your words. These will enhance your posts and encourage greater engagement with your content.
+As I said at the beginning, choosing photos for a web page or blog post is not always easy and it require proper consideration, perhaps as much consideration as the words themselves. Imagery has a huge impact on how visitors perceive your website and good quality images are well worth some money for. There are also a lot of nasty, hackneyed and downright awful images out there that should be avoided. Here’s a [link to one](https://image.shutterstock.com/display_pic_with_logo/59027/59027,1194826198,1/stock-photo-business-people-voting-d-illustration-isolated-in-white-background-6887593.jpg) which is of a style which I dislike a lot but which I see frequently. Please don’t use images like this. Instead choose images that harmonise well with your colour scheme and which complement your words. These will enhance your posts and encourage greater engagement with your content.
 
 (The two images on this page are from [Unsplash](https://unsplash.com/).)

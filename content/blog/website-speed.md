@@ -38,7 +38,7 @@ alt="Nobody wants to wait for a web page to load"
 width="1920" height="1280" defaultWidth="800"
 loading="lazy" >}}
 
-And, of course, slow page loading times will also impact on how well you rank in [search engine results](https://www.attractmore.uk/blog/how-making-your-website-accessible-is-also-great-for-seo/). **Speed has been a Google ranking factor for a while** but they recently incorporated it into their [Core Web Vitals update](https://developers.google.com/search/docs/advanced/experience/page-experience) to ensure visitors get the best user experience possible.
+And, of course, slow page loading times will also impact on how well you rank in [search engine results](https://www.attractmore.uk/blog/how-making-your-website-accessible-is-also-great-for-seo/). **Speed has been a Google ranking factor for a while** but they recently incorporated it into their [Core Web Vitals update](https://developers.google.com/search/docs/appearance/page-experiencee) to ensure visitors get the best user experience possible.
 
 And finally, as I mentioned in my last blog, faster website speeds are [ultimately better for the environment](https://www.attractmore.uk/blog/want-to-save-the-planet-start-with-your-website/) as by optimising page speed you’re making your website as efficient as possible and **helping reduce greenhouse gases**.
 

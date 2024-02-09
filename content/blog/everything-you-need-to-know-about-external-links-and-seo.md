@@ -97,7 +97,7 @@ These methods will not help with your search engine rankings and could see your 
 
 Another thing to avoid is using ‘Click here’ or ‘Learn more’. Link text should always be descriptive, so users and search engines can easily understand what type of content they will be clicking through to. This is good for [SEO and also for making your website accessible.](https://www.attractmore.uk/blog/how-making-your-website-accessible-is-also-great-for-seo/)
 
-Here’s a [list of other phrases](https://web.dev/link-text/) you should avoid.
+Here’s a [list of other phrases](https://developer.chrome.com/docs/lighthouse/seo/link-text/) you should avoid.
 
 {{< content-figure folder="/blog/"
 src="chain-link-fencing_vm3nf7.jpg"

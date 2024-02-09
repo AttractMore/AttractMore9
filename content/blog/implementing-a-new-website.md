@@ -30,7 +30,7 @@ width="500" height="333" defaultWidth="500" >}}
 
 Every website develops some value during the time it is in existence. Here I am talking mostly about links from other sites, including social media posts and the knowledge that the search engines acquire about the site. Google, Bing and Yahoo will have crawled the site (hopefully) and will have created a list of the pages that they are aware of on the site – effectively a list of links to the web pages. Don't lose this value!
 
-Now, normally, when a new website is created, the names of the individual pages do not all remain the same as the ones on the old site (home, about and contact perhaps do). For example the page http://www.businesssite.com/services.php may no longer be available on the new site but there is a new page that contains similar relevant information called https://www.businesssite.com/accountancy-services/. The original page may have been mentioned in social media posts, it may have been linked to from other sites, it could have been bookmarked by potential clients and the search engines were aware of its existence.
+Now, normally, when a new website is created, the names of the individual pages do not all remain the same as the ones on the old site (home, about and contact perhaps do). For example the page https://www.businesssite.com/services.php may no longer be available on the new site but there is a new page that contains similar relevant information called https://www.businesssite.com/accountancy-services/. The original page may have been mentioned in social media posts, it may have been linked to from other sites, it could have been bookmarked by potential clients and the search engines were aware of its existence.
 
 {{< content-figure folder="/blog/"
 class="alignright"
@@ -40,7 +40,7 @@ width="500" height="232" defaultWidth="500" >}}
 
 If we do nothing to address this situation then, when the new site goes live, anyone trying to access the old page will get a ‘Page not Found’ message. Clearly that is not helpful as it could give the impression that your business has disappeared and it is not good for the search engines as they may draw the same conclusion. The search engines will find your new site (assuming it’s been developed properly) but it will take some time for them to do this and place the new pages in their index so they appear in the search results.
 
-The professional approach here is to ensure that, for every old URL that will no longer exist on the new site, we **automatically redirect visitors** (human and search engines) to the most relevant new page. In other words, if someone clicks on the old URL http://www.businesssite.com/services.php they are smoothly transferred to https://www.businesssite.com/accountancy-services/ without them being aware of it. The same would also be true for the search engines.
+The professional approach here is to ensure that, for every old URL that will no longer exist on the new site, we **automatically redirect visitors** (human and search engines) to the most relevant new page. In other words, if someone clicks on the old URL https://www.businesssite.com/services.php they are smoothly transferred to https://www.businesssite.com/accountancy-services/ without them being aware of it. The same would also be true for the search engines.
 
 Human visitors now get to see appropriate information on the new site and search engines can start indexing the new pages without delay so minimising any dip in search engine rankings caused by the implementation of the new site.
 

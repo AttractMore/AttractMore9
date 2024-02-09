@@ -94,9 +94,9 @@ If you’re still not convinced about making your website accessible, bear in mi
 
 ## For more accessibility web tips, visit the following sites:
 
-- [Web Accessibility Initiative](http://www.w3.org/WAI/gettingstarted/Overview.html)
+- [Web Accessibility Initiative](https://www.w3.org/WAI/gettingstarted/Overview.html)
 
-- [WebAIM’s Introduction to Web Accessibility](http://webaim.org/intro/)
+- [WebAIM’s Introduction to Web Accessibility](https://webaim.org/intro/)
 
 - [There's no such thing as a website or web app that doesn't need to be accessible](https://gomakethings.com/theres-no-such-thing-as-a-website-or-web-app-that-doesnt-need-to-be-accessible/)
 

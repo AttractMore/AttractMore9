@@ -65,4 +65,4 @@ Developing a regular maintenance and review approach to your business website wi
 ### Related Posts
 
 - [Website Return on Investment](/blog/website-return-on-investment/)
-- [Create an evolutionary web strategy](http://alistapart.com/article/create-an-evolutionary-web-strategy-with-a-digital-mro-plan)
+- [Create an evolutionary web strategy](https://alistapart.com/article/create-an-evolutionary-web-strategy-with-a-digital-mro-plan)

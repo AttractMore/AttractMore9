@@ -14,7 +14,7 @@ extraStyles: "/css/post.css"
 
 ## Some Mobile Usage Statistics
 
-You will be aware of the increase in mobile usage, especially smartphones, to access the internet but the following graph (from [StatCounter](http://gs.statcounter.com/#desktop+mobile+tablet-comparison-GB-monthly-201501-201612)) clearly shows how desktop usage is declining, smartphone is increasing and tablet usage is almost static. These are figures from the UK for the period January 2015 to end December 2016. Smartphone and tablet users combined account for 47.83% of the total and the trend continues upward.
+You will be aware of the increase in mobile usage, especially smartphones, to access the internet but the following graph (from [StatCounter](https://gs.statcounter.com/#desktop+mobile+tablet-comparison-GB-monthly-201501-201612)) clearly shows how desktop usage is declining, smartphone is increasing and tablet usage is almost static. These are figures from the UK for the period January 2015 to end December 2016. Smartphone and tablet users combined account for 47.83% of the total and the trend continues upward.
 
 {{< content-figure folder="/blog/"
 src="StatCounter-comparison-GB-monthly-201501-2016121_tqsmcf.jpg"

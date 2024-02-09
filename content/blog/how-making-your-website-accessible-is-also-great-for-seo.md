@@ -22,7 +22,7 @@ Making your website completely accessible isn’t just the right thing to do, it
 
 But having an accessible website also serves another important purpose. It **helps with SEO**.
 
-Google’s recent [Google’s Core Web Vitals update](https://developers.google.com/search/docs/advanced/experience/page-experience) now includes ‘page experience’ in its rankings. This focuses on ensuring people have the most helpful and enjoyable experience when using websites and is something Google is planning to update on a regular basis.
+Google’s recent [Google’s Core Web Vitals update](https://developers.google.com/search/docs/appearance/page-experience) now includes ‘page experience’ in its rankings. This focuses on ensuring people have the most helpful and enjoyable experience when using websites and is something Google is planning to update on a regular basis.
 
 The good news is **many of the factors that improve accessibility also improve the overall user experience** so, by default, will help improve your SEO.  Here are some of the key things you should be incorporating into your website.
 
@@ -82,7 +82,7 @@ The good news is as search engines don’t actually listen to content, providing
 
 While ‘Click here’ might be an easy option, links to other pages or websites always need to be descriptive. This helps both screen readers and search engine crawlers understand the context of the link and what it is linking through to.
 
-Here’s a [list of generic link text](https://web.dev/link-text/) which Google suggests you avoid.
+Here’s a [list of generic link text](https://developer.chrome.com/docs/lighthouse/seo/link-text/) which Google suggests you avoid.
 
 ## 7. Use breadcrumbs to show how your site is organised
 
@@ -112,6 +112,6 @@ If you would like to learn more, take a look at this [article on search engine o
 
 [Google Lighthouse’s SEO audit](https://developers.google.com/web/tools/lighthouse)
 
-[Web Accessibility Initiative](http://www.w3.org/WAI/gettingstarted/Overview.html)
+[Web Accessibility Initiative](https://www.w3.org/WAI/gettingstarted/Overview.html)
 
 [WebAIM’s Introduction to Web Accessibility](https://webaim.org/intro/)
