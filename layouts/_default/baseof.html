@@ -19,7 +19,7 @@
   <script src="{{ .Params.extraJS }}" defer></script>
   {{- end -}}
 
-  {{- if eq .Title "Contact" -}}
+  {{- if or (eq .Title "Contact") (eq .Title "Home") -}}
     <script src="/js/mailcheck.min.js"></script>
     <script defer src="/js/runMailcheck.js"></script>
   {{- end -}}

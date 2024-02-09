@@ -1,0 +1,15 @@
+{{- define "main" }}
+
+{{ partial "partials/page-header.html" . }}
+
+<section class="contact content-sidebar wrap">
+
+  <article>
+    <p>{{ .Content }}</p>
+  </article>
+
+  {{- partial "partials/contact-sidebar.html" . -}}
+  
+</section>
+
+{{- end }}{{/* end main */}}
