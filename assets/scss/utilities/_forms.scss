@@ -23,7 +23,7 @@ textarea,
   // a focused input (or hovered on)
   &:focus,
   &:active {
-    background-color: var(--lightGrey);
+    background-color: var(--grey);
   } // end hover or focus
 } // end input defaults
 
