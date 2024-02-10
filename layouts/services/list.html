@@ -11,9 +11,9 @@
     <div class="wrap">
       <ul>
         {{- range .Pages.ByWeight -}}
-          <li class="services__item">
+          <li class="services-list__item">
             <h2><a href="{{ .Params.detailURL }}">{{ .Title }}</a></h2>
-            <div class="services__item-content">
+            <div class="services-list__item-content">
               <aside class="centre">
                 <a aria-label="{{ .Title }}" href="{{ .Params.detailUrl }}">
                   <svg aria-hidden="true" class="tree"><use xlink:href="/icons/tree-defs.svg#{{ .Params.svgId }}"></use></svg>
