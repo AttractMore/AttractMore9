@@ -3,6 +3,7 @@ title: "Google to make changes to search results"
 date: "2016-10-14"
 categories:
   - "Search engines"
+  - "Google"
 metaDesc: "Mobile friendly websites become increasingly important. If you want Google to put your site in the search results, think mobile first."
 excerpt: "It seems that Google will be promoting mobile friendly websites even more strongly very soon according to an article in the Guardian today."
 cloudinaryPrimaryImage: "google2_sxyene"

@@ -39,7 +39,7 @@ Sent immediately after the customer completes a purchase. Rather than this being
 Here is a straightforward example from EE. Pleasant, friendly and informal.
 
 {{< content-figure folder="/blog/"
-src="ee-thank-you-for-your-order_wcqyrw.jpg "
+src="ee-thank-you-for-your-order_wcqyrw.jpg"
 alt="An email from EE thanking the customer for their order"
 width="1124" height="1166" defaultWidth="800"
 loading="lazy" >}}
@@ -211,7 +211,7 @@ The email from White Stuff offers a fixed discount amount rather than a percenta
 {{< content-figure folder="/blog/"
 class="aligncentre"
 style="max-width: 662px;"
-src="discount-if-spend-more-than_erkzxe.jpg "
+src="discount-if-spend-more-than_erkzxe.jpg"
 alt="Ecommerce email offering a discount if you spend more than a certain amount of money"
 width="662" height="1225" defaultWidth="662"
 loading="lazy" >}}

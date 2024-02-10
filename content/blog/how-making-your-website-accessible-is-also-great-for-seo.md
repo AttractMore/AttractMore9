@@ -59,7 +59,7 @@ Adding ‘Alternative text’ or alt text to an image is a **crucial accessibili
 But adding alt text isn’t just about providing search engines with more information about the content of the page. It’s also about ensuring images show up in Google Image searches, which offers businesses another opportunity to drive traffic to their websites.
 
 {{< content-figure folder="/blog/"
-src="more-website-traffic-seo_c32fh1.jpg "
+src="more-website-traffic-seo_c32fh1.jpg"
 alt="An accessible website can help bring more traffic to your website."
 width="1920" height="1390" defaultWidth="800"
 loading="lazy" >}}
@@ -91,7 +91,7 @@ Just like a sitemap, breadcrumbs give users another way of navigating a website 
 It’s also great for SEO as it shows search engines how the site is structured.
 
 {{< content-figure folder="/blog/"
-src="braille-display-for-visually-impaired-users_eoinim.jpg "
+src="braille-display-for-visually-impaired-users_eoinim.jpg"
 alt="For severely visually impaired users, Braille displays and keyboards are available."
 width="1920" height="1280" defaultWidth="800"
 loading="lazy" >}}
