@@ -25,7 +25,7 @@
                 {{ else }}
                   {{ .Content }}
                 {{- end -}}
-                <a class="primary-btn" href="{{ .Params.detailUrl }}">Find out more about {{ .Title }}<svg aria-hidden="true"><use xlink:href="/icons/icon-defs.svg#icon-arrow-right-bold"></use></svg></a>
+                <a class="primary-btn mb-1-5" href="{{ .Params.detailUrl }}">Find out more about {{ .Title }}<svg aria-hidden="true"><use xlink:href="/icons/icon-defs.svg#icon-arrow-right-bold"></use></svg></a>
               </div>
             </div>
             <hr>
@@ -36,7 +36,5 @@
       </ul>
     </div>
   </article>
-
-  {{- partial "cta.html" . -}}
 
 {{- end }}{{/* end main */}}

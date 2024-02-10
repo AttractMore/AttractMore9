@@ -47,7 +47,7 @@
         }
       }
       &:nth-child(odd) {
-        &-content {
+        .services-list__item-content {
           flex-direction: row-reverse;
         }
       }
