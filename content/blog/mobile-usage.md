@@ -1,5 +1,6 @@
 ---
 title: "Mobile Usage - Actions to Take"
+slug: mobile-usage
 date: "2017-02-20"
 categories:
   - "Mobile"

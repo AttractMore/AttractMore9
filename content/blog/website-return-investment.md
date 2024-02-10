@@ -1,5 +1,6 @@
 ---
 title: "Website Return on Investment"
+slug: website-return-investment
 date: "2014-08-31"
 categories:
   - "ROI"
