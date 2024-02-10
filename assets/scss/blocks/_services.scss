@@ -1,4 +1,4 @@
-.services {
+article.services {
   ul {
     margin: 0;
     padding: 0;
@@ -33,7 +33,7 @@
 }
 
 @media screen and (min-width: $bp-medium) {
-  .services {
+  article.services {
     &__item {
       &-content {
         display: flex;
