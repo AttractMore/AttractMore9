@@ -2,7 +2,7 @@
 title: "Sustainable Web Design"
 type: "miscellaneous"
 layout: "sustainable-web-design"
-metaDesc: ""
+metaDesc: "Sustainable web design creates effective websites that emphasise People and Planet as well as Profit. Learn more."
 hero:
   h1: "Sustainable<br>Web Design.<br>A better now -<br>a better future"
   p1: "The purpose of sustainable web design is to create effective websites that emphasise People and Planet as well as Profit."

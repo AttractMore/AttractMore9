@@ -2,6 +2,7 @@
 title: "Thanks"
 type: "miscellaneous"
 layout: "thanks"
+metaDesc: "Thanks for contacting us"
 pageRobots: "noindex,follow"
 extraStyles: "/css/thanks.css"
 ---

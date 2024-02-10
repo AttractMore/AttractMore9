@@ -2,6 +2,7 @@
 title: "Thanks for requesting a carbon check"
 type: "miscellaneous"
 layout: "thanks-carbon-request"
+metaDesc: "Thanks for requesting a carbon check of your web page"
 pageRobots: "noindex,follow"
 extraStyles: "/css/thanks.css"
 ---
