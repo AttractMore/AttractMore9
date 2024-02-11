@@ -1,0 +1,13 @@
+{{- define "main" }}
+
+<section class="contact content-sidebar wrap">
+
+  <article>
+    {{ .Content }}
+  </article>
+
+  {{- partial "partials/contact-sidebar.html" . -}}
+  
+</section>
+
+{{- end }}{{/* end main */}}
