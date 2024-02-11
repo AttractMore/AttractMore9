@@ -7,10 +7,9 @@ hero:
   p2: "We put our knowledge and expertise into crafting online experiences that genuinely promote clients’ businesses. We love what we do and we’d be delighted to work with you and your business."
   imgSrc: "/images/misc/forest-tree2"
   imgAlt: "Effective, high-performing, low carbon websites, delivering value to your business. (Photo by Felix Mittermeier from Pexels: https://www.pexels.com/photo/worms-eyeview-of-green-trees-957024/)"
+pageHeaderTitle: "About AttractMore"
 extraStyles: "/css/about.css"
 ---
-
-# About AttractMore
 
 ## Vision
 

@@ -1,8 +1,8 @@
+{{- with .Param "hero" }}
 <section class="hero">
   <div class="wrap">
     <article class="hero__content">
 
-      {{- with .Param "hero" }}
       <h1>{{ .h1 | safeHTML }}</h1>
       <picture>
         <source srcset="{{ .imgSrc }}.webp" type="image/webp">
@@ -17,9 +17,9 @@
         <a class="primary-btn" href="{{ .buttonLink }}">{{ .buttonText }}<svg aria-hidden="true"><use xlink:href="/icons/icon-defs.svg#icon-arrow-right-bold"></use></svg></a>
         {{- end -}}
       </div>
-      {{- end -}}
-
+      
     </article>
   </div>
   <img src="../../images/misc/cloud-blur3.png" width="1200" height="300" alt="cloud" decoding="async" aria-hidden="true">
 </section>
+{{- end -}}
