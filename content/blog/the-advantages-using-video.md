@@ -1,6 +1,5 @@
 ---
 title: "The Advantages of Using Video"
-slug: advantages-using-video
 date: "2014-01-03"
 categories:
   - "Search engines"
