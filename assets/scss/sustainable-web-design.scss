@@ -5,13 +5,18 @@
 
 .sustainable-web-design {
   section {
-    padding: 2em 0;
+    padding: 1em 0;
     p {
       max-width: 80ch;
+    }
+    &.hero {
+      padding: 0;
+      margin-bottom: 0;
     }
     &.amount-carbon,
     &.responsibility,
     &.summary {
+      padding: 2em 0;
       background-color: var(--lightBlue);
       p {
         color: var(--black);
@@ -19,6 +24,7 @@
     }
     &.creation-sustainable {
       background-color: var(--slateGrey);
+      padding: 2em 0;
       h2,
       p {
         color: var(--white);
@@ -30,14 +36,11 @@
       }
     }
   }
-  .create-carbon,
-  .amount-carbon {
-    .illustration {
-      svg {
-        display: block;
-        margin: 1em auto;
-        max-width: 8em;
-      }
+  .illustration {
+    svg {
+      display: block;
+      margin: 1em auto;
+      max-width: 8em;
     }
   }
 }
