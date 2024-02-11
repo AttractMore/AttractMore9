@@ -76,7 +76,7 @@
     color: var(--white);
   }
   p {
-    color: var(--lightBlue);
+    color: var(--white);
   }
   img {
     -webkit-mask-image: url(masks/circles-mask.svg);
@@ -151,6 +151,10 @@
 .carbon-calculation {
   padding: 2em 0;
   background-color: var(--lightBlue);
+  p,
+  label {
+    color: var(--black);
+  }
   input {
     max-width: 600px;
   }

@@ -13,6 +13,9 @@
     &.responsibility,
     &.summary {
       background-color: var(--lightBlue);
+      p {
+        color: var(--black);
+      }
     }
     &.creation-sustainable {
       background-color: var(--slateGrey);
