@@ -1,13 +1,13 @@
 {{- define "main" }}
 
-<section class="contact content-sidebar wrap">
+<section class="content-sidebar wrap mt-1-0">
 
-  <article>
+  <article class="intro wrap" role="article" itemscope itemtype="https://schema.org/BlogPosting">
     {{ .Content }}
   </article>
 
-  {{- partial "partials/contact-sidebar.html" . -}}
-  
+  {{ partial "partials/blog-sidebar.html" . }}
+
 </section>
 
 {{- end }}{{/* end main */}}
