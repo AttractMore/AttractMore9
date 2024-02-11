@@ -10,6 +10,8 @@ hero:
 extraStyles: "/css/about.css"
 ---
 
+# About AttractMore
+
 ## Vision
 
 I want AttractMore to be known in the UK as a web agency that produces **powerful and effective websites with low carbon impact**.

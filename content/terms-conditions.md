@@ -6,8 +6,6 @@ metaDesc: "The terms and conditions of use of our website. These are very straig
 extraStyles: "/css/miscellaneous.css"
 ---
 
-# Terms & Conditions
-
 ## Terms of Website Use
 
 Please read these terms of use carefully before you start to use the site. By using our site, you indicate that you accept these terms of use and that you agree to abide by them. If you do not agree to these terms of use, please refrain from using our site.

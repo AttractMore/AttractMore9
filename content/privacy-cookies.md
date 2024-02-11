@@ -6,8 +6,6 @@ metaDesc: "This is our privacy and cookies policy which we are committed to upho
 extraStyles: "/css/miscellaneous.css"
 ---
 
-# Privacy & Cookies
-
 ## Introduction
 
 AttractMore Ltd. (“We”) are committed to protecting and respecting your privacy as well as the security of your personal data and information.
