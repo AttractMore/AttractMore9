@@ -5,7 +5,7 @@ categories:
   - "SEO"
   - "Google"
 metaDesc: "If you want your web pages to rank well in the search engines, understanding search intent is essential. Then you need to use that understanding to create your content. Find out how here."
-excerpt: "Achieving good search engine rankings for pages of your website is not straightforward, especially in the face of so much competition and changes in how the search engines choose to prioritise search results. Along with effectivce keywod research, <strong>content creators now need to understand the concept of search intent and how to use this knowledge when creating content.</strong> The search phrase is the 'what' but the search intent is the 'why' behind the search. This is implied rather than being stated explicitly. However, if you can identify the serach intent, then you can create pages that match the 'why' and so improve the changes that the search engines will rank your pages higher as they better meet the searchers' needs. This article goes into more detail about identifying the search intent and how to write content that take account of this."
+excerpt: "Achieving good search engine rankings for pages of your website is not straightforward, especially in the face of so much competition and changes in how the search engines choose to prioritise search results. Along with effective keywod research, <strong>content creators now need to understand the concept of search intent and how to use this knowledge when creating content.</strong> The search phrase is the 'what' but the search intent is the 'why' behind the search. This is implied rather than being stated explicitly. However, if you can identify the serach intent, then you can create pages that match the 'why' and so improve the changes that the search engines will rank your pages higher as they better meet the searchers' needs. This article goes into more detail about identifying the search intent and how to write content that take account of this."
 cloudinaryPrimaryImage: "woman-pretending-to-look-through-binoculars_ovnpwy"
 primaryImageAlt: "White woman using her hands as a way of pretending to be looking through binoculars"
 socialImage: "/images/blog/woman-pretending-to-look-through-binoculars-1200.jpg"
@@ -14,7 +14,7 @@ extraStyles: "/css/post.css"
 
 {{< content-figure folder="/blog/"
 src="woman-pretending-to-look-through-binoculars_ovnpwy.jpg"
-alt="Woman pretending to look through binoculars. Searching. (Photo by Gratisography from Pexels: https://www.pexels.com/photo/person-woman-eyes-face-4636/"
+alt="Woman pretending to look through binoculars. Searching. (Photo by Gratisography from Pexels: https://www.pexels.com/photo/person-woman-eyes-face-4636/)"
 width="1920" height="1280" defaultWidth="800" >}}
 
 If you're using all the right keywords on the pages of your website, but your site still isn't ranking particularly well, then it could be because you're not doing it right. And you wouldn't be the only one.
