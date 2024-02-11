@@ -29,7 +29,6 @@
   .linkedin {
     display: flex;
     justify-content: center;
-    align-items: center;
     margin-bottom: 1em;
     width: fit-content;
     text-decoration: none;
@@ -41,7 +40,7 @@
     span {
       color: var(--lightOrange);
       padding-left: 0.75em;
-      align-self: end;
+      align-self: baseline;
       line-height: 1;
     }
     &:hover,
