@@ -4,7 +4,10 @@
 
       {{- with .Param "hero" }}
       <h1>{{ .h1 | safeHTML }}</h1>
-      <img src="{{ .imgSrc }}" decoding="async" width="387" height="387" alt="{{ .imgAlt }}" >
+      <picture>
+        <source srcset="{{ .imgSrc }}.webp" type="image/webp">
+        <img src="{{ .imgSrc }}.jpg" decoding="async" width="387" height="387" alt="{{ .imgAlt }}" >
+      </picture>
       <div class="hero__content-text">
         <p>{{ .p1 | safeHTML }}</p>
         {{ with .p2 }}
