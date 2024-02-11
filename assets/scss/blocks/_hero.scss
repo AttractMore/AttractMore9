@@ -32,6 +32,8 @@
       grid-row: 1;
       grid-column: 10 / 13;
       align-self: end;
+      -webkit-mask-image: url(/masks/circles-mask.svg);
+      -webkit-mask-repeat: no-repeat;
       mask-image: url(/masks/circles-mask.svg);
       mask-repeat: no-repeat;
       max-width: 387px;
