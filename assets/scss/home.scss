@@ -198,7 +198,7 @@
   .testimonial {
     margin-bottom: 3em;
   }
-  figure {
+  picture {
     max-width: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -215,7 +215,7 @@
     .testimonial {
       display: flex;
       justify-content: space-between;
-      figure {
+      picture {
         flex: 0 1 25%;
       }
       .text-block {
