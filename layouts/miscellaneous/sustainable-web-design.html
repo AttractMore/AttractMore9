@@ -49,8 +49,12 @@
         height="495"
     >
     <p> It's also worth noting that, on average, web pages have become heavier over time as the graph below shows. From 1 January 2020 to 1 January 2023, web pages have increased in size significantly - 126% on desktop and 305% on mobile. The solid lines show the median values; the shaded areas are the values between the 10th and 90th percentiles. You can <a href="https://httparchive.org/reports/page-weight?start=2021_01_01&end=latest&view=list" rel="noopener,noreferrer, nofollow">explore this data in more detail</a>. On desktop, the median size of a web page is now nearly 2.5MB.</p>
-    <img srcset="/images/misc/growth-web-page-weight-800.webp 800w,
-        /images/misc/growth-web-page-weight-500.webp 500w"
+    <picture>
+      <source srcset="/images/misc/growth-web-page-weight-800.webp 800w,
+      /images/misc/growth-web-page-weight-500.webp 500w" type="image/webp" >
+      <source srcset="/images/misc/growth-web-page-weight-800.jpg 800w,
+      /images/misc/growth-web-page-weight-500.jpg 500w" type="image/jpeg" >
+      <img 
         src="/images/misc/growth-web-page-weight-800.webp"
         alt="graph of web page carbon emissions"
         decoding="async"
@@ -58,6 +62,7 @@
         width="800"
         height="533"
     >
+  </picture>
   </article>
 </section>
 
