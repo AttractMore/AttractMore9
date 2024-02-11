@@ -79,6 +79,8 @@
     color: var(--lightBlue);
   }
   img {
+    -webkit-mask-image: url(masks/circles-mask.svg);
+    -webkit-mask-repeat: no-repeat;
     mask-image: url(masks/circles-mask.svg);
     mask-repeat: no-repeat;
     width: min(60%, 387px);
