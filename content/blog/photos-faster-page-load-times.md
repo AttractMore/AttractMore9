@@ -15,7 +15,7 @@ In the [last post](/blog/web-page-speed/ "Web Page Speed"), I talked about how i
 
 ## Evidence
 
-Firstly, let’s see some evidence for the culpability of images. The [http archive](https://httparchive.org/index.php) is a great source of information about web pages and the graph below shows the average composition of web pages over the last 6 months.
+Firstly, let’s see some evidence for the culpability of images. The [http archive](https://httparchive.org/) is a great source of information about web pages and the graph below shows the average composition of web pages over the last 6 months.
 
 {{< content-figure folder="/blog/"
 class="alignright"
@@ -23,7 +23,7 @@ src="images-major-component-of-web-pages_mlbrft.jpg"
 alt="Images make up a large percentage of page weight"
 width="500" height="257" defaultWidth="500" >}}
 
-Without going into the detail, we can see from the pie chart  ([source](https://httparchive.org/interesting.php?a=All&l=Oct%2015%202013)) that images make up the majority (62%) of the size of the average web page. Mostly these images are jpeg files which are the type of images that you would upload from your digital camera or mobile phone. Anything we can do to reduce the size of the images placed on our web sites will speed up the load times.
+Without going into the detail, we can see from the pie chart  ([source](https://httparchive.org/reports/state-of-the-web?start=latest)) that images make up the majority (62%) of the size of the average web page. Mostly these images are jpeg files which are the type of images that you would upload from your digital camera or mobile phone. Anything we can do to reduce the size of the images placed on our web sites will speed up the load times.
 
 ## What is size?
 

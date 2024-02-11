@@ -1,6 +1,5 @@
 ---
 title: "Google to make changes to search results"
-slug: google-make-changes-search-results
 date: "2016-10-14"
 categories:
   - "Search engines"

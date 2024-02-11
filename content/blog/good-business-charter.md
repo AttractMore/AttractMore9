@@ -20,7 +20,7 @@ width="930" height="930" defaultWidth="800" >}}
 
 The Charter is an initiative developed and overseen by the Good Business Foundation, an independent charity established by entrepreneur Julian Richer. Working with organisations including the TUC, IoD and FSB, they have set a benchmark for responsible business practice, which is accessible to all.
 
-We are proud to be accredited by the Good Business Charter and are keen to share our commitment to ethical business practice with you. The GBC consists of 10 components and more details for each of these components can be found on [their website](https://www.goodbusinesscharter.com/). As an organisation with under 51 employees:
+We are proud to be accredited by the Good Business Charter and are keen to share our commitment to ethical business practice with you. The GBC consists of 10 components and more details for each of these components can be found on [their website](https://goodbusinesscharter.com/). As an organisation with under 51 employees:
 
 1. We commit to pay our directly employed and regularly contracted staff the real living wage as defined by the Living Wage Foundation.
 2. We commit to only use zero or minimal hours contracts when it is mutually beneficial and accepted by both us and the employee.

@@ -120,4 +120,4 @@ Last in this list, but certainly not least, keep in regular touch with your cust
 
 As you look around other online shops, I'm sure you will have seen some of all of these techniques being used. Whether your own shop is large or small, you may find some of these approaches worthwhile. Some are not going to be appropriate but some will be.
 
-If you'd like any assistance in researching or implementing any of these means of increasing sales in your ecommerce store, please do [get in touch](https://www.attractmore.co.uk/contact/). We'd be happy to help.
+If you'd like any assistance in researching or implementing any of these means of increasing sales in your ecommerce store, please do [get in touch](https://www.attractmore.uk/contact/). We'd be happy to help.
