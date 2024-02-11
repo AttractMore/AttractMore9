@@ -16,7 +16,7 @@ We want our website to be useable by as many people as possible, irrespective of
 
 ## Guidance
 
-[AbilityNet](https://www.abilitynet.org.uk) provide a free resource to help you customise your PC or Mac, tablet or phone to make it easier to use. All these devices have accessibility tools built in and their [My Compute, My Way page](https://www.mycomputermyway.com/) will help you configure your device to make websites easier to use if you face any difficulties with the standard settings.
+[AbilityNet](https://abilitynet.org.uk) provide a free resource to help you customise your PC or Mac, tablet or phone to make it easier to use. All these devices have accessibility tools built in - it's just a question of knowing how to use them.
 
 ## Problems and suggestions
 

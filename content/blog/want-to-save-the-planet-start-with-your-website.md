@@ -78,7 +78,7 @@ You can easily check the [carbon footprint of a web page with this carbon calcul
 
 One easy thing to do is switch your hosting to a green provider, someone who uses renewable energy or compensates for the energy they use.
 
-The Green Web Foundation [provides a tool so you can check if your current host is green](https://www.thegreenwebfoundation.org/green-web-check/) and also [provides this useful directory](https://www.thegreenwebfoundation.org/directory/) of green hosting providers broken down by country.
+The Green Web Foundation [provides a tool so you can check if your current host is green](https://www.thegreenwebfoundation.org/green-web-check/) and also [provides this useful directory](https://www.thegreenwebfoundation.org/tools/directory/) of green hosting providers broken down by country.
 
 And while you’re at it you might want to review your software, such as email client, video conferencing and cloud services to make sure you are using suppliers committed to renewable energy.
 

@@ -110,7 +110,7 @@ Some good sources of imagery for websites. All photos on these sites are availab
 - [Pixabay](https://pixabay.com/)
 - [Unsplash](https://unsplash.com/)
 - [Free Pix](https://www.freepik.com/) You must credit the creator of any images you use, unless you are a subscriber to one of the paid plans.
-- [Pexels](https://www.pexels.com/)
+- [Pexels](https://www.pexels.com)
 
 Just remember to double-check any terms of conditions in case they restrict how and where you can use the images and a reminder that, in most cases, other people and companies will be able to use the same images that you are using, i.e. you have a **non-exclusive** licence.
 

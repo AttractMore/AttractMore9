@@ -20,7 +20,7 @@ summaryInfo:
 extraStyles: "/css/work-item.css"
 ---
 
-This project was another productive and enjoyable collaboration with Nikki from [Designs Like These](https://www.designslikethese.co.uk/). Nikki designed the site and we, at AttractMore, built, tested and implemented it. Like the previous site, this does not use a Content Management Systems such as WordPress, as the client did not anticipate making changes themselves.
+This project was another productive and enjoyable collaboration with Nikki from [Designs Like These](https://designslikethese.co.uk/). Nikki designed the site and we, at AttractMore, built, tested and implemented it. Like the previous site, this does not use a Content Management Systems such as WordPress, as the client did not anticipate making changes themselves.
 
 The phone number found on many of the pages includes code to detect whether the visitor’s device is a phone or not. If it is, Totem Scaffolding’s phone number is loaded into the device’s dialler so it is as easy as possible for the visitor to make the call. If the device has no dialler, then the visitor is directed to the contact page. This was a feature of the previous site as well and proved useful, so it was retained.
 

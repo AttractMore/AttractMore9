@@ -73,9 +73,6 @@ There are, however, a whole range of other sites that offer images some or all o
 - [Travel Coffee Book](https://travelcoffeebook.com/)
 - [Pexels](https://www.pexels.com)
 - [DesignersPics](https://www.designerspics.com/)
-- [Tinyography](https://www.tinyography.com/)
-
-And if you need more, here is another blog post with more suggestions - [A list of over 100 free or nearly free image sites](https://www.whoishostingthis.com/resources/free-stock-images/)
 
 Don't forget to [resize and compress images](/blog/photos-and-faster-page-load-times/ "Photos and Faster Page Load Times") so as to maximise the performance of your web page.
 

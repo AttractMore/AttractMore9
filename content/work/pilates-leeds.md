@@ -18,7 +18,7 @@ testimonial:
 summaryInfo:
   client: "Pilates Leeds"
   role: "Design, development, testing, migration and implementation."
-  website: "https://pilates-leeds.com"
+  website: "https://www.pilates-leeds.com"
 extraStyles: "/css/work-item.css"
 ---
 

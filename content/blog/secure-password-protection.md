@@ -24,7 +24,7 @@ width="1920" height="1287" defaultWidth="800" >}}
 
 ## Introduction
 
-Since 2015, the first Thursday of May has been designated World Password Day. It's a chance to remind ourselves of the importance of good password practice, especially as **80% of all data breaches are the result of passwords being compromised** ([source](https://www.securelink.com/blog/81-hacking-related-breaches-leverage-compromised-credentials/)).
+Since 2015, the first Thursday of May has been designated World Password Day. It's a chance to remind ourselves of the importance of good password practice, especially as **80% of all data breaches are the result of passwords being compromised** ([source](https://www.imprivata.com/platform/vendor-privileged-access-management/blog/81-hacking-related-breaches-leverage-compromised-credentials/)).
 
 Passwords are, at the moment at least, an essential part of our online life both in a work and in a personal context. They are like keys to a door, but instead, they give access to our email, our social media accounts, our bank accounts, our websites.
 
@@ -83,7 +83,7 @@ So, being aware of the risks, how can you best protect yourself online. Here are
 6. If you ever work in **public spaces**, watch out for people observing you before you enter a password.
 7. Make sure **employees working from home** are set up securely, especially if they are using their own devices. Raise awareness in your team about security issues
 8. **Audit passwords in your company**. This can be done in a way that does not reveal passwords but checks that they conform to a set of rules. Delete accounts of ex-employees/contractors etc.
-9. **Use 2 Factor Authentication (2FA)** wherever possible. It's a few seconds of inconvenience every time you log in but it makes it much more difficult for hackers to gain access to your accounts. This [article from Which?](https://www.which.co.uk/news/2020/03/what-is-two-factor-authentication-2fa-and-why-should-you-care/) explains what 2FA is and the benefits it provides.
+9. **Use 2 Factor Authentication (2FA)** wherever possible. It's a few seconds of inconvenience every time you log in but it makes it much more difficult for hackers to gain access to your accounts. This [article from Which?](https://www.which.co.uk/news/article/what-is-two-factor-authentication-2fa-and-why-should-you-care-aKRpd5C8LrCy) explains what 2FA is and the benefits it provides.
 10. **Log out of accounts** and out of devices when you've finished using them so no one else can access your information or change your password without you knowing.
 
 {{< content-figure folder="/blog/"
@@ -113,6 +113,6 @@ loading="lazy" >}}
 - [TeamPassword blog post](https://teampassword.com/blog/common-password-problems-faced-small-organizations)
 - [Ten Password Mistakes That Could Get Your WordPress Site Hacked](https://www.wordfence.com/blog/2021/04/ten-password-mistakes-that-could-get-your-wordpress-site-hacked/)
 - [Common Ways Attackers Are Stealing Credentials](https://www.wordfence.com/blog/2020/10/common-ways-attackers-are-stealing-credentials/)
-- [How to create secure passwords for your website](https://blog.sucuri.net/2017/12/how-to-create-secure-passwords-for-your-website.html)
+- [How to create secure passwords for your website](https://blog.sucuri.net/2022/08/how-to-create-secure-passwords-for-your-website.html)
 - [The world’s most common passwords: What to do if yours is on the list](https://www.welivesecurity.com/2023/01/02/most-common-passwords-what-do-if-yours-list/)
 - [Top 200 most common passwords](https://nordpass.com/most-common-passwords-list/)

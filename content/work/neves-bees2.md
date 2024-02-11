@@ -22,7 +22,7 @@ extraStyles: "/css/work-item.css"
 
 Fast forward to the beginning of 2021, the owners decided that, to grow the business further, they needed to sell a wider range of products and not just those that they manufactured themselves from their beeswax. Also, they wanted to be able to sell 'collections' of products.
 
-Nikki from [Designs Like These](https://www.designslikethese.co.uk/), redesigned the home page to be more modern and more product-focused as well as contributing to the design of other pages.
+Nikki from [Designs Like These](https://designslikethese.co.uk/), redesigned the home page to be more modern and more product-focused as well as contributing to the design of other pages.
 
 New categories were created and a proportion of existing products moved category, some appearing in more than one category. The challenge here was to make sure all the SEO benefits that has built up over the last 4 years were not lost.
 
