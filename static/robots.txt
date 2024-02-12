@@ -2,6 +2,7 @@ User-agent: *
 Sitemap: http://localhost:1313/sitemap.xml
 Sitemap: http://localhost:1313/imagessitemap.xml
 
+# Block AI bots (from Michelle Barker)
 User-agent: GPTbot
 Disallow: /
 

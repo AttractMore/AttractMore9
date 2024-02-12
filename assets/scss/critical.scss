@@ -108,18 +108,21 @@ h5,
 h1,
 .h1 {
   // font-size: clamp(2.375rem, calc(2.011rem + 1.818vw), 3.375rem);
+  font-size: 2rem;
   font-size: clamp(2rem, 1.5rem + 2.5vw, 3.375rem);
   line-height: 1.2;
   margin-bottom: 0.15em;
 }
 h2,
 .h2 {
+  font-size: 1.75rem;
   font-size: clamp(1.75rem, calc(1.477rem + 1.364vw), 2.5rem);
   line-height: 1.3;
 }
 h3,
 .h3 {
   color: var(--darkGreen);
+  font-size: 1.375rem;
   font-size: clamp(1.375rem, 1.239rem + 0.682vw, 1.75rem);
   margin-bottom: 0.3em;
 }
