@@ -3,6 +3,8 @@ languageCode = "en-gb"
 title = "Low carbon websites"
 paginate = 5
 copyright = "©2024 AttractMore Ltd."
+[taxonomies]
+  category = 'categories'
 [outputs]
   page = [ "html" ]
   home = [ "html", "rss", "imagessitemap" ]

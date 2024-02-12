@@ -46,7 +46,6 @@ alt="Responsive web design"
 width="500" height="291" defaultWidth="500"
 loading="lazy" >}}
 
-![Responsive web design](/optim/blog/responsive-web-design-1.jpg){width=500}{data-responsiver=blogside}
 As you will see, the layout on a desktop screen and a laptop has 2 columns, whereas on a tablet and a mobile a single column holds all the content. The information contained in the right hand column shown on the wider screens is displaced below the main content on tablets and mobiles. The text remains readable at all screen sizes, links and buttons are big enough so you can click them without hitting an adjacent link or button in error.
 
 ### Business Benefits

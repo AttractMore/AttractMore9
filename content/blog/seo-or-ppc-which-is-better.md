@@ -11,8 +11,6 @@ socialImage: "/images/blog/seo-ppc-pros-and-con-1200.jpg"
 extraStyles: "/css/post.css"
 ---
 
-## SEO or PPC: which is better for your business?
-
 {{< content-figure folder="/blog/"
 src="seo-ppc-pros-and-cons_qdpsac.jpg"
 alt="Both SEO and digital advertising (PPC) have pros and cons. Image shows 2 people engaged in working on an SEO campaign"

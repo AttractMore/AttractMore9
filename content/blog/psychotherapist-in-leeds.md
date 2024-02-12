@@ -51,8 +51,6 @@ alt="Therapy Space Leeds mobile menu open and closed"
 width="930" height="610" defaultWidth="800"
 loading="lazy" >}}
 
-![Therapy Space Leeds mobile menu open and closed](/optim/blog/therapyspaceleeds-mobile-menu.jpg){width=930}
-
 The horizontal arrangement of menu items works well on larger screens but on smaller screens we chose to use a simple menu button which, when tapped would reveal a menu of items sliding down vertically as you can see in the next image.
 
 This is easy to use and looks professional.

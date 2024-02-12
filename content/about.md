@@ -7,23 +7,24 @@ hero:
   p2: "We put our knowledge and expertise into crafting online experiences that genuinely promote clients’ businesses. We love what we do and we’d be delighted to work with you and your business."
   imgSrc: "/images/misc/forest-tree2"
   imgAlt: "Effective, high-performing, low carbon websites, delivering value to your business. (Photo by Felix Mittermeier from Pexels: https://www.pexels.com/photo/worms-eyeview-of-green-trees-957024/)"
-pageHeaderTitle: "About AttractMore"
 extraStyles: "/css/about.css"
 ---
 
-## Vision
+## About AttractMore
+
+### Vision
 
 I want AttractMore to be known in the UK as a web agency that produces **powerful and effective websites with low carbon impact**.
 
-## Purpose
+### Purpose
 
 Our purpose is to use our skills and experience in web technologies to help small businesses grow and develop.
 
-## Mission
+### Mission
 
 Our mission is to help SMEs and solopreneurs have powerful, effective websites that don't cost the earth.
 
-## Values
+### Values
 
 I think it is important to have a set of values that we adhere to no matter what. Most of the time it’s easy to stick with these; occasionally it’s more challenging. These are the **main principles** or values we have adopted:
 
@@ -37,7 +38,7 @@ This means we are honest and reliable with a clear focus on client needs and a d
 
 If this seems like a bland and empty set of items, I can assure you that, to us, it isn’t. They are **guiding principles** and experience shows that relationships with clients and the projects we carry out are all improved by adopting these ideas.
 
-## Ethics
+### Ethics
 
 We enjoy the work we do and we have a number of ethical principles which apply to our work. We will not take on projects for people or organisations who are involved in worker exploitation or any form of discrimination. We will not carry out work for any company that supplies to the military, that carries out experiments on animals or that publishes pornographic material.
 
@@ -54,11 +55,11 @@ src="gbc-components_ugex59"
 alt="Good Business Charter Compnents"
 width="930" height="828" defaultWidth="500" >}}
 
-## Accessibility
+### Accessibility
 
 Why prevent a significant percentage of the population from enjoying your web site? That’s what will happen if accessibility issues are not taken into account in the design. People with poor sight can use screen reader software which will read the contents but this means properly identifying the building blocks that make up the site. There is no point reading out the header, menu and footer for every page, for instance. Contrast and colour combinations need to be considered for people who are colour blind. I think AttractMore has made some important steps in this direction but we are always looking to improve our service in this area.
 
-## Background
+### Background
 
 I’m Roger Knight and I founded AttractMore back in 2006. Since then we’ve built a lot of web sites for a lot of different people and throughout that time web design itself and the technologies we use have changed a great deal. Some things haven’t changed though: we continue to offer great service, produce modern attractive web sites that meet business needs and we don’t charge over the odds. We work on solutions and design in conjunction with clients as we believe that **collaborative working produces better results** as clients know their business and audience better than we do.
 

@@ -1,6 +1,5 @@
 ---
 title: "Tips to get more interested visitors to your website"
-slug: tips-more-interested-visitors
 date: "2021-01-18"
 categories:
   - "Search engines"

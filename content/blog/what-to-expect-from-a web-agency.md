@@ -33,7 +33,7 @@ I've been running a web agency for over 10 years now and, in this article, I'm g
 
 These items are not in any particular order and I believe that they are all important to maximise the possibility of a smooth web project leading to an effective outcome and a good ROI for the client.
 
-## <a id="knowledgeable"></a> 1. Knowledgeable and up-to-date
+## 1. Knowledgeable and up-to-date
 
 {{< content-figure folder="/blog/"
 src="web-agency-knowledge-experience_wal67j.jpg"
@@ -51,7 +51,7 @@ Any web agency worth their salt, needs to have an in-depth understanding of the 
 
 However, it would be unreasonable to expect an agency to know everything about everything!
 
-## <a id="experienced"></a> 2. Experienced
+## 2. Experienced
 
 You should expect a good web agency to have designed and developed a range of different sites across different industries. They should have created:
 
@@ -62,7 +62,7 @@ You should expect a good web agency to have designed and developed a range of di
 
 If the agency are offering SEO services, again they should have worked on a number of different sites. Ask them.
 
-## <a id="process"></a> 3. Have a process
+## 3. Have a process
 
 They should have a process for designing, developing and implementing a website which they should be able to describe to you and share with you. This helps everyone involved in the project know where they are and what comes next. It helps [organisation and planning](https://www.attractmore.uk/services/website-creation/project-management/).
 
@@ -76,13 +76,13 @@ The process must have some flexibility built in to allow it to adapt to each par
 
 The project process/plan should never be made up as you go along! Ask about their process.
 
-## <a id="legal"></a> 4. Have a legal agreement
+## 4. Have a legal agreement
 
 A professional web agency should insist that you both sign a contract for the services offered that specifies the responsibilities of each party, what is to be delivered and the costs involved.
 
 The contract should be clear and make no attempt whatever to try to get you to sign something you might later regret. It should not try to tie you in to the services of the web agency and it must include a process for dealing with changes during the project. This should allow the client to request alterations to the original scope and indicate how costs and timescales will be handled due to changes that are requested.
 
-## <a id="quality"></a> 5. Demonstrate quality
+## 5. Demonstrate quality
 
 Clearly, a decent web agency should have a focus on the quality and reliability of the websites they deliver. In my view, it is important to [test a website](https://www.attractmore.uk/services/website-creation/web-development-website-testing/) before it goes live. It should be tested on many different devices - Android phones and tablets, Apple phones and tablets, Windows and Apple desktop and laptop devices. Also, tested on the newest and several older versions of the operating systems on each device and on different versions of different browsers on each (Chrome, Firefox, Edge, Safari etc).
 
@@ -90,11 +90,11 @@ Testing should also include checking page load speed and taking any necessary ac
 
 Quality and accuracy is also important with other types of project - SEO, security, website speed improvements etc.
 
-## <a id="estimates"></a> 6. Provide realistic estimates of cost & time
+## 6. Provide realistic estimates of cost & time
 
 You should expect a web agency to provide sensible estimates of cost and timescales. Estimates that are suspiciously low suggest that the agency hasn't understood the project or they want to win the work with low estimates and may well find ways to change the client more later.
 
-## <a id="questions"></a> 7. Ask questions
+## 7. Ask questions
 
 {{< content-figure folder="/blog/"
 src="web-agency-questions_ccttqt.jpg"
@@ -112,13 +112,13 @@ At the outset of any web project (website, keyword research etc), you should exp
 
 If an agency is going to do a good job for you, these are important factors that will contribute significantly to the success of the final product.
 
-## <a id="partnership"></a> 8. Work in partnership with you
+## 8. Work in partnership with you
 
 A web agency should act as a partner, not simply as a vendor.
 
 To my mind this need mutual respect and honesty and requires the client to play an active role in the project. The agency should request your participation, listen to your ideas, provide ideas of their own and actively seek your feedback throughout the project.
 
-## <a id="responsive"></a> 9. Responsive to you
+## 9. Responsive to you
 
 A professional web agency should respond to clients quickly. I'm not suggesting that client's questions are answered instantly, but rather that expectations are set as to when questions will be answered etc.
 
@@ -126,11 +126,11 @@ An agency should provide several channels of communication and agree these with 
 
 Agencies should always aim to be clear and unambiguous and avoid jargon.
 
-## <a id="deliver"></a> 10. Deliver
+## 10. Deliver
 
 It probably goes without saying that web agencies must deliver what they say they would when they said they would. If the agency becomes aware that they cannot meet a deadline, then they should communicate this to the client as soon as possible. Similarly, if a client can't meet a deadline, they should communicate this as soon as they can.
 
-## <a id="support"></a> 11. Offer ongoing support and maintenance for site after it is live
+## 11. Offer ongoing support and maintenance for site after it is live
 
 Once a website is live, that should not be the end of the relationship between web agency and client. The agency should offer ongoing [care, maintenance and updates](https://www.attractmore.uk/services/website-support-maintenance/) the site. They shouldn't need to carry out content updates (unless the client requests this) as this ability should be provided for in the development project.
 
