@@ -14,7 +14,7 @@
     },
     {
       "topic": "Analytics, ads, etc.",
-      "response": "<p>I advise against ads, analytics and tracking codes as they can be slow and can be used in ways that don't respect users' privacy. There are a few analytics services I can recommend that are more performant and less invasive.<p>"
+      "response": "<p>I advise against ads, analytics and tracking codes as they can be slow and can be used in ways that don't respect users' privacy. There are a few analytics services I can recommend that are more performant and less invasive.</p>"
     },
     {
       "topic": "Caching",
