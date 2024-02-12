@@ -2,15 +2,15 @@
   "items": [
     {
       "topic": "Images",
-      "response": "<p>To control the amount of data transferred over the network images must be managed. Images represent around 40% of the median web page size. For all images (apart from very small ones) I create several copies of the image at different widths and in different format. then I sent the best sized image in the best format to the requesting device based on its size and capability.</p><p>For example, it's inefficient to send an image 1200px wide to a phone that has a screen width of 400px. I also make sure the images are compressed and saved at a lower quality. This can reduce the size of images significantly but the reduction in quality is not visible.</p>"
+      "response": "<p>To control the amount of data transferred over the network images must be managed. Images represent around 40% of the median web page size. For all images (apart from very small ones) several copies of the image at different widths and in different format are created. Then the best sized image in the best format is sent to the requesting device based on its size and capability.</p><p>For example, it's inefficient to send an image 1200px wide to a phone that has a screen width of 400px. Images are also compressed and saved at a lower quality. This can reduce the size of images significantly but the reduction in quality is not visible.</p>"
     },
     {
       "topic": "Fonts",
-      "response": "<p>I am also careful with fonts. I prefer to minimise the number of fonts used on a page and store the font files on the website server rather than rely on a third-party service (e.g.Google fonts).</p><p>I use modern font formats as they tend to be smaller files and we'll only include characters we're likely to use in the font file. There would be no point, for example, including Greek characters in the font file, if we're not planning to display them on the site. Again, it's about efficiency and only doing what's needed.</p>"
+      "response": "<p>Some care is needed with fonts. The number of different fonts used on a page should be minimised and store the font files should be stored on the website server rather than relying on a third-party service (e.g.Google fonts).</p><p>Modern font formats they tend to be smaller files and it's more efficient to only include characters in the font files that are likely to be used. There would be no point, for example, including Greek characters in the font file, if we're not planning to display them on the site. Again, it's about efficiency and only doing what's needed.</p>"
     },
     {
       "topic": "Lazy loading",
-      "response": "<p>It makes sense to only load images, videos and code when they're actually needed on a web page. For example, I don't load videos until a user clicks on them as it would be a waste to download the data over the network if it's never going to be needed.</p>"
+      "response": "<p>It makes sense to only load images, videos and code when they're actually needed on a web page. For example, it's best not to load videos until a user clicks on them as it would be a waste to download the data over the network if it's never going to be needed.</p>"
     },
     {
       "topic": "Analytics, ads, etc.",
@@ -22,7 +22,7 @@
     },
     {
       "topic": "Efficient code",
-      "response": "<p>To reduce server load, I work to make the code I write as efficient as possible and use coding languages that are efficient. There is a big difference between the best and worst coding languages in terms of the amount of power they require during development (source). I also compress code for live website use to reduce the file sizes.</p>"
+      "response": "<p>To reduce server load, I work to make the code I write as efficient as possible and use coding languages that are efficient. There is a big difference between the best and worst coding languages in terms of the amount of power they require during development (<a href='https://greenlab.di.uminho.pt/wp-content/uploads/2017/10/sleFinal.pdf' rel='noopener,noreferrer,nofollow'>source</a>). Code for live website use is always compressed to reduce the file sizes.</p>"
     },
     {
       "topic": "Interaction flows",
@@ -34,7 +34,7 @@
     },
     {
       "topic": "Server location",
-      "response": "<p>I host sites as close to users as possible so I reduce the 'data miles'. If a site's users are in multiple countries, a content delivery network may be appropriate as it has a globally distributed network of servers.</p>"
+      "response": "<p>Site hosting should be as close to users as possible to reduce the 'data miles'. If a site's users are in multiple countries, a content delivery network may be appropriate as it has a globally distributed network of servers.</p>"
     }
   ]
 }
