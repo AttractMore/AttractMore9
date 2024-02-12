@@ -1,3 +1,15 @@
 User-agent: *
 Sitemap: http://localhost:1313/sitemap.xml
 Sitemap: http://localhost:1313/imagessitemap.xml
+
+User-agent: GPTbot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
