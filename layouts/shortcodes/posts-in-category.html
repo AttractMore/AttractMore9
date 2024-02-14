@@ -1,0 +1,16 @@
+{{ with .Get "category" }}
+{{ $targetCategory:= . }}
+<section>
+  {{ range $taxonomy, $terms := site.Taxonomies }}
+      {{ range $term, $weightedPages := $terms }}
+      {{ if eq $term $targetCategory }}
+          <ul>
+            {{ range $weightedPages }}
+              <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+            {{ end }}
+          </ul>
+        {{ end }}
+      {{ end }}
+  {{ end }}
+</section>
+{{ end }}

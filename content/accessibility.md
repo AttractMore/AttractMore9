@@ -21,3 +21,7 @@ We want our website to be useable by as many people as possible, irrespective of
 ## Problems and suggestions
 
 Despite our efforts, there may remain some parts of the website that are not so easy to access and, if you find anything amiss, please do [contact us](/contact/) and we will do our best to remedy it. Your assistance will help all website users.
+
+## Blog posts related to Accessibility
+
+{{< posts-in-category category="accessibility" >}}
