@@ -3,14 +3,14 @@ Sitemap: https://www.attractmore.uk/sitemap.xml
 Sitemap: https://www.attractmore.uk/imagessitemap.xml
 
 # Block AI bots (from Michelle Barker)
-User-agent: GPTbot
-Disallow: /
+#User-agent: GPTbot
+#Disallow: /
 
-User-agent: ChatGPT-User
-Disallow: /
+#User-agent: ChatGPT-User
+#Disallow: /
 
-User-agent: Google-Extended
-Disallow: /
+#User-agent: Google-Extended
+#Disallow: /
 
-User-agent: Omgilibot
-Disallow: /
+#User-agent: Omgilibot
+#Disallow: /
