@@ -17,9 +17,9 @@ src="moving-up-search-engine-rankings_gw63yn.jpg"
 alt="Using an understanding of SEO ranking factors to gain better positions in the search engine results."
 width="1920" height="1280" defaultWidth="800" >}}
 
-There is no point having a great looking website if nobody ever gets to see it because it’s languishing on page 37 of search results. It's [why SEO is such an important part](https://www.attractmore.uk/services/search-engine-optimisation/) of a website's design and build, and why it's so crucial to understand which are the **most important SEO ranking factors**.
+There is no point having a great looking website if nobody ever gets to see it because it’s languishing on page 37 of search results. It's [why SEO is such an important part](/services/search-engine-optimisation/) of a website's design and build, and why it's so crucial to understand which are the **most important SEO ranking factors**.
 
-A ranking factor is a criterion applied by Google/Bing/[Ecosia](https://www.attractmore.uk/blog/ecosia-a-search-engine-that-plants-trees/) (and other search engines) to evaluate a page to decide where it should appear in search results. But with Google having over 200 ranking factors, (although it’s not clear what all of these actually are), it can be difficult to know what SEO ranking factors to focus on. And just to complicate things further, the search algorithms are always changing. In 2021, Google made more than [5,000 changes to improve search results](https://blog.google/products/search/danny-25-years-of-search/), which is approximately 13 per day, and that doesn’t include the 800,000 experiments they conducted to help make search even more useful.
+A ranking factor is a criterion applied by Google/Bing/[Ecosia](/blog/ecosia-a-search-engine-that-plants-trees/) (and other search engines) to evaluate a page to decide where it should appear in search results. But with Google having over 200 ranking factors, (although it’s not clear what all of these actually are), it can be difficult to know what SEO ranking factors to focus on. And just to complicate things further, the search algorithms are always changing. In 2021, Google made more than [5,000 changes to improve search results](https://blog.google/products/search/danny-25-years-of-search/), which is approximately 13 per day, and that doesn’t include the 800,000 experiments they conducted to help make search even more useful.
 
 While working out what Google actually wants from websites might seem like an unsurmountable task, their ['How Search Works'](https://www.google.com/search/howsearchworks/how-search-works/ranking-results/#relevance) page, does give some insight into its most significant ranking factors and it is likely that other search engines work in a similar way. Let’s take a look at what they are.
 
@@ -31,7 +31,7 @@ With so much content available on the web, it’s not surprising that Google giv
 - **Up to date and fresh**: Google prefers pages that are up to date so, if possible, write about recent news or research. Also, remember to update existing blog posts with new information to keep them fresh.
 - **Well-organised and structured**: Google prefers easy to read content, so review the flow of your article; use multiple headings and subheadings to group content together, and use bulleted and numbered lists. This will all help with an article's readability.
 
-And whatever content you do put on your website, make sure it satisfies **user intent**. In the good old days, it was enough to pepper your content with a few choice keywords, but nowadays, Google's algorithm is a lot more sophisticated. While using keywords is still an important part of SEO, Google is more interested in **the reason behind the online search**, otherwise known as the ['search intent'](https://www.attractmore.uk/blog/a-quick-guide-to-search-intent-and-what-it-means-for-your-website/). This means information provided on pages needs to be relevant, answer the user’s search query **and their intent**, otherwise, the page won't rank well.
+And whatever content you do put on your website, make sure it satisfies **user intent**. In the good old days, it was enough to pepper your content with a few choice keywords, but nowadays, Google's algorithm is a lot more sophisticated. While using keywords is still an important part of SEO, Google is more interested in **the reason behind the online search**, otherwise known as the ['search intent'](/blog/a-guide-to-search-intent-for-seo/). This means information provided on pages needs to be relevant, answer the user’s search query **and their intent**, otherwise, the page won't rank well.
 
 Google breaks down search intent into four types:
 
@@ -70,9 +70,9 @@ Google doesn't just focus on the quality of content but also how it's provided a
 - creating a mobile friendly website, which resizes to fit different size devices
 - using decent-sized fonts that are easy to read even on a small screen.
 
-Another important SEO ranking factor linked with user experience is **page speed**. This refers to how quickly a browser is able to load web pages so users can use them effectively. Ideally, your website should [load within 2-3 seconds](https://www.attractmore.uk/blog/speedy-does-it.-why-website-speed-matters/), otherwise, you risk not only losing customers but also your position in Google search results.
+Another important SEO ranking factor linked with user experience is **page speed**. This refers to how quickly a browser is able to load web pages so users can use them effectively. Ideally, your website should [load within 2-3 seconds](/blog/website-speed/), otherwise, you risk not only losing customers but also your position in Google search results.
 
-Your site also needs to load quickly on mobile devices, so make sure you get it right across the board. You can use Google's [Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) to check how your site is faring and it’s also worth reading up on [why website speed matters](https://www.attractmore.uk/blog/speedy-does-it.-why-website-speed-matters/).
+Your site also needs to load quickly on mobile devices, so make sure you get it right across the board. You can use Google's [Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) to check how your site is faring and it’s also worth reading up on [why website speed matters](/blog/website-speed/).
 
 ## **Other factors worth considering**
 
@@ -86,13 +86,13 @@ alt="Using an understanding of SEO ranking factors to gain better positions in t
 width="1920" height="1280" defaultWidth="800"
 loading="lazy" >}}
 
-**E-E-A-T:** this refers to Google’s [Quality Rater Guidelines](https://static.googleusercontent.com/media/guidelines.raterhub.com/en/searchqualityevaluatorguidelines.pdf), which is a set of criteria to determine if content should be regarded as good quality or not. Aimed primarily at financial and healthcare websites, where incorrect advice could have a detrimental impact on the searcher, content needs to show Experience, Expertise, Authority and Trustworthiness (E-E-A-T) and is Google’s way of protecting people from poor quality content and misinformation. While it’s not directly a ranking factor, if you site doesn't match well with these guidelines, then it’s unlikely to rank well in search. Learn more about how to [write content which meets these criteria](https://www.attractmore.uk/blog/how-to-write-better-content-for-your-website/).
+**E-E-A-T:** this refers to Google’s [Quality Rater Guidelines](https://static.googleusercontent.com/media/guidelines.raterhub.com/en/searchqualityevaluatorguidelines.pdf), which is a set of criteria to determine if content should be regarded as good quality or not. Aimed primarily at financial and healthcare websites, where incorrect advice could have a detrimental impact on the searcher, content needs to show Experience, Expertise, Authority and Trustworthiness (E-E-A-T) and is Google’s way of protecting people from poor quality content and misinformation. While it’s not directly a ranking factor, if you site doesn't match well with these guidelines, then it’s unlikely to rank well in search. Learn more about how to [write content which meets these criteria](/blog/write-better-website-content/).
 
 **Video content:** with [79% of people preferring to watch a video](https://www.wyzowl.com/video-marketing-statistics/) rather than read a blog post and people increasingly using videos to help them make purchase decisions. Including relevant, quality video content, which can be shared and linked to, will help boost your search ranking position.
 
 **Social shares:** although Google states that having your content shared on social media is not a ranking factor, the more shares you get the more likely you will get backlinks from other sites and the more traffic you will generate to your site. This can all have an indirect impact on your search engine rankings.
 
-Hopefully, that's given you a good idea of the key SEO ranking factors you should be focusing on. If you need any more advice on how to successfully optimise your website for search engines, [please get in touch](https://www.attractmore.uk/contact/).
+Hopefully, that's given you a good idea of the key SEO ranking factors you should be focusing on. If you need any more advice on how to successfully optimise your website for search engines, [please get in touch](/contact/).
 
 ### References/Further reading
 

@@ -28,7 +28,7 @@ And, after that, if you’re still not convinced that it is worth getting a new 
 
 ## 1. Web design trends change
 
-Just like fashion trends changes, so does web design. Remember when long, one-page sites were all the rage, when all sites seemed to use Flash or when [image sliders were everywhere](https://www.attractmore.uk/blog/website-image-sliders-need-to-go-now/)?
+Just like fashion trends changes, so does web design. Remember when long, one-page sites were all the rage, when all sites seemed to use Flash or when [image sliders were everywhere](/blog/website-image-sliders-need-to-go-now/)?
 
 While new trends in web design might just feel like making changes for the sake of it, in most cases they are more about **improving the user experience**. Take the problem with image sliders – they often vanish before you have chance to read the text or linger too long so you scroll away anyway. And let’s face it, if your website is easier to use the chances are that’s going to be better for your business.
 
@@ -36,7 +36,7 @@ The other consideration is if your website looks a bit dated, especially if your
 
 Simple adjustments such as a better navigation, more modern graphics or better organised content could mean the difference between you or your competitors getting the business.
 
-I’ve put together a[ list of 10 things you should think about if you really want a well-designed website](https://www.attractmore.uk/blog/10-important-elements-of-good-web-design/), and if you fancy looking at how design has moved on, here are [some great examples of forgotten trends in web design](https://www.webdesignmuseum.org/).
+I’ve put together a[ list of 10 things you should think about if you really want a well-designed website](/blog/important-elements-of-good-web-design/), and if you fancy looking at how design has moved on, here are [some great examples of forgotten trends in web design](https://www.webdesignmuseum.org/).
 
 ## 2. Security is more important than ever
 
@@ -46,7 +46,7 @@ I’ve put together a[ list of 10 things you should think about if you really wa
 
 This means it’s more important than ever to keep software and plugins up to date. If you don’t, it gives potential hackers and bots an avenue of attack.
 
-So why does this mean you should get a new website? Well, as technology gets older it’s less likely to be supported, which means it opens up **vulnerabilities for hackers to exploit**. And the good news is [Google also rewards websites](https://developers.google.com/search/blog/2014/08/https-as-ranking-signal) for using certain security measures such as HTTPS encryption, so it’s well worth [making sure your website is as secure as possible.](https://www.attractmore.uk/blog/how-to-protect-your-website-against-hacking/)
+So why does this mean you should get a new website? Well, as technology gets older it’s less likely to be supported, which means it opens up **vulnerabilities for hackers to exploit**. And the good news is [Google also rewards websites](https://developers.google.com/search/blog/2014/08/https-as-ranking-signal) for using certain security measures such as HTTPS encryption, so it’s well worth [making sure your website is as secure as possible.](/blog/how-to-protect-your-website-against-hacking/)
 
 ## 3. Mobile is king
 
@@ -70,11 +70,11 @@ People nowadays want to access information quickly so just like an outdated desi
 
 And it won’t surprise you to know, that slow page loading times also impact how well you rank on Google’s search results.
 
-I am happy to offer a [low-cost assessment of your site to suggest ways of speeding it up](https://www.attractmore.uk/services/page-speed-optimisation/), or talk through the [practicalities of getting a new website](https://www.attractmore.uk/services/website-creation/).
+I am happy to offer a [low-cost assessment of your site to suggest ways of speeding it up](/services/page-speed-optimisation/), or talk through the [practicalities of getting a new website](/services/website-creation/).
 
 ## 5. Your website isn’t accessible
 
-I’ve mentioned before [how important it is to have a fully accessible website](https://www.attractmore.uk/blog/a-starter-guide-to-accessibility/) which anyone can easily use, including people with visual or hearing impairments, cognitive or motor skill disabilities.
+I’ve mentioned before [how important it is to have a fully accessible website](/blog/beginners-guide-to-accessibility/) which anyone can easily use, including people with visual or hearing impairments, cognitive or motor skill disabilities.
 
 If your site doesn’t meet the most basic of [web accessibility standards](https://www.w3.org/WAI/test-evaluate/preliminary/) it might be time to start afresh.
 
@@ -84,9 +84,9 @@ I’ve already mentioned a couple of things that can help with your search engin
 
 {{< content-figure folder="/blog/" src="missing-piece-of-the-jigsaw_j5nrxx.jpg" alt="A website that doesn't rank well in the search engines is not working well for your business." width="1920" height="1479" defaultWidth="800" loading="lazy" >}}
 
-It’s one of the reasons why ensuring [you choose the right keywords and then optimise the right pages](https://www.attractmore.uk/services/search-engine-optimisation/) should be an ongoing task rather than a one off exercise.
+It’s one of the reasons why ensuring [you choose the right keywords and then optimise the right pages](/services/search-engine-optimisation/) should be an ongoing task rather than a one off exercise.
 
-If you [need advice on SEO](https://www.attractmore.uk/services/search-engine-optimisation/), we will perform a thorough audit of your site to look for ways to make improvements. It might be that a few tweaks are all that’s needed, or it might help clarify that getting a brand-new site is the best option.
+If you [need advice on SEO](/services/search-engine-optimisation/), we will perform a thorough audit of your site to look for ways to make improvements. It might be that a few tweaks are all that’s needed, or it might help clarify that getting a brand-new site is the best option.
 
 ## 7. Your business has changed
 
@@ -94,4 +94,4 @@ One of the best reasons to get a new website is because your business has change
 
 Not only is **a new website a great promotional tool for your business**, but you can also ensure it is flexible enough to incorporate any other adjustments that might be needed over the coming months. There is nothing worse than tweaking an existing site only to realise it’s never really going to be up to the job.
 
-Hopefully, that’s given you some insight into why 2022 might be the year you get a new website. And if you do want any advice on next steps, then [get in touch.](https://www.attractmore.uk/contact/)
+Hopefully, that’s given you some insight into why 2022 might be the year you get a new website. And if you do want any advice on next steps, then [get in touch.](/contact/)

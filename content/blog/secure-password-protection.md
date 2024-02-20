@@ -13,7 +13,7 @@ extraStyles: "/css/post.css"
 
 ## Summary
 
-Previously, I have written about [protecting your website against hacking](https://www.attractmore.uk/blog/how-to-protect-your-website-against-hacking/) and I discussed the value of strong passwords. However, passwords protect more than websites and, with **World Password Day** coming up, it seemed appropriate to go into more details about protecting ourselves with our passwords.
+Previously, I have written about [protecting your website against hacking](/blog/how-to-protect-your-website-against-hacking/) and I discussed the value of strong passwords. However, passwords protect more than websites and, with **World Password Day** coming up, it seemed appropriate to go into more details about protecting ourselves with our passwords.
 
 I will look at the most common passwords used by people, all of which are very easy to crack but the most important part of the article is the section on the **10 ways you can protect yourself online.** Passwords are so important for our online safety and security that it is worth taking a few minutes to see what you can do to stop hackers from breaking into your accounts and doing serious damage.
 
@@ -57,7 +57,7 @@ This is the list in order of the most common first.
 9. 111111
 10. 1234567890
 
-The list doesn't vary much from year to year - the same culprits keep cropping up! You can read the top [10 passwords from 2014](https://www.attractmore.uk/blog/an-appeal-about-passwords/) in the article I wrote about this at the time.
+The list doesn't vary much from year to year - the same culprits keep cropping up! You can read the top [10 passwords from 2014](/blog/appeal-passwords/) in the article I wrote about this at the time.
 
 It's common for people to use a year in their passwords - often the year they were born or the year their partner was born. A woman I know used to have an email password brian679. Yes, you've guessed it - Brian is the name of her partner and he was born in June 1979. That information is easy to get hold of so the password offered very poor security.
 

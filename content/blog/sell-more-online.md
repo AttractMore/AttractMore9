@@ -28,11 +28,11 @@ In this post, I will list a number of ways in which you could increase your sale
 
 However, before we launch into this, there are some fundamental ecommerce features that you need to have sorted first (or at least, have them well in-hand).
 
-Firstly, you need to get good numbers of people visiting your shop. You can do this though [search engine optimisation (SEO)](https://www.attractmore.uk/blog/tips-to-get-more-interested-visitors-to-your-website/), social media, digital advertising etc. It's worth bearing in mind that SEO work is a medium-term strategy but that its benefits continue even after you've stopped investing in it. Advertising, on the other hand, is a short-term strategy whose benefits cease as soon as you stop investing in it.
+Firstly, you need to get good numbers of people visiting your shop. You can do this though [search engine optimisation (SEO)](/blog/tips-to-get-more-interested-visitors-to-your-website/), social media, digital advertising etc. It's worth bearing in mind that SEO work is a medium-term strategy but that its benefits continue even after you've stopped investing in it. Advertising, on the other hand, is a short-term strategy whose benefits cease as soon as you stop investing in it.
 
-One important aspect of SEO is making sure that the pages of your shop [load as quickly as possible](https://www.attractmore.uk/blog/improving-speed-security-and-accessibility/). It's an important factor in SEO simply because it's an important factors for site visitors. No one likes a slow website.
+One important aspect of SEO is making sure that the pages of your shop [load as quickly as possible](/blog/improving-speed-security-and-accessibility/). It's an important factor in SEO simply because it's an important factors for site visitors. No one likes a slow website.
 
-The other ecommerce fundamental is making sure that checkout is as easy as possible. Keep the number of fields you ask for to a minimum, allow multiple payment methods etc. There is also much more you can do to [optimise checkout](https://www.attractmore.uk/blog/optimise-checkout-to-sell-more-online/).
+The other ecommerce fundamental is making sure that checkout is as easy as possible. Keep the number of fields you ask for to a minimum, allow multiple payment methods etc. There is also much more you can do to [optimise checkout](/blog/optimise-checkout-to-sell-more-online/).
 
 ## Ways to sell more online
 
@@ -114,10 +114,10 @@ Having customers commit to spending a certain amount every month is a good way t
 
 ### Email follow ups
 
-Last in this list, but certainly not least, keep in regular touch with your customers via email. Let them know what's happening with your shop, keep them informed about new products, offers, loyalty programmes etc. Read more about [emails to keep customers engaged](https://www.attractmore.uk/blog/ecommerce-emails-to-keep-your-customers-engaged/).
+Last in this list, but certainly not least, keep in regular touch with your customers via email. Let them know what's happening with your shop, keep them informed about new products, offers, loyalty programmes etc. Read more about [emails to keep customers engaged](/blog/ecommerce-emails-to-keep-customers-engaged/).
 
 ## Conclusion
 
 As you look around other online shops, I'm sure you will have seen some of all of these techniques being used. Whether your own shop is large or small, you may find some of these approaches worthwhile. Some are not going to be appropriate but some will be.
 
-If you'd like any assistance in researching or implementing any of these means of increasing sales in your ecommerce store, please do [get in touch](https://www.attractmore.uk/contact/). We'd be happy to help.
+If you'd like any assistance in researching or implementing any of these means of increasing sales in your ecommerce store, please do [get in touch](/contact/). We'd be happy to help.

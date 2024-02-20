@@ -1,7 +1,7 @@
 ---
 title: "Privacy and Cookies"
 type: "miscellaneous"
-pageRobots: "noindex,follow"
+pageRobots: false
 metaDesc: "This is our privacy and cookies policy which we are committed to upholding. At present we don't store any cookies in visitors' browsers."
 extraStyles: "/css/miscellaneous.css"
 ---

@@ -13,7 +13,7 @@ extraStyles: "/css/post.css"
 
 ## Intro
 
-I've written in some detail about the [benefits of good passwords](https://www.attractmore.uk/blog/password-mistakes-you-could-be-making/) but in this article, I present evidence for the value of longer, more complex passwords.
+I've written in some detail about the [benefits of good passwords](/blog/secure-password-protection/) but in this article, I present evidence for the value of longer, more complex passwords.
 
 {{< content-figure folder="/blog/"
 src="better-passwords-resist-brute-force-attacks_b45u0a.jpg"
