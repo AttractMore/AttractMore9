@@ -27,7 +27,7 @@ What they miss is that often the design of **their website is inappropriate for 
 
 If your website is inadequate, visitors to the site will conclude that your business is also inadequate and they will go elsewhere.
 
-So simply having a website is not enough. Having a pretty website is not enough (and may be counter-productive). Businesses need websites that are designed and optimised to generate customers. [Seth Godin](https://sethgodin.typepad.com/seths_blog/2015/05/pretty-websites.html) puts it this way:
+So simply having a website is not enough. Having a pretty website is not enough (and may be counter-productive). Businesses need websites that are designed and optimised to generate customers. [Seth Godin](https://seths.blog/2015/05/pretty-websites/) puts it this way:
 
 > it's a mistake to \[…\] expect your pretty website to generate cash, to have the maximum percentage of clicks, to have the most efficient possible funnel of attention to action.
 

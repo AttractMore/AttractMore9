@@ -100,8 +100,8 @@ It's also worth mentioning that not all brute force attacks use full lists of al
 
 - Raise awareness about password security in your organisation
 - Enforce a policy of using passwords that use lower case and upper case letters, numbers and special characters and which are at least 8 characters in length (better with 12 characters) (**Update May 2023** - 8 character passwords can no longer be considered adequate - 12 characters should now be the minimum).
-- Use a [password manager](https://www.attractmore.uk/blog/password-mistakes-you-could-be-making/) so people don't have to remember or write down the passwords
+- Use a [password manager](/blog/secure-password-protection/) so people don't have to remember or write down the passwords
 - Don't reuse passwords across different sites
-- Review other methods of [protecting your systems](https://www.attractmore.uk/blog/how-to-protect-your-website-against-hacking/) e.g. 2 Factor authentication.
+- Review other methods of [protecting your systems](/blog/how-to-protect-your-website-against-hacking/) e.g. 2 Factor authentication.
 
 Note: _ The 32 special characters are - !"#$%&'()_+,-./:;<=>?@[\]^\_`{|}~

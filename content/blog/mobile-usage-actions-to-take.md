@@ -36,7 +36,7 @@ Although these figures may not directly apply to your site, the increasing smart
 One simple way of checking whether your website is mobile-friendly is to use the following two tools from Google.
 
 - [https://search.google.com/test/mobile-friendly](https://search.google.com/test/mobile-friendly)
-- [https://testmysite.withgoogle.com/intl/en-gb](https://testmysite.withgoogle.com/intl/en-gb)
+- [https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/mobile-tools-to-optimize-site-and-app/](https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/mobile-tools-to-optimize-site-and-app/)
 
 By entering your website address, Google will check your site and let you know of any basic mobile deficiencies. The second option is better as it gives feedback on page speed.
 

@@ -18,7 +18,7 @@ src="three-guys-looking-serious-at-computer_e2v6sx.jpg"
 alt="Websites that are built for those with disabilities, also work better for those without, and so do better in the search engines"
 width="1920" height="1280" defaultWidth="800" >}}
 
-Making your website completely accessible isn’t just the right thing to do, it also makes good business sense. As I mentioned in my [last blog on how to make your website more accessible](https://www.attractmore.uk/blog/a-starter-guide-to-accessibility/), there are **14 million disabled people in the UK**, so why wouldn’t you want to ensure they are able to easily access your business online?
+Making your website completely accessible isn’t just the right thing to do, it also makes good business sense. As I mentioned in my [last blog on how to make your website more accessible](/blog/beginners-guide-to-accessibility/), there are **14 million disabled people in the UK**, so why wouldn’t you want to ensure they are able to easily access your business online?
 
 But having an accessible website also serves another important purpose. It **helps with SEO**.
 
@@ -48,13 +48,13 @@ Headings on a webpage are a great way of improving the user experience, as they 
 
 If you don’t follow this hierarchy, then the user could think some content is missing.
 
-From a SEO perspective, [Google advises](https://developers.google.com/search/docs/beginner/seo-starter-guide?hl=en&visit_id=637745581092071871-181944188&rd=1) “Breaking your content up into logical chunks or divisions helps users find the content they want faster”, so **using headings is one of the more important aspects of good SEO.**
+From a SEO perspective, [Google advises](https://developers.google.com/search/docs/fundamentals/seo-starter-guide) “Breaking your content up into logical chunks or divisions helps users find the content they want faster”, so **using headings is one of the more important aspects of good SEO.**
 
 ## 3. Give your images context
 
 Adding ‘Alternative text’ or alt text to an image is a **crucial accessibility requirement** as it provides users with visual impairments a description of what the image shows.
 
-[It also helps with SEO as Google](https://developers.google.com/search/docs/beginner/seo-starter-guide?hl=en&visit_id=637745581092071871-181944188&rd=1) “uses alt text along with computer vision algorithms and the contents of the page to understand the subject matter of the image”.
+[It also helps with SEO as Google](https://developers.google.com/search/docs/fundamentals/seo-starter-guide) “uses alt text along with computer vision algorithms and the contents of the page to understand the subject matter of the image”.
 
 But adding alt text isn’t just about providing search engines with more information about the content of the page. It’s also about ensuring images show up in Google Image searches, which offers businesses another opportunity to drive traffic to their websites.
 
@@ -108,9 +108,9 @@ For search engines, how visitors behave on your website is important. They want 
 
 As mentioned at the start, making your website site accessible is good business sense, especially as incorporating the following tips into your website design, also helps improve the quality and quantity of website traffic to your site.
 
-If you would like to learn more, take a look at this [article on search engine optimisation](https://www.attractmore.uk/services/search-engine-optimisation/)  or at the following links on website accessibility:
+If you would like to learn more, take a look at this [article on search engine optimisation](/services/search-engine-optimisation/)  or at the following links on website accessibility:
 
-[Google Lighthouse’s SEO audit](https://developers.google.com/web/tools/lighthouse)
+[Google Lighthouse’s SEO audit](https://developer.chrome.com/docs/lighthouse/overview/)
 
 [Web Accessibility Initiative](https://www.w3.org/WAI/gettingstarted/Overview.html)
 

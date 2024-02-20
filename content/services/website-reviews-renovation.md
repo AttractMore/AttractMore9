@@ -21,7 +21,7 @@ summaryText: "<p>If you are dissatisfied with your web presence for any reason w
 
 The majority of organisations consider the creation of a website as a project with a defined end date: the implementation. Some years may then pass without significant updates to the until the site becomes so out of date that a new web project is initiated and so the cycle continues as in the diagram below.
 
-{{< content-figure folder="/services/" src="website-management-revolutionary_twmqqi.jpg" alt="Website reviews and website management using a revolutionary approach with poor ROI" width="930" height="345" caption="_Diagram taken from [A List Apart](https://alistapart.com/article/create-an-evolutionary-web-strategy-with-a-digital-mro-plan)_" >}}
+{{< content-figure folder="/services/" src="website-management-revolutionary_twmqqi.jpg" alt="Website reviews and website management using a revolutionary approach with poor ROI" width="930" height="345" caption="_Diagram taken from [A List Apart](https://alistapart.com/article/create-an-evolutionary-web-strategy-with-a-digital-mro-plan/)_" >}}
 
 ## Our Approach
 
@@ -34,7 +34,7 @@ We strongly believe that the same approach taken with other business assets shou
 
 The curve then changes from a revolution every few years to a more evolutionary approach as illustrated below.
 
-{{< content-figure folder="/services/" src="website-management-evolutionary_ruvzzd.jpg" alt="Website reviews and website management taking an evolutionary approach to the development of a website" width="930" height="345" loading="lazy" caption="_Diagram taken from [A List Apart](https://alistapart.com/article/create-an-evolutionary-web-strategy-with-a-digital-mro-plan)_" >}}
+{{< content-figure folder="/services/" src="website-management-evolutionary_ruvzzd.jpg" alt="Website reviews and website management taking an evolutionary approach to the development of a website" width="930" height="345" loading="lazy" caption="_Diagram taken from [A List Apart](https://alistapart.com/article/create-an-evolutionary-web-strategy-with-a-digital-mro-plan/)_" >}}
 
 ## Website Reviews
 
@@ -65,4 +65,4 @@ Developing a regular maintenance and review approach to your business website wi
 ### Related Posts
 
 - [Website Return on Investment](/blog/website-return-on-investment/)
-- [Create an evolutionary web strategy](https://alistapart.com/article/create-an-evolutionary-web-strategy-with-a-digital-mro-plan)
+- [Create an evolutionary web strategy](https://alistapart.com/article/create-an-evolutionary-web-strategy-with-a-digital-mro-plan/)

@@ -14,7 +14,7 @@ summaryText: "<p>Slow loading web pages give a poor impression of your business 
 <p>The good news is that we can <strong>speed up your web pages</strong> using a variety of techniques and we offer a low-cost assessment of your site speed. As well as improving the visitor experience and a potential improvement in your search engine rankings, <strong>faster websites use less power and so have a reduced carbon footprint</strong>.</p>"
 ---
 
-You don’t like web pages that load slowly and neither do your site visitors. Most people do not have the patience to wait for more than a few seconds for pages to load. [Studies](https://www.thinkwithgoogle.com/marketing-resources/data-measurement/mobile-page-speed-new-industry-benchmarks/) show that, after 3 seconds, 53% of mobile visitors will simply leave the page if it's not loaded.
+You don’t like web pages that load slowly and neither do your site visitors. Most people do not have the patience to wait for more than a few seconds for pages to load. [Studies](https://www.thinkwithgoogle.com/consumer-insights/consumer-trends/mobile-page-speed-new-industry-benchmarks/) show that, after 3 seconds, 53% of mobile visitors will simply leave the page if it's not loaded.
 
 Do you know how long your web pages take to load both on fast broadband and on an average mobile connection? Is it more than 3 seconds?
 

@@ -29,7 +29,7 @@ Whenever anyone types anything into a search bar, they are looking for something
 
 ## Why is search intent important?
 
-As covered in the [last blog on SEO ranking factors](https://www.attractmore.uk/blog/the-most-important-seo-ranking-factors/), if you want your website to feature high up in search results, you can't ignore SEO, and a big part of SEO is search intent.
+As covered in the [last blog on SEO ranking factors](/blog/seo-ranking-factors/), if you want your website to feature high up in search results, you can't ignore SEO, and a big part of SEO is search intent.
 
 Google, and other search engines, want to give users the best search experience possible, which means they don't just want to show pages that might fit a search query, they want to show the ones that definitely do. They want to ensure all search results are not just relevant but align as much as possible with **why** the user searched for that word or phrase, i.e., the search intent.
 
@@ -153,4 +153,4 @@ You should use similar words/phrases in the title and content of your page to co
 
 SEO is definitely more complex than it used to be, but one thing is clear - **if your website content doesn't take search intent into account, then it simply isn't going to rank well as it won't be providing searchers with what they want.**
 
-If you aren't sure where to start or would like me to conduct an [SEO audit of your website](https://www.attractmore.uk/services/search-engine-optimisation/) to help identify any areas for improvement, [please get in touch](https://www.attractmore.uk/contact/).
+If you aren't sure where to start or would like me to conduct an [SEO audit of your website](/services/search-engine-optimisation/) to help identify any areas for improvement, [please get in touch](/contact/).

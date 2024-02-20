@@ -29,9 +29,9 @@ Clearly, we would like the percentage of abandoned carts to be as low as possibl
 
 If you have an email address for the customers who have abandoned, sending them an email to prompt them to checkout can be productive and recover some income that might otherwise be lost.
 
-Putting aside the customers who are window shopping, why do the remainder abandon their carts? There's some great research on this from the [Baymard Institute](https://www.baymard.com/lists/cart-abandonment-rate) who have collated data which shows that, on average, the cart abandonment percentage is around 70%. That's right, nearly 70% of shoppers abandon their online shopping and fail to make a purchase. To be fair, this percentage does include the window shoppers.
+Putting aside the customers who are window shopping, why do the remainder abandon their carts? There's some great research on this from the [Baymard Institute](https://baymard.com/lists/cart-abandonment-rate) who have collated data which shows that, on average, the cart abandonment percentage is around 70%. That's right, nearly 70% of shoppers abandon their online shopping and fail to make a purchase. To be fair, this percentage does include the window shoppers.
 
-The [Baymard Institute](https://www.baymard.com/lists/cart-abandonment-rate) surveyed over 4000 shoppers to discover why they abandoned their carts. The summary of their research is in the graphic below.
+The [Baymard Institute](https://baymard.com/lists/cart-abandonment-rate) surveyed over 4000 shoppers to discover why they abandoned their carts. The summary of their research is in the graphic below.
 
 {{< content-figure folder="/blog/"
 src="baymard-reasons-for-cart-abandonment_dmyi13.jpg"

@@ -28,7 +28,7 @@ And, after that, if you’re still not convinced that it is worth getting a new 
 
 ## 1. Web design trends change
 
-Just like fashion trends changes, so does web design. Remember when long, one-page sites were all the rage, when all sites seemed to use Flash or when [image sliders were everywhere](/blog/website-image-sliders-need-to-go-now/)?
+Just like fashion trends changes, so does web design. Remember when long, one-page sites were all the rage, when all sites seemed to use Flash or when [image sliders were everywhere](/blog/website-image-sliders-need-to-go/)?
 
 While new trends in web design might just feel like making changes for the sake of it, in most cases they are more about **improving the user experience**. Take the problem with image sliders – they often vanish before you have chance to read the text or linger too long so you scroll away anyway. And let’s face it, if your website is easier to use the chances are that’s going to be better for your business.
 
@@ -40,7 +40,7 @@ I’ve put together a[ list of 10 things you should think about if you really wa
 
 ## 2. Security is more important than ever
 
-[30,000 websites get hacked each day](https://patchstack.com/website-hacking-statistics/) and while it might be tempting to think that it will never happen to you, shockingly [43% of cyber-crimes](https://www.cybintsolutions.com/cyber-security-facts-stats/) are against small business.
+[30,000 websites get hacked each day](https://patchstack.com/articles/website-hacking-statistics/) and while it might be tempting to think that it will never happen to you, shockingly [43% of cyber-crimes](https://thrivedx.com/resources/article/cyber-security-facts-statistics) are against small business.
 
 {{< content-figure folder="/blog/" src="secure-passwords-to-protect-yourself-online_fv060o.jpg" alt="strong website security is an absolutely essential and not simply an added extra." width="1920" height="1287" defaultWidth="800" loading="lazy" >}}
 
@@ -56,7 +56,7 @@ Did you know that up to [70% of web traffic happens on a mobile device](https://
 
 Over recent years, having a mobile-friendly website has become more and more important, with users expecting websites to offer the same user experience whether they are accessed on a desktop or on a mobile device.
 
-Most modern websites are built responsively which means the design and content adjusts automatically to fit different devices, whether that’s mobile phones or tablets. [Google also prefers responsive design](https://developers.google.com/search/mobile-sites/mobile-seo/responsive-design) giving websites who use it preference in search results.
+Most modern websites are built responsively which means the design and content adjusts automatically to fit different devices, whether that’s mobile phones or tablets. [Google also prefers responsive design](https://web.dev/learn/design/) giving websites who use it preference in search results.
 
 **So, if your website isn’t mobile-friendly, now is definitely the time to sort it out.**
 

@@ -16,7 +16,7 @@ src="seo-ppc-pros-and-cons_qdpsac.jpg"
 alt="Both SEO and digital advertising (PPC) have pros and cons. Image shows 2 people engaged in working on an SEO campaign"
 width="1920" height="1280" defaultWidth="800" >}}
 
-For most of us, our digital discovery starts with a search engine.  There are perhaps more choices than we think, such as Ecosia, DuckDuckGo, Bing and others (I strongly recommend [Ecosia](https://www.attractmore.uk/blog/ecosia-a-search-engine-that-plants-trees/) by the way), but Google is by far the industry leader with an estimated [86% of search engine traffic](https://gs.statcounter.com/search-engine-market-share/desktop/worldwide). In fact, most of us have probably all said “just Google it” at least once!
+For most of us, our digital discovery starts with a search engine.  There are perhaps more choices than we think, such as Ecosia, DuckDuckGo, Bing and others (I strongly recommend [Ecosia](/blog/ecosia-a-search-engine-that-plants-trees/) by the way), but Google is by far the industry leader with an estimated [86% of search engine traffic](https://gs.statcounter.com/search-engine-market-share/desktop/worldwide). In fact, most of us have probably all said “just Google it” at least once!
 
 But what all these search engines have in common is that it is clearly better for your website to be on page one of their search results, preferably as near the top as possible and definitely ahead of your competitors. After all, if you are listed higher up the page, you’ll get better business visibility, increased web traffic to your business, and ultimately more sales and brand recognition.
 
@@ -33,12 +33,12 @@ This article looks at some of the main differences between SEO and PPC and the p
 
 SEO is about increasing the quality and quantity of traffic to your website by increasing your site’s visibility in organic or ‘free’ listings on search engines. There are lots of elements which go into optimising a website, such as:
 
-- [producing high-quality content](https://www.attractmore.uk/blog/how-to-write-better-content-for-your-website/) which answers a searcher’s query and demonstrates expertise, authority and trustworthiness
+- [producing high-quality content](/blog/write-better-website-content/) which answers a searcher’s query and demonstrates expertise, authority and trustworthiness
 - understanding keyword competition and search volumes
-- ensuring your website is mobile friendly, [loads quickly](https://www.attractmore.uk/blog/speedy-does-it.-why-website-speed-matters/) and is marked up properly in HTML
+- ensuring your website is mobile friendly, [loads quickly](/blog/website-speed/) and is marked up properly in HTML
 - links to your website from other reputable and respected online sources.
 
-All of this and more is covered in our [SEO audits of clients' websites](https://www.attractmore.uk/services/search-engine-optimisation/) but suffice to say, the more your website ticks the right SEO boxes, the better position it will have in search engine results.
+All of this and more is covered in our [SEO audits of clients' websites](/services/search-engine-optimisation/) but suffice to say, the more your website ticks the right SEO boxes, the better position it will have in search engine results.
 
 ### What are the advantages of SEO?
 
@@ -48,7 +48,7 @@ All of this and more is covered in our [SEO audits of clients' websites](https:/
 - **Positions your company as trustworthy** As already mentioned, Google ranks websites based on a number of different factors, which means if your site appears on page one then it is considered to be high-quality and trustworthy. This in turn boosts your credibility in the eyes of your target audience.
 - **Is cost-effective** As SEO focuses on targeting people who are actually looking for your products and services it’s one of the most cost-effective marketing strategies. While it’s free if you decide to manage it yourself, using an external agency is often more practical as it allows you to focus on the core of your business.
 - **Delivers long-term results** SEO isn’t about a quick fix but rather it’s a longer-term strategy. Through producing quality content, an important factor in SEO, it will help you build trust and loyalty with your target audience and will continue to help you attract new customers far into the future. This ability to keep delivering results makes it both a more cost-effective and sustainable option than PPC.
-- **Offers your customers the best user-experience** I’ve written before about how making y[our website more accessible is also great for SEO](https://www.attractmore.uk/blog/how-making-your-website-accessible-is-also-great-for-seo/), so following SEO best practice will also benefit your customers.
+- **Offers your customers the best user-experience** I’ve written before about how making y[our website more accessible is also great for SEO](/blog/how-making-your-website-accessible-is-also-great-for-seo/), so following SEO best practice will also benefit your customers.
 
 {{< content-figure folder="/blog/"
 src="meeting-client-discuss-keywords_cj9f4p.jpg"
@@ -101,4 +101,4 @@ loading="lazy">}}
 
 Each strategy has its pros and cons, so which one you choose largely comes down to what you want to achieve, how quickly you want results and the price you’re willing to pay for the privilege. However, there is also a case for doing both. Having a PPC ad and an organic search result appear at the top of the search engine results page will help boost your company’s visibility which is definitely not a bad thing.
 
-We specialise in SEO so, if you need help to improve the visibility of your organisation online, [please get in touch](https://www.attractmore.uk/contact/). As well as offering [SEO audits,](https://www.attractmore.uk/services/search-engine-optimisation/) we can help you understand your target audience or [review your existing website](https://www.attractmore.uk/services/website-reviews-renovation/) to ensure you’ve getting the best out of it.
+We specialise in SEO so, if you need help to improve the visibility of your organisation online, [please get in touch](/contact/). As well as offering [SEO audits,](/services/search-engine-optimisation/) we can help you understand your target audience or [review your existing website](/services/website-reviews-renovation/) to ensure you’ve getting the best out of it.

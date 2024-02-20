@@ -38,7 +38,7 @@ alt="The internet as a whole uses roughly the same amount of electricity as the 
 width="1920" height="1280" defaultWidth="800"
 loading="lazy" >}}
 
-So, contrary to popular belief, going digital doesn’t mean you aren’t having an environmental impact. In fact, this great [infographic from Climate Care](https://www.climatecare.org/resources/news/infographic-carbon-footprint-internet/) shows that everything from manufacturing and shipping to the amount of data we use gaming, watching videos and even emailing is having a detrimental impact on the environment.
+So, contrary to popular belief, going digital doesn’t mean you aren’t having an environmental impact. In fact, this great [infographic from Climate Care](https://www.climateimpact.com/resources/news/infographic-carbon-footprint-internet/) shows that everything from manufacturing and shipping to the amount of data we use gaming, watching videos and even emailing is having a detrimental impact on the environment.
 
 And that’s why we need to start taking the issue of a green internet seriously.
 
@@ -66,7 +66,7 @@ You won’t be the only one thinking that making your website green probably isn
 
 But just like most of us try to recycle paper or avoid using single-use plastic, every little step we take makes a difference. And, possibly, more importantly, it’s about raising awareness around this issue and addressing the rhetoric that digital has no environmental impact.
 
-My [Environmental Statement](https://www.attractmore.uk/environment/) covers a number of things you can do to make your website more environmentally friendly, but here are three things you could look into immediately.
+My [Environmental Statement](/environment/) covers a number of things you can do to make your website more environmentally friendly, but here are three things you could look into immediately.
 
 1. **Review your site’s carbon footprint**
 
@@ -86,11 +86,11 @@ And while you’re at it you might want to review your software, such as email c
 
 It might sound a bit strange that the content on your site can have an impact on energy efficiency but think of it this way. If users can find the content they need quickly with the minimum number of clicks and it provides them with the information they need, then they will be on the internet for less time. This helps reduce loading and downloading time and in turn reduces CO<sub>2</sub> emissions.
 
-And that’s why getting your SEO right is also important. I’ve covered before [the importance of SEO in terms of making your website accessible](https://www.attractmore.uk/blog/how-making-your-website-accessible-is-also-great-for-seo/), but it also has an environmental impact, as it will help lower the number of searches and sites users load in one go.
+And that’s why getting your SEO right is also important. I’ve covered before [the importance of SEO in terms of making your website accessible](/blog/how-making-your-website-accessible-is-also-great-for-seo/), but it also has an environmental impact, as it will help lower the number of searches and sites users load in one go.
 
 4. **Make your pages load faster**
 
-Pages that load quickly consume less energy, so, if you optimise your web pages not only do you please site visitors, you please Google (who reward faster pages with higher placement in the search engines) and you help the planet at the same time. That's 3 big wins for a small amount of work. I've written previously about how you can [improve the speed that your web pages load](https://www.attractmore.uk/blog/improving-speed-security-and-accessibility/).
+Pages that load quickly consume less energy, so, if you optimise your web pages not only do you please site visitors, you please Google (who reward faster pages with higher placement in the search engines) and you help the planet at the same time. That's 3 big wins for a small amount of work. I've written previously about how you can [improve the speed that your web pages load](/blog/improving-speed-security-and-accessibility/).
 
 Ultimately, sustainable web design isn’t just about helping save the planet, but also about giving users a better online experience and what company doesn’t want to help achieve that.
 

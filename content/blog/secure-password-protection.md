@@ -83,7 +83,7 @@ So, being aware of the risks, how can you best protect yourself online. Here are
 6. If you ever work in **public spaces**, watch out for people observing you before you enter a password.
 7. Make sure **employees working from home** are set up securely, especially if they are using their own devices. Raise awareness in your team about security issues
 8. **Audit passwords in your company**. This can be done in a way that does not reveal passwords but checks that they conform to a set of rules. Delete accounts of ex-employees/contractors etc.
-9. **Use 2 Factor Authentication (2FA)** wherever possible. It's a few seconds of inconvenience every time you log in but it makes it much more difficult for hackers to gain access to your accounts. This [article from Which?](https://www.which.co.uk/news/article/what-is-two-factor-authentication-2fa-and-why-should-you-care-aKRpd5C8LrCy) explains what 2FA is and the benefits it provides.
+9. **Use 2 Factor Authentication (2FA)** wherever possible. It's a few seconds of inconvenience every time you log in but it makes it much more difficult for hackers to gain access to your accounts. This [article from Which?](https://www.which.co.uk/reviews/troubleshooting-tips/article/what-is-two-factor-authentication-and-should-you-use-it-aRJAb2U2tZif) explains what 2FA is and the benefits it provides.
 10. **Log out of accounts** and out of devices when you've finished using them so no one else can access your information or change your password without you knowing.
 
 {{< content-figure folder="/blog/"
@@ -109,7 +109,7 @@ loading="lazy" >}}
 ## Further Reading
 
 - [Article in Guardian 2022 - Not using a password manager? Here’s why you should be…](https://www.theguardian.com/technology/2022/mar/19/not-using-password-manager-why-you-should-online-security)
-- [10 Password Security Statistics That You Need to See Now](https://www.idagent.com/blog/10-password-security-statistics-that-you-need-to-see-now/)
+- [10 Password Security Statistics That You Need to See Now](https://www.idagent.com/blog/10-facts-about-passwords-to-see-before-you-make-another-one/)
 - [TeamPassword blog post](https://teampassword.com/blog/common-password-problems-faced-small-organizations)
 - [Ten Password Mistakes That Could Get Your WordPress Site Hacked](https://www.wordfence.com/blog/2021/04/ten-password-mistakes-that-could-get-your-wordpress-site-hacked/)
 - [Common Ways Attackers Are Stealing Credentials](https://www.wordfence.com/blog/2020/10/common-ways-attackers-are-stealing-credentials/)

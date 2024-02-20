@@ -24,7 +24,7 @@ We will backup your website on a weekly basis (or more frequently if required) a
 
 We will update your Content management System (CMS), for example, WordPress, and associated software (e.g. plugins) to ensure your site is running at its best. Keeping all the base software up to date also helps ensure that **known security vulnerabilities are dealt with.** If you are not keeping the software underpinning your website up to date you risk being hacked.
 
-> An estimated 37,000 websites are hacked every day. [(source)](https://hostingfacts.com/internet-facts-stats-2016/)
+> An estimated 37,000 websites are hacked every day. [(source)](https://hostingfacts.com/internet-facts-stats/)
 
 ## Website Amendments
 
@@ -57,7 +57,7 @@ Over the years we have honed down the list of hosting providers and offer 2 pack
 
 **Having the right support and maintenance for your website is critical for its success**. We can combine the services you require into a fixed fee, annual contract which allows you to acquire the support you need at a fixed price.
 
-This [article](https://alistapart.com/article/create-an-evolutionary-web-strategy-with-a-digital-mro-plan) goes into more detail about the benefits of having a support and maintenance plan for your website and this [post](https://sethgodin.typepad.com/seths_blog/2016/11/and-when-it-breaks.html) discusses how to recognise errors on your website that could frustrate visitors and potentially be the cause of lost business.
+This [article](https://alistapart.com/article/create-an-evolutionary-web-strategy-with-a-digital-mro-plan/) goes into more detail about the benefits of having a support and maintenance plan for your website and this [post](https://seths.blog/2016/11/and-when-it-breaks/) discusses how to recognise errors on your website that could frustrate visitors and potentially be the cause of lost business.
 
 ### Related Posts
 

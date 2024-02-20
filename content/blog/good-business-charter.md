@@ -43,4 +43,4 @@ The Good Business Charter exists for all UK companies, charities and public sect
 
 It has never been more important for businesses to build trust and show that they care about more than just profit. Therefore, the GBC and its members seek to inspire many other businesses to follow suit.
 
-If you would like any further information don’t hesitate to get in [touch with us](/contact/) or [visit the GBC website](https://www.goodbusinesscharter.com/).
+If you would like any further information don’t hesitate to get in [touch with us](/contact/) or [visit the GBC website](https://goodbusinesscharter.com/).
