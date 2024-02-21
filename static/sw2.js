@@ -35,10 +35,6 @@ const PRECACHE_URLS = [
   "./icons/symbol-defs.svg",
   "./icons/icon-defs.svg",
   "./icons/defs.svg",
-  "./images/logo/attractmore-logo-large.png",
-  "./images/logo/attractmore-logo-large@2x.png",
-  "./images/logo/attractmore-logo-small.png",
-  "./images/logo/attractmore-logo-small@2x.png",
   "./js/scripts.js",
 ];
 
