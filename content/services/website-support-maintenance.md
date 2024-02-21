@@ -24,7 +24,7 @@ We will backup your website on a weekly basis (or more frequently if required) a
 
 We will update your Content management System (CMS), for example, WordPress, and associated software (e.g. plugins) to ensure your site is running at its best. Keeping all the base software up to date also helps ensure that **known security vulnerabilities are dealt with.** If you are not keeping the software underpinning your website up to date you risk being hacked.
 
-> An estimated 37,000 websites are hacked every day. [(source)](https://hostingfacts.com/internet-facts-stats/)
+> An estimated 37,000 websites are hacked every day. [(source)](https://hostingfacts.com/news/internet-facts-stats/)
 
 ## Website Amendments
 

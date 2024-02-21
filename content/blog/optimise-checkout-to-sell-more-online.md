@@ -159,5 +159,5 @@ If you'd like some help with optimising your ecommerce site so you can make more
 ### Further reading
 
 - [Geckoboard](https://www.geckoboard.com/best-practice/kpi-examples/shopping-cart-abandonment-rate/#:~:text=Industry%20Benchmarks,most%20recent%20study%20showing%2074.52%25.)
-- [Cart and Checkout UX](https://www.baymard.com/research/checkout-usability)
+- [Cart and Checkout UX](https://baymard.com/research/checkout-usability)
 - [Woocommerce](https://woocommerce.com/posts/fewer-abandoned-carts-more-sales-nine-proven-strategies/)

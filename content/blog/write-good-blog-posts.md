@@ -86,4 +86,4 @@ There are lots of articles on how to write good blog posts, as you might imagine
 
 - [ProBlogger - How to Write Great Blog Content](https://problogger.com/how-to-write-great-blog-content/)
 - [CopyBlogger - Business Blogging Tips](https://www.copyblogger.com/business-blogging-tips/)
-- [HubSpot - Simple Formula for How to Write a Blog Post](https://blog.hubspot.com/marketing/how-to-write-blog-post-simple-formula-ht)
+- [HubSpot - Simple Formula for How to Write a Blog Post](https://blog.hubspot.com/marketing/how-to-start-a-blog)

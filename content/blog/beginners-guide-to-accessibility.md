@@ -40,7 +40,7 @@ Web accessibility applies to all types of disabilities including:
 - **Cognitive disabilities:** users with learning disabilities or conditions such as dyslexia or dementia may have difficulty reading or remembering information
 - **Photosensitive seizures:** flashing or blinking graphics pose a danger to people prone to seizures
 
-[The W3C Web Accessibility Initiative’s (WAI)](https://www.w3.org/standards/webdesign/accessibility#wai) guidelines on web accessibility are recognised as the international standard for building accessible websites and provide designers and developers with guidance on how to recognise and address accessibility issues.
+[The W3C Web Accessibility Initiative’s (WAI)](https://www.w3.org/mission/accessibility/#wai) guidelines on web accessibility are recognised as the international standard for building accessible websites and provide designers and developers with guidance on how to recognise and address accessibility issues.
 
 ## 5 ways to make your website more accessible
 

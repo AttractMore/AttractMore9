@@ -39,7 +39,7 @@ loading="lazy" >}}
 
 For many of us price is the primary driver for potential purchases, so it needs to be as clear as possible. If a potential customer can’t understand or easily find the price of an item, then they probably won’t buy.
 
-[ASOS.com](https://www.asos.com/influence/influence-wrap-front-mini-dress-in-mixed-floral-print/prd/202377077?clr=multi&colourWayId=202377093&cid=5235) is a good example of how to display prices. Not only do they clearly show the price but also the discount you will be getting, which is a good way of encouraging someone to buy.
+[ASOS.com](https://www.asos.com/influence/influence-wrap-front-mini-dress-in-mixed-floral-print/prd/202377077) is a good example of how to display prices. Not only do they clearly show the price but also the discount you will be getting, which is a good way of encouraging someone to buy.
 
 {{< content-figure folder="/blog/"
 src="asos_zvytct.jpg"
