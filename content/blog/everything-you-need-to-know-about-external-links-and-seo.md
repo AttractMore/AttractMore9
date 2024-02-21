@@ -25,7 +25,7 @@ It's hardly surprising then that external links are an [important part of SEO](h
 
 ## Why external links are so important to your SEO strategy
 
-Also known as backlinks or inbound links, external links are links from another website to your site. The reason they are so important in SEO is if a website links to your content, they are indicating they find that page to be valuable and of high quality. Google considers [high quality content](https://www.attractmore.uk/blog/how-to-write-better-content-for-your-website/) to be one of the key factors affecting how sites rank in search results, so the more backlinks your content has the more it demonstrates you are a trusted authority in a particular area. This in turn means your website is more likely to rank higher in search engine results. This backlinking is a factor which is built into the Google ranking algorithm.
+Also known as backlinks or inbound links, external links are links from another website to your site. The reason they are so important in SEO is if a website links to your content, they are indicating they find that page to be valuable and of high quality. Google considers [high quality content](https://www.attractmore.uk/blog/write-better-website-content/) to be one of the key factors affecting how sites rank in search results, so the more backlinks your content has the more it demonstrates you are a trusted authority in a particular area. This in turn means your website is more likely to rank higher in search engine results. This backlinking is a factor which is built into the Google ranking algorithm.
 
 But it’s not just an improvement in search rankings that external links help with. Backlinks also:
 
@@ -76,7 +76,7 @@ Ideas of where you could get backlinks include:
 - Leave thoughtful comments on popular or trending articles to demonstrate your knowledge and expertise
 - And don't shy away from sending cold emails to people who you would like to link to your site. A simple, friendly request may be all is takes
 
-Of course, the easiest links to acquire are those that happen without you having to do anything, so I would also recommend you consistently [create high-quality content](https://www.attractmore.uk/blog/how-to-write-better-content-for-your-website/) as this is the best way to organically obtain external links.
+Of course, the easiest links to acquire are those that happen without you having to do anything, so I would also recommend you consistently [create high-quality content](https://www.attractmore.uk/blog/write-better-website-content/) as this is the best way to organically obtain external links.
 
 {{< content-figure folder="/blog/"
 src="woman-browsing-the-internet_rr0uve.jpg"
@@ -107,7 +107,7 @@ loading="lazy" >}}
 
 ## What about internal links?
 
-Internal links are simply links between the pages within your own website. As well as helping users navigate around your site, it also keeps people on your site for longer as you are directing them to content relevant to the topic, they are interested in. This is looked on favourably by search engines, as it helps improve the user experience, so whenever [you write content](https://www.attractmore.uk/blog/how-to-write-better-content-for-your-website/) make sure to include some internal links.
+Internal links are simply links between the pages within your own website. As well as helping users navigate around your site, it also keeps people on your site for longer as you are directing them to content relevant to the topic, they are interested in. This is looked on favourably by search engines, as it helps improve the user experience, so whenever [you write content](https://www.attractmore.uk/blog/write-better-website-content/) make sure to include some internal links.
 
 ## Need help creating a link building strategy?
 

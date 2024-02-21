@@ -27,7 +27,7 @@ So your about page need to accomplish several objectives:
 - **Represent your brand** clearly - show your values and your purpose
 - Give a **strong first impression** of your business and/or your products
 - Demonstrate the **affinity between the customer and your business**.
-- Establish **trust and credibility** ([EAT](https://www.attractmore.uk/blog/how-to-write-better-content-for-your-website/)). About pages are mentioned in Google's human raters' guideline as a means of gauging the EAT of a site so it's likely that it's used as a ranking signal for the website. If you're unsure about EAT see [How to write better content for your website.](https://www.attractmore.uk/blog/how-to-write-better-content-for-your-website/)
+- Establish **trust and credibility** ([EAT](https://www.attractmore.uk/blog/write-better-website-content/)). About pages are mentioned in Google's human raters' guideline as a means of gauging the EAT of a site so it's likely that it's used as a ranking signal for the website. If you're unsure about EAT see [How to write better content for your website.](https://www.attractmore.uk/blog/write-better-website-content/)
 
 In summary, **your About page is an opportunity to make a good impression and then to engage with potential customers**, however, it's common to find weak and inadequate about pages.
 

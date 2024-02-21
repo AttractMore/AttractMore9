@@ -87,7 +87,7 @@ loading="lazy" >}}
 
 ### 7. Don’t ask people to register to checkout
 
-Forcing people to create an account to be able to checkout their purchases is a big turn off and likely to lead to a lot of [abandoned carts](https://www.attractmore.uk/blog/optimise-checkout-to-sell-more-online/). It's fine to ask people to sign up for newsletters, discounts or exclusive content as long as you make it easy for them to unsubscribe whenever they wish. Make it easy for people to buy - putting obstacles in their way is not helpful!
+Forcing people to create an account to be able to checkout their purchases is a big turn off and likely to lead to a lot of [abandoned carts](/blog/optimise-checkout-to-sell-more-online/). It's fine to ask people to sign up for newsletters, discounts or exclusive content as long as you make it easy for them to unsubscribe whenever they wish. Make it easy for people to buy - putting obstacles in their way is not helpful!
 
 ### 8. Link with good causes
 
@@ -97,4 +97,4 @@ As an example, [Neve's Bees](https://nevesbees.co.uk/saving-the-bees-flower-by-f
 
 Just remember, this is not a tick box exercise, as people will be able to see whether you are genuine or not.
 
-This list is by no means exhaustive, and doesn’t include things like [website speed](https://www.attractmore.uk/blog/speedy-does-it.-why-website-speed-matters/) , [optimising your checkout](https://www.attractmore.uk/blog/optimise-checkout-to-sell-more-online/), or even [accessibility](https://www.attractmore.uk/blog/a-starter-guide-to-accessibility/), which are just as important and topics I’ve covered previously, but hopefully, it will give you an idea of what makes for a winning eCommerce site. And if you do need any help, [please get in touch](https://www.attractmore.uk/contact/). With [years of experience](https://www.attractmore.uk/work/curiosity-box/) of building ecommerce sites, I’m more than happy to help you achieve success online.
+This list is by no means exhaustive, and doesn’t include things like [website speed](https://www.attractmore.uk/blog/website-speed/) , [optimising your checkout](https://www.attractmore.uk/blog/optimise-checkout-to-sell-more-online/), or even [accessibility](https://www.attractmore.uk/blog/beginners-guide-to-accessibility/), which are just as important and topics I’ve covered previously, but hopefully, it will give you an idea of what makes for a winning eCommerce site. And if you do need any help, [please get in touch](https://www.attractmore.uk/contact/). With [years of experience](https://www.attractmore.uk/work/curiosity-box/) of building ecommerce sites, I’m more than happy to help you achieve success online.
