@@ -3,21 +3,22 @@ languageCode = "en-gb"
 title = "Low carbon websites"
 paginate = 5
 copyright = "©2024 AttractMore Ltd."
+disableKinds = ['sitemap']
 [taxonomies]
   category = 'categories'
 [outputs]
   page = [ "html" ]
-  home = [ "html", "rss", "imagessitemap" ]
+  home = [ "html", "rss" ]
   taxonomy = [ "html"]
   term = [ "html" ]
 [outputFormats]
   [outputFormats.RSS]
     baseName = "feed"
     mediatype = "application/rss+xml"
-  [outputFormats.imagessitemap]
-    baseName  = 'imagessitemap'
-    mediaType = 'application/xml'
-    noUgly = true # default is false
+#  [outputFormats.imagessitemap]
+#    baseName  = 'imagessitemap'
+#    mediaType = 'application/xml'
+#    noUgly = true # default is false
 
 [related]
   threshold = 0 
