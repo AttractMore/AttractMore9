@@ -14,8 +14,8 @@ limitations under the License.
 // Names of the two caches used in this version of the service worker.
 // Change to v2, etc. when you update any of the local resources, which will
 // in turn trigger the install event again.
-const PRECACHE = "precache-v126";
-const RUNTIME = "runtime-v126";
+const PRECACHE = "precache-v127";
+const RUNTIME = "runtime-v127";
 
 // A list of local resources we always want to be cached.
 const PRECACHE_URLS = [
@@ -23,9 +23,9 @@ const PRECACHE_URLS = [
   "./", // Alias for index.html
   "./favicons/apple-touch-icon.png",
   "./favicons/favicon-32x32.png",
-  "./about/index.html",
-  "./work/index.html",
-  "./services/index.html",
+  "./about/",
+  "./work/",
+  "./services/",
   "./services/website-creation/index.html",
   "./services/search-engine-optimisation/index.html",
   "./services/page-speed-optimisation/index.html",
