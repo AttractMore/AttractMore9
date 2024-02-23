@@ -105,11 +105,17 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      > * {
+      .text-block {
         flex: 0 1 40%;
+      }
+      picture {
+        flex: 0 1 55%;
+        max-width: 420px;
       }
       img {
         margin: 0;
+        max-width: none;
+        width: 100%;
       }
     }
   }
@@ -216,6 +222,7 @@
     .testimonial {
       display: flex;
       justify-content: space-between;
+      align-items: center;
       picture {
         flex: 0 1 25%;
       }
