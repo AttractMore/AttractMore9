@@ -57,9 +57,11 @@ width="930" height="828" defaultWidth="500" >}}
 
 ### Accessibility
 
-Why prevent a significant percentage of the population from enjoying your web site? That’s what will happen if accessibility issues are not taken into account in the design. People with poor sight can use screen reader software which will read the contents but this means properly identifying the building blocks that make up the site. There is no point reading out the header, menu and footer for every page, for instance. Contrast and colour combinations need to be considered for people who are colour blind. I think AttractMore has made some important steps in this direction but we are always looking to improve our service in this area.
+Why prevent a significant percentage of the population from enjoying your web site? That’s what will happen if accessibility issues are not taken into account in the design.
 
-### Background
+People with poor sight can use screen reader software which will read the contents but this means properly identifying the building blocks that make up the site. There is no point reading out the header, menu and footer for every page, for instance. Contrast and colour combinations need to be considered for people who are colour blind. I think AttractMore has made some important steps in this direction but we are always looking to improve our service in this area.
+
+### My Story
 
 I’m Roger Knight and I founded AttractMore back in 2006. Since then we’ve built a lot of web sites for a lot of different people and throughout that time web design itself and the technologies we use have changed a great deal. Some things haven’t changed though: we continue to offer great service, produce modern attractive web sites that meet business needs and we don’t charge over the odds. We work on solutions and design in conjunction with clients as we believe that **collaborative working produces better results** as clients know their business and audience better than we do.
 
