@@ -2,7 +2,7 @@
 weight: 11
 title: "Ora Design Architecture"
 pageHeaderTitle: "Ora Design Architecture"
-metaDesc: "This project for Ora Design Architecture was a rebranding and a new site. The old site was replaced with a contemporary look and more appropriate content to help build the business."
+metaDesc: "This project for Ora Design Architecture was a rebranding and a new site. The old site was replaced with a contemporary look and better content to help build the business."
 text: "This project for Ora Design Architecture was both a rebranding and a new website. The previous site had been in place for many years and needed to be replaced with a more modern design and more appropriate content to help build the business."
 link: "/work/ora-design-architecture/"
 ctaText: "Get in touch about a better website"

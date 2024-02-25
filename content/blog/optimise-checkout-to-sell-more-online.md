@@ -3,7 +3,7 @@ title: "Optimise checkout to sell more online"
 date: "2021-06-10"
 categories:
   - "Ecommerce"
-metaDesc: "Abandoned carts mean lost income. Below we examine the reasons why customers abandon their purchases and look at 8 actions you can take to improve the checkout process."
+metaDesc: "Abandoned carts mean lost income. We examine the reasons why customers abandon their purchases and look at 8 actions you can take to improve the checkout process."
 excerpt: "Abandoned carts in your online shop mean lost income. Below we examine the reasons why customers abandon their purchases and look at 8 actions you can take to improve the checkout process to reduce the percentage of people who fail to complete their purchase. The average abandonment rate is around 70% but by taking the actions outlined here, you can reduce the level of cart abandonment to something much more reasonable and make more money from your online shop in the process."
 cloudinaryPrimaryImage: "ecommerce-abandoned-carts"
 cloudinaryPrimaryImageHash: ""

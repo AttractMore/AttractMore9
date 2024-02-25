@@ -3,7 +3,7 @@ title: "Joining the Eco-Friendly Web Alliance"
 date: "2023-09-12"
 categories:
   - "Sustainability"
-metaDesc: "Our website has been accredited as low carbon by the Eco-Friendly Web Alliance, showing our commitment to digital sustainability. Find out why you should join too."
+metaDesc: "Our website is accredited as low carbon by the Eco-Friendly Web Alliance, showing our commitment to digital sustainability. Find out why you should join too."
 excerpt: "The internet uses around <strong>3.7% of the world's electricity</strong>, which is more than the whole aviation industry. Websites contribute to this power consumption and, in turn, contribute to the emission of greenhouse gases. Hosting websites on servers that use renewable energy helps, but unfortunately, many hosting companies are not doing this. The AttractMore website has now been accredited by the Eco-Friendly Alliance (EFWA) as having low carbon emissions after an independent audit. The EFWA is a UK-based social enterprise that aims to make a positive impact on the environment by creating a greener internet. Their goal is 'to build on our global movement for a cleaner and greener internet' with '1 million climate-positive websites by 2030'. In this article you can discover ways of reducing the carbon emissions of your site and show your commitment to digital sustainability."
 cloudinaryPrimaryImage: "web-sustainability-time-running-out_u3q58n"
 primaryImageAlt: "Asian woman wearing safety glasses with a sand clock hourglass timer and some dead twigs in front of her"

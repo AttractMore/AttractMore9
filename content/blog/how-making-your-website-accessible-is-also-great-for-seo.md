@@ -3,7 +3,7 @@ title: "How making your website accessible is also great for SEO"
 date: "2021-12-13"
 categories:
   - "Accessibility"
-metaDesc: "Making your website accessible isn’t just the right thing to do, it also makes good business sense. And an accessible website also helps with SEO. Here are 8 tips."
+metaDesc: "Making your website accessible isn’t just the right thing to do, it also makes good business sense. An accessible website also helps with SEO. Here are 8 tips."
 excerpt: "Google now includes 'page experience' as a factor in determining search result rankings  as a means of helping ensure visitors have a great experience when using a website. So if you want better rankings, it's important to improve the usability of your site. Also, making your site more accessible to people with disabilities is the right thing to do and, of course, it makes business sense so more people can then use your site. The good news is that making a site more accessible tends to improve the usability more generally, and so improves SEO. Here are 8 tips on how you can improve the usability and accessibility of your website."
 cloudinaryPrimaryImage: "three-guys-looking-serious-at-computer_e2v6sx"
 primaryImageAlt: "Making website accessible to people with disabilities improves search engine rankings as well."

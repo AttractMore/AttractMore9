@@ -4,7 +4,7 @@ date: "2022-11-27"
 categories:
   - "SEO"
   - "Google"
-metaDesc: "An good understanding of the primary ranking factors that Google uses to position pages in its search results will help you to be able to rank your own pages higher."
+metaDesc: "An good understanding of the main ranking factors that Google uses to position pages in its search results will help you to be able to rank your own pages higher."
 excerpt: "It's pointless having a great site that doesn't get traffic from search engines because it's not been optimised for SEO. In this article I'll discuss the 3 main ranking factors - high quality content, relevant backlinks and a great user experience. All of these need your ongoing attention and I will go into more detail on each one in the article. If you focus your website efforts on these 3 factors, I'm confident that your web pages will start to rank higher in the search engines and that your site will get more visits as a result."
 cloudinaryPrimaryImage: "moving-up-search-engine-rankings_gw63yn"
 primaryImageAlt: "Moving up the search engine rankings begins with understanding the main SEO ranking factors."

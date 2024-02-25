@@ -3,7 +3,7 @@ date: "2023-05-03"
 categories:
   - "Security"
 title: "Password mistakes you could be making"
-metaDesc: "Are you making any of these password mistakes? Learn about the most common password errors that could be putting your data at risk, and what you can do to protect yourself. Find out more and make sure you're keeping your data secure."
+metaDesc: "Are you making any of these password mistakes? Learn about the most common password errors that could be putting your data at risk, and what you can do to protect yourself."
 excerpt: "Passwords are, at the moment at least, an essential part of our online life both in a work and in a personal context. They are like keys to a door, but instead, they give access to our email, our social media accounts, our bank accounts, our websites. However, many people still tend to use passwords that can be easily guessed or cracked and so put their private information at risk of being discovered by hackers. In this article, I discuss 10 ways in which you can protect yourself on line using simple techniques that can increase the security of your passwords. "
 cloudinaryPrimaryImage: "secure-passwords-to-protect-yourself-online_fv060o"
 primaryImageAlt: "Everyone needs to use strong passwords to protect themselves against hacking online"

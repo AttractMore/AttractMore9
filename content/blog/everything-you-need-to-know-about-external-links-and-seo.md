@@ -4,7 +4,7 @@ date: "2022-09-30"
 categories:
   - "Search engines"
   - "SEO"
-metaDesc: "Incoming links to your web pages are a vital factor in determining how well your pages rank in the search engines. But it's not just numbers that count. Discover more here."
+metaDesc: "Incoming links to your web pages are a vital factor in determining how well your pages rank in the search engines. But it's not just numbers that matter."
 excerpt: "It is very difficult to achieve a decent search engine ranking for a web page without having incoming links from other websites. The search engines need to know that your page is relevant to others and incoming links prove that. In a way, it's like a popularity contest, however, with search engines it's not just the number ofincoming links that matter, it's the quality of those links and quality is about relevance and authority. Links from poor quality or questionable websites will actually damage your rankings. In this article we'll look into links in more detail and see how to acquire valuable ones that help build your search presence."
 cloudinaryPrimaryImage: "external-links-in-a-chain_kbhgxe"
 primaryImageAlt: "Inbound links from reputable websites help your site achieve higher rankings in Google and the other search engines."
