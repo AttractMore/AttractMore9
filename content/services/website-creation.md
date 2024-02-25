@@ -18,5 +18,6 @@ summaryText: "<h3>Research</h3>
 <h3>Detailed Design</h3>
 <p>Armed with this knowledge we can move quickly into detailed design of your new website. We will always ensure that the designs are <strong>mobile friendly</strong> and that they will adapt smoothly to display well on screens of all sizes. Design also considers potential <strong>carbon emissions</strong> and <strong>performance</strong>.</p>
 <h3>Testing, Migration & Implementation</h3>
-<p>Post-development, we rigorously test your website to ensure it will work on any device. We also <strong>check carbon emissions</strong> and <strong>test page load speed</strong>, fine tuning for lowest emissions and best performance. We provide a seamless migration plan to preserve the value of your previous site and avoid 'page not found' errors.</p>
+<p>Post-development, we rigorously test your website to ensure it will work on any device. We also <strong>check carbon emissions</strong> and <strong>test page load speed</strong>, fine tuning for lowest emissions and best performance. We provide a seamless migration plan to preserve the value of your previous site and avoid 'page not found' errors.</p>"
+
 ---
