@@ -14,20 +14,9 @@ intro:
 ctaText: "Get in touch about a better website"
 extraStyles: "/css/service-item.css"
 summaryText: "<h3>Research</h3>
-
-<p>Before we consider the design of a website, we carry out a <strong>design research phase</strong> in which we develop a deep understanding your business and your customers/clients.</p>
-
-<p>As part of this phase we will explore your <strong>business aims and objectives</strong> together with any specific goals you may have for the new website. We will also look at your competitors’ websites to understand your market better and discover how they interact online with their customers.</p>
-
-<p>We will <strong>examine your target audience(s)</strong> so that we can understand more about their motivations and concerns. This is essential (in our view) in designing a website that appeals to these individuals and in creating content that answers their questions in the correct tone and language. With these insights we can create a site that converts visitors into customers.<p>
-
+<p>Before starting the design of your website, we carry out <strong>thorough research</strong> to understand your business and audience needs. We analyse your objectives, explore competitor websites, and understand your target audience's motivations and concerns. This insight guides us in creating content and designs tailored to convert visitors into customers.</p>
 <h3>Detailed Design</h3>
-
-<p>Armed with the knowledge gained from the research phase we can move quickly into detailed design of your new website. We will always ensure that the designs are <strong>mobile friendly</strong> and that they will adapt smoothly to display well on screens of all sizes. Design also considers potential <strong>carbon emissions</strong> and <strong>performance</strong>. Even at this early stage we design for sustainability and speed.</p>
-
+<p>Armed with this knowledge we can move quickly into detailed design of your new website. We will always ensure that the designs are <strong>mobile friendly</strong> and that they will adapt smoothly to display well on screens of all sizes. Design also considers potential <strong>carbon emissions</strong> and <strong>performance</strong>.</p>
 <h3>Testing, Migration & Implementation</h3>
-
-<p>Following development of the site we carry out an <strong>extensive testing phase</strong> on 40-50 different devices using the latest browsers and operating systems as well as older versions to ensure your new site will work on any device. We also <strong>check carbon emissions</strong> and <strong>test page load speed</strong>, fine tuning for lowest emissions and best performance.</p>
-
-<p>We produce a migration plan for your site to make sure that the value accumulated in your previous site is carried forward to the new site and that ‘page not found’ errors do not occur.</p>"
+<p>Post-development, we rigorously test your website to ensure it will work on any device. We also <strong>check carbon emissions</strong> and <strong>test page load speed</strong>, fine tuning for lowest emissions and best performance. We provide a seamless migration plan to preserve the value of your previous site and avoid 'page not found' errors.</p>
 ---
