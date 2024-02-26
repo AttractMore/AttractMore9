@@ -2,12 +2,9 @@
 <meta name="robots" content="index, follow" />
 {{- else }}
 <meta name="robots" content="noindex, nofollow" />
-{{- end }} {{- /* Title */}}
-
+{{- end }}
 <title>{{ if .IsHome }}{{ else }}{{ if .Title }}{{ .Title }} &bull; {{ end }}{{ end }}{{ site.Title }}</title>
-
 <link rel="canonical" href="{{ if .Params.canonicalURL -}} {{ trim .Params.canonicalURL " " }} {{- else -}} {{ .Permalink }} {{- end }}"> 
-
 <meta property="og:site_name" content="{{ site.Title }}" />
 <meta property="og:title" content="{{ .Title }}" />
 <meta property="og:type" content="website" />
@@ -17,22 +14,18 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="og:image" content="{{ .Params.socialImage }}" />
 <meta name="twitter:image" content="{{ .Params.socialImage }}" />
-{{- else -}}
-  {{- $cloudinaryFolder := "/hero/" -}}
-  {{- $cloudinaryImage := "reaching-for-the-sky.jpg" -}}
-  {{- $socialImage := print site.Params.cloudinaryPath (site.Params.cloudinaryParms | safeURL) "w_2000" $cloudinaryFolder $cloudinaryImage }}
-  {{/*- $socialImage := print $cloudinaryPath $cloudinaryParms "w_2000" $cloudinaryFolder $cloudinaryImage */}}
+{{- else }}
 <meta name="twitter:card" content="summary_large_image" />
-<meta property="og:image" content="{{ $socialImage }}" />
-<meta name="twitter:image" content="{{ $socialImage }}" />
+<meta property="og:image" content="/images/misc/social-media-image.jpg" />
+<meta name="twitter:image" content="/images/misc/social-media-image.jpg" />
 {{- end }}
 
 {{ if .Params.primaryImageAlt }}
 <meta property="og:image:alt" content="{{ .Params.primaryImageAlt }}" />
 <meta name="twitter:image:alt" content="{{ .Params.primaryImageAlt }}" />
 {{- else -}}
-<meta property="og:image:alt" content="Page image for {{ .Title}}" />
-<meta name="twitter:image:alt" content="Page image for {{ .Title }}" />
+<meta property="og:image:alt" content="Page image for {{ .Title}} - sustainable websites" />
+<meta name="twitter:image:alt" content="Page image for {{ .Title }} - sustainable websites" />
 {{- end }}
 
 {{- if .Params.metaDesc -}}

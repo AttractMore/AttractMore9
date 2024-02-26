@@ -4,18 +4,11 @@
 
 {{- partial "page-meta.html" . }}
 
-<link rel="preconnect" href="https://res.cloudinary.com" />
-<link rel="dns-prefetch" href="https://res.cloudinary.com" />
-<!-- <link rel="preconnect" href="https://storage.googleapis.com" /> -->
-
-{{/*- $opts := dict "transpiler" "dartsass" "targetPath" "css/styles.css" "outputStyle" "compressed" */}}
-{{/*- with resources.Get "/scss/critical.scss" | toCSS $opts -*/}}
 {{- with resources.Get "css/critical.css" }}
 <style>{{ .Content | safeCSS }}</style>
 {{- end -}}
 
 {{- if .Params.extraStyles -}}
-{{/* - with resources.Get .Params.extraStyles | toCSS $opts -*/}}
 {{- with resources.Get .Params.extraStyles -}}
 <style>{{ .Content | safeCSS }}</style>
 {{- end -}}
@@ -104,6 +97,6 @@
     "@context": "https://schema.org",
     "@type": "Organization",
     "url": "https://www.attractmore.uk",
-    "logo": "https://www.attractmore.uk/images/attractmore-logomark.png"
+    "logo": "https://www.attractmore.uk/icons/attractmore-logo-light.png"
   }
 </script>
