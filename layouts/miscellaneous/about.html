@@ -1,0 +1,26 @@
+{{- define "main" }}
+{{ partial "partials/hero.html" . }}
+
+<section class=" wrap">
+
+  <article class="intro mt-1-0 content-grid" role="article" itemscope itemtype="https://schema.org/BlogPosting">
+    <div class="content">
+      {{ .Content }}
+    </div>
+    {{ partial "partials/blog-sidebar.html" . }}
+    <div class="my-story">
+      <h3>My Story</h3>
+      <img class="embedded-roger alignright" src="/images/misc/roger-knight-attractmore.webp" alt="Roger Knight Founder of AttractMore" loading="lazy" width="400" height="400" decoding="async" >
+      <p>I'm Roger Knight and I founded AttractMore back in 2006. Since then we've built a lot of web sites for a lot of different people and throughout that time web design itself and the technologies we use have changed a great deal. Some things haven't changed though: we continue to offer great service, produce modern attractive web sites that meet business needs and we don't charge over the odds. We work on solutions and design in conjunction with clients as we believe that <strong>collaborative working produces better results</strong> as clients know their business and audience better than we do.</p>
+      <p>Before starting AttractMore I worked as an IT Project Manager for many years, managing teams delivering large software development projects. So, not only do we have a great deal of experience in web design, web development, SEO etc., we also back this up with considerable, real-world project management skills making us a great choice for both smaller and larger web projects.</p>
+      <p>AttractMore team members are <strong>practical, knowledgeable people</strong> who are brought together to work on a particular project and, in this way, we can be sure to have the right skills available for the work in hand. We have access to a wide range of experienced individuals, including designers, developers, digital marketing specialists and so on, who all support the ethics and values of AttractMore. We can put a team together quickly that will meet the requirements of your project so, if we sound like the type of web development company you would like to work with, do <a href="/contact/">get in contact</a> - we'd love to hear from you.</p>
+    </div>
+    <figure class="separate-roger">
+      <img src="/images/misc/roger-knight-attractmore.webp" alt="Roger Knight Founder of AttractMore" loading="lazy" width="400" height="400" decoding="async" >
+    </figure>
+  </article>
+
+
+</section>
+
+{{- end }}{{/* end main */}}

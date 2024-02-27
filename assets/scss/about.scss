@@ -4,3 +4,47 @@
 @import "blocks/sidebar-layout";
 @import "blocks/sidebar";
 @import "utilities/forms";
+.about {
+  .content-grid {
+    display: grid;
+    .sidebar {
+      order: 4;
+    }
+    .my-story {
+      order: 3;
+    }
+    .embedded-roger,
+    .separate-roger {
+      mask-image: url(/masks/testimonials-mask.svg);
+      mask-repeat: no-repeat;
+    }
+    .embedded-roger {
+      max-width: 300px;
+      shape-outside: circle();
+    }
+    .separate-roger {
+      display: none;
+    }
+  }
+}
+
+@media screen and (min-width: $bp-large) {
+  .about {
+    .content-grid {
+      grid-template-columns: 2fr 1fr;
+      gap: 2em;
+      .sidebar,
+      .my-story {
+        order: unset;
+      }
+      .embedded-roger {
+        display: none;
+      }
+      .separate-roger {
+        display: block;
+        margin-top: 2em;
+        max-width: 400px;
+      }
+    }
+  }
+}

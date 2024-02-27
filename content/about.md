@@ -1,6 +1,8 @@
 ---
 title: "About"
 metaDesc: "Our values; Honesty, Reliability, Focus on client needs, Open about difficulties & opportunities, Responding professionally to requests, Ethical approach"
+type: "miscellaneous"
+layout: "about"
 hero:
   h1: "A web agency<br>committed to<br><span>people, planet</span><br>and your <span>profit</span>"
   p1: "We work collaboratively with our clients to help them succeed using the internet."
@@ -60,11 +62,3 @@ width="930" height="828" defaultWidth="500" >}}
 Why prevent a significant percentage of the population from enjoying your web site? That’s what will happen if accessibility issues are not taken into account in the design.
 
 People with poor sight can use screen reader software which will read the contents but this means properly identifying the building blocks that make up the site. There is no point reading out the header, menu and footer for every page, for instance. Contrast and colour combinations need to be considered for people who are colour blind. I think AttractMore has made some important steps in this direction but we are always looking to improve our service in this area.
-
-### My Story
-
-I’m Roger Knight and I founded AttractMore back in 2006. Since then we’ve built a lot of web sites for a lot of different people and throughout that time web design itself and the technologies we use have changed a great deal. Some things haven’t changed though: we continue to offer great service, produce modern attractive web sites that meet business needs and we don’t charge over the odds. We work on solutions and design in conjunction with clients as we believe that **collaborative working produces better results** as clients know their business and audience better than we do.
-
-Before starting AttractMore I worked as an IT Project Manager for many years, managing teams delivering large software development projects. So, not only do we have a great deal of experience in web design, web development, SEO etc., we also back this up with considerable, real-world project management skills making us a great choice for both smaller and larger web projects.
-
-AttractMore team members are **practical, knowledgeable people** who are brought together to work on a particular project and, in this way, we can be sure to have the right skills available for the work in hand. We have access to a wide range of experienced individuals, including designers, developers, search engine specialists and so on, who all support the ethics and values of AttractMore. We can put a team together quickly that will meet the requirements of your project so, if we sound like the type of web development company you would like to work with, do [get in touch](/contact/) – we’d love to hear from you.
