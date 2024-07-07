@@ -1,5 +1,5 @@
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>{{ if .IsHome }}{{ else }}{{ if .Title }}{{ .Title }} &bull; {{ end }}{{ end }}{{ site.Title }}</title>
 
 {{- with resources.Get "css/critical.css" }}
@@ -11,8 +11,6 @@
 <style>{{ .Content | safeCSS }}</style>
 {{- end -}}
 {{- end -}}
-
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
 {{- partial "page-meta.html" . }}
 
