@@ -6,7 +6,7 @@ metaDesc: "The internet uses a LOT of power. Find out how your website can gener
 extraStyles: "/css/miscellaneous.css"
 ---
 
-The internet uses a lot of powerand is responsible for [3.7% of global emissions](https://ecofriendlyweb.org/). Of course, it's not just the laptops, tablets and phones we use, the main power consumers are the web servers and the networks that keep the internet running.
+The internet uses a lot of power and is responsible for [3.7% of global emissions](https://ecofriendlyweb.org/). Of course, it's not just the laptops, tablets and phones we use, the main power consumers are the web servers and the networks that keep the internet running.
 
 According to some [estimates](https://www.websitecarbon.com/), the internet as a whole uses around 416TWh per year which is more than the annual electricity consumption of the entire UK. A large part of this energy use is due to streaming video and playing games. Back in 2018, [Fortune reported](https://fortune.com/2018/10/02/netflix-consumes-15-percent-of-global-internet-bandwidth/) that Netflix alone was using 15% of the internet bandwidth.
 

@@ -72,7 +72,7 @@ Apparently, if everybody who uses Google for search switched to Ecosia, they cou
 
 So why not give it a try? You can switch right now and know that every search you do will help plant trees around the world.
 
-[Try Ecosia](https://www.ecosia.org/){.primary-btn}
+[Try Ecosia](https://www.ecosia.org/)
 
 P.S. I know this sounds a little evangelical and you may be wondering if this is a sponsored post on behalf of Ecosia, it isn’t! To me, using Ecosia seems the right thing to do and I’d like to encourage you to make the switch as well.
 
