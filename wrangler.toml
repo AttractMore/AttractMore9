@@ -1,4 +1,2 @@
 vars = { ENVIRONMENT = "production" }
-# name = "zoho-content"
-# main = "zoho-content/src/index.js"
 compatibility_date = "2023-12-23"
