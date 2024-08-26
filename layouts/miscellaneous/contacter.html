@@ -1,0 +1,51 @@
+{{- define "main" }}
+{{- partial "partials/hero.html" . -}}
+
+<section class="contact content-sidebar wrap">
+  <article class="services">
+    {{ .Content | safeHTML }}
+    <form class="mb-1-5" id="enquiryform" action="/api/submit-contact-form" method="POST">
+      <input type="hidden" name="subject" value="AttractMore Information Request" />
+      <fieldset>
+        <p>
+          <label for="name">Your name: <em class="required">(required)</em></label>
+          <input name="name" id="name" type="text" maxlength="25" autocomplete="name" placeholder="Your name..." required />
+        </p>
+        <p>
+          <label id="honey" for="contact-name">Contact Name
+            <input type="text" id="contact-name" name="contact-name">
+          </label>
+        </p>
+
+        <div class="email-entry">
+          <label for="email">Email address:<em class="required">(required)</em></label>
+          <input name="email" id="email" type="email" autocomplete="email" placeholder="Your email..." required maxlength="100" />
+          <p class="email-suggestion"><span class="alert">! </span>Did you mean <a class="suggested-email"><span class="address"></span>@<span class="domain"></span></a>? Click or tap the amended email to use.</p>
+        </div>
+
+        <p>
+          <label for="message">Please tell us how we can help you:</label>
+          <textarea name="message" id="message" rows="8" required></textarea>
+        </p>
+
+        <p>
+          <input id="consent" type="checkbox" name="consent" required />
+          <label for="consent">I agree to the storage and handling of my data by AttractMore</label>
+        </p>
+      </fieldset>
+
+      <fieldset class="mb-1-5">
+        <button class="primary-btn" type="submit" id="submit" name="submit" value="submit">Send<svg aria-hidden="true"><use xlink:href="/icons/icon-defs.svg#icon-arrow-right-bold"></use></svg></button>
+      </fieldset>
+
+    </form>
+    <blockquote>
+      I would highly recommend AttractMore. Roger initially created for us a simple yet attractive e-commerce website which worked perfectly and fit our budgets. Roger also prepared a detailed report on how we could improve SEO for our website.  The result has been a <strong>significant increase in our organic web traffic</strong>. Roger also responds to our requests really quickly which I really appreciate - it helps me feel that we are truly <strong>supported and protected from an IT point of view.</strong> - Julie Macken, Neve's Bees.
+    </blockquote>
+
+  </article>
+
+  {{- partial "partials/contact-sidebar.html" . -}}
+  
+</section>
+{{- end }}{{/* end main */}}

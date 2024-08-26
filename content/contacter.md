@@ -12,6 +12,6 @@ pageRobots: false
 extraStyles: "/css/contact.css"
 ---
 
-## Get in touch
+## Get in touch (Resend)
 
 Please let us have some brief details using the form below and we will respond within one working day. Thanks.
