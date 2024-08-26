@@ -1,6 +1,6 @@
 /**
  * POST /api/submit-contact-form
- *
+ * @source https://sia.codes/posts/migrating-netlify-to-cloudflare/
  */
 import { Resend } from "resend";
 
