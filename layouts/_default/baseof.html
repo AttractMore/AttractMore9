@@ -19,8 +19,8 @@
   {{- end -}}
 
   {{- if or (eq .Title "Contact") (eq .Title "Home") -}}
-    <!-- <script src="/js/mailcheck.min.js"></script>
-    <script defer src="/js/runMailcheck.js"></script> -->
+    <script src="/js/mailcheck.min.js"></script>
+    <script defer src="/js/runMailcheck.js"></script>
   {{- end -}}
   {{ partial "partials/service-worker.html" . }}
   <div class="site-overlay"></div>
