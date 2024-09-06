@@ -37,7 +37,7 @@ export async function onRequestPost(context) {
       reply_to: output.email,
       to: context.env.RECIPIENT_EMAIL,
       subject: `[ATTRACTMORE] Carbon report request`,
-      text: output.url + output.name,
+      text: `URL: ${output.url} Name: ${output.name}`,
     });
     console.log({ data, error });
 
