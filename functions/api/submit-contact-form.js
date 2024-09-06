@@ -24,7 +24,7 @@ export async function onRequestPost(context) {
     //   'contact-name': '',
     //   email: 'jane@doe.com',
     //   message: 'this is my message'
-    const path = window.location.pathname;
+    const requestUrl = context.request.url;
     // console.log(path);
     const honeypot = output["contact-name"];
     // Return early with pretend confirmation if bot hit honeypot
@@ -45,7 +45,7 @@ export async function onRequestPost(context) {
 
     if (error) {
       return Response.redirect("https://attractmore.uk/404", 303);
-    } else if (path === "/contact/") {
+    } else if (requestUrl === "https://attractmore.uk/contact/") {
       return Response.redirect("https://attractmore.uk/thanks/", 303);
     } else {
       return Response.redirect("https://attractmore.uk/thanks-carbon-request/", 303);
