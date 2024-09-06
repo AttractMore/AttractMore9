@@ -20,10 +20,10 @@ export async function onRequestPost(context) {
       }
     }
     // output: {
+    //   url: https://...
     //   name: 'Jane Doe',
     //   'contact-name': '',
     //   email: 'jane@doe.com',
-    //   message: 'this is my message'
     const honeypot = output["contact-name"];
     // Return early with pretend confirmation if bot hit honeypot
     if (honeypot !== "") {
@@ -37,7 +37,8 @@ export async function onRequestPost(context) {
       reply_to: output.email,
       to: context.env.RECIPIENT_EMAIL,
       subject: `[ATTRACTMORE] Carbon report request`,
-      text: output.message,
+      text: output.url,
+      name: output.name,
     });
     console.log({ data, error });
 
