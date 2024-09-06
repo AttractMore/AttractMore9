@@ -37,7 +37,7 @@ export async function onRequestPost(context) {
       reply_to: output.email,
       to: context.env.RECIPIENT_EMAIL,
       subject: `[ATTRACTMORE] Contact form request`,
-      text: output.message,
+      text: `Name: ${output.name} Message: ${output.message}`,
     });
     console.log({ data, error });
 
