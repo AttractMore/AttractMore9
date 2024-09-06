@@ -45,12 +45,10 @@ export async function onRequestPost(context) {
 
     if (error) {
       return Response.redirect("https://attractmore.uk/404", 303);
+    } else if (path === "/contact/") {
+      return Response.redirect("https://attractmore.uk/thanks/", 303);
     } else {
-      if (path === "/contact/") {
-        return Response.redirect("https://attractmore.uk/thanks/", 303);
-      } else {
-        return Response.redirect("https://attractmore.uk/thanks-carbon-request/", 303);
-      }
+      return Response.redirect("https://attractmore.uk/thanks-carbon-request/", 303);
     }
   } catch (err) {
     return Response.redirect("https://attractmore.uk/404?error=json_parsing", 303);
