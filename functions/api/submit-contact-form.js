@@ -25,7 +25,7 @@ export async function onRequestPost(context) {
     //   email: 'jane@doe.com',
     //   message: 'this is my message'
     const requestUrl = context.request.url;
-    // console.log(path);
+    console.log(requestUrl);
     const honeypot = output["contact-name"];
     // Return early with pretend confirmation if bot hit honeypot
     if (honeypot !== "") {
