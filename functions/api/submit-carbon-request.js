@@ -27,7 +27,7 @@ export async function onRequestPost(context) {
     const honeypot = output["contact-name"];
     // Return early with pretend confirmation if bot hit honeypot
     if (honeypot !== "") {
-      return Response.redirect("https://attractmore.uk/thanks/", 303);
+      return Response.redirect("https://attractmore.uk/thanks-carbon-request/", 303);
     }
 
     // Using text instead of email so that I don't need to sanitize it
@@ -36,7 +36,7 @@ export async function onRequestPost(context) {
       from: context.env.SENDER_EMAIL,
       reply_to: output.email,
       to: context.env.RECIPIENT_EMAIL,
-      subject: `[ATTRACTMORE] Contact form request`,
+      subject: `[ATTRACTMORE] Carbon report request`,
       text: output.message,
     });
     console.log({ data, error });
@@ -44,7 +44,7 @@ export async function onRequestPost(context) {
     if (error) {
       return Response.redirect("https://attractmore.uk/404", 303);
     } else {
-      return Response.redirect("https://attractmore.uk/thanks/", 303);
+      return Response.redirect("https://attractmore.uk/thanks-carbon-request/", 303);
     }
   } catch (err) {
     return Response.redirect("https://attractmore.uk/404?error=json_parsing", 303);

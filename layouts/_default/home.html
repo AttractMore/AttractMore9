@@ -98,16 +98,21 @@
       <h2 class="h3">Carbon emissions of your website</h2>
       <p>I can provide you with an estimate of the carbon emissions of a web page. Simply include the web page address (including the https:// part please), your name and an email address in the form below, click Calculate and I'll send you the figures.</p>
       <div class="form-image">
-        <form action="https://formspree.io/f/mwkgldrp" method="POST">
+        <form action="/api/submit-contact-form" method="POST">
           <input type="hidden" name="subject" value="AttractMore Carbon Emissions Request" />
           <fieldset>
             <p>
               <label for="url">Full address of web page to be checked:</label>
-              <input name="url" id="url" type="url" maxlength="50" required />
+              <input name="url" id="url" type="url" maxlength="50" required placeholder="https://" />
             </p>
             <p>
               <label for="name">Your name:</label>
               <input name="name" id="name" type="text" maxlength="35" autocomplete="name" required />
+            </p>
+            <p>
+              <label id="honey" for="contact-name">Contact Name
+                <input type="text" id="contact-name" name="contact-name">
+              </label>
             </p>
             <div class="email-entry">
               <label for="email">Email address:</label>
