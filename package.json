@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@tinacms/cli": "^1.6.5",
-    "@types/node": "^22.6.1",
-    "wrangler": "^3.78.8"
+    "@types/node": "^22.7.4",
+    "wrangler": "^3.78.12"
   }
 }
