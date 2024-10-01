@@ -1,0 +1,109 @@
+{{- define "main" }}
+
+{{ partial "partials/hero.html" . }}
+
+<section class="carbon-calculation">
+  <div class="wrap">
+    <article>
+      <h2 class="h3">Carbon emissions of your website</h2>
+      <p>Thanks for checking out the article on the PlayItGreen website about carbon emissions.</p>
+      <p>I can provide you with an estimate of the carbon emissions of a web page as well as some recommendation on how you can reduce those emissions by improving the efficiency of your site. Simply include the web page address (including the https:// part please), your name and an email address in the form below, click Calculate and I'll send you the figures and suggestions.</p>
+      <div class="form-image">
+        <form action="/api/submit-carbon-request" method="POST">
+          <input type="hidden" name="subject" value="AttractMore Carbon Emissions Request (Play it Green)" />
+          <fieldset>
+            <p>
+              <label for="url">Full address of web page to be checked:</label>
+              <input name="url" id="url" type="url" maxlength="50" required placeholder="https://" />
+            </p>
+            <p>
+              <label for="name">Your name:</label>
+              <input name="name" id="name" type="text" maxlength="35" autocomplete="name" required />
+            </p>
+            <p>
+              <label id="honey" for="contact-name">Contact Name
+                <input type="text" id="contact-name" name="contact-name">
+              </label>
+            </p>
+            <div class="email-entry">
+              <label for="email">Email address:</label>
+              <input name="email" id="email" type="email" autocomplete="email" required maxlength="100" />
+              <p class="email-suggestion"><span class="alert">! </span>Did you mean <a class="suggested-email"><span class="address"></span>@<span class="domain"></span></a>? Click or tap the amended email to use.</p>
+            </div>
+          </fieldset>
+          <fieldset class="mb-1-5">
+            <button class="primary-btn" type="submit" id="submit" name="submit" value="submit">Calculate<svg aria-hidden="true"><use xlink:href="/icons/icon-defs.svg#icon-arrow-right-bold"></use></svg></button>
+          </fieldset>
+          <p><small>We will only use the information you provide to send you the carbon emissions data. We will not use the information for marketing or for any other purpose.</small></p>
+        </form>
+        <aside class="illustration">
+          <svg aria-hidden="true"><use xlink:href="/icons/tree-defs.svg#tree3"></use></svg>
+        </aside>
+      </div>
+    </article>
+  </div>
+</section>
+
+
+
+<section class="un-sdgs">
+  <div class="wrap">
+    <h2 class="centre">UN Sustainability Development Goals</h2>
+    <p class="intro centre">We support the <a href="https://sdgs.un.org/goals" rel="noopener, noreferrer">United Nations Sustainable Development Goals</a> and actively work towards making an impact on four key goals:</p>
+    <ul class="sdg-images">
+      <li>
+        <picture>
+          <source srcset="/images/sdgs/un-sdg-goal-10.webp" type="image/webp" >
+          <source srcset="/images/sdgs/un-sdg-goal-10.jpg" type="image/jpeg" >
+          <img src="/images/sdgs/un-sdg-goal-10.jpg" alt="UN SDG Goal 10 - Reduced Inequalities" width="300" height="300" decoding="async" loading="lazy">
+        </picture>
+      </li>
+      <li>
+        <picture>
+          <source srcset="/images/sdgs/un-sdg-goal-12.webp" type="image/webp" >
+          <source srcset="/images/sdgs/un-sdg-goal-12.jpg" type="image/jpeg" >
+          <img src="/images/sdgs/un-sdg-goal-12.jpg" alt="UN SDG Goal 12 - Responsible Consumption and Production" width="300" height="300" decoding="async" loading="lazy">
+        </picture>
+      </li>
+      <li>
+        <picture>
+          <source srcset="/images/sdgs/un-sdg-goal-13.webp" type="image/webp" >
+          <source srcset="/images/sdgs/un-sdg-goal-13.jpg" type="image/jpeg" >
+          <img src="/images/sdgs/un-sdg-goal-13.jpg" alt="UN SDG Goal 13 - Climate Action" width="300" height="300" decoding="async" loading="lazy">
+        </picture>
+      </li>
+      <li>
+        <picture>
+          <source srcset="/images/sdgs/un-sdg-goal-17.webp" type="image/webp" >
+          <source srcset="/images/sdgs/un-sdg-goal-17.jpg" type="image/jpeg" >
+          <img src="/images/sdgs/un-sdg-goal-17.jpg" alt="UN SDG Goal 17 - Partnerships for the Goals" width="300" height="300" decoding="async" loading="lazy">
+        </picture>
+      </li>
+    </ul>
+    <article class="text-block">
+      <h3>10 Reduced Inequalities</h3>
+      <ul>
+        <li>Many parts of the world have much slower internet connections than we do in the UK. Our sustainable, highly efficient websites transfer less data over the internet which means greater access to these websites globally.</li>
+        <li>A significant percentage of people with access to the internet have slower, less powerful devices. Our websites make less demand on devices making them more accessible to a larger number of people across the globe.</li>
+      </ul>
+      <h3>12 Responsible Consumption and Production</h3>
+      <ul>
+        <li>Low-carbon websites are much more efficient than the average site, which means they consume less electricity (and therefore less fossil fuels).</li>
+        <li>We aim to use “green” hosting companies that power their servers using renewable energy sources only.</li>
+      </ul>
+      <h3>13 Climate Action</h3>
+      <ul>
+        <li>We build websites using tools and techniques that keep their carbon footprint as low as possible.</li>
+        <li>Our website is cleaner than 94% of websites tested by <a href="https://www.websitecarbon.com/" rel="noopener, noreferrer,  nofollow">Wholegrain Digital</a>.</li>
+        <li>Our website is Climate Positive, accredited by the <a href="https://ecofriendlyweb.org/" rel="noopener, noreferrer, nofollow">Eco-friendly Web Alliance</a>.</li>
+      </ul>
+      <h3>17 Partnerships for the Goals</h3>
+      <ul>
+        <li>We work with businesses that want to reduce their carbon footprint.</li>
+        <li>We work in partnership with designers, marketers and content creators that are also aligned with the UN SDGs.</li>
+      </ul>
+    </article>
+  </div>
+</section>
+  
+  {{- end }}{{/* end main */}}

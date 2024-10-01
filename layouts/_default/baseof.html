@@ -18,7 +18,7 @@
   <script src="{{ .Params.extraJS }}" defer></script>
   {{- end -}}
 
-  {{- if or (eq .Title "Contact") (eq .Title "Home") -}}
+  {{- if or (eq .Title "Contact") (eq .Title "Home") (eq .Title "Play It Green Carbon Report") -}}
     <script src="/js/mailcheck.min.js"></script>
     <script defer src="/js/runMailcheck.js"></script>
   {{- end -}}

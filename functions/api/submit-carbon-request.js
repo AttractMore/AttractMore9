@@ -36,7 +36,8 @@ export async function onRequestPost(context) {
       from: context.env.SENDER_EMAIL,
       reply_to: output.email,
       to: context.env.RECIPIENT_EMAIL,
-      subject: `[ATTRACTMORE] Carbon report request`,
+      // subject: `[ATTRACTMORE] Carbon report request`,
+      subject: output.subject,
       text: `URL: ${output.url} Name: ${output.name}`,
     });
     console.log({ data, error });
