@@ -4,5 +4,5 @@ type: "miscellaneous"
 layout: "playitgreen"
 pageRobots: "noindex,nofollow"
 metaDesc: "Landing page for the Play It Green guest blog post."
-extraStyles:
+extraStyles: "/css/home.css"
 ---
