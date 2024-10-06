@@ -4,101 +4,24 @@
   ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 0 2rem;
     align-items: center;
     list-style: none;
+
+    // Clever calculations for logo adjustments - https://9elements.com/blog/building-the-perfect-logo-strip/
+    --base-height: 6rem;
+    --scale-factor-horizontal: 0.1;
     li {
       margin-bottom: 2em;
-      flex: 0 1 46%;
-      img {
-        margin: 0 auto;
-      }
-      &.green-hosted {
-        img {
-          width: 10em;
-        }
-      }
-      &.gbc {
-        img {
-          width: 8em;
-        }
-      }
-      &.asp {
-        img {
-          width: 8em;
-        }
-      }
-      &.efwa {
-        img {
-          width: 13.5em;
-        }
-      }
-      &.bbn {
-        img {
-          width: 8em;
-        }
-      }
-    }
-  }
-}
-// }
-
-// @media screen and (min-width: $bp-medium) {
-//   .accreditations {
-//     ul {
-//       flex-direction: row;
-//       justify-content: space-between;
-//       flex-wrap: nowrap;
-//       li {
-//         flex: 0 1 auto;
-//         margin-bottom: 0;
-//         &.green-hosted {
-//           img {
-//             width: 8em;
-//           }
-//         }
-//         &.gbc {
-//           img {
-//             width: 6em;
-//           }
-//         }
-//         &.efwa {
-//           img {
-//             width: 13.5em;
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
-@media screen and (min-width: $bp-huge) {
-  .accreditations {
-    ul {
-      flex-wrap: nowrap;
-      li {
-        flex: 0 1 auto;
-        margin-bottom: 0;
-        &.green-hosted {
-          img {
-            width: 8em;
-          }
-        }
-        &.gbc {
-          img {
-            width: 8em;
-          }
-        }
-        &.efwa {
-          img {
-            width: 16em;
-          }
-        }
-        &.bbn {
-          img {
-            width: 6em;
-          }
-        }
+      --base-ratio: calc(var(--width) / var(--height));
+      aspect-ratio: var(--base-ratio);
+      --factor-horizontal: min(var(--scale-factor-horizontal) * -1 * var(--base-ratio) + var(--scale-factor-horizontal) + 1, 1);
+      height: max(var(--base-height) / 2, var(--base-height) * var(--factor-horizontal));
+      & img {
+        width: 100%;
+        height: auto;
       }
     }
   }
