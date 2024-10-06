@@ -6,15 +6,14 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 0 2rem;
+    gap: 3rem;
     align-items: center;
     list-style: none;
 
     // Clever calculations for logo adjustments - https://9elements.com/blog/building-the-perfect-logo-strip/
-    --base-height: 6rem;
+    --base-height: 8rem;
     --scale-factor-horizontal: 0.1;
     li {
-      margin-bottom: 2em;
       --base-ratio: calc(var(--width) / var(--height));
       aspect-ratio: var(--base-ratio);
       --factor-horizontal: min(var(--scale-factor-horizontal) * -1 * var(--base-ratio) + var(--scale-factor-horizontal) + 1, 1);
