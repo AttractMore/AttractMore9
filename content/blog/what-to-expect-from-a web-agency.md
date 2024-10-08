@@ -1,6 +1,6 @@
 ---
 title: "What to expect from a web agency"
-date: "2021-05-28"
+date: "2024-10-08"
 categories:
   - "Web agency"
 metaDesc: "In this article I will walk through 11 different items that I believe all web agencies should offer. They help ensure a smooth project and a successful outcome."
@@ -15,17 +15,18 @@ extraStyles: "/css/post.css"
 
 Here are the 11 elements that every web agency should offer:
 
-- [Knowledgeable and up-to-date](#knowledgeable)
-- [Experienced](#experienced)
-- [Have a process](#process)
-- [Have a legal agreement](#legal)
-- [Demonstrate quality](#quality)
-- [Provide realistic estimates of cost & time](#estimates)
-- [Ask questions](#questions)
-- [Work in partnership with you](#partnership)
-- [Responsive to you](#responsive)
-- [Deliver](#deliver)
-- [Offer ongoing support and maintenance for site after it is live](#support)
+- [Knowledgeable and up-to-date](#1-knowledgeable-and-up-to-date)
+- [Experienced](#2-experienced)
+- [Have a process](#3-have-a-process)
+- [Have a legal agreement](#4-have-a-legal-agreement)
+- [Demonstrate quality](#5-demonstrate-quality)
+- [Provide realistic estimates of cost & time](#6-provide-realistic-estimates-of-cost--time)
+- [Ask questions](#7-ask-questions)
+- [Work in partnership with you](#8-work-in-partnership-with-you)
+- [Responsive to you](#9-responsive-to-you)
+- [Deliver](#10-deliver)
+- [Offer ongoing support and maintenance for site after it is live](#11-offer-ongoing-support-and-maintenance-for-site-after-it-is-live)
+- Bonus - [Offer low-carbon, sustainable websites](#12-offer-low-carbon-sustainable-websites)
 
 ## Intro
 
@@ -142,12 +143,19 @@ loading="lazy" >}}
 
 However, the agency are in the best position to provide software updates (e.g. WordPress plugins), carry out search engine monitoring, security monitoring and so on. Expect the agency to offer a contract for these services. This should not be a requirement of the agency but, if taken it should be renewable annually so the client can always go elsewhere if they are dissatisfied.
 
+## 12. Offer low-carbon, sustainable websites
+
+To be fair this is not an absolute requirement but it's important nonetheless. As you may know, the internet as a whole uses vast quantities of electricity to power datacentres, networks etc., and most of this power comes from buring fossil fuels. So, although we don't see it, every time we use the internet, we are [creating carbon emissions](https://www.attractmore.uk/sustainable-web-design/).
+
+AttractMore are committed to creating websites that are highly efficient. This means they use less power and so create less greenhouse gas emissions. A further benefit is that they are very fast websites which, in turn, provides a better user experience. You can find out more about how we create low-carbon websites on our [sustainable web design](https://www.attractmore.uk/sustainable-web-design/) page.
+
 ## Conclusion
 
-If I could summarise all this in 2 words, they would be:
+If I could summarise all this in 3 words, they would be:
 
 - honesty
 - integrity
+- sustainability
 
 Your website is your digital shop window and it plays an important role in business success so, it's important to get it right. This, of course, implies that you should choose a top class web agency.
 
