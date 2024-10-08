@@ -13,7 +13,7 @@ extraStyles: "/css/post.css"
 
 ## Summary
 
-Here are the 11 elements that every web agency should offer:
+Here are the 11 elements (+ bonus!) that every web agency should offer:
 
 - [Knowledgeable and up-to-date](#1-knowledgeable-and-up-to-date)
 - [Experienced](#2-experienced)
