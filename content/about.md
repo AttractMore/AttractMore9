@@ -52,16 +52,16 @@ So, for me it is essential that all aspects of AttractMore operate according to 
 
 To that end, AttractMore has been accepted by the [Good Business Charter](https://goodbusinesscharter.com/) as meeting the 10 components of responsible business practice.
 
+{{< content-figure folder="/misc/"
+src="gbc-components_ugex59"
+alt="Good Business Charter Compnents"
+width="930" height="828" defaultWidth="500" >}}
+
 The World Wide Web Consortium (W3C) have recently (December 2024) published a statement on the [ethical principles](https://www.w3.org/TR/ethical-web-principles/) they believe should apply to the web as a whole. This is very welcome. Here is a quote from the introduction:
 
 "_The web should empower an equitable, informed, and interconnected society. It has been, and should continue to be, designed to enable communication and knowledge-sharing for everyone. In order for the web to continue to be beneficial to society, we need to consider the ethical implications of our work when we build web technologies, applications, and sites._"
 
 I couldn't agree more.
-
-{{< content-figure folder="/misc/"
-src="gbc-components_ugex59"
-alt="Good Business Charter Compnents"
-width="930" height="828" defaultWidth="500" >}}
 
 ### Accessibility
 
