@@ -46,11 +46,17 @@ We enjoy the work we do and we have a number of ethical principles which apply t
 
 In addition, **we do not condone dubious practices in web site design, SEO etc.**, where privacy options are made deliberately complicated so that users are tricked into agreeing to things they were not fully aware of, or where users are encouraged to spam their friends or do other things they may later regret. These practices are not ethical and **we refuse to implement such features** on web sites we design and build. They also detract from how a person experiences a web site and ultimately, we believe, they damage a business despite any short term gain that may accrue.
 
-The reason for all this is that it is important to me that AttractMore conducts its business with **integrity**. I believe that ultimately, the way we behave in the world is strongly related to the way that people behave towards us.
+It has always been important to me that AttractMore conducts its business with **integrity**. I believe that ultimately, the way we behave in the world is strongly related to the way that people behave towards us.
 
 So, for me it is essential that all aspects of AttractMore operate according to our ethical principles … everything from the type of clients we work with, cost estimates for the project, delivery dates, the billing – everything.
 
 To that end, AttractMore has been accepted by the [Good Business Charter](https://goodbusinesscharter.com/) as meeting the 10 components of responsible business practice.
+
+The World Wide Web Consortium (W3C) have recently (December 2024) published a statement on the [ethical principles](https://www.w3.org/TR/ethical-web-principles/) they believe should apply to the web as a whole. This is very welcome. Here is a quote from the introduction:
+
+"_The web should empower an equitable, informed, and interconnected society. It has been, and should continue to be, designed to enable communication and knowledge-sharing for everyone. In order for the web to continue to be beneficial to society, we need to consider the ethical implications of our work when we build web technologies, applications, and sites._"
+
+I couldn't agree more.
 
 {{< content-figure folder="/misc/"
 src="gbc-components_ugex59"
