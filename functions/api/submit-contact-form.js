@@ -31,17 +31,29 @@ export async function onRequestPost(context) {
     }
 
     // Using text instead of email so that I don't need to sanitize it
-    const resend = new Resend(context.env.RESEND_API_KEY);
-    const { data, error } = await resend.emails.send({
+    const payload = {
       from: context.env.SENDER_EMAIL,
       reply_to: output.email,
       to: context.env.RECIPIENT_EMAIL,
       subject: `[ATTRACTMORE] Contact form request`,
       text: `
-      Name: ${output.name}, 
-      Email: ${output.email}, 
-      Message: ${output.message}`,
-    });
+    Name: ${output.name}, 
+    Email: ${output.email}, 
+    Message: ${output.message}`,
+    };
+    console.log(payload);
+    const resend = new Resend(context.env.RESEND_API_KEY);
+    const { data, error } = await resend.emails.send(payload);
+    // const { data, error } = await resend.emails.send({
+    //   from: context.env.SENDER_EMAIL,
+    //   reply_to: output.email,
+    //   to: context.env.RECIPIENT_EMAIL,
+    //   subject: `[ATTRACTMORE] Contact form request`,
+    //   text: `
+    //   Name: ${output.name},
+    //   Email: ${output.email},
+    //   Message: ${output.message}`,
+    // });
 
     if (error) {
       return Response.redirect("https://attractmore.uk/404", 303);
