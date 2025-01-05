@@ -34,10 +34,13 @@ export async function onRequestPost(context) {
     const resend = new Resend(context.env.RESEND_API_KEY);
     const { data, error } = await resend.emails.send({
       from: context.env.SENDER_EMAIL,
-      reply_to: output.email,
+      reply_to: `${output.email}`,
       to: context.env.RECIPIENT_EMAIL,
       subject: `[ATTRACTMORE] Contact form request`,
-      text: `Name: ${output.name} Message: ${output.message}`,
+      text: `
+      Name: ${output.name}, 
+      Email: ${output.email}, 
+      Message: ${output.message}`,
     });
     console.log({ data, error });
 
