@@ -33,7 +33,7 @@ export async function onRequestPost(context) {
     // Using text instead of email so that I don't need to sanitize it
     const payload = {
       from: context.env.SENDER_EMAIL,
-      reply_to: output.email,
+      replyTo: output.email,
       to: context.env.RECIPIENT_EMAIL,
       subject: `[ATTRACTMORE] Contact form request`,
       text: `

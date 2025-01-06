@@ -34,7 +34,7 @@ export async function onRequestPost(context) {
     const resend = new Resend(context.env.RESEND_API_KEY);
     const { data, error } = await resend.emails.send({
       from: context.env.SENDER_EMAIL,
-      reply_to: output.email,
+      replyTo: output.email,
       to: context.env.RECIPIENT_EMAIL,
       // subject: `[ATTRACTMORE] Carbon report request`,
       subject: output.subject,
