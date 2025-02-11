@@ -80,6 +80,7 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("fetch", (event) => {
   // Skip cross-origin requests, like those for Google Analytics.
   if (event.request.url.startsWith(self.location.origin)) {
+    // Skip POST requests (from Resend) as these cause an issue in Chromium browsers
     if (event.request.method !== "POST") {
       event.respondWith(
         caches.match(event.request).then((cachedResponse) => {
