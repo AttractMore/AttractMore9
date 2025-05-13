@@ -28,10 +28,10 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "resend": "^4.5.1",
-    "tinacms": "^2.7.6"
+    "tinacms": "^2.7.7"
   },
   "devDependencies": {
-    "@tinacms/cli": "^1.9.6",
+    "@tinacms/cli": "^1.9.7",
     "@types/node": "^22.15.17",
     "wrangler": "^4.14.4"
   }
