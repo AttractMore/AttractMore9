@@ -22,9 +22,9 @@ width="1920" height="1280" defaultWidth="800" >}}
 
 Few of us can imagine not accessing the internet. As well as providing us with a wealth of information, it also allows us to shop, access healthcare and interact with our friends. And for many disabled people the internet is a lifeline, especially if they struggle to leave their homes.
 
-But [a recent report has found 96.8% of website home pages](https://webaim.org/projects/million/) fail to meet the standard accessibility requirements. This means a disabled person using one of these websites would struggle to access the information provided.
+But [a recent report has found 94.8% of website home pages](https://webaim.org/projects/million/) fail to meet the standard accessibility requirements. This means a disabled person using one of these websites would struggle to access the information provided.
 
-Making your website accessible isn’t actually that difficult and with [14 million disabled people](https://www.scope.org.uk/media/disability-facts-figures/) in the UK not only is it the right thing to do, but it also makes good business sense as it increases the number of potential visitors and customers to your site.
+Making your website accessible isn’t actually that difficult and with [16 million disabled people](https://www.scope.org.uk/media/disability-facts-figures/) in the UK not only is it the right thing to do, but it also makes good business sense as it increases the number of potential visitors and customers to your site.
 
 Read on to find out more about web accessibility and some of the easy things you can do to make your website more accessible.
 
