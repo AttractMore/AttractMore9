@@ -1,6 +1,6 @@
 ---
 title: "What to expect from a web agency"
-date: "2024-10-08"
+date: "2025-05-08"
 categories:
   - "Web agency"
 metaDesc: "In this article I will walk through 11 different items that I believe all web agencies should offer. They help ensure a smooth project and a successful outcome."
