@@ -10,25 +10,25 @@
 <meta property="og:url" content="{{ .Permalink }}" />
 
 {{- if .Params.socialImage -}}
-<meta name="twitter:card" content="summary_large_image" />
+<!-- <meta name="twitter:card" content="summary_large_image" /> -->
 <meta property="og:image" content="{{ .Params.socialImage }}" />
-<meta name="twitter:image" content="{{ .Params.socialImage }}" />
+<!-- <meta name="twitter:image" content="{{ .Params.socialImage }}" /> -->
 {{- else }}
-<meta name="twitter:card" content="summary_large_image" />
+<!-- <meta name="twitter:card" content="summary_large_image" /> -->
 <meta property="og:image" content="/images/misc/social-media-image.jpg" />
-<meta name="twitter:image" content="/images/misc/social-media-image.jpg" />
+<!-- <meta name="twitter:image" content="/images/misc/social-media-image.jpg" /> -->
 {{- end }}
 
 {{ if .Params.primaryImageAlt }}
 <meta property="og:image:alt" content="{{ .Params.primaryImageAlt }}" />
-<meta name="twitter:image:alt" content="{{ .Params.primaryImageAlt }}" />
+<!-- <meta name="twitter:image:alt" content="{{ .Params.primaryImageAlt }}" /> -->
 {{- else -}}
 <meta property="og:image:alt" content="Page image for {{ .Title}} - sustainable websites" />
-<meta name="twitter:image:alt" content="Page image for {{ .Title }} - sustainable websites" />
+<!-- <meta name="twitter:image:alt" content="Page image for {{ .Title }} - sustainable websites" /> -->
 {{- end }}
 
 {{- if .Params.metaDesc -}}
 <meta name="description" content="{{ .Params.metaDesc }}" />
-<meta name="twitter:description" content="{{ .Params.metaDesc }}" />
+<!-- <meta name="twitter:description" content="{{ .Params.metaDesc }}" /> -->
 <meta property="og:description" content="{{ .Params.metaDesc }}" />
 {{- end }}
