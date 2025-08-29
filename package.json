@@ -27,12 +27,12 @@
   "dependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "resend": "^4.8.0",
+    "resend": "^6.0.1",
     "tinacms": "^2.8.2"
   },
   "devDependencies": {
     "@tinacms/cli": "^1.10.2",
-    "@types/node": "^24.2.0",
-    "wrangler": "^4.27.0"
+    "@types/node": "^24.3.0",
+    "wrangler": "^4.33.1"
   }
 }
