@@ -1,6 +1,6 @@
 {{- define "main" }}
 
-{{ partial "partials/page-header.html" . }}
+{{ partial "page-header.html" . }}
 {{ $dateFormatDisplay := "2 January 2006" }}
 {{ $dateFormatDetail := "2006-01-02T00:00:00.000Z" }}
 <p class="wrap post-meta">Posted <time datetime="{{ .Params.date.Format $dateFormatDetail  }}">{{ .Params.date.Format $dateFormatDisplay }}</time> by Roger</p>
@@ -27,13 +27,13 @@
 
     <footer class="recommended-posts">
       <hr>
-      {{ partial "partials/related-posts.html" . }}
+      {{ partial "related-posts.html" . }}
     </footer>
 
-  {{ partial "partials/cta.html" . }}
+  {{ partial "cta.html" . }}
   </article>
 
-  {{ partial "partials/blog-sidebar.html" . }}
+  {{ partial "blog-sidebar.html" . }}
 
 </section>
 
