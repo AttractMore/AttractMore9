@@ -3,6 +3,7 @@
  * @source https://sia.codes/posts/migrating-netlify-to-cloudflare/
  */
 import { Resend } from "resend";
+import * as React from "react";
 
 export async function onRequestPost(context) {
   try {
