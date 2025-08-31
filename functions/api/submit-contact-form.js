@@ -3,7 +3,6 @@
  * @source https://sia.codes/posts/migrating-netlify-to-cloudflare/
  */
 import { Resend } from "resend";
-import * as React from "react";
 
 export async function onRequestPost(context) {
   try {
@@ -20,11 +19,6 @@ export async function onRequestPost(context) {
         output[key] = [].concat(tmp, value);
       }
     }
-    // output: {
-    //   name: 'Jane Doe',
-    //   'contact-name': '',
-    //   email: 'jane@doe.com',
-    //   message: 'this is my message'
     const honeypot = output["contact-name"];
     // Return early with pretend confirmation if bot hit honeypot
     if (honeypot !== "") {
@@ -45,16 +39,6 @@ export async function onRequestPost(context) {
     console.log(payload);
     const resend = new Resend(context.env.RESEND_API_KEY);
     const { data, error } = await resend.emails.send(payload);
-    // const { data, error } = await resend.emails.send({
-    //   from: context.env.SENDER_EMAIL,
-    //   reply_to: output.email,
-    //   to: context.env.RECIPIENT_EMAIL,
-    //   subject: `[ATTRACTMORE] Contact form request`,
-    //   text: `
-    //   Name: ${output.name},
-    //   Email: ${output.email},
-    //   Message: ${output.message}`,
-    // });
 
     if (error) {
       return Response.redirect("https://attractmore.uk/404", 303);
