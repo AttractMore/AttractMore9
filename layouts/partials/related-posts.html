@@ -3,7 +3,7 @@
 <div class="post-list">
   <h2>More from the blog</h2>
     {{ range $i, $p := . }}
-      {{ partial "post-list-item" . }}
+      {{ partial "post-list-item.html" . }}
     {{ end }}
 </div>
 {{ end }}
