@@ -1,5 +1,5 @@
-@import "utilities/variables";
+@use "utilities";
 //@import "utilities/mixins";
-@import "utilities/larger-text";
-@import "blocks/hero";
-@import "blocks/services-block";
+// @import "utilities/larger-text";
+@use "blocks/hero";
+@use "blocks/services-block";

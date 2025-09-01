@@ -1,4 +1,4 @@
-@import "utilities/variables";
+@use "utilities";
 //@import "utilities/mixins";
-@import "blocks/sidebar-layout";
-@import "blocks/sidebar";
+@use "blocks/sidebar-layout";
+@use "blocks/sidebar";

@@ -1,6 +1,6 @@
-@import "utilities/variables";
+@use "utilities";
 //@import 'utilities/mixins';
-@import "blocks/hero";
-@import "blocks/sidebar-layout";
-@import "blocks/sidebar";
-@import "utilities/forms";
+@use "blocks/hero";
+@use "blocks/sidebar-layout";
+@use "blocks/sidebar";
+// @import "utilities/forms";

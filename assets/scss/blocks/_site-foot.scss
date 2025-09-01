@@ -81,7 +81,7 @@
     margin-bottom: 0.25em;
   }
 }
-@media screen and (min-width: $bp-small) {
+@media screen and (min-width: 30em) {
   .footer-nav-block2 {
     ul {
       display: flex;
@@ -95,7 +95,7 @@
   }
 }
 
-@media screen and (min-width: $bp-medium) {
+@media screen and (min-width: 44em) {
   .footer-nav {
     > div {
       display: grid;

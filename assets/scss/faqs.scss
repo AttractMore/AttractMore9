@@ -1,7 +1,7 @@
-@import "utilities/variables";
-@import "blocks/sidebar-layout";
-@import "blocks/sidebar";
-@import "blocks/faqlist";
+@use "utilities";
+@use "blocks/sidebar-layout";
+@use "blocks/sidebar";
+@use "blocks/faqlist";
 
 .content-sidebar {
   margin-top: 2em;

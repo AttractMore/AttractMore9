@@ -23,7 +23,7 @@
     }
   }
 }
-@media screen and (min-width: $bp-small) {
+@media screen and (min-width: 30em) {
   .sidebar {
     &__inner {
       padding: 2em;
@@ -34,7 +34,7 @@
     }
   }
 }
-@media screen and (min-width: $bp-large) {
+@media screen and (min-width: 58em) {
   .sidebar {
     ul {
       margin-top: 0;

@@ -1,9 +1,9 @@
-@import "utilities/variables";
+@use "utilities";
 //@import 'utilities/mixins';
-@import "blocks/hero";
-@import "blocks/sidebar-layout";
-@import "blocks/sidebar";
-@import "utilities/forms";
+@use "blocks/hero";
+@use "blocks/sidebar-layout";
+@use "blocks/sidebar";
+// @import "utilities/forms";
 .about {
   .content-grid {
     display: grid;
@@ -28,7 +28,7 @@
   }
 }
 
-@media screen and (min-width: $bp-large) {
+@media screen and (min-width: 58em) {
   .about {
     .content-grid {
       grid-template-columns: 2fr 1fr;

@@ -1,10 +1,28 @@
-@import "utilities/reset";
-@import "utilities/variables";
-@import "utilities/typography";
-@import "utilities/centre";
-@import "utilities/margins";
-@import "utilities/buttons";
+@use "utilities";
+// @import "utilities/reset";
+// @import "utilities/variables";
+// @import "utilities/typography";
+// @import "utilities/centre";
+// @import "utilities/margins";
+// @import "utilities/buttons";
 //@import 'utilities/cookie-consent';
+/********************************************
+	BLOCKS
+********************************************/
+@use "blocks/site-head";
+@use "blocks/accreditations";
+@use "blocks/site-foot";
+@use "blocks/skip-link";
+
+/********************************************
+	UTILITIES
+********************************************/
+// @use "utilities";
+// @import "utilities/main-menu";
+// @import "utilities/hr";
+// @import "utilities/image-align";
+// @import "utilities/blockquote";
+// @import "utilities/figure";
 
 body,
 html {
@@ -181,21 +199,3 @@ svg {
 @view-transition {
   navigation: auto;
 }
-
-/********************************************
-	BLOCKS
-********************************************/
-@import "blocks/site-head";
-@import "blocks/accreditations";
-@import "blocks/site-foot";
-@import "blocks/skip-link";
-
-/********************************************
-	UTILITIES
-********************************************/
-@import "utilities/visually-hidden";
-@import "utilities/main-menu";
-@import "utilities/hr";
-@import "utilities/image-align";
-@import "utilities/blockquote";
-@import "utilities/figure";

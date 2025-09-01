@@ -1,4 +1,4 @@
-@import "utilities/variables";
+@use "utilities";
 //@import 'utilities/mixins';
 .work-item {
   max-width: 820px;
@@ -18,7 +18,7 @@
     max-width: 320px;
   }
 }
-@media screen and (min-width: $bp-medium) {
+@media screen and (min-width: 44em) {
   .work-item {
     img.alignright {
       margin: 0 0 1.5em 1.5em;

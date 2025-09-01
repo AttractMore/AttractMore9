@@ -6,6 +6,8 @@
   .wrap {
     z-index: 5;
   }
+  background-color: var(--lightBlue);
+  background-image: linear-gradient(0deg, var(--lightYellow), var(--lightBlue));
   > * {
     grid-area: hero;
   }
@@ -14,8 +16,6 @@
     opacity: 0.4;
     filter: blur(6px);
   }
-  background-color: var(--lightBlue);
-  background-image: linear-gradient(0deg, var(--lightYellow), var(--lightBlue));
   &__content {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -50,7 +50,7 @@
   }
 }
 
-@media screen and (min-width: $bp-small) {
+@media screen and (min-width: 30em) {
   .hero {
     &__content {
       h1 {
@@ -68,7 +68,7 @@
     }
   }
 }
-@media screen and (min-width: $bp-medium) {
+@media screen and (min-width: 44em) {
   .hero {
     &__content {
       padding-left: 3%;
@@ -82,7 +82,7 @@
     }
   }
 }
-@media screen and (min-width: $bp-large) {
+@media screen and (min-width: 58em) {
   .hero {
     &__content {
       grid-template-columns: repeat(12, 1fr);
@@ -101,7 +101,7 @@
   }
 }
 
-@media screen and (min-width: $bp-huge) {
+@media screen and (min-width: 70em) {
   .hero {
     &__content {
       picture {
