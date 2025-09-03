@@ -26,6 +26,8 @@
   "homepage": "https://github.com/AttractMore/AttractMore9#readme",
   "dependencies": {
     "@react-email/render": "^1.2.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
     "resend": "^6.0.2",
     "tinacms": "^2.8.2"
   },
