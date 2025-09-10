@@ -24,16 +24,11 @@
     "url": "https://github.com/AttractMore/AttractMore9/issues"
   },
   "homepage": "https://github.com/AttractMore/AttractMore9#readme",
-  "dependencies": {
-    "@react-email/render": "^1.2.1",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
-    "resend": "^6.0.2",
-    "tinacms": "^2.8.2"
-  },
   "devDependencies": {
+    "tinacms": "^2.8.2",
     "@tinacms/cli": "^1.10.2",
     "@types/node": "^24.3.0",
-    "wrangler": "^4.33.1"
+    "wrangler": "^4.33.1",
+    "resend": "^4.8.0"
   }
 }
