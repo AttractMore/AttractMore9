@@ -1,0 +1,50 @@
+{{- define "main" }}
+
+<div class="page-header">
+  <div class="wrap">
+    <h1 class="page-header__heading">Blog Posts filed under "{{ humanize .Data.Term }}"</h1>
+  </div>
+</div>
+
+<section class="content-sidebar wrap">
+  <article class="feed">
+    <div class="post-list">
+      {{ range  .Paginator.Pages.ByPublishDate.Reverse }}
+      <article class="post-list__item">
+        <h3 class="h2"><a href="{{ .Permalink }}" class="post-list__link">{{ .Title }}</a></h3>
+        <div class="post-list__item-contents">
+            {{- if (or .Params.cloudinaryPrimaryImage  .Params.primaryImage) -}}
+            <a href="{{ .Permalink }}" class="post-list__link">
+              {{- if .Params.cloudinaryPrimaryImage -}}
+                {{- $primaryImage := .Params.cloudinaryPrimaryImage -}}
+                {{- $len := len (site.Params.cloudinaryBlogMainWidths) -}}
+                <img src="{{ site.Params.cloudinaryPath }}{{ site.Params.cloudinaryBlogMainParms }}w_500{{ site.Params.cloudinaryBlogMainFolder }}{{ $primaryImage }}.jpg"
+                alt="{{ if .Params.primaryImageAlt }}{{ .Params.primaryImageAlt }}{{ end }}"
+                srcset="
+                {{- range $index, $element := site.Params.cloudinaryBlogMainWidths -}}
+                  {{ site.Params.cloudinaryPath }}{{ site.Params.cloudinaryBlogMainParms }}{{ print "w_" . }}{{ site.Params.cloudinaryBlogMainFolder }}{{ $primaryImage }}.jpg {{ print . "w" -}}
+                  {{ if ne (add $index 1) $len }}{{- print ", " -}}{{- end -}} 
+                {{- end -}}
+                "
+                sizes="{{- site.Params.cloudinaryBlogMainSizes -}}" >
+              {{ else }}
+                <img src="/images/blog/{{ .Params.primaryImage }}-500.jpg"  alt="{{ if .Params.primaryImageAlt }}{{ .Params.primaryImageAlt }}{{ end }}"
+                srcset="/images/blog/{{ .Params.primaryImage }}-500.jpg 500w,
+                        /images/blog/{{ .Params.primaryImage }}-320.jpg 320w"
+                        sizes="{{- site.Params.cloudinaryBlogMainSizes -}}" >
+              {{- end -}}
+            </a>
+            {{- end }}
+            {{- if .Params.excerpt }}
+            <p>{{ .Params.excerpt | safeHTML -}}</p>
+            {{- end }}
+            <a class="primary-btn mb-1-5" href="{{ .Permalink }}">Read more<svg aria-hidden="true"><use xlink:href="/icons/icon-defs.svg#icon-arrow-right-bold"></use></svg></a>
+        </div>
+      </article>
+      {{- end -}}
+    </div>
+    {{ partial "blog-pagination.html" . }}
+  </article>
+  {{ partial "blog-sidebar.html" . }}
+</section>
+{{- end }}{{/* end main */}}
