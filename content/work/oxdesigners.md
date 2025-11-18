@@ -6,9 +6,9 @@ pageHeaderTitle: "Ox Designers"
 text: "Ox Designers is a graphic design agency specialising in STEM clients. The previous version of their website wasn't focussed on STEM companies, so the purpose of the redesign was to make the target audience clear. In addition, there were a number of technical issues that were of concern, so the project included a new WordPress theme, better SEO and speeding up the load time of the web pages. A blog is also included."
 link: "/work/oxdesigners/"
 ctaText: "Get in touch about a better website"
-imageMain: "oxdesigners-4x3_mdstwq.jpg"
-image: "oxdesigners_yfccpv.jpg"
-mobileImage: "oxdesigners-mobile_aqxr7a.jpg"
+imageMain: "oxdesigners-4x3_sljoyh"
+image: "oxdesigners_ltg9z1"
+mobileImage: "oxdesigners-mobile_rubbrg"
 imageAlt: "Ox Designers - specialist graphic design for STEM companies"
 textContent:
   background: "This project was to refocus the site on a particular target audience while modernising the technical foundation of the website and making it more future-proofed. The site now includes a blog, it is better optimised for SEO and the whole site loads faster than the previous version. The new site is a much better reflection of the professionalism and focus of Ox Designers."
@@ -49,3 +49,5 @@ As always, we carried out a thorough testing phase, carefully managing issues we
 Following completion of the testing phase, we moved the new site live. We then went through the post-implementation checklist covering appearance, function and performance. There were no issues and we were satisfied that pages loaded in less than 3 seconds on a reasonable connection with most pages loading in around 1 second.
 
 Another successful project outcome.
+
+More recently, we changed the home page to include some animation. The top of the page now has 5 'slides' which overlay each other on scroll. Further down the page, there are a set of logos which auto scroll but which stop animating on hover or touch.

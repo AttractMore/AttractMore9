@@ -14,8 +14,8 @@ limitations under the License.
 // Names of the two caches used in this version of the service worker.
 // Change to v2, etc. when you update any of the local resources, which will
 // in turn trigger the install event again.
-const PRECACHE = "precache-v167";
-const RUNTIME = "runtime-v167";
+const PRECACHE = "precache-v168";
+const RUNTIME = "runtime-v168";
 
 // A list of local resources we always want to be cached.
 const PRECACHE_URLS = [
