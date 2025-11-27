@@ -3,7 +3,7 @@ weight: 19
 metaDesc: "The was a project to develop a website for a graphic design company. The objectives included presenting designs in a professional way and keeping carbon emissions as low as possible."
 title: "T&B Design"
 pageHeaderTitle: "T&B Design"
-text: ""
+text: "The was a project to develop a website for T&B Design, a graphic design company, replacing an earlier site built with Wix. The objectives included presenting T&B Design's work in a professional way and keeping carbon emissions as low as possible. T&B created the design and we bulit the site using HUGO for speed and efficiency."
 link: "/work/tandb-design/"
 ctaText: "Get in touch about a better website"
 imageMain: "tandb-design-4x3_p4omrj"
@@ -26,4 +26,4 @@ The previous T&B Design was based on Wix and Deb was keen o move away from this 
 
 As with all of our projects, we went through a [rigorous testing phase](/services/website-creation/web-development-website-testing/), checking page load speeds, appearance and functionality across a large number of browsers, operating systems and devices. We always include several back versions of browsers and operating systems in the tests so we could be confident that the site would look good and work properly on the vast majority of devices currently in use, mobile, tablet, laptop and desktop.
 
-As part of the testing, we checked the carbon emissions of all pages of the site. All are cleaner thn 95% of all web pages tested which is a very good result and contributes to Deb's goal of a low carbon website. The site is low carbon because it is very efficient and this also contributes to very fast loading speeds of all pages.
+As part of the testing, we checked the carbon emissions of all pages of the site. All are **cleaner than 95% of all web pages tested** which is a very good result and contributes to Deb's goal of a low carbon website. The site is low carbon because it is very efficient and this also contributes to very fast loading speeds of all pages.
