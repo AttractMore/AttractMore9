@@ -25,10 +25,8 @@
   },
   "homepage": "https://github.com/AttractMore/AttractMore9#readme",
   "devDependencies": {
-    "tinacms": "^2.10.0",
-    "@tinacms/cli": "^1.12.5",
     "@types/node": "^24.10.1",
-    "wrangler": "^4.51.0",
-    "resend": "^6.5.2"
+    "resend": "^6.5.2",
+    "wrangler": "^4.51.0"
   }
 }
