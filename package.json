@@ -25,8 +25,8 @@
   },
   "homepage": "https://github.com/AttractMore/AttractMore9#readme",
   "devDependencies": {
-    "@types/node": "^24.10.1",
-    "resend": "^6.5.2",
-    "wrangler": "^4.51.0"
+    "@types/node": "^25.0.9",
+    "resend": "^6.8.0",
+    "wrangler": "^4.59.2"
   }
 }
