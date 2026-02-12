@@ -6,7 +6,7 @@ categories:
   - "Content"
 title: "How to write better content for your website"
 metaDesc: "Expertise, authority and trustworthiness are important factors to consider in web content writing. Here are some tips to help you improve."
-excerpt: "Google wants to make sure that the pages that it places in the search results answer searchers queries in ways that show experience, expertise, authority and trustworthiness. It certainly doesn't want to serve up content that is weak, dubious or possibly fraudulent. In this post, we go into some more detail about these three quality factors (known as E-E-A-T) and show how you can write content that meets these quality criteria in a more effective way."
+excerpt: "Google wants to make sure that the pages that it places in the search results answer searchers queries in ways that show experience, expertise, authority and trustworthiness. It certainly doesn't want to serve up content that is weak, dubious or possibly fraudulent. In this post, we go into some more detail about these four quality factors (known as E-E-A-T) and show how you can write content that meets these quality criteria in a more effective way."
 cloudinaryPrimaryImage: "writing-better-content-for-your-website"
 cloudinaryPrimaryImageHash: ""
 primaryImageAlt: "The 3 factors that influence the quality rating of your website content"
@@ -18,11 +18,11 @@ extraStyles: "/css/post.css"
 
 Google wants to make sure that the pages that it places in the search results answer searchers queries in ways that show expertise, authority and trustworthiness. It certainly doesn't want to serve up content that is weak, dubious or possibly fraudulent.
 
-In this post, I'll go into some more detail about these three quality factors - Experience, Expertise, Authority and Trustworthiness (known as E-E-A-T) and show how you can write content that meets these quality criteria in a more effective way.
+In this post, I'll go into some more detail about these four quality factors - Experience, Expertise, Authority and Trustworthiness (known as E-E-A-T) and show how you can write content that meets these quality criteria in a more effective way.
 
 {{< content-figure folder="/blog/"
 src="writing-better-content-for-your-website.jpg"
-alt="The 3 factors that influence the quality rating of your website content"
+alt="The 4 factors that influence the quality rating of your website content"
 width="930" height="675" defaultWidth="800" >}}
 
 ## What is E-E-A-T?
