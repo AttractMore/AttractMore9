@@ -14,8 +14,8 @@ limitations under the License.
 // Names of the two caches used in this version of the service worker.
 // Change to v2, etc. when you update any of the local resources, which will
 // in turn trigger the install event again.
-const PRECACHE = "precache-v170";
-const RUNTIME = "runtime-v170";
+const PRECACHE = "precache-v171";
+const RUNTIME = "runtime-v171";
 
 // A list of local resources we always want to be cached.
 const PRECACHE_URLS = [
@@ -50,7 +50,7 @@ self.addEventListener("install", (event) => {
     caches
       .open(PRECACHE)
       .then((cache) => cache.addAll(PRECACHE_URLS))
-      .then(self.skipWaiting())
+      .then(self.skipWaiting()),
   );
 });
 
@@ -67,10 +67,10 @@ self.addEventListener("activate", (event) => {
         return Promise.all(
           cachesToDelete.map((cacheToDelete) => {
             return caches.delete(cacheToDelete);
-          })
+          }),
         );
       })
-      .then(() => self.clients.claim())
+      .then(() => self.clients.claim()),
   );
 });
 
@@ -95,7 +95,7 @@ self.addEventListener("fetch", (event) => {
               });
             });
           });
-        })
+        }),
       );
     }
   }
