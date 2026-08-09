@@ -15,15 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AttractMore/AttractMore9.git"
+    "url": "git+https://codeberg.org/AttractMore/AttractMore9"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AttractMore/AttractMore9/issues"
+    "url": "https://codeberg.com/AttractMore/AttractMore9/issues"
   },
-  "homepage": "https://github.com/AttractMore/AttractMore9#readme",
+  "homepage": "https://codeberg.com/AttractMore/AttractMore9#readme",
   "devDependencies": {
     "@types/node": "^26.2.0",
     "resend": "^6.18.1",
