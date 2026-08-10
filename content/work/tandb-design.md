@@ -22,7 +22,7 @@ extraStyles: "/css/work-item.css"
 
 The design for the website was created by Deb (of course) and is based on a 3 column grid, although from an implementation perspective we used a 12 column grid to allow flexibility for planned future developments.
 
-The previous T&B Design was based on Wix and Deb was keen o move away from this platform. As one of Deb's key drivers was an environmentally responsible, low carbon website, we chose to implement the site using HUGO as we have done wiht several other sites we have developed (including this one!).
+The previous T&B Design was based on Wix and Deb was keen o move away from this platform. As one of Deb's key drivers was an environmentally responsible, low carbon website, we chose to implement the site using HUGO as we have done with several other sites we have developed (including this one!).
 
 As with all of our projects, we went through a [rigorous testing phase](/services/website-creation/web-development-website-testing/), checking page load speeds, appearance and functionality across a large number of browsers, operating systems and devices. We always include several back versions of browsers and operating systems in the tests so we could be confident that the site would look good and work properly on the vast majority of devices currently in use, mobile, tablet, laptop and desktop.
 
