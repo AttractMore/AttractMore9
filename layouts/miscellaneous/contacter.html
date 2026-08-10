@@ -4,8 +4,11 @@
 <section class="contact content-sidebar wrap">
   <article class="services">
     {{ .Content | safeHTML }}
-    <form class="mb-1-5" id="enquiryform" action="/api/submit-contact-form" method="POST">
+    <!-- <form class="mb-1-5" id="enquiryform" action="/api/submit-contact-form" method="POST"> -->
+    <form class="mb-1-5" id="enquiryform" action="https://submit-form.com/TZvQcDUdO">
       <input type="hidden" name="subject" value="AttractMore Information Request" />
+      <input type="hidden" name="_redirect" value="https://www.attractmore.uk/thanks/" />
+      <input type="hidden" name="_append" value="false" />
       <fieldset>
         <p>
           <label for="name">Your name: <em class="required">(required)</em></label>
