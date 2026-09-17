@@ -3,7 +3,7 @@ weight: 19
 metaDesc: "The was a project to develop a website for a graphic design company. The objectives included presenting designs in a professional way and keeping carbon emissions as low as possible."
 title: "T&B Design"
 pageHeaderTitle: "T&B Design"
-text: "The was a project to develop a website for T&B Design, a graphic design company, replacing an earlier site built with Wix. The objectives included presenting T&B Design's work in a professional way and keeping carbon emissions as low as possible. T&B created the design and we bulit the site using HUGO for speed and efficiency."
+text: "This was a project to develop a website for T&B Design, a graphic design company, replacing an earlier site built with Wix. The objectives included presenting T&B Design's work in a professional way and keeping carbon emissions as low as possible. T&B created the design and we bulit the site using HUGO for speed and efficiency."
 link: "/work/tandb-design/"
 ctaText: "Get in touch about a better website"
 imageMain: "tandb-design-4x3_p4omrj"
