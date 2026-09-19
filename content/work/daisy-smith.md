@@ -8,7 +8,7 @@ link: "/work/daisy-smith/"
 ctaText: "Get in touch about a better website"
 imageMain: "daisy-reset-coach-4x3_nedhus"
 image: "daisy-reset-coach_uk7rdi"
-mobileImage: "daisy-reset-coach.mobile_oopvsk"
+mobileImage: "daisy-reset-coach-mobile_oopvsk"
 imageAlt: "Daisy Smith Reset Coach"
 textContent:
   background: "Having successfully coached horse riders in improving confidence and developing a mindset that helps them succeed, Daisy decided to expand into new areas. She now helps women to build confidence, develop clarity for their life and thrive in their chosen way."
